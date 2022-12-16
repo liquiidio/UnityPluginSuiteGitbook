@@ -1,4 +1,4 @@
-[AtomicAssetsApiClient](custom/README.md)
+[UniversalAuthenticatorLibrary](custom/README.md)
 * [Getting Started](custom/getting_started.md)
 * [Installation](custom/installation.md)
 * [Examples](custom/examples/README.md)
@@ -6,3 +6,10 @@
 	* [Example B](custom/examples/example_b.md)
 
 [API Docs](docs/[README.md)
+* [UiToolkit](custom/examples/UniversalAuthenticatorLibrary--Src--UiToolkit.md)
+	* [UnityUiToolkitUAL](docs/UniversalAuthenticatorLibrary--Src--UiToolkit--UnityUiToolkitUAL.md)
+	* [AuthenticatorButtonItem](docs/UniversalAuthenticatorLibrary--Src--UiToolkit--Ui--AuthenticatorButtonItem.md)
+	* [AuthenticatorsPanel](docs/UniversalAuthenticatorLibrary--Src--UiToolkit--Ui--AuthenticatorsPanel.md)
+	* [BasicControl](docs/UniversalAuthenticatorLibrary--Src--UiToolkit--Ui--BasicControl.md)
+	* [ScreenBase](docs/UniversalAuthenticatorLibrary--Src--UiToolkit--Ui--ScreenBase.md)
+	* [Utils](docs/UniversalAuthenticatorLibrary--Src--UiToolkit--Ui--Utils.md)
