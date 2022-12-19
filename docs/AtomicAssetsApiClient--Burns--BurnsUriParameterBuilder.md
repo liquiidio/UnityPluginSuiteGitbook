@@ -4,17 +4,17 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public BurnsUriParameterBuilder `[`WithCollectionName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a6b0b20dbc97204c4fff8ac3a1b5ad778)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `BurnsUriParameterBuilder` object
-`public BurnsUriParameterBuilder `[`WithSchemaName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1ad08753c17c7565ad4aab2aeb23e3f94e)`(string schemaName)` | This function sets the schema name for the query.
-`public BurnsUriParameterBuilder `[`WithTemplateId`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a58e1162efc3a891226f913753785fbdf)`(string templateId)` | It sets the value of the templateId variable.
-`public BurnsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1af54bad0bcea14dc812c4f978ce96d588)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `BurnsUriParameterBuilder` object
-`public BurnsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a19a29bf65ee5d83cb23c83f10b0f369c)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `BurnsUriParameterBuilder` object
-`public BurnsUriParameterBuilder `[`WithIds`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1ac1a5a0a582c7183ecb8aacd36cc10330)`(string[] ids)` | This function takes an array of strings and joins them together with a comma.
-`public BurnsUriParameterBuilder `[`WithLowerBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a99982432d3fcc77da0ea670cda73b5eb)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
-`public BurnsUriParameterBuilder `[`WithUpperBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a2edef568006825e385d167479628dd9e)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
-`public BurnsUriParameterBuilder `[`WithPage`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a010dc4c7c88d9ae3ab469af928a2f3e8)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
-`public BurnsUriParameterBuilder `[`WithLimit`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a9aa9888884b4aa9833c132f88b6d17a6)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public BurnsUriParameterBuilder `[`WithOrder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a7fce18e7a4c84645bbcd9c6114a9352f)`(SortStrategy sorting)` | This function sets the sort strategy for the query.
+`public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithCollectionName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a6b0b20dbc97204c4fff8ac3a1b5ad778)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `BurnsUriParameterBuilder` object
+`public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithSchemaName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1ad08753c17c7565ad4aab2aeb23e3f94e)`(string schemaName)` | This function sets the schema name for the query.
+`public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithTemplateId`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a58e1162efc3a891226f913753785fbdf)`(string templateId)` | It sets the value of the templateId variable.
+`public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithCollectionBlacklist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1af54bad0bcea14dc812c4f978ce96d588)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `BurnsUriParameterBuilder` object
+`public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithCollectionWhitelist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a19a29bf65ee5d83cb23c83f10b0f369c)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `BurnsUriParameterBuilder` object
+`public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithIds`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1ac1a5a0a582c7183ecb8aacd36cc10330)`(string[] ids)` | This function takes an array of strings and joins them together with a comma.
+`public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithLowerBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a99982432d3fcc77da0ea670cda73b5eb)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
+`public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithUpperBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a2edef568006825e385d167479628dd9e)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
+`public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithPage`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a010dc4c7c88d9ae3ab469af928a2f3e8)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
+`public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithLimit`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a9aa9888884b4aa9833c132f88b6d17a6)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
+`public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithOrder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a7fce18e7a4c84645bbcd9c6114a9352f)`(`[`SortStrategy`](.github/workflows/documentation/md/AtomicAssetsApiClient.md#namespace_atomic_assets_api_client_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` | This function sets the sort strategy for the query.
 `public string `[`Build`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string `[`_collectionName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a10ec2fa990c6478bc519b1e57e1ab2aa) | 
 `private string `[`_schemaName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a2f9a887fd4dfcf60bfe4240a27085724) | 
@@ -26,11 +26,11 @@
 `private string `[`_upperBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1add1abf9a00e7bb81efb866424f4f34dc) | 
 `private int? `[`_page`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) | 
 `private int? `[`_limit`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) | 
-`private SortStrategy? `[`_sortStrategy`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | 
+`private `[`SortStrategy`](.github/workflows/documentation/md/AtomicAssetsApiClient.md#namespace_atomic_assets_api_client_1a1a2688049f7c9dc4f77213ca78b6de0f)`? `[`_sortStrategy`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | 
 
 ## Members
 
-##### `public BurnsUriParameterBuilder `[`WithCollectionName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a6b0b20dbc97204c4fff8ac3a1b5ad778)`(string collectionName)` 
+##### `public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithCollectionName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a6b0b20dbc97204c4fff8ac3a1b5ad778)`(string collectionName)` 
 
 `WithCollectionName` is a function that takes a string as a parameter and returns an `BurnsUriParameterBuilder` object
 
@@ -40,7 +40,7 @@
 #### Returns
 The BurnsUriParameterBuilder object.
 
-##### `public BurnsUriParameterBuilder `[`WithSchemaName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1ad08753c17c7565ad4aab2aeb23e3f94e)`(string schemaName)` 
+##### `public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithSchemaName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1ad08753c17c7565ad4aab2aeb23e3f94e)`(string schemaName)` 
 
 This function sets the schema name for the query.
 
@@ -50,7 +50,7 @@ This function sets the schema name for the query.
 #### Returns
 The AccountsUriParameterBuilder object.
 
-##### `public BurnsUriParameterBuilder `[`WithTemplateId`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a58e1162efc3a891226f913753785fbdf)`(string templateId)` 
+##### `public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithTemplateId`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a58e1162efc3a891226f913753785fbdf)`(string templateId)` 
 
 It sets the value of the templateId variable.
 
@@ -60,7 +60,7 @@ It sets the value of the templateId variable.
 #### Returns
 The BurnsUriParameterBuilder object.
 
-##### `public BurnsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1af54bad0bcea14dc812c4f978ce96d588)`(string[] collectionBlacklist)` 
+##### `public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithCollectionBlacklist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1af54bad0bcea14dc812c4f978ce96d588)`(string[] collectionBlacklist)` 
 
 `WithCollectionBlacklist` is a function that takes an array of strings and returns an `BurnsUriParameterBuilder` object
 
@@ -70,7 +70,7 @@ The BurnsUriParameterBuilder object.
 #### Returns
 The BurnsUriParameterBuilder object.
 
-##### `public BurnsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a19a29bf65ee5d83cb23c83f10b0f369c)`(string[] collectionWhitelist)` 
+##### `public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithCollectionWhitelist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a19a29bf65ee5d83cb23c83f10b0f369c)`(string[] collectionWhitelist)` 
 
 `WithCollectionWhitelist` is a function that takes an array of strings and returns an `BurnsUriParameterBuilder` object
 
@@ -80,7 +80,7 @@ The BurnsUriParameterBuilder object.
 #### Returns
 The BurnsUriParameterBuilder object.
 
-##### `public BurnsUriParameterBuilder `[`WithIds`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1ac1a5a0a582c7183ecb8aacd36cc10330)`(string[] ids)` 
+##### `public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithIds`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1ac1a5a0a582c7183ecb8aacd36cc10330)`(string[] ids)` 
 
 This function takes an array of strings and joins them together with a comma.
 
@@ -90,7 +90,7 @@ This function takes an array of strings and joins them together with a comma.
 #### Returns
 The BurnsUriParameterBuilder object.
 
-##### `public BurnsUriParameterBuilder `[`WithLowerBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a99982432d3fcc77da0ea670cda73b5eb)`(string lowerBound)` 
+##### `public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithLowerBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a99982432d3fcc77da0ea670cda73b5eb)`(string lowerBound)` 
 
 `WithLowerBound` sets the lower bound of the `account_ids` parameter
 
@@ -100,7 +100,7 @@ The BurnsUriParameterBuilder object.
 #### Returns
 The BurnsUriParameterBuilder object.
 
-##### `public BurnsUriParameterBuilder `[`WithUpperBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a2edef568006825e385d167479628dd9e)`(string upperBound)` 
+##### `public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithUpperBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a2edef568006825e385d167479628dd9e)`(string upperBound)` 
 
 `WithUpperBound` sets the upper bound of the range of accounts to be returned
 
@@ -110,7 +110,7 @@ The BurnsUriParameterBuilder object.
 #### Returns
 The BurnsUriParameterBuilder object.
 
-##### `public BurnsUriParameterBuilder `[`WithPage`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a010dc4c7c88d9ae3ab469af928a2f3e8)`(int page)` 
+##### `public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithPage`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a010dc4c7c88d9ae3ab469af928a2f3e8)`(int page)` 
 
 `WithPage` sets the `_page` variable to the value of the `page` parameter
 
@@ -120,7 +120,7 @@ The BurnsUriParameterBuilder object.
 #### Returns
 The BurnsUriParameterBuilder object.
 
-##### `public BurnsUriParameterBuilder `[`WithLimit`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a9aa9888884b4aa9833c132f88b6d17a6)`(int limit)` 
+##### `public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithLimit`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a9aa9888884b4aa9833c132f88b6d17a6)`(int limit)` 
 
 `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
 
@@ -130,7 +130,7 @@ The BurnsUriParameterBuilder object.
 #### Returns
 The BurnsUriParameterBuilder object.
 
-##### `public BurnsUriParameterBuilder `[`WithOrder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a7fce18e7a4c84645bbcd9c6114a9352f)`(SortStrategy sorting)` 
+##### `public `[`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` `[`WithOrder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a7fce18e7a4c84645bbcd9c6114a9352f)`(`[`SortStrategy`](.github/workflows/documentation/md/AtomicAssetsApiClient.md#namespace_atomic_assets_api_client_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` 
 
 This function sets the sort strategy for the query.
 
@@ -167,5 +167,5 @@ A string that contains the parameters for the query.
 
 ##### `private int? `[`_limit`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) 
 
-##### `private SortStrategy? `[`_sortStrategy`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
+##### `private `[`SortStrategy`](.github/workflows/documentation/md/AtomicAssetsApiClient.md#namespace_atomic_assets_api_client_1a1a2688049f7c9dc4f77213ca78b6de0f)`? `[`_sortStrategy`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
 
