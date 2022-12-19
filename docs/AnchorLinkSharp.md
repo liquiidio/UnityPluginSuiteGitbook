@@ -2,8 +2,8 @@
 
 ## Summary
 
- Members                        | Descriptions                                
---------------------------------|---------------------------------------------
+ Members                                | Descriptions                                
+----------------------------------------|---------------------------------------------
 `enum `[`LinkErrorCode`](#namespace_anchor_link_sharp_1a92a85044068cecc9fbc18797e0626208)            | 
 `class `[`AnchorLinkSharp::AnchorLink`](.github/workflows/documentation/md/AnchorLinkSharp--AnchorLink.md#class_anchor_link_sharp_1_1_anchor_link) | Main class
 `class `[`AnchorLinkSharp::CancelException`](.github/workflows/documentation/md/AnchorLinkSharp--CancelException.md#class_anchor_link_sharp_1_1_cancel_exception) | Error that is thrown if a [[LinkTransport]] cancels a request.
@@ -42,5 +42,5 @@
 
 ## Members
 
-### `enum `[`LinkErrorCode`](#namespace_anchor_link_sharp_1a92a85044068cecc9fbc18797e0626208) 
+##### `enum `[`LinkErrorCode`](#namespace_anchor_link_sharp_1a92a85044068cecc9fbc18797e0626208) 
 
