@@ -1,15 +1,15 @@
-## class `AtomicMarketApiClient::Assets::AssetDto` 
+# class `AtomicMarketApiClient::Assets::AssetDto` 
 
-### Summary
+## Summary
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
 `public bool `[`Success`](#class_atomic_market_api_client_1_1_assets_1_1_asset_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) | 
 `public DataDto `[`Data`](#class_atomic_market_api_client_1_1_assets_1_1_asset_dto_1a65c0779654774581967081cf3136bd84) | 
 
-### Members
+## Members
 
-#### `public bool `[`Success`](#class_atomic_market_api_client_1_1_assets_1_1_asset_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) 
+### `public bool `[`Success`](#class_atomic_market_api_client_1_1_assets_1_1_asset_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) 
 
-#### `public DataDto `[`Data`](#class_atomic_market_api_client_1_1_assets_1_1_asset_dto_1a65c0779654774581967081cf3136bd84) 
+### `public DataDto `[`Data`](#class_atomic_market_api_client_1_1_assets_1_1_asset_dto_1a65c0779654774581967081cf3136bd84) 
 
