@@ -80,7 +80,7 @@
 
 ## Members
 
-#### `enum `[`Sort`](#namespace_hyperion_api_client_1_1_models_1ab865d2a43d5c0a9363bf5112589ea852) 
+### `enum `[`Sort`](#namespace_hyperion_api_client_1_1_models_1ab865d2a43d5c0a9363bf5112589ea852) 
 
 sort direction
 
