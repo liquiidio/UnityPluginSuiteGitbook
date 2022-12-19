@@ -42,5 +42,5 @@
 
 ## Members
 
-#### `enum `[`LinkErrorCode`](#namespace_anchor_link_sharp_1a92a85044068cecc9fbc18797e0626208) 
+### `enum `[`LinkErrorCode`](#namespace_anchor_link_sharp_1a92a85044068cecc9fbc18797e0626208) 
 

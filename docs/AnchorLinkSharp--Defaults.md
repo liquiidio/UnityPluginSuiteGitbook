@@ -1,9 +1,9 @@
-## class `AnchorLinkSharp::Defaults` 
+# class `AnchorLinkSharp::Defaults` 
 
-### Summary
+## Summary
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
 
-### Members
+## Members
 
