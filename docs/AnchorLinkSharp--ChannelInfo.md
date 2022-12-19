@@ -1,6 +1,6 @@
-## class `AnchorLinkSharp::ChannelInfo` 
+# class `AnchorLinkSharp::ChannelInfo` 
 
-### Summary
+## Summary
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
@@ -8,17 +8,17 @@
 `public string `[`Name`](#class_anchor_link_sharp_1_1_channel_info_1a7ee9065718e6628dc7791b756fa6c0f9) | The wallet given channel name, usually the device name.
 `public string `[`Url`](#class_anchor_link_sharp_1_1_channel_info_1a9619cd3b7a409d3733877feef572732d) | The channel push url.
 
-### Members
+## Members
 
-#### `public string `[`Key`](#class_anchor_link_sharp_1_1_channel_info_1a67259580f3bed3976cf28dea92a19d30) 
+### `public string `[`Key`](#class_anchor_link_sharp_1_1_channel_info_1a67259580f3bed3976cf28dea92a19d30) 
 
 Public key requests are encrypted to.
 
-#### `public string `[`Name`](#class_anchor_link_sharp_1_1_channel_info_1a7ee9065718e6628dc7791b756fa6c0f9) 
+### `public string `[`Name`](#class_anchor_link_sharp_1_1_channel_info_1a7ee9065718e6628dc7791b756fa6c0f9) 
 
 The wallet given channel name, usually the device name.
 
-#### `public string `[`Url`](#class_anchor_link_sharp_1_1_channel_info_1a9619cd3b7a409d3733877feef572732d) 
+### `public string `[`Url`](#class_anchor_link_sharp_1_1_channel_info_1a9619cd3b7a409d3733877feef572732d) 
 
 The channel push url.
 
