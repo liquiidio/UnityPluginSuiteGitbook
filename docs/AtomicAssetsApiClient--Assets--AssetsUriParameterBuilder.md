@@ -4,26 +4,26 @@
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public AssetsUriParameterBuilder `[`WithOwner`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab93ca7050e6cbd0834f777815e7d1f68)`(string owner)` | `WithOwner` sets the `owner` parameter
-`public AssetsUriParameterBuilder `[`WithCollectionName`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a406e0848fdc8bbedaf3bb83492d46e2d)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `AssetsUriParameterBuilder` object
-`public AssetsUriParameterBuilder `[`WithSchemaName`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab107b452700a62b85e3c98b9c9d05025)`(string schemaName)` | This function sets the schema name for the query.
-`public AssetsUriParameterBuilder `[`WithTemplateId`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a4993b894f4424ff22bc50a37001d64a0)`(int templateId)` | `WithTemplateId` sets the `_templateId` variable to the value of the `templateId` parameter
-`public AssetsUriParameterBuilder `[`WithMatch`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a30e26eeb6cc3ea1f4b2457cb67c0a47a)`(string match)` | `WithMatch` sets the `match` parameter
-`public AssetsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1adccc7dee63e4354b72049a00b557723b)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `AssetsUriParameterBuilder` object
-`public AssetsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a1e400326e4ddb9b466b964b9f2f749c0)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `AssetsUriParameterBuilder` object
-`public AssetsUriParameterBuilder `[`WithOnlyDuplicateTemplate`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5e4201b39e95d8b4fb55612ad9134de4)`(bool onlyDuplicateTemplates)` | `WithOnlyDuplicatedTemplate` sets the `_onlyDuplicatedTemplate` field to the value of the 'onlyDuplicateTemplate' parameter
-`public AssetsUriParameterBuilder `[`WithAuthorisedAccount`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a33396fa69d46616fd89b306b7af84305)`(string authorisedAccount)` | `WithAuthorisedAccount` sets the `authorisedAccount` parameter
-`public AssetsUriParameterBuilder `[`WithHideOffers`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1adcd2da27d74180921d699da25fd39c1a)`(bool hideOffers)` | `WithHideOffers` sets the `_hideOffers` field to the value of the `hideOffers` parameter
-`public AssetsUriParameterBuilder `[`WithIds`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5bffdf95cdd9997c00260d5de954c572)`(string[] ids)` | This function takes an array of strings and joins them together with a comma.
-`public AssetsUriParameterBuilder `[`WithLowerBound`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a939923f8ce1c696ee3c7a9394c74d037)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
-`public AssetsUriParameterBuilder `[`WithUpperBound`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a6a4d95dad1f7ca3981a2042e522ab06d)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
-`public AssetsUriParameterBuilder `[`WithBefore`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a095c857762a9bb9ff7aa81ff88faadd8)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
-`public AssetsUriParameterBuilder `[`WithAfter`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a230a997297f58a85418fbc48def59169)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
-`public AssetsUriParameterBuilder `[`WithPage`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a73131924601db3a0625d97878fb02851)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
-`public AssetsUriParameterBuilder `[`WithLimit`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a16b75952442c1bef02d7e463de894f7e)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public AssetsUriParameterBuilder `[`WithOrder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a02762697b0e4b93a03641f5663df86df)`(SortStrategy sorting)` | This function sets the sort strategy for the query.
-`public AssetsUriParameterBuilder `[`WithSort`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ad6a7cd9614a056ee785704cea58be02d)`(string sort)` | It sets the sort parameter to the value passed in.
-`public string `[`Build`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
+`public inline AssetsUriParameterBuilder `[`WithOwner`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab93ca7050e6cbd0834f777815e7d1f68)`(string owner)` | `WithOwner` sets the `owner` parameter
+`public inline AssetsUriParameterBuilder `[`WithCollectionName`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a406e0848fdc8bbedaf3bb83492d46e2d)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `AssetsUriParameterBuilder` object
+`public inline AssetsUriParameterBuilder `[`WithSchemaName`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab107b452700a62b85e3c98b9c9d05025)`(string schemaName)` | This function sets the schema name for the query.
+`public inline AssetsUriParameterBuilder `[`WithTemplateId`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a4993b894f4424ff22bc50a37001d64a0)`(int templateId)` | `WithTemplateId` sets the `_templateId` variable to the value of the `templateId` parameter
+`public inline AssetsUriParameterBuilder `[`WithMatch`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a30e26eeb6cc3ea1f4b2457cb67c0a47a)`(string match)` | `WithMatch` sets the `match` parameter
+`public inline AssetsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1adccc7dee63e4354b72049a00b557723b)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `AssetsUriParameterBuilder` object
+`public inline AssetsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a1e400326e4ddb9b466b964b9f2f749c0)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `AssetsUriParameterBuilder` object
+`public inline AssetsUriParameterBuilder `[`WithOnlyDuplicateTemplate`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5e4201b39e95d8b4fb55612ad9134de4)`(bool onlyDuplicateTemplates)` | `WithOnlyDuplicatedTemplate` sets the `_onlyDuplicatedTemplate` field to the value of the 'onlyDuplicateTemplate' parameter
+`public inline AssetsUriParameterBuilder `[`WithAuthorisedAccount`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a33396fa69d46616fd89b306b7af84305)`(string authorisedAccount)` | `WithAuthorisedAccount` sets the `authorisedAccount` parameter
+`public inline AssetsUriParameterBuilder `[`WithHideOffers`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1adcd2da27d74180921d699da25fd39c1a)`(bool hideOffers)` | `WithHideOffers` sets the `_hideOffers` field to the value of the `hideOffers` parameter
+`public inline AssetsUriParameterBuilder `[`WithIds`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5bffdf95cdd9997c00260d5de954c572)`(string[] ids)` | This function takes an array of strings and joins them together with a comma.
+`public inline AssetsUriParameterBuilder `[`WithLowerBound`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a939923f8ce1c696ee3c7a9394c74d037)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
+`public inline AssetsUriParameterBuilder `[`WithUpperBound`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a6a4d95dad1f7ca3981a2042e522ab06d)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
+`public inline AssetsUriParameterBuilder `[`WithBefore`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a095c857762a9bb9ff7aa81ff88faadd8)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
+`public inline AssetsUriParameterBuilder `[`WithAfter`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a230a997297f58a85418fbc48def59169)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
+`public inline AssetsUriParameterBuilder `[`WithPage`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a73131924601db3a0625d97878fb02851)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
+`public inline AssetsUriParameterBuilder `[`WithLimit`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a16b75952442c1bef02d7e463de894f7e)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
+`public inline AssetsUriParameterBuilder `[`WithOrder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a02762697b0e4b93a03641f5663df86df)`(SortStrategy sorting)` | This function sets the sort strategy for the query.
+`public inline AssetsUriParameterBuilder `[`WithSort`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ad6a7cd9614a056ee785704cea58be02d)`(string sort)` | It sets the sort parameter to the value passed in.
+`public inline string `[`Build`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string `[`_owner`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ac091a560bcb5025581c60ad2b3e1f3bb) | 
 `private string `[`_collectionName`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a10ec2fa990c6478bc519b1e57e1ab2aa) | 
 `private string `[`_schemaName`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a2f9a887fd4dfcf60bfe4240a27085724) | 
@@ -46,7 +46,7 @@
 
 ### Members
 
-#### `public AssetsUriParameterBuilder `[`WithOwner`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab93ca7050e6cbd0834f777815e7d1f68)`(string owner)` 
+#### `public inline AssetsUriParameterBuilder `[`WithOwner`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab93ca7050e6cbd0834f777815e7d1f68)`(string owner)` 
 
 `WithOwner` sets the `owner` parameter
 
@@ -56,7 +56,7 @@
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithCollectionName`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a406e0848fdc8bbedaf3bb83492d46e2d)`(string collectionName)` 
+#### `public inline AssetsUriParameterBuilder `[`WithCollectionName`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a406e0848fdc8bbedaf3bb83492d46e2d)`(string collectionName)` 
 
 `WithCollectionName` is a function that takes a string as a parameter and returns an `AssetsUriParameterBuilder` object
 
@@ -66,7 +66,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithSchemaName`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab107b452700a62b85e3c98b9c9d05025)`(string schemaName)` 
+#### `public inline AssetsUriParameterBuilder `[`WithSchemaName`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab107b452700a62b85e3c98b9c9d05025)`(string schemaName)` 
 
 This function sets the schema name for the query.
 
@@ -76,7 +76,7 @@ This function sets the schema name for the query.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithTemplateId`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a4993b894f4424ff22bc50a37001d64a0)`(int templateId)` 
+#### `public inline AssetsUriParameterBuilder `[`WithTemplateId`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a4993b894f4424ff22bc50a37001d64a0)`(int templateId)` 
 
 `WithTemplateId` sets the `_templateId` variable to the value of the `templateId` parameter
 
@@ -86,7 +86,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithMatch`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a30e26eeb6cc3ea1f4b2457cb67c0a47a)`(string match)` 
+#### `public inline AssetsUriParameterBuilder `[`WithMatch`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a30e26eeb6cc3ea1f4b2457cb67c0a47a)`(string match)` 
 
 `WithMatch` sets the `match` parameter
 
@@ -96,7 +96,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1adccc7dee63e4354b72049a00b557723b)`(string[] collectionBlacklist)` 
+#### `public inline AssetsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1adccc7dee63e4354b72049a00b557723b)`(string[] collectionBlacklist)` 
 
 `WithCollectionBlacklist` is a function that takes an array of strings and returns an `AssetsUriParameterBuilder` object
 
@@ -106,7 +106,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a1e400326e4ddb9b466b964b9f2f749c0)`(string[] collectionWhitelist)` 
+#### `public inline AssetsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a1e400326e4ddb9b466b964b9f2f749c0)`(string[] collectionWhitelist)` 
 
 `WithCollectionWhitelist` is a function that takes an array of strings and returns an `AssetsUriParameterBuilder` object
 
@@ -116,7 +116,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithOnlyDuplicateTemplate`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5e4201b39e95d8b4fb55612ad9134de4)`(bool onlyDuplicateTemplates)` 
+#### `public inline AssetsUriParameterBuilder `[`WithOnlyDuplicateTemplate`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5e4201b39e95d8b4fb55612ad9134de4)`(bool onlyDuplicateTemplates)` 
 
 `WithOnlyDuplicatedTemplate` sets the `_onlyDuplicatedTemplate` field to the value of the 'onlyDuplicateTemplate' parameter
 
@@ -126,7 +126,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithAuthorisedAccount`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a33396fa69d46616fd89b306b7af84305)`(string authorisedAccount)` 
+#### `public inline AssetsUriParameterBuilder `[`WithAuthorisedAccount`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a33396fa69d46616fd89b306b7af84305)`(string authorisedAccount)` 
 
 `WithAuthorisedAccount` sets the `authorisedAccount` parameter
 
@@ -136,7 +136,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithHideOffers`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1adcd2da27d74180921d699da25fd39c1a)`(bool hideOffers)` 
+#### `public inline AssetsUriParameterBuilder `[`WithHideOffers`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1adcd2da27d74180921d699da25fd39c1a)`(bool hideOffers)` 
 
 `WithHideOffers` sets the `_hideOffers` field to the value of the `hideOffers` parameter
 
@@ -146,7 +146,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AccountsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithIds`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5bffdf95cdd9997c00260d5de954c572)`(string[] ids)` 
+#### `public inline AssetsUriParameterBuilder `[`WithIds`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5bffdf95cdd9997c00260d5de954c572)`(string[] ids)` 
 
 This function takes an array of strings and joins them together with a comma.
 
@@ -156,7 +156,7 @@ This function takes an array of strings and joins them together with a comma.
 #### Returns
 The AccountsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithLowerBound`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a939923f8ce1c696ee3c7a9394c74d037)`(string lowerBound)` 
+#### `public inline AssetsUriParameterBuilder `[`WithLowerBound`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a939923f8ce1c696ee3c7a9394c74d037)`(string lowerBound)` 
 
 `WithLowerBound` sets the lower bound of the `account_ids` parameter
 
@@ -166,7 +166,7 @@ The AccountsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithUpperBound`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a6a4d95dad1f7ca3981a2042e522ab06d)`(string upperBound)` 
+#### `public inline AssetsUriParameterBuilder `[`WithUpperBound`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a6a4d95dad1f7ca3981a2042e522ab06d)`(string upperBound)` 
 
 `WithUpperBound` sets the upper bound of the range of accounts to be returned
 
@@ -176,7 +176,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithBefore`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a095c857762a9bb9ff7aa81ff88faadd8)`(int before)` 
+#### `public inline AssetsUriParameterBuilder `[`WithBefore`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a095c857762a9bb9ff7aa81ff88faadd8)`(int before)` 
 
 `WithBefore` sets the `_before` variable to the value of the `before` parameter
 
@@ -186,7 +186,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithAfter`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a230a997297f58a85418fbc48def59169)`(int after)` 
+#### `public inline AssetsUriParameterBuilder `[`WithAfter`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a230a997297f58a85418fbc48def59169)`(int after)` 
 
 `WithAfter` sets the `_after` variable to the value of the `after` parameter
 
@@ -196,7 +196,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithPage`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a73131924601db3a0625d97878fb02851)`(int page)` 
+#### `public inline AssetsUriParameterBuilder `[`WithPage`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a73131924601db3a0625d97878fb02851)`(int page)` 
 
 `WithPage` sets the `_page` variable to the value of the `page` parameter
 
@@ -206,7 +206,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithLimit`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a16b75952442c1bef02d7e463de894f7e)`(int limit)` 
+#### `public inline AssetsUriParameterBuilder `[`WithLimit`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a16b75952442c1bef02d7e463de894f7e)`(int limit)` 
 
 `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
 
@@ -216,7 +216,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-#### `public AssetsUriParameterBuilder `[`WithOrder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a02762697b0e4b93a03641f5663df86df)`(SortStrategy sorting)` 
+#### `public inline AssetsUriParameterBuilder `[`WithOrder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a02762697b0e4b93a03641f5663df86df)`(SortStrategy sorting)` 
 
 This function sets the sort strategy for the query.
 
@@ -226,7 +226,7 @@ This function sets the sort strategy for the query.
 #### Returns
 The builder object itself.
 
-#### `public AssetsUriParameterBuilder `[`WithSort`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ad6a7cd9614a056ee785704cea58be02d)`(string sort)` 
+#### `public inline AssetsUriParameterBuilder `[`WithSort`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ad6a7cd9614a056ee785704cea58be02d)`(string sort)` 
 
 It sets the sort parameter to the value passed in.
 
@@ -236,7 +236,7 @@ It sets the sort parameter to the value passed in.
 #### Returns
 A new instance of the AssetsUriParameterBuilder class.
 
-#### `public string `[`Build`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` 
+#### `public inline string `[`Build`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` 
 
 It builds a query string based on the parameters that have been set.
 

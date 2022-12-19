@@ -4,9 +4,9 @@
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public HttpRequestBuilder `[`WithContent`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1aeebb79b7c5e479bd47ef70a51b3e125a)`(string content)` | 
-`public HttpRequestBuilder `[`WithAuthentication`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1a299ac32346c583d659a8b17c6422c6a9)`(string authenticationToken, string type)` | 
-`public HttpRequestMessage `[`Build`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1aa7fd1b35577f6625266342f19f9d8ea1)`()` | 
+`public inline HttpRequestBuilder `[`WithContent`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1aeebb79b7c5e479bd47ef70a51b3e125a)`(string content)` | 
+`public inline HttpRequestBuilder `[`WithAuthentication`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1a299ac32346c583d659a8b17c6422c6a9)`(string authenticationToken, string type)` | 
+`public inline HttpRequestMessage `[`Build`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1aa7fd1b35577f6625266342f19f9d8ea1)`()` | 
 `private readonly HttpRequestMessage `[`_request`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1af9c69499feb895ec261a4ec57785397b) | 
 `private string `[`_authenticationToken`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1acecef2b0365a83cb899f90e3f18ccdd9) | 
 `private string `[`_content`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1a41b3b1a70073243ee5dbd4b08c405dd9) | 
@@ -18,11 +18,11 @@
 
 ### Members
 
-#### `public HttpRequestBuilder `[`WithContent`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1aeebb79b7c5e479bd47ef70a51b3e125a)`(string content)` 
+#### `public inline HttpRequestBuilder `[`WithContent`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1aeebb79b7c5e479bd47ef70a51b3e125a)`(string content)` 
 
-#### `public HttpRequestBuilder `[`WithAuthentication`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1a299ac32346c583d659a8b17c6422c6a9)`(string authenticationToken, string type)` 
+#### `public inline HttpRequestBuilder `[`WithAuthentication`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1a299ac32346c583d659a8b17c6422c6a9)`(string authenticationToken, string type)` 
 
-#### `public HttpRequestMessage `[`Build`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1aa7fd1b35577f6625266342f19f9d8ea1)`()` 
+#### `public inline HttpRequestMessage `[`Build`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1aa7fd1b35577f6625266342f19f9d8ea1)`()` 
 
 #### `private readonly HttpRequestMessage `[`_request`](#class_atomic_assets_api_client_1_1_core_1_1_http_request_builder_1af9c69499feb895ec261a4ec57785397b) 
 

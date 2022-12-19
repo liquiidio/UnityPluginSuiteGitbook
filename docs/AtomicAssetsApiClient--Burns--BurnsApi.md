@@ -4,9 +4,9 @@
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public BurnsDto `[`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a2e4454210656355fc68d2fd454cf75ad)`()` | This function will make a GET request to the Burns endpoint and return the response as a BurnsDto object.
-`public BurnsDto `[`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a7f8383ecd99252b57d68ee3fe1372aac)`(BurnsUriParameterBuilder burnsUriParameterBuilder)` | This function will return a BurnsDto object if the API call is successful. Otherwise, it will throw an exception.
-`public BurnDto `[`Account`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a477590800625fbc1d4087ee8aec5350b)`(string accountName)` | It returns the burn amount for a given account.
+`public inline BurnsDto `[`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a2e4454210656355fc68d2fd454cf75ad)`()` | This function will make a GET request to the Burns endpoint and return the response as a BurnsDto object.
+`public inline BurnsDto `[`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a7f8383ecd99252b57d68ee3fe1372aac)`(BurnsUriParameterBuilder burnsUriParameterBuilder)` | This function will return a BurnsDto object if the API call is successful. Otherwise, it will throw an exception.
+`public inline BurnDto `[`Account`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a477590800625fbc1d4087ee8aec5350b)`(string accountName)` | It returns the burn amount for a given account.
 `private readonly string `[`_requestUriBase`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a1854c4909a1013a684af16fb52e8a387) | 
 `private Uri `[`BurnsUri`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1ab7e0279e9f4a23c75ec9cd452b1cec78)`()` | 
 `private Uri `[`BurnsUri`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a72a4a0af9ef4fa0f42ca09627055ca9e)`(BurnsUriParameterBuilder burnsUriParameterBuilder)` | 
@@ -14,14 +14,14 @@
 
 ### Members
 
-#### `public BurnsDto `[`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a2e4454210656355fc68d2fd454cf75ad)`()` 
+#### `public inline BurnsDto `[`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a2e4454210656355fc68d2fd454cf75ad)`()` 
 
 This function will make a GET request to the Burns endpoint and return the response as a BurnsDto object.
 
 #### Returns
 BurnsDto
 
-#### `public BurnsDto `[`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a7f8383ecd99252b57d68ee3fe1372aac)`(BurnsUriParameterBuilder burnsUriParameterBuilder)` 
+#### `public inline BurnsDto `[`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a7f8383ecd99252b57d68ee3fe1372aac)`(BurnsUriParameterBuilder burnsUriParameterBuilder)` 
 
 This function will return a BurnsDto object if the API call is successful. Otherwise, it will throw an exception.
 
@@ -31,7 +31,7 @@ This function will return a BurnsDto object if the API call is successful. Other
 #### Returns
 A BurnsDto object.
 
-#### `public BurnDto `[`Account`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a477590800625fbc1d4087ee8aec5350b)`(string accountName)` 
+#### `public inline BurnDto `[`Account`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a477590800625fbc1d4087ee8aec5350b)`(string accountName)` 
 
 It returns the burn amount for a given account.
 
