@@ -4,12 +4,12 @@
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` | It builds an HTTP request, sends it to the API, and returns the response as a SalesDto object
-`public SaleDto `[`Sale`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a98a3e978a8fbea5e89099f424aee67c4)`(int id)` | This function will return a `SaleDto` object from the API
-`public SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a8542ba9eda33d0fb33cf44eceaf27ff8)`(SalesUriParameterBuilder uriParameterBuilder)` | It returns a SalesDto object.
-`public SalesDto `[`SalesByTemplate`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a00f707e3432812eefca67e359b8f7968)`(SalesUriParameterBuilder uriParameterBuilder)` | It returns a list of sales.
-`public LogsDto `[`SalesLogs`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1acd26501f9678db3b73773e6c34add5d0)`(int id)` | This function will return a list of logs for a specific sales order.
-`public LogsDto `[`SalesLogs`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a9ebb72bee2396ee66b1910d701d1d123)`(int id, SalesUriParameterBuilder salesUriParameterBuilder)` | This function returns a list of logs for a specific sales order.
+`public inline SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` | It builds an HTTP request, sends it to the API, and returns the response as a SalesDto object
+`public inline SaleDto `[`Sale`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a98a3e978a8fbea5e89099f424aee67c4)`(int id)` | This function will return a `SaleDto` object from the API
+`public inline SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a8542ba9eda33d0fb33cf44eceaf27ff8)`(SalesUriParameterBuilder uriParameterBuilder)` | It returns a SalesDto object.
+`public inline SalesDto `[`SalesByTemplate`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a00f707e3432812eefca67e359b8f7968)`(SalesUriParameterBuilder uriParameterBuilder)` | It returns a list of sales.
+`public inline LogsDto `[`SalesLogs`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1acd26501f9678db3b73773e6c34add5d0)`(int id)` | This function will return a list of logs for a specific sales order.
+`public inline LogsDto `[`SalesLogs`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a9ebb72bee2396ee66b1910d701d1d123)`(int id, SalesUriParameterBuilder salesUriParameterBuilder)` | This function returns a list of logs for a specific sales order.
 `private readonly string `[`_requestUriBase`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a1854c4909a1013a684af16fb52e8a387) | 
 `private Uri `[`SalesUri`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a40df74fdccb558ba58338c9fdff8c5cb)`()` | 
 `private Uri `[`SalesUri`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a914051441775e99ff18a3552ec756af1)`(IUriParameterBuilder salesUriParameterBuilder)` | 
@@ -20,14 +20,14 @@
 
 ### Members
 
-#### `public SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` 
+#### `public inline SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` 
 
 It builds an HTTP request, sends it to the API, and returns the response as a SalesDto object
 
 #### Returns
 A SalesDto object
 
-#### `public SaleDto `[`Sale`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a98a3e978a8fbea5e89099f424aee67c4)`(int id)` 
+#### `public inline SaleDto `[`Sale`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a98a3e978a8fbea5e89099f424aee67c4)`(int id)` 
 
 This function will return a `SaleDto` object from the API
 
@@ -37,7 +37,7 @@ This function will return a `SaleDto` object from the API
 #### Returns
 A SaleDto object
 
-#### `public SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a8542ba9eda33d0fb33cf44eceaf27ff8)`(SalesUriParameterBuilder uriParameterBuilder)` 
+#### `public inline SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a8542ba9eda33d0fb33cf44eceaf27ff8)`(SalesUriParameterBuilder uriParameterBuilder)` 
 
 It returns a SalesDto object.
 
@@ -47,7 +47,7 @@ It returns a SalesDto object.
 #### Returns
 A SalesDto object.
 
-#### `public SalesDto `[`SalesByTemplate`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a00f707e3432812eefca67e359b8f7968)`(SalesUriParameterBuilder uriParameterBuilder)` 
+#### `public inline SalesDto `[`SalesByTemplate`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a00f707e3432812eefca67e359b8f7968)`(SalesUriParameterBuilder uriParameterBuilder)` 
 
 It returns a list of sales.
 
@@ -57,7 +57,7 @@ It returns a list of sales.
 #### Returns
 A SalesDto object.
 
-#### `public LogsDto `[`SalesLogs`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1acd26501f9678db3b73773e6c34add5d0)`(int id)` 
+#### `public inline LogsDto `[`SalesLogs`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1acd26501f9678db3b73773e6c34add5d0)`(int id)` 
 
 This function will return a list of logs for a specific sales order.
 
@@ -67,7 +67,7 @@ This function will return a list of logs for a specific sales order.
 #### Returns
 A list of logs for a specific sale.
 
-#### `public LogsDto `[`SalesLogs`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a9ebb72bee2396ee66b1910d701d1d123)`(int id, SalesUriParameterBuilder salesUriParameterBuilder)` 
+#### `public inline LogsDto `[`SalesLogs`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a9ebb72bee2396ee66b1910d701d1d123)`(int id, SalesUriParameterBuilder salesUriParameterBuilder)` 
 
 This function returns a list of logs for a specific sales order.
 

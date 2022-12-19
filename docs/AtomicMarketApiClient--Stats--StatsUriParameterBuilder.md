@@ -9,43 +9,43 @@ class AtomicMarketApiClient::Stats::StatsUriParameterBuilder
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public StatsUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1afacbb9af5cc8692b6ff66fca36e9aea1)`(params State[] states)` | `WithState` takes a list of `State`s and converts them to a comma separated string of integers
-`public StatsUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a15ab3bb20b061bac3c1605caba51e7cb)`(int maxAssets)` | `WithMaxAssets` sets the `_maxAssets` variable
-`public StatsUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1abe332aabff2de5296414193d6c6a98a2)`(int minAssets)` | `WithMinAssets` sets the `_minAssets` variable
-`public StatsUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ac6d047c08898302bbca537d36f7c0d0a)`(bool showSellerContracts)` | `WithShowSellerContracts` sets the `_showSellerContracts` field to the value of the `showSellerContracts` parameter
-`public StatsUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae10a102d57179cc7148d6aa2cf7907f5)`(bool contractWhitelist)` | `WithContractWhitelist` sets the `_contractWhitelist` field to the value of the `contractWhitelist` parameter
-`public StatsUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a18ef0454b005b5876dbf81489908363f)`(bool sellerBlacklist)` | `WithSellerBlacklist` sets the `_sellerBlacklist` field to the value of the `sellerBlacklist` parameter
-`public StatsUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6dda80efe0b76fbf65cd12fac57a5666)`(int assetId)` | `WithAssetId` sets the `_assetId` variable to the value of the `asset_id` parameter
-`public StatsUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4a0310a73e8d27779f290cabae22ffdc)`(string marketplace)` | `WithMarketplace` sets the `marketplace` parameter
-`public StatsUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aab2b3ec3ff80a21ddf5d4696346aafdf)`(string makerMarketplace)` | `WithMakerMarketplace` sets the `makerMarketplace` parameter
-`public StatsUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a02b3344ed345896a67911e63013793e9)`(string takerMarketplace)` | `WithTakerMarketplace` sets the `takerMarketplace` parameter
-`public StatsUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ab9f6a7d45ff21a2da764fcba6e1f853e)`(string symbol)` | `WithSymbol` sets the `symbol` parameter
-`public StatsUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a3f165107f0ef895935684d0bf88bc13a)`(string seller)` | `WithSeller` sets the `seller` parameter
-`public StatsUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a53a82ddfd3331e1708660082f9463b25)`(string buyer)` | `WithBuyer` sets the `buyer` parameter
-`public StatsUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a433a457c4efb48b247104b2f9271a46c)`(int minPrice)` | `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
-`public StatsUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a543e4790854676957ca473948aaacc99)`(int maxPrice)` | `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
-`public StatsUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ab3b33d8f99b126b15b1137d2988e05a2)`(int minTemplateMint)` | `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
-`public StatsUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a3b03a397cac0850cc9dbba81b5fb9db5)`(int maxTemplateMint)` | `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
-`public StatsUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a61619eeb67d9e9fcbdc6f2ab8799f8d9)`(string owner)` | `WithOwner` sets the `owner` parameter
-`public StatsUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a557bd448fc212b7f2b5dd75a6fc05dc3)`(bool burned)` | `WithBurned` sets the `_burned` field to the value of the `burned` parameter
-`public StatsUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a65cb6725dba73c88c48690815e7a8a68)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns a `StatsUriParameterBuilder` object.
-`public StatsUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1af94aa92850e03847192925b77e5a796b)`(string schemaName)` | This function sets the schema name for the query
-`public StatsUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a482ceebdcabb8eaa56c93b504e31d863)`(string templateId)` | It sets the value of the templateId variable.
-`public StatsUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a99c34c35a6f6b4fbcb772ceb45e8e3fd)`(bool isTransferable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
-`public StatsUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a1f71e8c25977c67ccb2c98168320a257)`(bool isBurnable)` | `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
-`public StatsUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae87b6d9717f1a5fb6ded7c6cb9758f09)`(string match)` | `WithMatch` sets the `match` parameter
-`public StatsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a12e635a0d314098a31b1c49e1f7d2919)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `StatsUriParameterBuilder` object
-`public StatsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ac8a4ac66ce03f633c94e5e95c1eeb724)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `StatsUriParameterBuilder` object
-`public StatsUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4474d23a6cc148c33a902aa6345a606b)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
-`public StatsUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a1d0e72cbe1d21811a5aa90591586fc63)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
-`public StatsUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aabdbca85a09d95c59a41e934a3e3657d)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
-`public StatsUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a87fd7ec0d121029a35ae311d3a0e8eb4)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
-`public StatsUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aa0fa14716037c21d14363e4f177e8b1f)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
-`public StatsUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a58e92b45338b6cb8adfc0da4ceb1a8dd)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
-`public StatsUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae53959225ddb917572ac9cfc06ffafd3)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public StatsUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6494b12ba6819baaf471db2f0a20bc9e)`(SortStrategy sorting)` | This function sets the sort strategy for the query
-`public StatsUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4f4b753e9568dc813f6c9353d0defc35)`(string sort)` | `WithSort` is a function that takes a string as an argument and returns a `StatsUriParameterBuilder` object.
-`public string `[`Build`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
+`public inline StatsUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1afacbb9af5cc8692b6ff66fca36e9aea1)`(params State[] states)` | `WithState` takes a list of `State`s and converts them to a comma separated string of integers
+`public inline StatsUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a15ab3bb20b061bac3c1605caba51e7cb)`(int maxAssets)` | `WithMaxAssets` sets the `_maxAssets` variable
+`public inline StatsUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1abe332aabff2de5296414193d6c6a98a2)`(int minAssets)` | `WithMinAssets` sets the `_minAssets` variable
+`public inline StatsUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ac6d047c08898302bbca537d36f7c0d0a)`(bool showSellerContracts)` | `WithShowSellerContracts` sets the `_showSellerContracts` field to the value of the `showSellerContracts` parameter
+`public inline StatsUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae10a102d57179cc7148d6aa2cf7907f5)`(bool contractWhitelist)` | `WithContractWhitelist` sets the `_contractWhitelist` field to the value of the `contractWhitelist` parameter
+`public inline StatsUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a18ef0454b005b5876dbf81489908363f)`(bool sellerBlacklist)` | `WithSellerBlacklist` sets the `_sellerBlacklist` field to the value of the `sellerBlacklist` parameter
+`public inline StatsUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6dda80efe0b76fbf65cd12fac57a5666)`(int assetId)` | `WithAssetId` sets the `_assetId` variable to the value of the `asset_id` parameter
+`public inline StatsUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4a0310a73e8d27779f290cabae22ffdc)`(string marketplace)` | `WithMarketplace` sets the `marketplace` parameter
+`public inline StatsUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aab2b3ec3ff80a21ddf5d4696346aafdf)`(string makerMarketplace)` | `WithMakerMarketplace` sets the `makerMarketplace` parameter
+`public inline StatsUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a02b3344ed345896a67911e63013793e9)`(string takerMarketplace)` | `WithTakerMarketplace` sets the `takerMarketplace` parameter
+`public inline StatsUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ab9f6a7d45ff21a2da764fcba6e1f853e)`(string symbol)` | `WithSymbol` sets the `symbol` parameter
+`public inline StatsUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a3f165107f0ef895935684d0bf88bc13a)`(string seller)` | `WithSeller` sets the `seller` parameter
+`public inline StatsUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a53a82ddfd3331e1708660082f9463b25)`(string buyer)` | `WithBuyer` sets the `buyer` parameter
+`public inline StatsUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a433a457c4efb48b247104b2f9271a46c)`(int minPrice)` | `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
+`public inline StatsUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a543e4790854676957ca473948aaacc99)`(int maxPrice)` | `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
+`public inline StatsUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ab3b33d8f99b126b15b1137d2988e05a2)`(int minTemplateMint)` | `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
+`public inline StatsUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a3b03a397cac0850cc9dbba81b5fb9db5)`(int maxTemplateMint)` | `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
+`public inline StatsUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a61619eeb67d9e9fcbdc6f2ab8799f8d9)`(string owner)` | `WithOwner` sets the `owner` parameter
+`public inline StatsUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a557bd448fc212b7f2b5dd75a6fc05dc3)`(bool burned)` | `WithBurned` sets the `_burned` field to the value of the `burned` parameter
+`public inline StatsUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a65cb6725dba73c88c48690815e7a8a68)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns a `StatsUriParameterBuilder` object.
+`public inline StatsUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1af94aa92850e03847192925b77e5a796b)`(string schemaName)` | This function sets the schema name for the query
+`public inline StatsUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a482ceebdcabb8eaa56c93b504e31d863)`(string templateId)` | It sets the value of the templateId variable.
+`public inline StatsUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a99c34c35a6f6b4fbcb772ceb45e8e3fd)`(bool isTransferable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
+`public inline StatsUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a1f71e8c25977c67ccb2c98168320a257)`(bool isBurnable)` | `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
+`public inline StatsUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae87b6d9717f1a5fb6ded7c6cb9758f09)`(string match)` | `WithMatch` sets the `match` parameter
+`public inline StatsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a12e635a0d314098a31b1c49e1f7d2919)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `StatsUriParameterBuilder` object
+`public inline StatsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ac8a4ac66ce03f633c94e5e95c1eeb724)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `StatsUriParameterBuilder` object
+`public inline StatsUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4474d23a6cc148c33a902aa6345a606b)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
+`public inline StatsUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a1d0e72cbe1d21811a5aa90591586fc63)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
+`public inline StatsUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aabdbca85a09d95c59a41e934a3e3657d)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
+`public inline StatsUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a87fd7ec0d121029a35ae311d3a0e8eb4)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
+`public inline StatsUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aa0fa14716037c21d14363e4f177e8b1f)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
+`public inline StatsUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a58e92b45338b6cb8adfc0da4ceb1a8dd)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
+`public inline StatsUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae53959225ddb917572ac9cfc06ffafd3)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
+`public inline StatsUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6494b12ba6819baaf471db2f0a20bc9e)`(SortStrategy sorting)` | This function sets the sort strategy for the query
+`public inline StatsUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4f4b753e9568dc813f6c9353d0defc35)`(string sort)` | `WithSort` is a function that takes a string as an argument and returns a `StatsUriParameterBuilder` object.
+`public inline string `[`Build`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string `[`_state`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a9577beb4165c1157d2e7f8f0ff065dde) | 
 `private int? `[`_maxAssets`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae7334a7aa0ba955ac129865639f42b11) | 
 `private int? `[`_minAssets`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a2787cd3c00b52a44e78964a580457204) | 
@@ -85,14 +85,14 @@ class AtomicMarketApiClient::Stats::StatsUriParameterBuilder
 
 ### Members
 
-#### `public StatsUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1afacbb9af5cc8692b6ff66fca36e9aea1)`(params State[] states)` 
+#### `public inline StatsUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1afacbb9af5cc8692b6ff66fca36e9aea1)`(params State[] states)` 
 
 `WithState` takes a list of `State`s and converts them to a comma separated string of integers
 
 #### Returns
 A StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a15ab3bb20b061bac3c1605caba51e7cb)`(int maxAssets)` 
+#### `public inline StatsUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a15ab3bb20b061bac3c1605caba51e7cb)`(int maxAssets)` 
 
 `WithMaxAssets` sets the `_maxAssets` variable
 
@@ -102,7 +102,7 @@ A StatsUriParameterBuilder object.
 #### Returns
 The StatssUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1abe332aabff2de5296414193d6c6a98a2)`(int minAssets)` 
+#### `public inline StatsUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1abe332aabff2de5296414193d6c6a98a2)`(int minAssets)` 
 
 `WithMinAssets` sets the `_minAssets` variable
 
@@ -112,7 +112,7 @@ The StatssUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ac6d047c08898302bbca537d36f7c0d0a)`(bool showSellerContracts)` 
+#### `public inline StatsUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ac6d047c08898302bbca537d36f7c0d0a)`(bool showSellerContracts)` 
 
 `WithShowSellerContracts` sets the `_showSellerContracts` field to the value of the `showSellerContracts` parameter
 
@@ -122,7 +122,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae10a102d57179cc7148d6aa2cf7907f5)`(bool contractWhitelist)` 
+#### `public inline StatsUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae10a102d57179cc7148d6aa2cf7907f5)`(bool contractWhitelist)` 
 
 `WithContractWhitelist` sets the `_contractWhitelist` field to the value of the `contractWhitelist` parameter
 
@@ -132,7 +132,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a18ef0454b005b5876dbf81489908363f)`(bool sellerBlacklist)` 
+#### `public inline StatsUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a18ef0454b005b5876dbf81489908363f)`(bool sellerBlacklist)` 
 
 `WithSellerBlacklist` sets the `_sellerBlacklist` field to the value of the `sellerBlacklist` parameter
 
@@ -142,7 +142,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6dda80efe0b76fbf65cd12fac57a5666)`(int assetId)` 
+#### `public inline StatsUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6dda80efe0b76fbf65cd12fac57a5666)`(int assetId)` 
 
 `WithAssetId` sets the `_assetId` variable to the value of the `asset_id` parameter
 
@@ -152,7 +152,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4a0310a73e8d27779f290cabae22ffdc)`(string marketplace)` 
+#### `public inline StatsUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4a0310a73e8d27779f290cabae22ffdc)`(string marketplace)` 
 
 `WithMarketplace` sets the `marketplace` parameter
 
@@ -162,7 +162,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aab2b3ec3ff80a21ddf5d4696346aafdf)`(string makerMarketplace)` 
+#### `public inline StatsUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aab2b3ec3ff80a21ddf5d4696346aafdf)`(string makerMarketplace)` 
 
 `WithMakerMarketplace` sets the `makerMarketplace` parameter
 
@@ -172,7 +172,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a02b3344ed345896a67911e63013793e9)`(string takerMarketplace)` 
+#### `public inline StatsUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a02b3344ed345896a67911e63013793e9)`(string takerMarketplace)` 
 
 `WithTakerMarketplace` sets the `takerMarketplace` parameter
 
@@ -182,7 +182,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ab9f6a7d45ff21a2da764fcba6e1f853e)`(string symbol)` 
+#### `public inline StatsUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ab9f6a7d45ff21a2da764fcba6e1f853e)`(string symbol)` 
 
 `WithSymbol` sets the `symbol` parameter
 
@@ -192,7 +192,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a3f165107f0ef895935684d0bf88bc13a)`(string seller)` 
+#### `public inline StatsUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a3f165107f0ef895935684d0bf88bc13a)`(string seller)` 
 
 `WithSeller` sets the `seller` parameter
 
@@ -202,7 +202,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a53a82ddfd3331e1708660082f9463b25)`(string buyer)` 
+#### `public inline StatsUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a53a82ddfd3331e1708660082f9463b25)`(string buyer)` 
 
 `WithBuyer` sets the `buyer` parameter
 
@@ -212,7 +212,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a433a457c4efb48b247104b2f9271a46c)`(int minPrice)` 
+#### `public inline StatsUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a433a457c4efb48b247104b2f9271a46c)`(int minPrice)` 
 
 `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
 
@@ -222,7 +222,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a543e4790854676957ca473948aaacc99)`(int maxPrice)` 
+#### `public inline StatsUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a543e4790854676957ca473948aaacc99)`(int maxPrice)` 
 
 `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
 
@@ -232,7 +232,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ab3b33d8f99b126b15b1137d2988e05a2)`(int minTemplateMint)` 
+#### `public inline StatsUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ab3b33d8f99b126b15b1137d2988e05a2)`(int minTemplateMint)` 
 
 `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
 
@@ -242,7 +242,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a3b03a397cac0850cc9dbba81b5fb9db5)`(int maxTemplateMint)` 
+#### `public inline StatsUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a3b03a397cac0850cc9dbba81b5fb9db5)`(int maxTemplateMint)` 
 
 `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
 
@@ -252,7 +252,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a61619eeb67d9e9fcbdc6f2ab8799f8d9)`(string owner)` 
+#### `public inline StatsUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a61619eeb67d9e9fcbdc6f2ab8799f8d9)`(string owner)` 
 
 `WithOwner` sets the `owner` parameter
 
@@ -262,7 +262,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a557bd448fc212b7f2b5dd75a6fc05dc3)`(bool burned)` 
+#### `public inline StatsUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a557bd448fc212b7f2b5dd75a6fc05dc3)`(bool burned)` 
 
 `WithBurned` sets the `_burned` field to the value of the `burned` parameter
 
@@ -272,7 +272,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a65cb6725dba73c88c48690815e7a8a68)`(string collectionName)` 
+#### `public inline StatsUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a65cb6725dba73c88c48690815e7a8a68)`(string collectionName)` 
 
 `WithCollectionName` is a function that takes a string as a parameter and returns a `StatsUriParameterBuilder` object.
 
@@ -282,7 +282,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1af94aa92850e03847192925b77e5a796b)`(string schemaName)` 
+#### `public inline StatsUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1af94aa92850e03847192925b77e5a796b)`(string schemaName)` 
 
 This function sets the schema name for the query
 
@@ -292,7 +292,7 @@ This function sets the schema name for the query
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a482ceebdcabb8eaa56c93b504e31d863)`(string templateId)` 
+#### `public inline StatsUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a482ceebdcabb8eaa56c93b504e31d863)`(string templateId)` 
 
 It sets the value of the templateId variable.
 
@@ -302,7 +302,7 @@ It sets the value of the templateId variable.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a99c34c35a6f6b4fbcb772ceb45e8e3fd)`(bool isTransferable)` 
+#### `public inline StatsUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a99c34c35a6f6b4fbcb772ceb45e8e3fd)`(bool isTransferable)` 
 
 `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
 
@@ -312,7 +312,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a1f71e8c25977c67ccb2c98168320a257)`(bool isBurnable)` 
+#### `public inline StatsUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a1f71e8c25977c67ccb2c98168320a257)`(bool isBurnable)` 
 
 `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
 
@@ -322,7 +322,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae87b6d9717f1a5fb6ded7c6cb9758f09)`(string match)` 
+#### `public inline StatsUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae87b6d9717f1a5fb6ded7c6cb9758f09)`(string match)` 
 
 `WithMatch` sets the `match` parameter
 
@@ -332,7 +332,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a12e635a0d314098a31b1c49e1f7d2919)`(string[] collectionBlacklist)` 
+#### `public inline StatsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a12e635a0d314098a31b1c49e1f7d2919)`(string[] collectionBlacklist)` 
 
 `WithCollectionBlacklist` is a function that takes an array of strings and returns an `StatsUriParameterBuilder` object
 
@@ -342,7 +342,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ac8a4ac66ce03f633c94e5e95c1eeb724)`(string[] collectionWhitelist)` 
+#### `public inline StatsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ac8a4ac66ce03f633c94e5e95c1eeb724)`(string[] collectionWhitelist)` 
 
 `WithCollectionWhitelist` is a function that takes an array of strings and returns an `StatsUriParameterBuilder` object
 
@@ -352,7 +352,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4474d23a6cc148c33a902aa6345a606b)`(string[] ids)` 
+#### `public inline StatsUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4474d23a6cc148c33a902aa6345a606b)`(string[] ids)` 
 
 This function takes an array of strings and joins them together with a comma
 
@@ -362,7 +362,7 @@ This function takes an array of strings and joins them together with a comma
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a1d0e72cbe1d21811a5aa90591586fc63)`(string lowerBound)` 
+#### `public inline StatsUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a1d0e72cbe1d21811a5aa90591586fc63)`(string lowerBound)` 
 
 `WithLowerBound` sets the lower bound of the `account_ids` parameter
 
@@ -372,7 +372,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aabdbca85a09d95c59a41e934a3e3657d)`(string upperBound)` 
+#### `public inline StatsUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aabdbca85a09d95c59a41e934a3e3657d)`(string upperBound)` 
 
 `WithUpperBound` sets the upper bound of the range of accounts to be returned
 
@@ -382,7 +382,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a87fd7ec0d121029a35ae311d3a0e8eb4)`(int before)` 
+#### `public inline StatsUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a87fd7ec0d121029a35ae311d3a0e8eb4)`(int before)` 
 
 `WithBefore` sets the `_before` variable to the value of the `before` parameter
 
@@ -392,7 +392,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aa0fa14716037c21d14363e4f177e8b1f)`(int after)` 
+#### `public inline StatsUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aa0fa14716037c21d14363e4f177e8b1f)`(int after)` 
 
 `WithAfter` sets the `_after` variable to the value of the `after` parameter
 
@@ -402,7 +402,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a58e92b45338b6cb8adfc0da4ceb1a8dd)`(int page)` 
+#### `public inline StatsUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a58e92b45338b6cb8adfc0da4ceb1a8dd)`(int page)` 
 
 `WithPage` sets the `_page` variable to the value of the `page` parameter
 
@@ -412,7 +412,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae53959225ddb917572ac9cfc06ffafd3)`(int limit)` 
+#### `public inline StatsUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae53959225ddb917572ac9cfc06ffafd3)`(int limit)` 
 
 `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
 
@@ -422,7 +422,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-#### `public StatsUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6494b12ba6819baaf471db2f0a20bc9e)`(SortStrategy sorting)` 
+#### `public inline StatsUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6494b12ba6819baaf471db2f0a20bc9e)`(SortStrategy sorting)` 
 
 This function sets the sort strategy for the query
 
@@ -432,7 +432,7 @@ This function sets the sort strategy for the query
 #### Returns
 The builder object itself.
 
-#### `public StatsUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4f4b753e9568dc813f6c9353d0defc35)`(string sort)` 
+#### `public inline StatsUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4f4b753e9568dc813f6c9353d0defc35)`(string sort)` 
 
 `WithSort` is a function that takes a string as an argument and returns a `StatsUriParameterBuilder` object.
 
@@ -442,7 +442,7 @@ The builder object itself.
 #### Returns
 A StatsUriParameterBuilder object.
 
-#### `public string `[`Build`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` 
+#### `public inline string `[`Build`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` 
 
 It builds a query string based on the parameters that have been set.
 

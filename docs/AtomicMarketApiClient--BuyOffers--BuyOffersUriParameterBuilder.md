@@ -9,43 +9,43 @@ class AtomicMarketApiClient::BuyOffers::BuyOffersUriParameterBuilder
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public BuyOffersUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ad1d57ac008fce06cefe6f737403ded76)`(params State[] states)` | `WithState` takes a list of `State`s and returns a `BuyOffersUriParameterBuilder` with the `_state` property set to a comma separated list of the `int` values of the `State`s.
-`public BuyOffersUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a04337bf2ef03afffa3f6919cd4d159bd)`(int maxAssets)` | `WithMaxAssets` sets the `_maxAssets` variable
-`public BuyOffersUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a36d5d80b95e3ec47dbe2d9f0901f7fae)`(int minAssets)` | `WithMinAssets` sets the `_minAssets` variable to the value of the `minAssets` parameter
-`public BuyOffersUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a7bc149df66d6d266fb7da1fc8d45f4ca)`(bool showSellerContracts)` | It sets the value of the private variable _showSellerContracts to the value of the parameter showSellerContracts.
-`public BuyOffersUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ac6d4d16440a837a08583aac126f8c900)`(bool contractWhitelist)` | `WithContractWhitelist` is a function that takes a boolean value and returns a `BuyOffersUriParameterBuilder` object
-`public BuyOffersUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a8dd00acee021dba4d6435d6ff069d2ec)`(bool sellerBlacklist)` | `WithSellerBlacklist` sets the `_sellerBlacklist` field to the value of the `sellerBlacklist` parameter
-`public BuyOffersUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a06aa361597137d4866df61aa4be3eaad)`(int assetId)` | `WithAssetId` sets the `_assetId` variable to the value of the `asset_id` parameter
-`public BuyOffersUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a0acfc5fa5151f97b7a759bf0f6a65e41)`(string marketplace)` | `WithMarketplace` sets the `marketplace` parameter
-`public BuyOffersUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a96020e008cd1cee457aabaf5280794a8)`(string makerMarketplace)` | `WithMakerMarketplace` sets the `makerMarketplace` parameter
-`public BuyOffersUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a577a1385e2a2b6cb06229b562a19cfeb)`(string takerMarketplace)` | `WithTakerMarketplace` sets the `takerMarketplace` parameter
-`public BuyOffersUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa59e8f84dfa764e44d8fbb5ba236f8aa)`(string symbol)` | `WithSymbol` is a function that takes a string as a parameter and returns a `BuyOffersUriParameterBuilder` object.
-`public BuyOffersUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a67580fa4e652092ec5207b10c4147715)`(string seller)` | `WithSeller` sets the `seller` parameter
-`public BuyOffersUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1adca4dcf4e63354d86c019a4d652422db)`(string buyer)` | `WithBuyer` sets the `buyer` parameter
-`public BuyOffersUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ab8d0a121574368409cda1249e0297cc4)`(int minPrice)` | `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
-`public BuyOffersUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a4c1866db567c2caa324b9576c782ee0c)`(int maxPrice)` | `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
-`public BuyOffersUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa27c9a4b609dddf1fdc149a0a8d8926a)`(int minTemplateMint)` | `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
-`public BuyOffersUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a65d226b09278093614b67210908262b4)`(int maxTemplateMint)` | `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
-`public BuyOffersUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a543b2861cf67c93707354ed5f574e4ba)`(string owner)` | `WithOwner` sets the `owner` parameter
-`public BuyOffersUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a55f2bbdb2f55004093a28de4dc1465ce)`(bool burned)` | `WithBurned` sets the `_burned` field to the value of the `burned` parameter
-`public BuyOffersUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a88bf9feb5fdf55504be6681f137e9b2e)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `BuyOffersUriParameterBuilder` object
-`public BuyOffersUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1acfae2469372c85d4d047af0ab102c024)`(string schemaName)` | This function sets the schema name for the query
-`public BuyOffersUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aefefc1b4bc929a0d0d86bb88df7c374a)`(string templateId)` | It sets the value of the templateId variable.
-`public BuyOffersUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3a6dbdabe529064b880b858dc5c34503)`(bool isTransferable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
-`public BuyOffersUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a4c0e3f9ee3375eab0889f3c7cba5d7d2)`(bool isBurnable)` | `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
-`public BuyOffersUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a9f4a1cf45953d187e703042c0af612d6)`(string match)` | `WithMatch` sets the `match` parameter
-`public BuyOffersUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa6d0074266a4608e693590d8cb09a379)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `BuyOffersUriParameterBuilder` object
-`public BuyOffersUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a94a9f8bbf2f3c6fcb338ff302c0716b5)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `BuyOffersUriParameterBuilder` object
-`public BuyOffersUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aae8d094a1dbd124f37251b8001c8566f)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
-`public BuyOffersUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5731767078d7979c27487fa37805a14e)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
-`public BuyOffersUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a504058d26a60d5c83936a959bd1a7eaa)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
-`public BuyOffersUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3e1122046db1740d5fd3274213d9eaf4)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
-`public BuyOffersUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3057e050bf7054593aa959fcdc028b1c)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
-`public BuyOffersUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a7db8f1d764e3f81768b7d1820e13b1a3)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
-`public BuyOffersUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a6fdc43968793eec37e4ed6b72b0dadff)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public BuyOffersUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5cba5a767a3d1174cf57cc6adf4917fc)`(SortStrategy sorting)` | This function sets the sort strategy for the query
-`public BuyOffersUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a00d65b0190e84f48ae1bbb611da90824)`(string sort)` | `WithSort` is a function that takes a string as a parameter and returns a `BuyOffersUriParameterBuilder` object
-`public string `[`Build`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
+`public inline BuyOffersUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ad1d57ac008fce06cefe6f737403ded76)`(params State[] states)` | `WithState` takes a list of `State`s and returns a `BuyOffersUriParameterBuilder` with the `_state` property set to a comma separated list of the `int` values of the `State`s.
+`public inline BuyOffersUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a04337bf2ef03afffa3f6919cd4d159bd)`(int maxAssets)` | `WithMaxAssets` sets the `_maxAssets` variable
+`public inline BuyOffersUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a36d5d80b95e3ec47dbe2d9f0901f7fae)`(int minAssets)` | `WithMinAssets` sets the `_minAssets` variable to the value of the `minAssets` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a7bc149df66d6d266fb7da1fc8d45f4ca)`(bool showSellerContracts)` | It sets the value of the private variable _showSellerContracts to the value of the parameter showSellerContracts.
+`public inline BuyOffersUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ac6d4d16440a837a08583aac126f8c900)`(bool contractWhitelist)` | `WithContractWhitelist` is a function that takes a boolean value and returns a `BuyOffersUriParameterBuilder` object
+`public inline BuyOffersUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a8dd00acee021dba4d6435d6ff069d2ec)`(bool sellerBlacklist)` | `WithSellerBlacklist` sets the `_sellerBlacklist` field to the value of the `sellerBlacklist` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a06aa361597137d4866df61aa4be3eaad)`(int assetId)` | `WithAssetId` sets the `_assetId` variable to the value of the `asset_id` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a0acfc5fa5151f97b7a759bf0f6a65e41)`(string marketplace)` | `WithMarketplace` sets the `marketplace` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a96020e008cd1cee457aabaf5280794a8)`(string makerMarketplace)` | `WithMakerMarketplace` sets the `makerMarketplace` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a577a1385e2a2b6cb06229b562a19cfeb)`(string takerMarketplace)` | `WithTakerMarketplace` sets the `takerMarketplace` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa59e8f84dfa764e44d8fbb5ba236f8aa)`(string symbol)` | `WithSymbol` is a function that takes a string as a parameter and returns a `BuyOffersUriParameterBuilder` object.
+`public inline BuyOffersUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a67580fa4e652092ec5207b10c4147715)`(string seller)` | `WithSeller` sets the `seller` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1adca4dcf4e63354d86c019a4d652422db)`(string buyer)` | `WithBuyer` sets the `buyer` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ab8d0a121574368409cda1249e0297cc4)`(int minPrice)` | `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a4c1866db567c2caa324b9576c782ee0c)`(int maxPrice)` | `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa27c9a4b609dddf1fdc149a0a8d8926a)`(int minTemplateMint)` | `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a65d226b09278093614b67210908262b4)`(int maxTemplateMint)` | `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a543b2861cf67c93707354ed5f574e4ba)`(string owner)` | `WithOwner` sets the `owner` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a55f2bbdb2f55004093a28de4dc1465ce)`(bool burned)` | `WithBurned` sets the `_burned` field to the value of the `burned` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a88bf9feb5fdf55504be6681f137e9b2e)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `BuyOffersUriParameterBuilder` object
+`public inline BuyOffersUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1acfae2469372c85d4d047af0ab102c024)`(string schemaName)` | This function sets the schema name for the query
+`public inline BuyOffersUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aefefc1b4bc929a0d0d86bb88df7c374a)`(string templateId)` | It sets the value of the templateId variable.
+`public inline BuyOffersUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3a6dbdabe529064b880b858dc5c34503)`(bool isTransferable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a4c0e3f9ee3375eab0889f3c7cba5d7d2)`(bool isBurnable)` | `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a9f4a1cf45953d187e703042c0af612d6)`(string match)` | `WithMatch` sets the `match` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa6d0074266a4608e693590d8cb09a379)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `BuyOffersUriParameterBuilder` object
+`public inline BuyOffersUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a94a9f8bbf2f3c6fcb338ff302c0716b5)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `BuyOffersUriParameterBuilder` object
+`public inline BuyOffersUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aae8d094a1dbd124f37251b8001c8566f)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
+`public inline BuyOffersUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5731767078d7979c27487fa37805a14e)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a504058d26a60d5c83936a959bd1a7eaa)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
+`public inline BuyOffersUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3e1122046db1740d5fd3274213d9eaf4)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3057e050bf7054593aa959fcdc028b1c)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a7db8f1d764e3f81768b7d1820e13b1a3)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a6fdc43968793eec37e4ed6b72b0dadff)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
+`public inline BuyOffersUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5cba5a767a3d1174cf57cc6adf4917fc)`(SortStrategy sorting)` | This function sets the sort strategy for the query
+`public inline BuyOffersUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a00d65b0190e84f48ae1bbb611da90824)`(string sort)` | `WithSort` is a function that takes a string as a parameter and returns a `BuyOffersUriParameterBuilder` object
+`public inline string `[`Build`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string `[`_state`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a9577beb4165c1157d2e7f8f0ff065dde) | 
 `private int? `[`_maxAssets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ae7334a7aa0ba955ac129865639f42b11) | 
 `private int? `[`_minAssets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a2787cd3c00b52a44e78964a580457204) | 
@@ -85,14 +85,14 @@ class AtomicMarketApiClient::BuyOffers::BuyOffersUriParameterBuilder
 
 ### Members
 
-#### `public BuyOffersUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ad1d57ac008fce06cefe6f737403ded76)`(params State[] states)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ad1d57ac008fce06cefe6f737403ded76)`(params State[] states)` 
 
 `WithState` takes a list of `State`s and returns a `BuyOffersUriParameterBuilder` with the `_state` property set to a comma separated list of the `int` values of the `State`s.
 
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a04337bf2ef03afffa3f6919cd4d159bd)`(int maxAssets)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a04337bf2ef03afffa3f6919cd4d159bd)`(int maxAssets)` 
 
 `WithMaxAssets` sets the `_maxAssets` variable
 
@@ -102,7 +102,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a36d5d80b95e3ec47dbe2d9f0901f7fae)`(int minAssets)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a36d5d80b95e3ec47dbe2d9f0901f7fae)`(int minAssets)` 
 
 `WithMinAssets` sets the `_minAssets` variable to the value of the `minAssets` parameter
 
@@ -112,7 +112,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a7bc149df66d6d266fb7da1fc8d45f4ca)`(bool showSellerContracts)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a7bc149df66d6d266fb7da1fc8d45f4ca)`(bool showSellerContracts)` 
 
 It sets the value of the private variable _showSellerContracts to the value of the parameter showSellerContracts.
 
@@ -122,7 +122,7 @@ It sets the value of the private variable _showSellerContracts to the value of t
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ac6d4d16440a837a08583aac126f8c900)`(bool contractWhitelist)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ac6d4d16440a837a08583aac126f8c900)`(bool contractWhitelist)` 
 
 `WithContractWhitelist` is a function that takes a boolean value and returns a `BuyOffersUriParameterBuilder` object
 
@@ -132,7 +132,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a8dd00acee021dba4d6435d6ff069d2ec)`(bool sellerBlacklist)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a8dd00acee021dba4d6435d6ff069d2ec)`(bool sellerBlacklist)` 
 
 `WithSellerBlacklist` sets the `_sellerBlacklist` field to the value of the `sellerBlacklist` parameter
 
@@ -142,7 +142,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a06aa361597137d4866df61aa4be3eaad)`(int assetId)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a06aa361597137d4866df61aa4be3eaad)`(int assetId)` 
 
 `WithAssetId` sets the `_assetId` variable to the value of the `asset_id` parameter
 
@@ -152,7 +152,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a0acfc5fa5151f97b7a759bf0f6a65e41)`(string marketplace)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a0acfc5fa5151f97b7a759bf0f6a65e41)`(string marketplace)` 
 
 `WithMarketplace` sets the `marketplace` parameter
 
@@ -162,7 +162,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a96020e008cd1cee457aabaf5280794a8)`(string makerMarketplace)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a96020e008cd1cee457aabaf5280794a8)`(string makerMarketplace)` 
 
 `WithMakerMarketplace` sets the `makerMarketplace` parameter
 
@@ -172,7 +172,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a577a1385e2a2b6cb06229b562a19cfeb)`(string takerMarketplace)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a577a1385e2a2b6cb06229b562a19cfeb)`(string takerMarketplace)` 
 
 `WithTakerMarketplace` sets the `takerMarketplace` parameter
 
@@ -182,7 +182,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa59e8f84dfa764e44d8fbb5ba236f8aa)`(string symbol)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa59e8f84dfa764e44d8fbb5ba236f8aa)`(string symbol)` 
 
 `WithSymbol` is a function that takes a string as a parameter and returns a `BuyOffersUriParameterBuilder` object.
 
@@ -192,7 +192,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a67580fa4e652092ec5207b10c4147715)`(string seller)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a67580fa4e652092ec5207b10c4147715)`(string seller)` 
 
 `WithSeller` sets the `seller` parameter
 
@@ -202,7 +202,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1adca4dcf4e63354d86c019a4d652422db)`(string buyer)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1adca4dcf4e63354d86c019a4d652422db)`(string buyer)` 
 
 `WithBuyer` sets the `buyer` parameter
 
@@ -212,7 +212,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ab8d0a121574368409cda1249e0297cc4)`(int minPrice)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ab8d0a121574368409cda1249e0297cc4)`(int minPrice)` 
 
 `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
 
@@ -222,7 +222,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a4c1866db567c2caa324b9576c782ee0c)`(int maxPrice)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a4c1866db567c2caa324b9576c782ee0c)`(int maxPrice)` 
 
 `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
 
@@ -232,7 +232,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa27c9a4b609dddf1fdc149a0a8d8926a)`(int minTemplateMint)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa27c9a4b609dddf1fdc149a0a8d8926a)`(int minTemplateMint)` 
 
 `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
 
@@ -242,7 +242,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a65d226b09278093614b67210908262b4)`(int maxTemplateMint)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a65d226b09278093614b67210908262b4)`(int maxTemplateMint)` 
 
 `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
 
@@ -252,7 +252,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a543b2861cf67c93707354ed5f574e4ba)`(string owner)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a543b2861cf67c93707354ed5f574e4ba)`(string owner)` 
 
 `WithOwner` sets the `owner` parameter
 
@@ -262,7 +262,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a55f2bbdb2f55004093a28de4dc1465ce)`(bool burned)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a55f2bbdb2f55004093a28de4dc1465ce)`(bool burned)` 
 
 `WithBurned` sets the `_burned` field to the value of the `burned` parameter
 
@@ -272,7 +272,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a88bf9feb5fdf55504be6681f137e9b2e)`(string collectionName)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a88bf9feb5fdf55504be6681f137e9b2e)`(string collectionName)` 
 
 `WithCollectionName` is a function that takes a string as a parameter and returns an `BuyOffersUriParameterBuilder` object
 
@@ -282,7 +282,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1acfae2469372c85d4d047af0ab102c024)`(string schemaName)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1acfae2469372c85d4d047af0ab102c024)`(string schemaName)` 
 
 This function sets the schema name for the query
 
@@ -292,7 +292,7 @@ This function sets the schema name for the query
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aefefc1b4bc929a0d0d86bb88df7c374a)`(string templateId)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aefefc1b4bc929a0d0d86bb88df7c374a)`(string templateId)` 
 
 It sets the value of the templateId variable.
 
@@ -302,7 +302,7 @@ It sets the value of the templateId variable.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3a6dbdabe529064b880b858dc5c34503)`(bool isTransferable)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3a6dbdabe529064b880b858dc5c34503)`(bool isTransferable)` 
 
 `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
 
@@ -312,7 +312,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a4c0e3f9ee3375eab0889f3c7cba5d7d2)`(bool isBurnable)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a4c0e3f9ee3375eab0889f3c7cba5d7d2)`(bool isBurnable)` 
 
 `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
 
@@ -322,7 +322,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a9f4a1cf45953d187e703042c0af612d6)`(string match)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a9f4a1cf45953d187e703042c0af612d6)`(string match)` 
 
 `WithMatch` sets the `match` parameter
 
@@ -332,7 +332,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa6d0074266a4608e693590d8cb09a379)`(string[] collectionBlacklist)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aa6d0074266a4608e693590d8cb09a379)`(string[] collectionBlacklist)` 
 
 `WithCollectionBlacklist` is a function that takes an array of strings and returns an `BuyOffersUriParameterBuilder` object
 
@@ -342,7 +342,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a94a9f8bbf2f3c6fcb338ff302c0716b5)`(string[] collectionWhitelist)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a94a9f8bbf2f3c6fcb338ff302c0716b5)`(string[] collectionWhitelist)` 
 
 `WithCollectionWhitelist` is a function that takes an array of strings and returns an `BuyOffersUriParameterBuilder` object
 
@@ -352,7 +352,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aae8d094a1dbd124f37251b8001c8566f)`(string[] ids)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1aae8d094a1dbd124f37251b8001c8566f)`(string[] ids)` 
 
 This function takes an array of strings and joins them together with a comma
 
@@ -362,7 +362,7 @@ This function takes an array of strings and joins them together with a comma
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5731767078d7979c27487fa37805a14e)`(string lowerBound)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5731767078d7979c27487fa37805a14e)`(string lowerBound)` 
 
 `WithLowerBound` sets the lower bound of the `account_ids` parameter
 
@@ -372,7 +372,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a504058d26a60d5c83936a959bd1a7eaa)`(string upperBound)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a504058d26a60d5c83936a959bd1a7eaa)`(string upperBound)` 
 
 `WithUpperBound` sets the upper bound of the range of accounts to be returned
 
@@ -382,7 +382,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3e1122046db1740d5fd3274213d9eaf4)`(int before)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3e1122046db1740d5fd3274213d9eaf4)`(int before)` 
 
 `WithBefore` sets the `_before` variable to the value of the `before` parameter
 
@@ -392,7 +392,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3057e050bf7054593aa959fcdc028b1c)`(int after)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3057e050bf7054593aa959fcdc028b1c)`(int after)` 
 
 `WithAfter` sets the `_after` variable to the value of the `after` parameter
 
@@ -402,7 +402,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a7db8f1d764e3f81768b7d1820e13b1a3)`(int page)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a7db8f1d764e3f81768b7d1820e13b1a3)`(int page)` 
 
 `WithPage` sets the `_page` variable to the value of the `page` parameter
 
@@ -412,7 +412,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a6fdc43968793eec37e4ed6b72b0dadff)`(int limit)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a6fdc43968793eec37e4ed6b72b0dadff)`(int limit)` 
 
 `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
 
@@ -422,7 +422,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-#### `public BuyOffersUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5cba5a767a3d1174cf57cc6adf4917fc)`(SortStrategy sorting)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5cba5a767a3d1174cf57cc6adf4917fc)`(SortStrategy sorting)` 
 
 This function sets the sort strategy for the query
 
@@ -432,7 +432,7 @@ This function sets the sort strategy for the query
 #### Returns
 The builder object itself.
 
-#### `public BuyOffersUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a00d65b0190e84f48ae1bbb611da90824)`(string sort)` 
+#### `public inline BuyOffersUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a00d65b0190e84f48ae1bbb611da90824)`(string sort)` 
 
 `WithSort` is a function that takes a string as a parameter and returns a `BuyOffersUriParameterBuilder` object
 
@@ -442,7 +442,7 @@ The builder object itself.
 #### Returns
 A BuyOffersUriParameterBuilder object.
 
-#### `public string `[`Build`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` 
+#### `public inline string `[`Build`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` 
 
 It builds a query string based on the parameters that have been set.
 
