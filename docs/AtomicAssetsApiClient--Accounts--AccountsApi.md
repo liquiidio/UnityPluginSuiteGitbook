@@ -24,7 +24,7 @@ It returns a list of accounts.
 
 A list of accounts
 
-#### `public AccountsDto` [`Accounts`](AtomicAssetsApiClient--Accounts--AccountsApi.md#class\_atomic\_assets\_api\_client\_1\_1\_accounts\_1\_1\_accounts\_api\_1a21b62093a68ab5c18774ae77add176ff)`(AccountsUriParameterBuilder accountsUriParameterBuilder)`
+##### `public AccountsDto` [`Accounts`](AtomicAssetsApiClient--Accounts--AccountsApi.md#class\_atomic\_assets\_api\_client\_1\_1\_accounts\_1\_1\_accounts\_api\_1a21b62093a68ab5c18774ae77add176ff)`(AccountsUriParameterBuilder accountsUriParameterBuilder)`
 
 It returns a list of accounts.
 
