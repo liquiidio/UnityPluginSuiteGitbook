@@ -2,8 +2,8 @@
 
 ## Summary
 
- Members                        | Descriptions                                
---------------------------------|---------------------------------------------
+ Members                                | Descriptions                                
+----------------------------------------|---------------------------------------------
 `class `[`AtomicMarketApiClient::Stats::AccountDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--AccountDto.md#class_atomic_market_api_client_1_1_stats_1_1_account_dto) | 
 `class `[`AtomicMarketApiClient::Stats::AccountsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--AccountsDto.md#class_atomic_market_api_client_1_1_stats_1_1_accounts_dto) | 
 `class `[`AtomicMarketApiClient::Stats::CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionDto.md#class_atomic_market_api_client_1_1_stats_1_1_collection_dto) | 
