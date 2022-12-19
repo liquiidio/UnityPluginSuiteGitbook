@@ -7,8 +7,8 @@ class HyperionApiClient::Clients::StatsClient
 
 ## Summary
 
- Members                        | Descriptions                                
---------------------------------|---------------------------------------------
+ Members                                | Descriptions                                
+----------------------------------------|---------------------------------------------
 `public string `[`BaseUrl`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1a5e5e1c3b42a6c7ab84f8aeca3c9e570c) | 
 `public  `[`StatsClient`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1afedb72bdfc37010ece99d6f55cf9fa80)`(HttpClient httpClient)` | 
 `public async Task< GetActionUsageResponse > `[`GetActionUsageAsync`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1afdf2c1723afa8ffa992e21ce74b3fdb7)`(string period, string endDate, bool? uniqueActors, CancellationToken cancellationToken) = default` | get action and transaction stats for a given period
@@ -18,11 +18,11 @@ class HyperionApiClient::Clients::StatsClient
 
 ## Members
 
-### `public string `[`BaseUrl`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1a5e5e1c3b42a6c7ab84f8aeca3c9e570c) 
+##### `public string `[`BaseUrl`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1a5e5e1c3b42a6c7ab84f8aeca3c9e570c) 
 
-### `public  `[`StatsClient`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1afedb72bdfc37010ece99d6f55cf9fa80)`(HttpClient httpClient)` 
+##### `public  `[`StatsClient`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1afedb72bdfc37010ece99d6f55cf9fa80)`(HttpClient httpClient)` 
 
-### `public async Task< GetActionUsageResponse > `[`GetActionUsageAsync`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1afdf2c1723afa8ffa992e21ce74b3fdb7)`(string period, string endDate, bool? uniqueActors, CancellationToken cancellationToken) = default` 
+##### `public async Task< GetActionUsageResponse > `[`GetActionUsageAsync`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1afdf2c1723afa8ffa992e21ce74b3fdb7)`(string period, string endDate, bool? uniqueActors, CancellationToken cancellationToken) = default` 
 
 get action and transaction stats for a given period
 
@@ -42,7 +42,7 @@ Default Response
 #### Exceptions
 * `ApiException` A server side error occurred.
 
-### `public async Task< GetMissedBlocksResponse > `[`GetMissedBlocksAsync`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1ab662ce58fd786d0ee405c686f471a5e3)`(string producer, string after, string before, int? minBlocks, CancellationToken cancellationToken) = default` 
+##### `public async Task< GetMissedBlocksResponse > `[`GetMissedBlocksAsync`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1ab662ce58fd786d0ee405c686f471a5e3)`(string producer, string after, string before, int? minBlocks, CancellationToken cancellationToken) = default` 
 
 get missed blocks
 
@@ -61,7 +61,7 @@ get missed blocks
 #### Exceptions
 * `ApiException` A server side error occurred.
 
-### `public async Task< GetResourceUsageResponse > `[`GetResourceUsageAsync`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1a5b1e6532ea145738b08f16289eebf6ef)`(string code, string action, CancellationToken cancellationToken) = default` 
+##### `public async Task< GetResourceUsageResponse > `[`GetResourceUsageAsync`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1a5b1e6532ea145738b08f16289eebf6ef)`(string code, string action, CancellationToken cancellationToken) = default` 
 
 get resource usage stats for a specific action
 
@@ -79,5 +79,5 @@ Default Response
 #### Exceptions
 * `ApiException` A server side error occurred.
 
-### `private readonly HttpClient `[`_httpClient`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1ad46239d4d974eb6987f330cce204da62) 
+##### `private readonly HttpClient `[`_httpClient`](#class_hyperion_api_client_1_1_clients_1_1_stats_client_1ad46239d4d974eb6987f330cce204da62) 
 

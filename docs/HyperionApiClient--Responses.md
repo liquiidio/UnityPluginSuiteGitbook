@@ -2,8 +2,8 @@
 
 ## Summary
 
- Members                        | Descriptions                                
---------------------------------|---------------------------------------------
+ Members                                | Descriptions                                
+----------------------------------------|---------------------------------------------
 `class `[`HyperionApiClient::Responses::GetAccountResponse`](.github/workflows/documentation/md/HyperionApiClient--Responses--GetAccountResponse.md#class_hyperion_api_client_1_1_responses_1_1_get_account_response) | 
 `class `[`HyperionApiClient::Responses::GetAccountResponse2`](.github/workflows/documentation/md/HyperionApiClient--Responses--GetAccountResponse2.md#class_hyperion_api_client_1_1_responses_1_1_get_account_response2) | 
 `class `[`HyperionApiClient::Responses::GetActionsResponse`](.github/workflows/documentation/md/HyperionApiClient--Responses--GetActionsResponse.md#class_hyperion_api_client_1_1_responses_1_1_get_actions_response) | 

@@ -7,8 +7,8 @@ class HyperionApiClient::Responses::GetAccountResponse2
 
 ## Summary
 
- Members                        | Descriptions                                
---------------------------------|---------------------------------------------
+ Members                                | Descriptions                                
+----------------------------------------|---------------------------------------------
 
 ## Members
 
