@@ -4,10 +4,10 @@
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public AccountsDto `[`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` | It returns a list of accounts.
-`public AccountsDto `[`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a21b62093a68ab5c18774ae77add176ff)`(AccountsUriParameterBuilder accountsUriParameterBuilder)` | It returns a list of accounts.
-`public AccountDto `[`Account`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a5ac6ce36569f4531d3efc6976bd2d10d)`(string accountName)` | This function will return an AccountDto object if the API call is successful, otherwise it will throw an exception.
-`public AccountCollectionDto `[`Collection`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1ab3df414a63bbd8b27455e4dd5a3a3e93)`(string accountName, string collectionName)` | This function will return an AccountCollectionDto object if the request is successful.
+`public inline AccountsDto `[`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` | It returns a list of accounts.
+`public inline AccountsDto `[`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a21b62093a68ab5c18774ae77add176ff)`(AccountsUriParameterBuilder accountsUriParameterBuilder)` | It returns a list of accounts.
+`public inline AccountDto `[`Account`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a5ac6ce36569f4531d3efc6976bd2d10d)`(string accountName)` | This function will return an AccountDto object if the API call is successful, otherwise it will throw an exception.
+`public inline AccountCollectionDto `[`Collection`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1ab3df414a63bbd8b27455e4dd5a3a3e93)`(string accountName, string collectionName)` | This function will return an AccountCollectionDto object if the request is successful.
 `private readonly string `[`_requestUriBase`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a1854c4909a1013a684af16fb52e8a387) | 
 `private Uri `[`AccountsUri`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a5e08d8ac1bf0710cd7d921b3102965bd)`()` | 
 `private Uri `[`AccountsUri`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1afca248f16f36e27bbfb8749031ed2b2b)`(AccountsUriParameterBuilder accountsUriParameterBuilder)` | 
@@ -16,14 +16,14 @@
 
 ### Members
 
-#### `public AccountsDto `[`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` 
+#### `public inline AccountsDto `[`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` 
 
 It returns a list of accounts.
 
 #### Returns
 A list of accounts
 
-#### `public AccountsDto `[`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a21b62093a68ab5c18774ae77add176ff)`(AccountsUriParameterBuilder accountsUriParameterBuilder)` 
+#### `public inline AccountsDto `[`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a21b62093a68ab5c18774ae77add176ff)`(AccountsUriParameterBuilder accountsUriParameterBuilder)` 
 
 It returns a list of accounts.
 
@@ -33,7 +33,7 @@ It returns a list of accounts.
 #### Returns
 A list of accounts.
 
-#### `public AccountDto `[`Account`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a5ac6ce36569f4531d3efc6976bd2d10d)`(string accountName)` 
+#### `public inline AccountDto `[`Account`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a5ac6ce36569f4531d3efc6976bd2d10d)`(string accountName)` 
 
 This function will return an AccountDto object if the API call is successful, otherwise it will throw an exception.
 
@@ -43,7 +43,7 @@ This function will return an AccountDto object if the API call is successful, ot
 #### Returns
 An AccountDto object
 
-#### `public AccountCollectionDto `[`Collection`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1ab3df414a63bbd8b27455e4dd5a3a3e93)`(string accountName, string collectionName)` 
+#### `public inline AccountCollectionDto `[`Collection`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1ab3df414a63bbd8b27455e4dd5a3a3e93)`(string accountName, string collectionName)` 
 
 This function will return an AccountCollectionDto object if the request is successful.
 
