@@ -4,32 +4,32 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public OffersUriParameterBuilder `[`WithAccountWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5f97c58eccf60d0cef82b61797d6a9fa)`(string accountWhitelist)` | `WithAccountWhitelist` sets the accountWhiteList parameter
-`public OffersUriParameterBuilder `[`WithAccountBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1abd1eaa09298b917d7235b60cfa8d9530)`(string accountBlacklist)` | `WithAccountBlacklist` sets the accounBlacklist parameter
-`public OffersUriParameterBuilder `[`WithSenderAssetWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1ad3facd5ef5e7d8b45a14787dd0fe9d5d)`(string senderAssetwhitelist)` | `WithSenderAssetWhitelist` sets the senderAssetWhitelist parameter
-`public OffersUriParameterBuilder `[`WithSenderAssetBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a18940d239f5dd07bc42d325f0591ec05)`(string senderAssetBlacklist)` | `WithSenderAssetBlacklist` sets the senderAssetBlacklist parameter
-`public OffersUriParameterBuilder `[`WithRecipientAssetWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4da798b0b109ea0d8dd89f5e6aa67347)`(string recipientAssetwhitelist)` | `WithRecipientAssetWhitelist` sets the recipientAssetWhitelist parameter
-`public OffersUriParameterBuilder `[`WithRecipientAssetBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5778d062f0be2174ee6db2b451b46063)`(string recipientAssetBlacklist)` | `WithRecipientAssetBlacklist` sets the recipientAssetBlacklist parameter
-`public OffersUriParameterBuilder `[`WithAccount`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1afeb8a29f667c757dc4bafcf37d2203bc)`(string account)` | `WithAccount` sets the `account` parameter
-`public OffersUriParameterBuilder `[`WithSender`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a9e65d2e4dd7aea9945eb5a32023777c5)`(string sender)` | `WithSender` sets the `sender` parameter
-`public OffersUriParameterBuilder `[`WithRecipient`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4c0b5a372577078597bd428dbbdfa54b)`(string recipient)` | `WithRecipient` sets the `recipient` parameter
-`public OffersUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5349806a8889dd99949968237bbc92cf)`(string state)` | `WithRecipient` sets the `state` parameter
-`public OffersUriParameterBuilder `[`WithIsRecipientContract`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aa8abd139b7b3819784b0acb1e2756e54)`(bool isRecipientContract)` | `WithIsRecipientContract` sets the `_isRecipientContract` variable.
-`public OffersUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a23df172236881f6a16e731658b37c334)`(string assetId)` | `WithAssetId` sets the assetId parameter
-`public OffersUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aa0505da376c108a769be68fc326d21d7)`(string temlpateId)` | It sets the value of the templateId variable.
-`public OffersUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1afb08477abad4e95a801800d4f1324b00)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `OffersUriParameterBuilder` object
-`public OffersUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aec74951ebbdc2b8425875748b337d818)`(string schemaName)` | This function sets the schema name for the query
-`public OffersUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a63a94d70046fbc062dc9ef2391e37302)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `OffersUriParameterBuilder` object
-`public OffersUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4f19fc89130c5161b7abe8f4345232e8)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `OffersUriParameterBuilder` object
-`public OffersUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a2f0d05ace37426bfe710c636ba36174d)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
-`public OffersUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a8669faaa4b0032ccb2f6a83f3046684e)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the primary key
-`public OffersUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a925e60c29a9d74851917a16cab00bb1b)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of primary key
-`public OffersUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a74b0f1a1aeefa89bc734580c7f9525fa)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
-`public OffersUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a47db464838a000d89719867d9ad69fe2)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
-`public OffersUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a47908f6506e43a78bd608492754a567b)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
-`public OffersUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1ac96356145f8e90876edbc0c3a77fa431)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public OffersUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a8292eb73fec528bd8d81b3cb5b9e228f)`(SortStrategy sorting)` | This function sets the sort strategy for the query
-`public OffersUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a7082e75864530231704a44602f817af8)`(string sort)` | It sets the sort parameter to the value passed in.
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithAccountWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5f97c58eccf60d0cef82b61797d6a9fa)`(string accountWhitelist)` | `WithAccountWhitelist` sets the accountWhiteList parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithAccountBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1abd1eaa09298b917d7235b60cfa8d9530)`(string accountBlacklist)` | `WithAccountBlacklist` sets the accounBlacklist parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithSenderAssetWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1ad3facd5ef5e7d8b45a14787dd0fe9d5d)`(string senderAssetwhitelist)` | `WithSenderAssetWhitelist` sets the senderAssetWhitelist parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithSenderAssetBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a18940d239f5dd07bc42d325f0591ec05)`(string senderAssetBlacklist)` | `WithSenderAssetBlacklist` sets the senderAssetBlacklist parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithRecipientAssetWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4da798b0b109ea0d8dd89f5e6aa67347)`(string recipientAssetwhitelist)` | `WithRecipientAssetWhitelist` sets the recipientAssetWhitelist parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithRecipientAssetBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5778d062f0be2174ee6db2b451b46063)`(string recipientAssetBlacklist)` | `WithRecipientAssetBlacklist` sets the recipientAssetBlacklist parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithAccount`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1afeb8a29f667c757dc4bafcf37d2203bc)`(string account)` | `WithAccount` sets the `account` parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithSender`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a9e65d2e4dd7aea9945eb5a32023777c5)`(string sender)` | `WithSender` sets the `sender` parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithRecipient`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4c0b5a372577078597bd428dbbdfa54b)`(string recipient)` | `WithRecipient` sets the `recipient` parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithState`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5349806a8889dd99949968237bbc92cf)`(string state)` | `WithRecipient` sets the `state` parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithIsRecipientContract`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aa8abd139b7b3819784b0acb1e2756e54)`(bool isRecipientContract)` | `WithIsRecipientContract` sets the `_isRecipientContract` variable.
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithAssetId`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a23df172236881f6a16e731658b37c334)`(string assetId)` | `WithAssetId` sets the assetId parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithTemplateId`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aa0505da376c108a769be68fc326d21d7)`(string temlpateId)` | It sets the value of the templateId variable.
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithCollectionName`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1afb08477abad4e95a801800d4f1324b00)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `OffersUriParameterBuilder` object
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithSchemaName`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aec74951ebbdc2b8425875748b337d818)`(string schemaName)` | This function sets the schema name for the query
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a63a94d70046fbc062dc9ef2391e37302)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `OffersUriParameterBuilder` object
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4f19fc89130c5161b7abe8f4345232e8)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `OffersUriParameterBuilder` object
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithIds`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a2f0d05ace37426bfe710c636ba36174d)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithLowerBound`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a8669faaa4b0032ccb2f6a83f3046684e)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the primary key
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithUpperBound`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a925e60c29a9d74851917a16cab00bb1b)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of primary key
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithBefore`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a74b0f1a1aeefa89bc734580c7f9525fa)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithAfter`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a47db464838a000d89719867d9ad69fe2)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithPage`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a47908f6506e43a78bd608492754a567b)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithLimit`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1ac96356145f8e90876edbc0c3a77fa431)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithOrder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a8292eb73fec528bd8d81b3cb5b9e228f)`(`[`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` | This function sets the sort strategy for the query
+`public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithSort`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a7082e75864530231704a44602f817af8)`(string sort)` | It sets the sort parameter to the value passed in.
 `public string `[`Build`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string `[`_account`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aa5823aa98a8362446f2f023628121726) | 
 `private string `[`_sender`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a9b2c3cb8c5158b682e95ceb6c25c52c6) | 
@@ -55,12 +55,12 @@
 `private int? `[`_after`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1ae1483718c3d317e0b6046ada434c53ae) | 
 `private int? `[`_page`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) | 
 `private int? `[`_limit`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) | 
-`private SortStrategy? `[`_sortStrategy`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | 
+`private `[`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)`? `[`_sortStrategy`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | 
 `private string `[`_sort`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a3ac373edf19e058d7fae7f4c4ba485f4) | 
 
 ## Members
 
-##### `public OffersUriParameterBuilder `[`WithAccountWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5f97c58eccf60d0cef82b61797d6a9fa)`(string accountWhitelist)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithAccountWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5f97c58eccf60d0cef82b61797d6a9fa)`(string accountWhitelist)` 
 
 `WithAccountWhitelist` sets the accountWhiteList parameter
 
@@ -70,7 +70,7 @@
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithAccountBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1abd1eaa09298b917d7235b60cfa8d9530)`(string accountBlacklist)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithAccountBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1abd1eaa09298b917d7235b60cfa8d9530)`(string accountBlacklist)` 
 
 `WithAccountBlacklist` sets the accounBlacklist parameter
 
@@ -80,7 +80,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithSenderAssetWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1ad3facd5ef5e7d8b45a14787dd0fe9d5d)`(string senderAssetwhitelist)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithSenderAssetWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1ad3facd5ef5e7d8b45a14787dd0fe9d5d)`(string senderAssetwhitelist)` 
 
 `WithSenderAssetWhitelist` sets the senderAssetWhitelist parameter
 
@@ -90,7 +90,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithSenderAssetBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a18940d239f5dd07bc42d325f0591ec05)`(string senderAssetBlacklist)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithSenderAssetBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a18940d239f5dd07bc42d325f0591ec05)`(string senderAssetBlacklist)` 
 
 `WithSenderAssetBlacklist` sets the senderAssetBlacklist parameter
 
@@ -100,7 +100,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithRecipientAssetWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4da798b0b109ea0d8dd89f5e6aa67347)`(string recipientAssetwhitelist)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithRecipientAssetWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4da798b0b109ea0d8dd89f5e6aa67347)`(string recipientAssetwhitelist)` 
 
 `WithRecipientAssetWhitelist` sets the recipientAssetWhitelist parameter
 
@@ -110,7 +110,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithRecipientAssetBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5778d062f0be2174ee6db2b451b46063)`(string recipientAssetBlacklist)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithRecipientAssetBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5778d062f0be2174ee6db2b451b46063)`(string recipientAssetBlacklist)` 
 
 `WithRecipientAssetBlacklist` sets the recipientAssetBlacklist parameter
 
@@ -120,7 +120,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithAccount`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1afeb8a29f667c757dc4bafcf37d2203bc)`(string account)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithAccount`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1afeb8a29f667c757dc4bafcf37d2203bc)`(string account)` 
 
 `WithAccount` sets the `account` parameter
 
@@ -130,7 +130,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithSender`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a9e65d2e4dd7aea9945eb5a32023777c5)`(string sender)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithSender`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a9e65d2e4dd7aea9945eb5a32023777c5)`(string sender)` 
 
 `WithSender` sets the `sender` parameter
 
@@ -140,7 +140,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithRecipient`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4c0b5a372577078597bd428dbbdfa54b)`(string recipient)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithRecipient`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4c0b5a372577078597bd428dbbdfa54b)`(string recipient)` 
 
 `WithRecipient` sets the `recipient` parameter
 
@@ -150,7 +150,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5349806a8889dd99949968237bbc92cf)`(string state)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithState`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a5349806a8889dd99949968237bbc92cf)`(string state)` 
 
 `WithRecipient` sets the `state` parameter
 
@@ -160,7 +160,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithIsRecipientContract`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aa8abd139b7b3819784b0acb1e2756e54)`(bool isRecipientContract)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithIsRecipientContract`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aa8abd139b7b3819784b0acb1e2756e54)`(bool isRecipientContract)` 
 
 `WithIsRecipientContract` sets the `_isRecipientContract` variable.
 
@@ -170,7 +170,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a23df172236881f6a16e731658b37c334)`(string assetId)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithAssetId`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a23df172236881f6a16e731658b37c334)`(string assetId)` 
 
 `WithAssetId` sets the assetId parameter
 
@@ -180,7 +180,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aa0505da376c108a769be68fc326d21d7)`(string temlpateId)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithTemplateId`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aa0505da376c108a769be68fc326d21d7)`(string temlpateId)` 
 
 It sets the value of the templateId variable.
 
@@ -190,7 +190,7 @@ It sets the value of the templateId variable.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1afb08477abad4e95a801800d4f1324b00)`(string collectionName)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithCollectionName`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1afb08477abad4e95a801800d4f1324b00)`(string collectionName)` 
 
 `WithCollectionName` is a function that takes a string as a parameter and returns an `OffersUriParameterBuilder` object
 
@@ -200,7 +200,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aec74951ebbdc2b8425875748b337d818)`(string schemaName)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithSchemaName`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1aec74951ebbdc2b8425875748b337d818)`(string schemaName)` 
 
 This function sets the schema name for the query
 
@@ -210,7 +210,7 @@ This function sets the schema name for the query
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a63a94d70046fbc062dc9ef2391e37302)`(string[] collectionBlacklist)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a63a94d70046fbc062dc9ef2391e37302)`(string[] collectionBlacklist)` 
 
 `WithCollectionBlacklist` is a function that takes an array of strings and returns an `OffersUriParameterBuilder` object
 
@@ -220,7 +220,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4f19fc89130c5161b7abe8f4345232e8)`(string[] collectionWhitelist)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a4f19fc89130c5161b7abe8f4345232e8)`(string[] collectionWhitelist)` 
 
 `WithCollectionWhitelist` is a function that takes an array of strings and returns an `OffersUriParameterBuilder` object
 
@@ -230,7 +230,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a2f0d05ace37426bfe710c636ba36174d)`(string[] ids)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithIds`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a2f0d05ace37426bfe710c636ba36174d)`(string[] ids)` 
 
 This function takes an array of strings and joins them together with a comma
 
@@ -240,7 +240,7 @@ This function takes an array of strings and joins them together with a comma
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a8669faaa4b0032ccb2f6a83f3046684e)`(string lowerBound)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithLowerBound`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a8669faaa4b0032ccb2f6a83f3046684e)`(string lowerBound)` 
 
 `WithLowerBound` sets the lower bound of the primary key
 
@@ -250,7 +250,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a925e60c29a9d74851917a16cab00bb1b)`(string upperBound)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithUpperBound`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a925e60c29a9d74851917a16cab00bb1b)`(string upperBound)` 
 
 `WithUpperBound` sets the upper bound of the range of primary key
 
@@ -260,7 +260,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a74b0f1a1aeefa89bc734580c7f9525fa)`(int before)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithBefore`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a74b0f1a1aeefa89bc734580c7f9525fa)`(int before)` 
 
 `WithBefore` sets the `_before` variable to the value of the `before` parameter
 
@@ -270,7 +270,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a47db464838a000d89719867d9ad69fe2)`(int after)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithAfter`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a47db464838a000d89719867d9ad69fe2)`(int after)` 
 
 `WithAfter` sets the `_after` variable to the value of the `after` parameter
 
@@ -280,7 +280,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a47908f6506e43a78bd608492754a567b)`(int page)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithPage`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a47908f6506e43a78bd608492754a567b)`(int page)` 
 
 `WithPage` sets the `_page` variable to the value of the `page` parameter
 
@@ -290,7 +290,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1ac96356145f8e90876edbc0c3a77fa431)`(int limit)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithLimit`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1ac96356145f8e90876edbc0c3a77fa431)`(int limit)` 
 
 `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
 
@@ -300,7 +300,7 @@ The OffersUriParameterBuilder object.
 #### Returns
 The OffersUriParameterBuilder object.
 
-##### `public OffersUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a8292eb73fec528bd8d81b3cb5b9e228f)`(SortStrategy sorting)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithOrder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a8292eb73fec528bd8d81b3cb5b9e228f)`(`[`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` 
 
 This function sets the sort strategy for the query
 
@@ -310,7 +310,7 @@ This function sets the sort strategy for the query
 #### Returns
 The builder object itself.
 
-##### `public OffersUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a7082e75864530231704a44602f817af8)`(string sort)` 
+##### `public `[`OffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` `[`WithSort`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a7082e75864530231704a44602f817af8)`(string sort)` 
 
 It sets the sort parameter to the value passed in.
 
@@ -375,7 +375,7 @@ A string that contains the parameters for the query.
 
 ##### `private int? `[`_limit`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) 
 
-##### `private SortStrategy? `[`_sortStrategy`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
+##### `private `[`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)`? `[`_sortStrategy`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
 
 ##### `private string `[`_sort`](#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder_1a3ac373edf19e058d7fae7f4c4ba485f4) 
 
