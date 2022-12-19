@@ -7,8 +7,8 @@ class AnchorLinkSharp::LinkFallbackSessionData
 
 ## Summary
 
- Members                        | Descriptions                                
---------------------------------|---------------------------------------------
+ Members                                | Descriptions                                
+----------------------------------------|---------------------------------------------
 
 ## Members
 
