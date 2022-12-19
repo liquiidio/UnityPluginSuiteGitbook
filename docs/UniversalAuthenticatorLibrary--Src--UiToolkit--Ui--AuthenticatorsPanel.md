@@ -15,8 +15,8 @@ class UniversalAuthenticatorLibrary::Src::UiToolkit::Ui::AuthenticatorsPanel
 `private VisualElement `[`_infoContainer`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1a7697b702bc4ac4d3a543451454067527) | 
 `private VisualElement `[`_learnBox`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1a4329741038af44baf9630c3cf865ac30) | 
 `private VisualElement `[`_infoBox`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1ae9cc69d3da1414dbd7f7da44af4018b8) | 
-`private void `[`Start`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1a07aaf1227e4d645f15e0a964f54ef291)`()` | 
-`private void `[`BindButtons`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1ac0a62408f7b64fe84a8a710e7119b60b)`()` | 
+`private inline void `[`Start`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1a07aaf1227e4d645f15e0a964f54ef291)`()` | 
+`private inline void `[`BindButtons`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1ac0a62408f7b64fe84a8a710e7119b60b)`()` | 
 
 ### Members
 
@@ -32,7 +32,7 @@ class UniversalAuthenticatorLibrary::Src::UiToolkit::Ui::AuthenticatorsPanel
 
 #### `private VisualElement `[`_infoBox`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1ae9cc69d3da1414dbd7f7da44af4018b8) 
 
-#### `private void `[`Start`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1a07aaf1227e4d645f15e0a964f54ef291)`()` 
+#### `private inline void `[`Start`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1a07aaf1227e4d645f15e0a964f54ef291)`()` 
 
-#### `private void `[`BindButtons`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1ac0a62408f7b64fe84a8a710e7119b60b)`()` 
+#### `private inline void `[`BindButtons`](#class_universal_authenticator_library_1_1_src_1_1_ui_toolkit_1_1_ui_1_1_authenticators_panel_1ac0a62408f7b64fe84a8a710e7119b60b)`()` 
 
