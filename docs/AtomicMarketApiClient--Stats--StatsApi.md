@@ -4,16 +4,16 @@
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public CollectionsDto `[`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a99d55526cbe148310bd140c1ea21e97a)`()` | This function will return a list of all collections in the database
-`public CollectionsDto `[`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a9ee68cbabd519bdbf0a5e5becb6adfb8)`(StatsUriParameterBuilder uriParameterBuilder)` | This function will return a `CollectionsDto` object that contains a list of `CollectionDto`<br/><br/>objects
-`public CollectionDto `[`Collection`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a94744e7cb4182c866d42d10bb5d4441c)`(string collectionName, StatsUriParameterBuilder uriParameterBuilder)` | This function will return a `CollectionDto` object that contains the collection's name, the number <br/><br/>of documents in the collection, the number of documents that have been deleted, the number of documents that are new (i.e. have not been persisted to disk), the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been
-`public AccountsDto `[`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` | This function will return a list of accounts for the current user
-`public AccountsDto `[`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1aee62547caf2696855c3d18ef8d2be2)`(StatsUriParameterBuilder uriParameterBuilder)` | This function will return a list of accounts that match the criteria specified in the <br/><br/>`uriParameterBuilder` parameter
-`public AccountDto `[`Account`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a117e7abeab8e57b9439a62a124270b71)`(string accountName, StatsUriParameterBuilder uriParameterBuilder)` | This function will return an AccountDto object that contains the account information for the <br/><br/>account name passed in
-`public SchemaDto `[`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a010d66ee9d420f333f5bc096cfb02122)`(string collectionName)` | This function will return the schema for the specified collection
-`public SchemaDto `[`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1abd9aa3a18365cf538bf0729a41e109e4)`(string collectionName, StatsUriParameterBuilder uriParameterBuilder)` | This function returns a schema for a given collection
-`public GraphDto `[`Graph`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3750a373cd4414c35877b0742bc335e7)`()` | This function will return a `GraphDto` object that contains the graph data
-`public SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` | The function sends a GET request to the API and returns the response as a SalesDto object
+`public inline CollectionsDto `[`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a99d55526cbe148310bd140c1ea21e97a)`()` | This function will return a list of all collections in the database
+`public inline CollectionsDto `[`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a9ee68cbabd519bdbf0a5e5becb6adfb8)`(StatsUriParameterBuilder uriParameterBuilder)` | This function will return a `CollectionsDto` object that contains a list of `CollectionDto`<br/><br/>objects
+`public inline CollectionDto `[`Collection`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a94744e7cb4182c866d42d10bb5d4441c)`(string collectionName, StatsUriParameterBuilder uriParameterBuilder)` | This function will return a `CollectionDto` object that contains the collection's name, the number <br/><br/>of documents in the collection, the number of documents that have been deleted, the number of documents that are new (i.e. have not been persisted to disk), the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been
+`public inline AccountsDto `[`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` | This function will return a list of accounts for the current user
+`public inline AccountsDto `[`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1aee62547caf2696855c3d18ef8d2be2)`(StatsUriParameterBuilder uriParameterBuilder)` | This function will return a list of accounts that match the criteria specified in the <br/><br/>`uriParameterBuilder` parameter
+`public inline AccountDto `[`Account`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a117e7abeab8e57b9439a62a124270b71)`(string accountName, StatsUriParameterBuilder uriParameterBuilder)` | This function will return an AccountDto object that contains the account information for the <br/><br/>account name passed in
+`public inline SchemaDto `[`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a010d66ee9d420f333f5bc096cfb02122)`(string collectionName)` | This function will return the schema for the specified collection
+`public inline SchemaDto `[`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1abd9aa3a18365cf538bf0729a41e109e4)`(string collectionName, StatsUriParameterBuilder uriParameterBuilder)` | This function returns a schema for a given collection
+`public inline GraphDto `[`Graph`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3750a373cd4414c35877b0742bc335e7)`()` | This function will return a `GraphDto` object that contains the graph data
+`public inline SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` | The function sends a GET request to the API and returns the response as a SalesDto object
 `private readonly string `[`_requestUriBase`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1854c4909a1013a684af16fb52e8a387) | 
 `private Uri `[`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a07e4028b75613f3c27b168e278447f34)`()` | 
 `private Uri `[`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1ba975c33a750ebb181aa7743ca05563)`(IUriParameterBuilder uriParameterBuilder)` | 
@@ -28,14 +28,14 @@
 
 ### Members
 
-#### `public CollectionsDto `[`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a99d55526cbe148310bd140c1ea21e97a)`()` 
+#### `public inline CollectionsDto `[`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a99d55526cbe148310bd140c1ea21e97a)`()` 
 
 This function will return a list of all collections in the database
 
 #### Returns
 A list of collections
 
-#### `public CollectionsDto `[`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a9ee68cbabd519bdbf0a5e5becb6adfb8)`(StatsUriParameterBuilder uriParameterBuilder)` 
+#### `public inline CollectionsDto `[`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a9ee68cbabd519bdbf0a5e5becb6adfb8)`(StatsUriParameterBuilder uriParameterBuilder)` 
 
 This function will return a `CollectionsDto` object that contains a list of `CollectionDto`
 
@@ -47,7 +47,7 @@ objects
 #### Returns
 A CollectionsDto object.
 
-#### `public CollectionDto `[`Collection`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a94744e7cb4182c866d42d10bb5d4441c)`(string collectionName, StatsUriParameterBuilder uriParameterBuilder)` 
+#### `public inline CollectionDto `[`Collection`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a94744e7cb4182c866d42d10bb5d4441c)`(string collectionName, StatsUriParameterBuilder uriParameterBuilder)` 
 
 This function will return a `CollectionDto` object that contains the collection's name, the number 
 
@@ -61,14 +61,14 @@ of documents in the collection, the number of documents that have been deleted, 
 #### Returns
 A collection of documents.
 
-#### `public AccountsDto `[`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` 
+#### `public inline AccountsDto `[`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` 
 
 This function will return a list of accounts for the current user
 
 #### Returns
 A list of accounts
 
-#### `public AccountsDto `[`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1aee62547caf2696855c3d18ef8d2be2)`(StatsUriParameterBuilder uriParameterBuilder)` 
+#### `public inline AccountsDto `[`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1aee62547caf2696855c3d18ef8d2be2)`(StatsUriParameterBuilder uriParameterBuilder)` 
 
 This function will return a list of accounts that match the criteria specified in the 
 
@@ -80,7 +80,7 @@ This function will return a list of accounts that match the criteria specified i
 #### Returns
 A list of accounts.
 
-#### `public AccountDto `[`Account`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a117e7abeab8e57b9439a62a124270b71)`(string accountName, StatsUriParameterBuilder uriParameterBuilder)` 
+#### `public inline AccountDto `[`Account`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a117e7abeab8e57b9439a62a124270b71)`(string accountName, StatsUriParameterBuilder uriParameterBuilder)` 
 
 This function will return an AccountDto object that contains the account information for the 
 
@@ -94,7 +94,7 @@ account name passed in
 #### Returns
 An AccountDto object.
 
-#### `public SchemaDto `[`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a010d66ee9d420f333f5bc096cfb02122)`(string collectionName)` 
+#### `public inline SchemaDto `[`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a010d66ee9d420f333f5bc096cfb02122)`(string collectionName)` 
 
 This function will return the schema for the specified collection
 
@@ -104,7 +104,7 @@ This function will return the schema for the specified collection
 #### Returns
 A SchemaDto object
 
-#### `public SchemaDto `[`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1abd9aa3a18365cf538bf0729a41e109e4)`(string collectionName, StatsUriParameterBuilder uriParameterBuilder)` 
+#### `public inline SchemaDto `[`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1abd9aa3a18365cf538bf0729a41e109e4)`(string collectionName, StatsUriParameterBuilder uriParameterBuilder)` 
 
 This function returns a schema for a given collection
 
@@ -116,14 +116,14 @@ This function returns a schema for a given collection
 #### Returns
 A SchemaDto object.
 
-#### `public GraphDto `[`Graph`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3750a373cd4414c35877b0742bc335e7)`()` 
+#### `public inline GraphDto `[`Graph`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3750a373cd4414c35877b0742bc335e7)`()` 
 
 This function will return a `GraphDto` object that contains the graph data
 
 #### Returns
 A GraphDto object
 
-#### `public SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` 
+#### `public inline SalesDto `[`Sales`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` 
 
 The function sends a GET request to the API and returns the response as a SalesDto object
 

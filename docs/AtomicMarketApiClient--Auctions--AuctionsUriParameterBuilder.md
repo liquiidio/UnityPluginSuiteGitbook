@@ -9,43 +9,43 @@ class AtomicMarketApiClient::Auctions::AuctionsUriParameterBuilder
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public AuctionsUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a91161e076e2ee3ef00ffa83b485da347)`(params State[] states)` | `WithState` takes a list of `State`s and converts them to a comma separated string of integers
-`public AuctionsUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a4368f2779fe3d38781a7a07d81c5e32b)`(int maxAssets)` | `WithMaxAssets` sets the `_maxAssets` variable
-`public AuctionsUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af0d6bc6df7ddb31d214982ac1fa206b9)`(int minAssets)` | `WithMinAssets` sets the `_minAssets` variable
-`public AuctionsUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af06c246a642fd64a4f6f7f761d75d839)`(bool showSellerContracts)` | `WithShowSellerContracts` sets the `_showSellerContracts` field to the value of the `showSellerContracts` parameter
-`public AuctionsUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a73a93893820f8710704f289afcc01331)`(bool contractWhitelist)` | `WithContractWhitelist` sets the `_contractWhitelist` field to the value of the `contractWhitelist` parameter
-`public AuctionsUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ac59d0efed800b19ee06b13cb9bc1c866)`(bool sellerBlacklist)` | `WithSellerBlacklist` sets the `_sellerBlacklist` field to the value of the `sellerBlacklist` parameter
-`public AuctionsUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aaeb9287f2b32977885e37649a3843851)`(int assetId)` | `WithAssetId` sets the `_assetId` variable to the value of the `asset_id` parameter
-`public AuctionsUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a7036592db9165d4313411ba13364ac13)`(string marketplace)` | `WithMarketplace` sets the `marketplace` parameter
-`public AuctionsUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a98ab1fa88d14b97e8ba5f9e2fc47a1b7)`(string makerMarketplace)` | `WithMakerMarketplace` sets the `makerMarketplace` parameter
-`public AuctionsUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a26885cefc4fa36935f17c46e68feefa1)`(string takerMarketplace)` | `WithTakerMarketplace` sets the `takerMarketplace` parameter
-`public AuctionsUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ae1ce66e0894c18252eddec3ae3f479f6)`(string symbol)` | `WithSymbol` sets the `symbol` parameter
-`public AuctionsUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a9da27faa076cc1345440206d173f23e2)`(string seller)` | `WithSeller` sets the `seller` parameter
-`public AuctionsUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a1abf106296a6cf17584bc5c7305eec83)`(string buyer)` | `WithBuyer` sets the `buyer` parameter
-`public AuctionsUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ac2fa887a41ed2647ab1b317cebbd1a8c)`(int minPrice)` | `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
-`public AuctionsUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a2f40d040467cc29f2e7c42d66e70f748)`(int maxPrice)` | `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
-`public AuctionsUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aef21c23d0ec4e13e655bf032ce371a7a)`(int minTemplateMint)` | `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
-`public AuctionsUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aee5e1f62892cc6dbd5dbb8d6f7c5132d)`(int maxTemplateMint)` | `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
-`public AuctionsUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af42d78c47a782479286a67e56cb3575b)`(string owner)` | `WithOwner` sets the `owner` parameter
-`public AuctionsUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a4ed0a5a95f1ab5154207e2e69ef61664)`(bool burned)` | `WithBurned` sets the `_burned` field to the value of the `burned` parameter
-`public AuctionsUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1afed6c221e1c0732ab1d736f9e7728d00)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `AuctionsUriParameterBuilder` object
-`public AuctionsUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a1dcb95228dd3bf3c4ff6d10d437e6745)`(string schemaName)` | This function sets the schema name for the query
-`public AuctionsUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aebf636f319b0979d68ab35b3fe44b629)`(string templateId)` | It sets the value of the templateId variable.
-`public AuctionsUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a47a55b931aef8bedda2d5e5d4ba21f00)`(bool isTransferable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
-`public AuctionsUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a476dd6b17e7d7b61047f5e7f58f3eedc)`(bool isBurnable)` | `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
-`public AuctionsUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aadf20273f71d5a1797e52ec602493b8f)`(string match)` | `WithMatch` sets the `match` parameter
-`public AuctionsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a9e6142c9ae57fe54d848cd09059296e9)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `AuctionsUriParameterBuilder` object
-`public AuctionsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a84c07a027bb19d4252cd83e74e19dc1d)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `AuctionsUriParameterBuilder` object
-`public AuctionsUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a896d6b1ef9a5640dc0553238c47cf113)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
-`public AuctionsUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a2537cfa64369223b20d626a06d730254)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
-`public AuctionsUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aebee308b54abe33bf20e77ea712fa47c)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
-`public AuctionsUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a41eb50583e6c20b12b314dd1465cfc8a)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
-`public AuctionsUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a8cacff7cab1864b1ce8ae9e61e657ed5)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
-`public AuctionsUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a822e83817b5f8fc6b692ce4584da3a00)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
-`public AuctionsUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a5c895d53e96fff01bec67a0d0f01776f)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public AuctionsUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aa2152b5b399407ee93cd8105a188b4bc)`(SortStrategy sorting)` | This function sets the sort strategy for the query
-`public AuctionsUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1abbd1c36bc897a6a489ca7caab6a45534)`(string sort)` | It sets the sort parameter to the value passed in.
-`public string `[`Build`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
+`public inline AuctionsUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a91161e076e2ee3ef00ffa83b485da347)`(params State[] states)` | `WithState` takes a list of `State`s and converts them to a comma separated string of integers
+`public inline AuctionsUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a4368f2779fe3d38781a7a07d81c5e32b)`(int maxAssets)` | `WithMaxAssets` sets the `_maxAssets` variable
+`public inline AuctionsUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af0d6bc6df7ddb31d214982ac1fa206b9)`(int minAssets)` | `WithMinAssets` sets the `_minAssets` variable
+`public inline AuctionsUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af06c246a642fd64a4f6f7f761d75d839)`(bool showSellerContracts)` | `WithShowSellerContracts` sets the `_showSellerContracts` field to the value of the `showSellerContracts` parameter
+`public inline AuctionsUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a73a93893820f8710704f289afcc01331)`(bool contractWhitelist)` | `WithContractWhitelist` sets the `_contractWhitelist` field to the value of the `contractWhitelist` parameter
+`public inline AuctionsUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ac59d0efed800b19ee06b13cb9bc1c866)`(bool sellerBlacklist)` | `WithSellerBlacklist` sets the `_sellerBlacklist` field to the value of the `sellerBlacklist` parameter
+`public inline AuctionsUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aaeb9287f2b32977885e37649a3843851)`(int assetId)` | `WithAssetId` sets the `_assetId` variable to the value of the `asset_id` parameter
+`public inline AuctionsUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a7036592db9165d4313411ba13364ac13)`(string marketplace)` | `WithMarketplace` sets the `marketplace` parameter
+`public inline AuctionsUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a98ab1fa88d14b97e8ba5f9e2fc47a1b7)`(string makerMarketplace)` | `WithMakerMarketplace` sets the `makerMarketplace` parameter
+`public inline AuctionsUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a26885cefc4fa36935f17c46e68feefa1)`(string takerMarketplace)` | `WithTakerMarketplace` sets the `takerMarketplace` parameter
+`public inline AuctionsUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ae1ce66e0894c18252eddec3ae3f479f6)`(string symbol)` | `WithSymbol` sets the `symbol` parameter
+`public inline AuctionsUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a9da27faa076cc1345440206d173f23e2)`(string seller)` | `WithSeller` sets the `seller` parameter
+`public inline AuctionsUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a1abf106296a6cf17584bc5c7305eec83)`(string buyer)` | `WithBuyer` sets the `buyer` parameter
+`public inline AuctionsUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ac2fa887a41ed2647ab1b317cebbd1a8c)`(int minPrice)` | `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
+`public inline AuctionsUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a2f40d040467cc29f2e7c42d66e70f748)`(int maxPrice)` | `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
+`public inline AuctionsUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aef21c23d0ec4e13e655bf032ce371a7a)`(int minTemplateMint)` | `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
+`public inline AuctionsUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aee5e1f62892cc6dbd5dbb8d6f7c5132d)`(int maxTemplateMint)` | `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
+`public inline AuctionsUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af42d78c47a782479286a67e56cb3575b)`(string owner)` | `WithOwner` sets the `owner` parameter
+`public inline AuctionsUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a4ed0a5a95f1ab5154207e2e69ef61664)`(bool burned)` | `WithBurned` sets the `_burned` field to the value of the `burned` parameter
+`public inline AuctionsUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1afed6c221e1c0732ab1d736f9e7728d00)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `AuctionsUriParameterBuilder` object
+`public inline AuctionsUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a1dcb95228dd3bf3c4ff6d10d437e6745)`(string schemaName)` | This function sets the schema name for the query
+`public inline AuctionsUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aebf636f319b0979d68ab35b3fe44b629)`(string templateId)` | It sets the value of the templateId variable.
+`public inline AuctionsUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a47a55b931aef8bedda2d5e5d4ba21f00)`(bool isTransferable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
+`public inline AuctionsUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a476dd6b17e7d7b61047f5e7f58f3eedc)`(bool isBurnable)` | `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
+`public inline AuctionsUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aadf20273f71d5a1797e52ec602493b8f)`(string match)` | `WithMatch` sets the `match` parameter
+`public inline AuctionsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a9e6142c9ae57fe54d848cd09059296e9)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `AuctionsUriParameterBuilder` object
+`public inline AuctionsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a84c07a027bb19d4252cd83e74e19dc1d)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `AuctionsUriParameterBuilder` object
+`public inline AuctionsUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a896d6b1ef9a5640dc0553238c47cf113)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
+`public inline AuctionsUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a2537cfa64369223b20d626a06d730254)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
+`public inline AuctionsUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aebee308b54abe33bf20e77ea712fa47c)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
+`public inline AuctionsUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a41eb50583e6c20b12b314dd1465cfc8a)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
+`public inline AuctionsUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a8cacff7cab1864b1ce8ae9e61e657ed5)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
+`public inline AuctionsUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a822e83817b5f8fc6b692ce4584da3a00)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
+`public inline AuctionsUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a5c895d53e96fff01bec67a0d0f01776f)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
+`public inline AuctionsUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aa2152b5b399407ee93cd8105a188b4bc)`(SortStrategy sorting)` | This function sets the sort strategy for the query
+`public inline AuctionsUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1abbd1c36bc897a6a489ca7caab6a45534)`(string sort)` | It sets the sort parameter to the value passed in.
+`public inline string `[`Build`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string `[`_state`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a9577beb4165c1157d2e7f8f0ff065dde) | 
 `private int? `[`_maxAssets`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ae7334a7aa0ba955ac129865639f42b11) | 
 `private int? `[`_minAssets`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a2787cd3c00b52a44e78964a580457204) | 
@@ -85,7 +85,7 @@ class AtomicMarketApiClient::Auctions::AuctionsUriParameterBuilder
 
 ### Members
 
-#### `public AuctionsUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a91161e076e2ee3ef00ffa83b485da347)`(params State[] states)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a91161e076e2ee3ef00ffa83b485da347)`(params State[] states)` 
 
 `WithState` takes a list of `State`s and converts them to a comma separated string of integers
 
@@ -95,7 +95,7 @@ class AtomicMarketApiClient::Auctions::AuctionsUriParameterBuilder
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a4368f2779fe3d38781a7a07d81c5e32b)`(int maxAssets)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a4368f2779fe3d38781a7a07d81c5e32b)`(int maxAssets)` 
 
 `WithMaxAssets` sets the `_maxAssets` variable
 
@@ -105,7 +105,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af0d6bc6df7ddb31d214982ac1fa206b9)`(int minAssets)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af0d6bc6df7ddb31d214982ac1fa206b9)`(int minAssets)` 
 
 `WithMinAssets` sets the `_minAssets` variable
 
@@ -115,7 +115,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af06c246a642fd64a4f6f7f761d75d839)`(bool showSellerContracts)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af06c246a642fd64a4f6f7f761d75d839)`(bool showSellerContracts)` 
 
 `WithShowSellerContracts` sets the `_showSellerContracts` field to the value of the `showSellerContracts` parameter
 
@@ -125,7 +125,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a73a93893820f8710704f289afcc01331)`(bool contractWhitelist)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a73a93893820f8710704f289afcc01331)`(bool contractWhitelist)` 
 
 `WithContractWhitelist` sets the `_contractWhitelist` field to the value of the `contractWhitelist` parameter
 
@@ -135,7 +135,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ac59d0efed800b19ee06b13cb9bc1c866)`(bool sellerBlacklist)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ac59d0efed800b19ee06b13cb9bc1c866)`(bool sellerBlacklist)` 
 
 `WithSellerBlacklist` sets the `_sellerBlacklist` field to the value of the `sellerBlacklist` parameter
 
@@ -145,7 +145,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aaeb9287f2b32977885e37649a3843851)`(int assetId)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aaeb9287f2b32977885e37649a3843851)`(int assetId)` 
 
 `WithAssetId` sets the `_assetId` variable to the value of the `asset_id` parameter
 
@@ -155,7 +155,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a7036592db9165d4313411ba13364ac13)`(string marketplace)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a7036592db9165d4313411ba13364ac13)`(string marketplace)` 
 
 `WithMarketplace` sets the `marketplace` parameter
 
@@ -165,7 +165,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a98ab1fa88d14b97e8ba5f9e2fc47a1b7)`(string makerMarketplace)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a98ab1fa88d14b97e8ba5f9e2fc47a1b7)`(string makerMarketplace)` 
 
 `WithMakerMarketplace` sets the `makerMarketplace` parameter
 
@@ -175,7 +175,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a26885cefc4fa36935f17c46e68feefa1)`(string takerMarketplace)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a26885cefc4fa36935f17c46e68feefa1)`(string takerMarketplace)` 
 
 `WithTakerMarketplace` sets the `takerMarketplace` parameter
 
@@ -185,7 +185,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ae1ce66e0894c18252eddec3ae3f479f6)`(string symbol)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ae1ce66e0894c18252eddec3ae3f479f6)`(string symbol)` 
 
 `WithSymbol` sets the `symbol` parameter
 
@@ -195,7 +195,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a9da27faa076cc1345440206d173f23e2)`(string seller)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a9da27faa076cc1345440206d173f23e2)`(string seller)` 
 
 `WithSeller` sets the `seller` parameter
 
@@ -205,7 +205,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a1abf106296a6cf17584bc5c7305eec83)`(string buyer)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a1abf106296a6cf17584bc5c7305eec83)`(string buyer)` 
 
 `WithBuyer` sets the `buyer` parameter
 
@@ -215,7 +215,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ac2fa887a41ed2647ab1b317cebbd1a8c)`(int minPrice)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1ac2fa887a41ed2647ab1b317cebbd1a8c)`(int minPrice)` 
 
 `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
 
@@ -225,7 +225,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a2f40d040467cc29f2e7c42d66e70f748)`(int maxPrice)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a2f40d040467cc29f2e7c42d66e70f748)`(int maxPrice)` 
 
 `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
 
@@ -235,7 +235,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aef21c23d0ec4e13e655bf032ce371a7a)`(int minTemplateMint)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aef21c23d0ec4e13e655bf032ce371a7a)`(int minTemplateMint)` 
 
 `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
 
@@ -245,7 +245,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aee5e1f62892cc6dbd5dbb8d6f7c5132d)`(int maxTemplateMint)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aee5e1f62892cc6dbd5dbb8d6f7c5132d)`(int maxTemplateMint)` 
 
 `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
 
@@ -255,7 +255,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af42d78c47a782479286a67e56cb3575b)`(string owner)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af42d78c47a782479286a67e56cb3575b)`(string owner)` 
 
 `WithOwner` sets the `owner` parameter
 
@@ -265,7 +265,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a4ed0a5a95f1ab5154207e2e69ef61664)`(bool burned)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a4ed0a5a95f1ab5154207e2e69ef61664)`(bool burned)` 
 
 `WithBurned` sets the `_burned` field to the value of the `burned` parameter
 
@@ -275,7 +275,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1afed6c221e1c0732ab1d736f9e7728d00)`(string collectionName)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1afed6c221e1c0732ab1d736f9e7728d00)`(string collectionName)` 
 
 `WithCollectionName` is a function that takes a string as a parameter and returns an `AuctionsUriParameterBuilder` object
 
@@ -285,7 +285,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a1dcb95228dd3bf3c4ff6d10d437e6745)`(string schemaName)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a1dcb95228dd3bf3c4ff6d10d437e6745)`(string schemaName)` 
 
 This function sets the schema name for the query
 
@@ -295,7 +295,7 @@ This function sets the schema name for the query
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aebf636f319b0979d68ab35b3fe44b629)`(string templateId)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aebf636f319b0979d68ab35b3fe44b629)`(string templateId)` 
 
 It sets the value of the templateId variable.
 
@@ -305,7 +305,7 @@ It sets the value of the templateId variable.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a47a55b931aef8bedda2d5e5d4ba21f00)`(bool isTransferable)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a47a55b931aef8bedda2d5e5d4ba21f00)`(bool isTransferable)` 
 
 `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
 
@@ -315,7 +315,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a476dd6b17e7d7b61047f5e7f58f3eedc)`(bool isBurnable)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a476dd6b17e7d7b61047f5e7f58f3eedc)`(bool isBurnable)` 
 
 `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
 
@@ -325,7 +325,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aadf20273f71d5a1797e52ec602493b8f)`(string match)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aadf20273f71d5a1797e52ec602493b8f)`(string match)` 
 
 `WithMatch` sets the `match` parameter
 
@@ -335,7 +335,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a9e6142c9ae57fe54d848cd09059296e9)`(string[] collectionBlacklist)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a9e6142c9ae57fe54d848cd09059296e9)`(string[] collectionBlacklist)` 
 
 `WithCollectionBlacklist` is a function that takes an array of strings and returns an `AuctionsUriParameterBuilder` object
 
@@ -345,7 +345,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a84c07a027bb19d4252cd83e74e19dc1d)`(string[] collectionWhitelist)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a84c07a027bb19d4252cd83e74e19dc1d)`(string[] collectionWhitelist)` 
 
 `WithCollectionWhitelist` is a function that takes an array of strings and returns an `AuctionsUriParameterBuilder` object
 
@@ -355,7 +355,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a896d6b1ef9a5640dc0553238c47cf113)`(string[] ids)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a896d6b1ef9a5640dc0553238c47cf113)`(string[] ids)` 
 
 This function takes an array of strings and joins them together with a comma
 
@@ -365,7 +365,7 @@ This function takes an array of strings and joins them together with a comma
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a2537cfa64369223b20d626a06d730254)`(string lowerBound)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a2537cfa64369223b20d626a06d730254)`(string lowerBound)` 
 
 `WithLowerBound` sets the lower bound of the `account_ids` parameter
 
@@ -375,7 +375,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aebee308b54abe33bf20e77ea712fa47c)`(string upperBound)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aebee308b54abe33bf20e77ea712fa47c)`(string upperBound)` 
 
 `WithUpperBound` sets the upper bound of the range of accounts to be returned
 
@@ -385,7 +385,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a41eb50583e6c20b12b314dd1465cfc8a)`(int before)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a41eb50583e6c20b12b314dd1465cfc8a)`(int before)` 
 
 `WithBefore` sets the `_before` variable to the value of the `before` parameter
 
@@ -395,7 +395,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a8cacff7cab1864b1ce8ae9e61e657ed5)`(int after)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a8cacff7cab1864b1ce8ae9e61e657ed5)`(int after)` 
 
 `WithAfter` sets the `_after` variable to the value of the `after` parameter
 
@@ -405,7 +405,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a822e83817b5f8fc6b692ce4584da3a00)`(int page)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a822e83817b5f8fc6b692ce4584da3a00)`(int page)` 
 
 `WithPage` sets the `_page` variable to the value of the `page` parameter
 
@@ -415,7 +415,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a5c895d53e96fff01bec67a0d0f01776f)`(int limit)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a5c895d53e96fff01bec67a0d0f01776f)`(int limit)` 
 
 `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
 
@@ -425,7 +425,7 @@ The AuctionsUriParameterBuilder object.
 #### Returns
 The AuctionsUriParameterBuilder object.
 
-#### `public AuctionsUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aa2152b5b399407ee93cd8105a188b4bc)`(SortStrategy sorting)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aa2152b5b399407ee93cd8105a188b4bc)`(SortStrategy sorting)` 
 
 This function sets the sort strategy for the query
 
@@ -435,7 +435,7 @@ This function sets the sort strategy for the query
 #### Returns
 The builder object itself.
 
-#### `public AuctionsUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1abbd1c36bc897a6a489ca7caab6a45534)`(string sort)` 
+#### `public inline AuctionsUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1abbd1c36bc897a6a489ca7caab6a45534)`(string sort)` 
 
 It sets the sort parameter to the value passed in.
 
@@ -446,7 +446,7 @@ It sets the sort parameter to the value passed in.
  <return> The AuctionsUriParameterBuilder.object <br/>
  </return> <br/>
 
-#### `public string `[`Build`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` 
+#### `public inline string `[`Build`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` 
 
 It builds a query string based on the parameters that have been set.
 
