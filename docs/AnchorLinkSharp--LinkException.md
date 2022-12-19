@@ -20,11 +20,11 @@ Error codes. Accessible using the `code` property on errors thrown by [[AnchorLi
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
 `public LinkErrorCode `[`Code`](#class_anchor_link_sharp_1_1_link_exception_1ac439edf1a8b44fc129d679671e87645f) | 
-`protected  `[`LinkException`](#class_anchor_link_sharp_1_1_link_exception_1aa1a6e1d171100385ce40667757946a8d)`(string reason)` | 
+`protected inline  `[`LinkException`](#class_anchor_link_sharp_1_1_link_exception_1aa1a6e1d171100385ce40667757946a8d)`(string reason)` | 
 
 ### Members
 
 #### `public LinkErrorCode `[`Code`](#class_anchor_link_sharp_1_1_link_exception_1ac439edf1a8b44fc129d679671e87645f) 
 
-#### `protected  `[`LinkException`](#class_anchor_link_sharp_1_1_link_exception_1aa1a6e1d171100385ce40667757946a8d)`(string reason)` 
+#### `protected inline  `[`LinkException`](#class_anchor_link_sharp_1_1_link_exception_1aa1a6e1d171100385ce40667757946a8d)`(string reason)` 
 
