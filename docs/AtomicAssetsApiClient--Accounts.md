@@ -2,8 +2,8 @@
 
 ## Summary
 
- Members                        | Descriptions                                
---------------------------------|---------------------------------------------
+ Members                                | Descriptions                                
+----------------------------------------|---------------------------------------------
 `class `[`AtomicAssetsApiClient::Accounts::AccountCollectionDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Accounts--AccountCollectionDto.md#class_atomic_assets_api_client_1_1_accounts_1_1_account_collection_dto) | 
 `class `[`AtomicAssetsApiClient::Accounts::AccountDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Accounts--AccountDto.md#class_atomic_assets_api_client_1_1_accounts_1_1_account_dto) | 
 `class `[`AtomicAssetsApiClient::Accounts::AccountsApi`](.github/workflows/documentation/md/AtomicAssetsApiClient--Accounts--AccountsApi.md#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api) | 
