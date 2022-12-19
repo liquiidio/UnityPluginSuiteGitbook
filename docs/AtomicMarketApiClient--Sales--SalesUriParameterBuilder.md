@@ -1,51 +1,51 @@
-## class `AtomicMarketApiClient::Sales::SalesUriParameterBuilder` 
+# class `AtomicMarketApiClient::Sales::SalesUriParameterBuilder` 
 
 ```
 class AtomicMarketApiClient::Sales::SalesUriParameterBuilder
   : public IUriParameterBuilder
 ```
 
-### Summary
+## Summary
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public inline SalesUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a86a45df5fbd7b8e856862532a64a4f2e)`(params State[] states)` | `WithState` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
-`public inline SalesUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a76c7fc41d88b240adcdbde353906eca5)`(int maxAssets)` | `WithMaxAssets` sets the `_maxAssets` variable
-`public inline SalesUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a33744ffa60e39119821b9f1ecad5cdc9)`(int minAssets)` | `WithMinAssets` sets the `_minAssets` variable
-`public inline SalesUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2f6ffc1f4ef5b03100b645c6599ecdf2)`(bool showSellerContracts)` | `WithShowSellerContracts` sets the `_showSellerContracts` field to the value of the `showSellerContracts` parameter
-`public inline SalesUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5e4d425d315f917862e4c78788d2930b)`(bool contractWhitelist)` | It sets the value of the _contractWhitelist variable to the value of the contractWhitelist parameter.
-`public inline SalesUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3480cf3f78c169002ba0f419db7f8053)`(bool sellerBlacklist)` | `WithSellerBlacklist` is a function that takes a boolean value and returns a `SalesUriParameterBuilder` object
-`public inline SalesUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3b5dfa3833684a07bc963f8ab531153c)`(int assetId)` | `WithAssetId` is a function that takes an `int` and returns a `SalesUriParameterBuilder`
-`public inline SalesUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a81168a183ed2c43ff92df412e519447f)`(string marketplace)` | `WithMarketplace` sets the `marketplace` parameter
-`public inline SalesUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1abec54c81d3c249ab5efcbc5a874ee7d8)`(string makerMarketplace)` | `WithMakerMarketplace` sets the `makerMarketplace` parameter
-`public inline SalesUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a34490c70be51d5fed428b03bd5fb6d4c)`(string takerMarketplace)` | `WithTakerMarketplace` sets the `takerMarketplace` parameter
-`public inline SalesUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae88f29ef451889790fe9f238d1484bee)`(string symbol)` | A function that is used to set the symbol of the stock.
-`public inline SalesUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a875d56605fa72b5001e700e794304d46)`(string seller)` | `WithSeller` sets the `seller` parameter
-`public inline SalesUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ad2e01fe4231d233a45e83dfb1ac82cce)`(string buyer)` | `WithBuyer` sets the `buyer` parameter
-`public inline SalesUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aa42cce1be0ef8410b134b8ce6d01a762)`(int minPrice)` | `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
-`public inline SalesUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac0c5fc8ee4cd5345c56c4f8dc568bd54)`(int maxPrice)` | `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
-`public inline SalesUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1afd7983afa38b43cf2cc0e1bd0bd7de65)`(int minTemplateMint)` | `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
-`public inline SalesUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a78a5e48c71bcf004394a8244789b2819)`(int maxTemplateMint)` | `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
-`public inline SalesUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5467e07b8aaaf30642c8c6179d29984f)`(string owner)` | `WithOwner` sets the `owner` parameter
-`public inline SalesUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a59c20393d8eacfc6c31ac27f6b0361b3)`(bool burned)` | `WithBurned` sets the `_burned` field to the value of the `burned` parameter
-`public inline SalesUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3dc8b2720cab5bd6871ef19b8e01f888)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `SalesUriParameterBuilder` object
-`public inline SalesUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a54fe71c7e24e31be9ffcb00d2a1dbda4)`(string schemaName)` | This function sets the schema name for the query
-`public inline SalesUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2c4012ec7000907b114ef380f06d5720)`(string templateId)` | It sets the value of the templateId variable.
-`public inline SalesUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aff9cbcdf13b38f8635f2f316373ce366)`(bool isTransferable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
-`public inline SalesUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9ebcf9f924c1db28c7cf96589e43f5cc)`(bool isBurnable)` | `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
-`public inline SalesUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac32454a0152e8f0123fea8b42493757b)`(string match)` | `WithMatch` sets the `match` parameter
-`public inline SalesUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1adc5fd2699fadf6dd701d2bc758a9e47b)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
-`public inline SalesUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a4c6192f84cce56be9e6b80943918cacc)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
-`public inline SalesUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a4f0c82a359bd71a367c7b4432c7ca42b)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
-`public inline SalesUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a40dcbac822908ef8cb6c5bca2655d643)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
-`public inline SalesUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ab9fc1b5779aa717826e06551139316ca)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
-`public inline SalesUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a256a74441516c8691f91bc507203cac8)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
-`public inline SalesUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aab02bf05e9c019d8bb6f2b0a5a0712a4)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
-`public inline SalesUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac1859744cba9862df4d50f592c9cfd3b)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
-`public inline SalesUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a46d49579bbdf1539139fecf1a6adebcd)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public inline SalesUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7bffd7098963c702d0871a5706e76c40)`(SortStrategy sorting)` | This function sets the sort strategy for the query
-`public inline SalesUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7dfb9ebde66b8ca18245d42aaf9b2fb3)`(string sort)` | It sets the sort parameter to the value passed in.
-`public inline string `[`Build`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
+`public SalesUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a86a45df5fbd7b8e856862532a64a4f2e)`(params State[] states)` | `WithState` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
+`public SalesUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a76c7fc41d88b240adcdbde353906eca5)`(int maxAssets)` | `WithMaxAssets` sets the `_maxAssets` variable
+`public SalesUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a33744ffa60e39119821b9f1ecad5cdc9)`(int minAssets)` | `WithMinAssets` sets the `_minAssets` variable
+`public SalesUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2f6ffc1f4ef5b03100b645c6599ecdf2)`(bool showSellerContracts)` | `WithShowSellerContracts` sets the `_showSellerContracts` field to the value of the `showSellerContracts` parameter
+`public SalesUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5e4d425d315f917862e4c78788d2930b)`(bool contractWhitelist)` | It sets the value of the _contractWhitelist variable to the value of the contractWhitelist parameter.
+`public SalesUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3480cf3f78c169002ba0f419db7f8053)`(bool sellerBlacklist)` | `WithSellerBlacklist` is a function that takes a boolean value and returns a `SalesUriParameterBuilder` object
+`public SalesUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3b5dfa3833684a07bc963f8ab531153c)`(int assetId)` | `WithAssetId` is a function that takes an `int` and returns a `SalesUriParameterBuilder`
+`public SalesUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a81168a183ed2c43ff92df412e519447f)`(string marketplace)` | `WithMarketplace` sets the `marketplace` parameter
+`public SalesUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1abec54c81d3c249ab5efcbc5a874ee7d8)`(string makerMarketplace)` | `WithMakerMarketplace` sets the `makerMarketplace` parameter
+`public SalesUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a34490c70be51d5fed428b03bd5fb6d4c)`(string takerMarketplace)` | `WithTakerMarketplace` sets the `takerMarketplace` parameter
+`public SalesUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae88f29ef451889790fe9f238d1484bee)`(string symbol)` | A function that is used to set the symbol of the stock.
+`public SalesUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a875d56605fa72b5001e700e794304d46)`(string seller)` | `WithSeller` sets the `seller` parameter
+`public SalesUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ad2e01fe4231d233a45e83dfb1ac82cce)`(string buyer)` | `WithBuyer` sets the `buyer` parameter
+`public SalesUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aa42cce1be0ef8410b134b8ce6d01a762)`(int minPrice)` | `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
+`public SalesUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac0c5fc8ee4cd5345c56c4f8dc568bd54)`(int maxPrice)` | `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
+`public SalesUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1afd7983afa38b43cf2cc0e1bd0bd7de65)`(int minTemplateMint)` | `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
+`public SalesUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a78a5e48c71bcf004394a8244789b2819)`(int maxTemplateMint)` | `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
+`public SalesUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5467e07b8aaaf30642c8c6179d29984f)`(string owner)` | `WithOwner` sets the `owner` parameter
+`public SalesUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a59c20393d8eacfc6c31ac27f6b0361b3)`(bool burned)` | `WithBurned` sets the `_burned` field to the value of the `burned` parameter
+`public SalesUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3dc8b2720cab5bd6871ef19b8e01f888)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `SalesUriParameterBuilder` object
+`public SalesUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a54fe71c7e24e31be9ffcb00d2a1dbda4)`(string schemaName)` | This function sets the schema name for the query
+`public SalesUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2c4012ec7000907b114ef380f06d5720)`(string templateId)` | It sets the value of the templateId variable.
+`public SalesUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aff9cbcdf13b38f8635f2f316373ce366)`(bool isTransferable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
+`public SalesUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9ebcf9f924c1db28c7cf96589e43f5cc)`(bool isBurnable)` | `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
+`public SalesUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac32454a0152e8f0123fea8b42493757b)`(string match)` | `WithMatch` sets the `match` parameter
+`public SalesUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1adc5fd2699fadf6dd701d2bc758a9e47b)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
+`public SalesUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a4c6192f84cce56be9e6b80943918cacc)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
+`public SalesUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a4f0c82a359bd71a367c7b4432c7ca42b)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
+`public SalesUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a40dcbac822908ef8cb6c5bca2655d643)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
+`public SalesUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ab9fc1b5779aa717826e06551139316ca)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
+`public SalesUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a256a74441516c8691f91bc507203cac8)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
+`public SalesUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aab02bf05e9c019d8bb6f2b0a5a0712a4)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
+`public SalesUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac1859744cba9862df4d50f592c9cfd3b)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
+`public SalesUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a46d49579bbdf1539139fecf1a6adebcd)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
+`public SalesUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7bffd7098963c702d0871a5706e76c40)`(SortStrategy sorting)` | This function sets the sort strategy for the query
+`public SalesUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7dfb9ebde66b8ca18245d42aaf9b2fb3)`(string sort)` | It sets the sort parameter to the value passed in.
+`public string `[`Build`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string `[`_state`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9577beb4165c1157d2e7f8f0ff065dde) | 
 `private int? `[`_maxAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae7334a7aa0ba955ac129865639f42b11) | 
 `private int? `[`_minAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2787cd3c00b52a44e78964a580457204) | 
@@ -83,9 +83,9 @@ class AtomicMarketApiClient::Sales::SalesUriParameterBuilder
 `private SortStrategy? `[`_sortStrategy`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | 
 `private string `[`_sort`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3ac373edf19e058d7fae7f4c4ba485f4) | 
 
-### Members
+## Members
 
-#### `public inline SalesUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a86a45df5fbd7b8e856862532a64a4f2e)`(params State[] states)` 
+### `public SalesUriParameterBuilder `[`WithState`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a86a45df5fbd7b8e856862532a64a4f2e)`(params State[] states)` 
 
 `WithState` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
 
@@ -95,7 +95,7 @@ class AtomicMarketApiClient::Sales::SalesUriParameterBuilder
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a76c7fc41d88b240adcdbde353906eca5)`(int maxAssets)` 
+### `public SalesUriParameterBuilder `[`WithMaxAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a76c7fc41d88b240adcdbde353906eca5)`(int maxAssets)` 
 
 `WithMaxAssets` sets the `_maxAssets` variable
 
@@ -105,7 +105,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a33744ffa60e39119821b9f1ecad5cdc9)`(int minAssets)` 
+### `public SalesUriParameterBuilder `[`WithMinAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a33744ffa60e39119821b9f1ecad5cdc9)`(int minAssets)` 
 
 `WithMinAssets` sets the `_minAssets` variable
 
@@ -115,7 +115,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2f6ffc1f4ef5b03100b645c6599ecdf2)`(bool showSellerContracts)` 
+### `public SalesUriParameterBuilder `[`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2f6ffc1f4ef5b03100b645c6599ecdf2)`(bool showSellerContracts)` 
 
 `WithShowSellerContracts` sets the `_showSellerContracts` field to the value of the `showSellerContracts` parameter
 
@@ -125,7 +125,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5e4d425d315f917862e4c78788d2930b)`(bool contractWhitelist)` 
+### `public SalesUriParameterBuilder `[`WithContractWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5e4d425d315f917862e4c78788d2930b)`(bool contractWhitelist)` 
 
 It sets the value of the _contractWhitelist variable to the value of the contractWhitelist parameter.
 
@@ -135,7 +135,7 @@ It sets the value of the _contractWhitelist variable to the value of the contrac
 #### Returns
 The SalesUriParameterBuilder object is being returned.
 
-#### `public inline SalesUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3480cf3f78c169002ba0f419db7f8053)`(bool sellerBlacklist)` 
+### `public SalesUriParameterBuilder `[`WithSellerBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3480cf3f78c169002ba0f419db7f8053)`(bool sellerBlacklist)` 
 
 `WithSellerBlacklist` is a function that takes a boolean value and returns a `SalesUriParameterBuilder` object
 
@@ -145,7 +145,7 @@ The SalesUriParameterBuilder object is being returned.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3b5dfa3833684a07bc963f8ab531153c)`(int assetId)` 
+### `public SalesUriParameterBuilder `[`WithAssetId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3b5dfa3833684a07bc963f8ab531153c)`(int assetId)` 
 
 `WithAssetId` is a function that takes an `int` and returns a `SalesUriParameterBuilder`
 
@@ -155,7 +155,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a81168a183ed2c43ff92df412e519447f)`(string marketplace)` 
+### `public SalesUriParameterBuilder `[`WithMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a81168a183ed2c43ff92df412e519447f)`(string marketplace)` 
 
 `WithMarketplace` sets the `marketplace` parameter
 
@@ -165,7 +165,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1abec54c81d3c249ab5efcbc5a874ee7d8)`(string makerMarketplace)` 
+### `public SalesUriParameterBuilder `[`WithMakerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1abec54c81d3c249ab5efcbc5a874ee7d8)`(string makerMarketplace)` 
 
 `WithMakerMarketplace` sets the `makerMarketplace` parameter
 
@@ -175,7 +175,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a34490c70be51d5fed428b03bd5fb6d4c)`(string takerMarketplace)` 
+### `public SalesUriParameterBuilder `[`WithTakerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a34490c70be51d5fed428b03bd5fb6d4c)`(string takerMarketplace)` 
 
 `WithTakerMarketplace` sets the `takerMarketplace` parameter
 
@@ -185,7 +185,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae88f29ef451889790fe9f238d1484bee)`(string symbol)` 
+### `public SalesUriParameterBuilder `[`WithSymbol`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae88f29ef451889790fe9f238d1484bee)`(string symbol)` 
 
 A function that is used to set the symbol of the stock.
 
@@ -195,7 +195,7 @@ A function that is used to set the symbol of the stock.
 #### Returns
 The SalesUriParameterBuilder object is being returned.
 
-#### `public inline SalesUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a875d56605fa72b5001e700e794304d46)`(string seller)` 
+### `public SalesUriParameterBuilder `[`WithSeller`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a875d56605fa72b5001e700e794304d46)`(string seller)` 
 
 `WithSeller` sets the `seller` parameter
 
@@ -205,7 +205,7 @@ The SalesUriParameterBuilder object is being returned.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ad2e01fe4231d233a45e83dfb1ac82cce)`(string buyer)` 
+### `public SalesUriParameterBuilder `[`WithBuyer`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ad2e01fe4231d233a45e83dfb1ac82cce)`(string buyer)` 
 
 `WithBuyer` sets the `buyer` parameter
 
@@ -215,7 +215,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aa42cce1be0ef8410b134b8ce6d01a762)`(int minPrice)` 
+### `public SalesUriParameterBuilder `[`WithMinPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aa42cce1be0ef8410b134b8ce6d01a762)`(int minPrice)` 
 
 `WithMinPrice` sets the `_minPrice` variable to the value of the `minPrice` parameter
 
@@ -225,7 +225,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac0c5fc8ee4cd5345c56c4f8dc568bd54)`(int maxPrice)` 
+### `public SalesUriParameterBuilder `[`WithMaxPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac0c5fc8ee4cd5345c56c4f8dc568bd54)`(int maxPrice)` 
 
 `WithMaxPrice` sets the `_maxPrice` variable to the value of the `maxPrice` parameter
 
@@ -235,7 +235,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1afd7983afa38b43cf2cc0e1bd0bd7de65)`(int minTemplateMint)` 
+### `public SalesUriParameterBuilder `[`WithMinTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1afd7983afa38b43cf2cc0e1bd0bd7de65)`(int minTemplateMint)` 
 
 `WithMinTemplateMint` sets the `_minTemplateMint` variable to the value of the `minTemplateMint` parameter
 
@@ -245,7 +245,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a78a5e48c71bcf004394a8244789b2819)`(int maxTemplateMint)` 
+### `public SalesUriParameterBuilder `[`WithMaxTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a78a5e48c71bcf004394a8244789b2819)`(int maxTemplateMint)` 
 
 `WithMaxTemplateMint` sets the `_maxTemplateMint` variable to the value of the `maxTemplateMint` parameter
 
@@ -255,7 +255,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5467e07b8aaaf30642c8c6179d29984f)`(string owner)` 
+### `public SalesUriParameterBuilder `[`WithOwner`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5467e07b8aaaf30642c8c6179d29984f)`(string owner)` 
 
 `WithOwner` sets the `owner` parameter
 
@@ -265,7 +265,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a59c20393d8eacfc6c31ac27f6b0361b3)`(bool burned)` 
+### `public SalesUriParameterBuilder `[`WithBurned`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a59c20393d8eacfc6c31ac27f6b0361b3)`(bool burned)` 
 
 `WithBurned` sets the `_burned` field to the value of the `burned` parameter
 
@@ -275,7 +275,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3dc8b2720cab5bd6871ef19b8e01f888)`(string collectionName)` 
+### `public SalesUriParameterBuilder `[`WithCollectionName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3dc8b2720cab5bd6871ef19b8e01f888)`(string collectionName)` 
 
 `WithCollectionName` is a function that takes a string as a parameter and returns an `SalesUriParameterBuilder` object
 
@@ -285,7 +285,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a54fe71c7e24e31be9ffcb00d2a1dbda4)`(string schemaName)` 
+### `public SalesUriParameterBuilder `[`WithSchemaName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a54fe71c7e24e31be9ffcb00d2a1dbda4)`(string schemaName)` 
 
 This function sets the schema name for the query
 
@@ -295,7 +295,7 @@ This function sets the schema name for the query
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2c4012ec7000907b114ef380f06d5720)`(string templateId)` 
+### `public SalesUriParameterBuilder `[`WithTemplateId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2c4012ec7000907b114ef380f06d5720)`(string templateId)` 
 
 It sets the value of the templateId variable.
 
@@ -305,7 +305,7 @@ It sets the value of the templateId variable.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aff9cbcdf13b38f8635f2f316373ce366)`(bool isTransferable)` 
+### `public SalesUriParameterBuilder `[`WithIsTransferable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aff9cbcdf13b38f8635f2f316373ce366)`(bool isTransferable)` 
 
 `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
 
@@ -315,7 +315,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9ebcf9f924c1db28c7cf96589e43f5cc)`(bool isBurnable)` 
+### `public SalesUriParameterBuilder `[`WithIsBurnable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9ebcf9f924c1db28c7cf96589e43f5cc)`(bool isBurnable)` 
 
 `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
 
@@ -325,7 +325,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac32454a0152e8f0123fea8b42493757b)`(string match)` 
+### `public SalesUriParameterBuilder `[`WithMatch`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac32454a0152e8f0123fea8b42493757b)`(string match)` 
 
 `WithMatch` sets the `match` parameter
 
@@ -335,7 +335,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1adc5fd2699fadf6dd701d2bc758a9e47b)`(string[] collectionBlacklist)` 
+### `public SalesUriParameterBuilder `[`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1adc5fd2699fadf6dd701d2bc758a9e47b)`(string[] collectionBlacklist)` 
 
 `WithCollectionBlacklist` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
 
@@ -345,7 +345,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a4c6192f84cce56be9e6b80943918cacc)`(string[] collectionWhitelist)` 
+### `public SalesUriParameterBuilder `[`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a4c6192f84cce56be9e6b80943918cacc)`(string[] collectionWhitelist)` 
 
 `WithCollectionWhitelist` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
 
@@ -355,7 +355,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a4f0c82a359bd71a367c7b4432c7ca42b)`(string[] ids)` 
+### `public SalesUriParameterBuilder `[`WithIds`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a4f0c82a359bd71a367c7b4432c7ca42b)`(string[] ids)` 
 
 This function takes an array of strings and joins them together with a comma
 
@@ -365,7 +365,7 @@ This function takes an array of strings and joins them together with a comma
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a40dcbac822908ef8cb6c5bca2655d643)`(string lowerBound)` 
+### `public SalesUriParameterBuilder `[`WithLowerBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a40dcbac822908ef8cb6c5bca2655d643)`(string lowerBound)` 
 
 `WithLowerBound` sets the lower bound of the `account_ids` parameter
 
@@ -375,7 +375,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ab9fc1b5779aa717826e06551139316ca)`(string upperBound)` 
+### `public SalesUriParameterBuilder `[`WithUpperBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ab9fc1b5779aa717826e06551139316ca)`(string upperBound)` 
 
 `WithUpperBound` sets the upper bound of the range of accounts to be returned
 
@@ -385,7 +385,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a256a74441516c8691f91bc507203cac8)`(int before)` 
+### `public SalesUriParameterBuilder `[`WithBefore`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a256a74441516c8691f91bc507203cac8)`(int before)` 
 
 `WithBefore` sets the `_before` variable to the value of the `before` parameter
 
@@ -395,7 +395,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aab02bf05e9c019d8bb6f2b0a5a0712a4)`(int after)` 
+### `public SalesUriParameterBuilder `[`WithAfter`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aab02bf05e9c019d8bb6f2b0a5a0712a4)`(int after)` 
 
 `WithAfter` sets the `_after` variable to the value of the `after` parameter
 
@@ -405,7 +405,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac1859744cba9862df4d50f592c9cfd3b)`(int page)` 
+### `public SalesUriParameterBuilder `[`WithPage`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac1859744cba9862df4d50f592c9cfd3b)`(int page)` 
 
 `WithPage` sets the `_page` variable to the value of the `page` parameter
 
@@ -415,7 +415,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a46d49579bbdf1539139fecf1a6adebcd)`(int limit)` 
+### `public SalesUriParameterBuilder `[`WithLimit`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a46d49579bbdf1539139fecf1a6adebcd)`(int limit)` 
 
 `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
 
@@ -425,7 +425,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-#### `public inline SalesUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7bffd7098963c702d0871a5706e76c40)`(SortStrategy sorting)` 
+### `public SalesUriParameterBuilder `[`WithOrder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7bffd7098963c702d0871a5706e76c40)`(SortStrategy sorting)` 
 
 This function sets the sort strategy for the query
 
@@ -435,7 +435,7 @@ This function sets the sort strategy for the query
 #### Returns
 The builder object itself.
 
-#### `public inline SalesUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7dfb9ebde66b8ca18245d42aaf9b2fb3)`(string sort)` 
+### `public SalesUriParameterBuilder `[`WithSort`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7dfb9ebde66b8ca18245d42aaf9b2fb3)`(string sort)` 
 
 It sets the sort parameter to the value passed in.
 
@@ -445,82 +445,82 @@ It sets the sort parameter to the value passed in.
 #### Returns
 The SalesUriParameterBuilder object is being returned.
 
-#### `public inline string `[`Build`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` 
+### `public string `[`Build`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` 
 
 It builds a query string based on the parameters that have been set.
 
 #### Returns
 A string that contains the parameters for the query.
 
-#### `private string `[`_state`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9577beb4165c1157d2e7f8f0ff065dde) 
+### `private string `[`_state`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9577beb4165c1157d2e7f8f0ff065dde) 
 
-#### `private int? `[`_maxAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae7334a7aa0ba955ac129865639f42b11) 
+### `private int? `[`_maxAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae7334a7aa0ba955ac129865639f42b11) 
 
-#### `private int? `[`_minAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2787cd3c00b52a44e78964a580457204) 
+### `private int? `[`_minAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2787cd3c00b52a44e78964a580457204) 
 
-#### `private bool? `[`_showSellerContracts`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a162ce2b45598492d8053511dc8f5aaf0) 
+### `private bool? `[`_showSellerContracts`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a162ce2b45598492d8053511dc8f5aaf0) 
 
-#### `private bool? `[`_contractWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3ee1d446d0a7dc9c0a1c68409eace1b0) 
+### `private bool? `[`_contractWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3ee1d446d0a7dc9c0a1c68409eace1b0) 
 
-#### `private bool? `[`_sellerBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aeee97135fe3bd4392111f70290af4e0f) 
+### `private bool? `[`_sellerBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aeee97135fe3bd4392111f70290af4e0f) 
 
-#### `private int? `[`_assetId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a47b08a4420914a94240cbab6145522a5) 
+### `private int? `[`_assetId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a47b08a4420914a94240cbab6145522a5) 
 
-#### `private string `[`_marketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9a3415610f1a82df64700fb430f6a369) 
+### `private string `[`_marketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9a3415610f1a82df64700fb430f6a369) 
 
-#### `private string `[`_makerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae9ff2ea7ebb9f92f243fcf032613b846) 
+### `private string `[`_makerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae9ff2ea7ebb9f92f243fcf032613b846) 
 
-#### `private string `[`_takerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a1cf7d3f1334cd998d136622cb2333fd1) 
+### `private string `[`_takerMarketplace`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a1cf7d3f1334cd998d136622cb2333fd1) 
 
-#### `private string `[`_symbol`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a26c189f7d4c40f40f09ace24c4ccb945) 
+### `private string `[`_symbol`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a26c189f7d4c40f40f09ace24c4ccb945) 
 
-#### `private string `[`_seller`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a519a8fc19333a31cc8096bf4836f6101) 
+### `private string `[`_seller`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a519a8fc19333a31cc8096bf4836f6101) 
 
-#### `private string `[`_buyer`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5f3e23f4ac11074e75a05a39c775f65c) 
+### `private string `[`_buyer`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5f3e23f4ac11074e75a05a39c775f65c) 
 
-#### `private int? `[`_minPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a966cc104ab35aeadc15268d2d9362555) 
+### `private int? `[`_minPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a966cc104ab35aeadc15268d2d9362555) 
 
-#### `private int? `[`_maxPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9e95e6e4dfcd570c9838dbac9b7fab7b) 
+### `private int? `[`_maxPrice`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9e95e6e4dfcd570c9838dbac9b7fab7b) 
 
-#### `private int? `[`_minTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a480d12afcb85503c094e6c8001b5b46a) 
+### `private int? `[`_minTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a480d12afcb85503c094e6c8001b5b46a) 
 
-#### `private int? `[`_maxTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a6582a101a3e6766ec8fe47d29d5015b8) 
+### `private int? `[`_maxTemplateMint`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a6582a101a3e6766ec8fe47d29d5015b8) 
 
-#### `private string `[`_owner`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac091a560bcb5025581c60ad2b3e1f3bb) 
+### `private string `[`_owner`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac091a560bcb5025581c60ad2b3e1f3bb) 
 
-#### `private bool? `[`_burned`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a88325c0b6dc8cb4a570b2faaca18efa7) 
+### `private bool? `[`_burned`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a88325c0b6dc8cb4a570b2faaca18efa7) 
 
-#### `private string `[`_collectionName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a10ec2fa990c6478bc519b1e57e1ab2aa) 
+### `private string `[`_collectionName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a10ec2fa990c6478bc519b1e57e1ab2aa) 
 
-#### `private string `[`_schemaName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2f9a887fd4dfcf60bfe4240a27085724) 
+### `private string `[`_schemaName`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2f9a887fd4dfcf60bfe4240a27085724) 
 
-#### `private string `[`_templateId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a06f918051fc7b04615854510caa85934) 
+### `private string `[`_templateId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a06f918051fc7b04615854510caa85934) 
 
-#### `private bool? `[`_isTransferable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a44e26246620bd9d4efa97c195a356672) 
+### `private bool? `[`_isTransferable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a44e26246620bd9d4efa97c195a356672) 
 
-#### `private bool? `[`_isBurnable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a6020acf0c5cb6f447cfe5ba95579e74d) 
+### `private bool? `[`_isBurnable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a6020acf0c5cb6f447cfe5ba95579e74d) 
 
-#### `private string `[`_match`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5151210a8aa5d34ea523afbb052deb11) 
+### `private string `[`_match`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a5151210a8aa5d34ea523afbb052deb11) 
 
-#### `private string `[`_collectionBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a11b225f8984dd9ab3ab5fcec261245c4) 
+### `private string `[`_collectionBlacklist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a11b225f8984dd9ab3ab5fcec261245c4) 
 
-#### `private string `[`_collectionWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a525c994ce1a584f4d763ac9d5c1b3cb5) 
+### `private string `[`_collectionWhitelist`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a525c994ce1a584f4d763ac9d5c1b3cb5) 
 
-#### `private string `[`_ids`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2a9be788653dd13950b2f00bfce1970b) 
+### `private string `[`_ids`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2a9be788653dd13950b2f00bfce1970b) 
 
-#### `private string `[`_lowerBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a47926893a523918c50a931018c47480d) 
+### `private string `[`_lowerBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a47926893a523918c50a931018c47480d) 
 
-#### `private string `[`_upperBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1add1abf9a00e7bb81efb866424f4f34dc) 
+### `private string `[`_upperBound`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1add1abf9a00e7bb81efb866424f4f34dc) 
 
-#### `private int? `[`_before`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aab4304cf3e09c19e898fe9224a0d723a) 
+### `private int? `[`_before`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aab4304cf3e09c19e898fe9224a0d723a) 
 
-#### `private int? `[`_after`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae1483718c3d317e0b6046ada434c53ae) 
+### `private int? `[`_after`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae1483718c3d317e0b6046ada434c53ae) 
 
-#### `private int? `[`_page`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) 
+### `private int? `[`_page`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) 
 
-#### `private int? `[`_limit`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) 
+### `private int? `[`_limit`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) 
 
-#### `private SortStrategy? `[`_sortStrategy`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
+### `private SortStrategy? `[`_sortStrategy`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
 
-#### `private string `[`_sort`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3ac373edf19e058d7fae7f4c4ba485f4) 
+### `private string `[`_sort`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3ac373edf19e058d7fae7f4c4ba485f4) 
 

@@ -11,5 +11,5 @@
 
 ## Members
 
-#### `enum `[`SortStrategy`](#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f) 
+### `enum `[`SortStrategy`](#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f) 
 
