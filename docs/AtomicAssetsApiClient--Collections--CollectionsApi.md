@@ -14,7 +14,7 @@
 `private Uri ` [`CollectionsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a07e4028b75613f3c27b168e278447f34)`()` | 
 `private Uri ` [`CollectionsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a1e26b6852994d59587b8fa84fafaac3d)`(` [`CollectionsUriParameterBuilder`](.github/workflows/documentation/md/AtomicAssetsApiClient--Collections--CollectionsUriParameterBuilder.md#class_atomic_assets_api_client_1_1_collections_1_1_collections_uri_parameter_builder)` collectionsUriParameterBuilder)` | 
 `private Uri ` [`CollectionUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1aff56cb901f7ea42535fe8f007c9d4ae4)`(string collectionName)` | 
-`private Uri ` [`CollectionStatsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a7937ea6f21a012bd204d562b6291b5dd)`(string collectionName)` | 
+`private Uri ` [`CollectionStatsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a7937ea6f21a012bd204d562b6291b5dd)`(string collectionName)` | It returns a Uri object that is used to make a request to the Azure Search service.
 `private Uri ` [`CollectionLogsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a877ce097f0c95c800d21e40f42434e06)`(string collectionName)` | 
 `private Uri ` [`CollectionLogsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a7f81992d78f135234ecb827d51d8ce0f)`(string collectionName, ` [`CollectionsUriParameterBuilder`](.github/workflows/documentation/md/AtomicAssetsApiClient--Collections--CollectionsUriParameterBuilder.md#class_atomic_assets_api_client_1_1_collections_1_1_collections_uri_parameter_builder)` collectionsUriParameterBuilder)` | 
 
@@ -88,6 +88,11 @@ A LogsDto object
 ##### `private Uri ` [`CollectionUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1aff56cb901f7ea42535fe8f007c9d4ae4)`(string collectionName)` 
 
 ##### `private Uri ` [`CollectionStatsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a7937ea6f21a012bd204d562b6291b5dd)`(string collectionName)` 
+
+It returns a Uri object that is used to make a request to the Azure Search service.
+
+#### Parameters
+* `collectionName` The name of the collection you want to get stats for.
 
 ##### `private Uri ` [`CollectionLogsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a877ce097f0c95c800d21e40f42434e06)`(string collectionName)` 
 

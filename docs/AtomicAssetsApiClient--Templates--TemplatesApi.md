@@ -15,8 +15,8 @@
 `private Uri ` [`TemplatesUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a3120a9b5fd6173bdc6e13bf34ddcd6d1)`(` [`TemplatesUriParameterBuilder`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_uri_parameter_builder)` templatessUriParameterBuilder)` | 
 `private Uri ` [`TemplateUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a495ebc65461d52505612c98c313f1326)`(string collectionName, string templateId)` | 
 `private Uri ` [`TemplateStatsUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a5829798696aa9ecddd5e5f1c3e8ec1bc)`(string collectionName, string templateId)` | 
-`private Uri ` [`TemplateLogsUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a689ae101f2c19a4f3947dbdd0ee964e7)`(string collectionName, string templateId)` | 
-`private Uri ` [`TemplateLogsUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1acdf94dbd49b55bf713e8087ab05c4daf)`(string collectionName, string templateId, ` [`TemplatesUriParameterBuilder`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_uri_parameter_builder)` templatesUriParameterBuilder)` | 
+`private Uri ` [`TemplateLogsUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a689ae101f2c19a4f3947dbdd0ee964e7)`(string collectionName, string templateId)` | This function returns a Uri for the logs of a template
+`private Uri ` [`TemplateLogsUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1acdf94dbd49b55bf713e8087ab05c4daf)`(string collectionName, string templateId, ` [`TemplatesUriParameterBuilder`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_uri_parameter_builder)` templatesUriParameterBuilder)` | This function returns a Uri for the logs of a template
 
 ## Members
 
@@ -99,5 +99,21 @@ A LogsDto object
 
 ##### `private Uri ` [`TemplateLogsUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a689ae101f2c19a4f3947dbdd0ee964e7)`(string collectionName, string templateId)` 
 
+This function returns a Uri for the logs of a template
+
+#### Parameters
+* `collectionName` The name of the collection that the template belongs to.
+
+* `templateId` The ID of the template you want to get logs for.
+
 ##### `private Uri ` [`TemplateLogsUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1acdf94dbd49b55bf713e8087ab05c4daf)`(string collectionName, string templateId, ` [`TemplatesUriParameterBuilder`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_uri_parameter_builder)` templatesUriParameterBuilder)` 
+
+This function returns a Uri for the logs of a template
+
+#### Parameters
+* `collectionName` The name of the collection that the template belongs to.
+
+* `templateId` The id of the template you want to get logs for.
+
+* `TemplatesUriParameterBuilder` This is a class that builds the query string parameters for the request.
 
