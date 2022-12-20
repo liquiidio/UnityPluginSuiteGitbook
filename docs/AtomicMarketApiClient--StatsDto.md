@@ -4,15 +4,18 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public bool `[`Success`](#class_atomic_market_api_client_1_1_stats_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) | 
-`public DataDto `[`Data`](#class_atomic_market_api_client_1_1_stats_dto_1a65c0779654774581967081cf3136bd84) | 
-`public long `[`QueryTime`](#class_atomic_market_api_client_1_1_stats_dto_1a6cc7a06930fbe1e28eb7eed2599015c9) | 
+`class ` [`AtomicMarketApiClient::StatsDto::DataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--StatsDto--DataDto.md#class_atomic_market_api_client_1_1_stats_dto_1_1_data_dto)        | 
+`public bool ` [`Success`](#class_atomic_market_api_client_1_1_stats_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) | 
+`public ` [`DataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--StatsDto--DataDto.md#class_atomic_market_api_client_1_1_stats_dto_1_1_data_dto)` ` [`Data`](#class_atomic_market_api_client_1_1_stats_dto_1a65c0779654774581967081cf3136bd84) | 
+`public long ` [`QueryTime`](#class_atomic_market_api_client_1_1_stats_dto_1a6cc7a06930fbe1e28eb7eed2599015c9) | 
 
 ## Members
 
-##### `public bool `[`Success`](#class_atomic_market_api_client_1_1_stats_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) 
+##### `class ` [`AtomicMarketApiClient::StatsDto::DataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--StatsDto--DataDto.md#class_atomic_market_api_client_1_1_stats_dto_1_1_data_dto) 
 
-##### `public DataDto `[`Data`](#class_atomic_market_api_client_1_1_stats_dto_1a65c0779654774581967081cf3136bd84) 
+##### `public bool ` [`Success`](#class_atomic_market_api_client_1_1_stats_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) 
 
-##### `public long `[`QueryTime`](#class_atomic_market_api_client_1_1_stats_dto_1a6cc7a06930fbe1e28eb7eed2599015c9) 
+##### `public ` [`DataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--StatsDto--DataDto.md#class_atomic_market_api_client_1_1_stats_dto_1_1_data_dto)` ` [`Data`](#class_atomic_market_api_client_1_1_stats_dto_1a65c0779654774581967081cf3136bd84) 
+
+##### `public long ` [`QueryTime`](#class_atomic_market_api_client_1_1_stats_dto_1a6cc7a06930fbe1e28eb7eed2599015c9) 
 
