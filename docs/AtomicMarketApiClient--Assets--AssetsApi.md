@@ -4,10 +4,10 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`AssetsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1acdb8d694084b095eb723eeaeb4c23adc)`()` | This function will return a list of all the assets that are available for trading on the exchange
-`public ` [`AssetsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1adc55e98828b607f5b6163cf6f571a2e0)`(` [`AssetsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` assetsUriParameterBuilder)` | This function will return a list of assets based on the parameters passed in
-`public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetDto.md#class_atomic_market_api_client_1_1_assets_1_1_asset_dto)` ` [`Asset`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a8e72956dc29bff81c4855bf7c82c1959)`(string assetId)` | This function will return an AssetDto object from the API
-`public ` [`StatsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--StatsDto.md#class_atomic_market_api_client_1_1_stats_dto)` ` [`AssetStats`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a77880d824d173d2d7d5a205eee08a90e)`(string assetId)` | This function returns the statistics of an asset
+`public ` [`AssetsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1acdb8d694084b095eb723eeaeb4c23adc)`()` | This function will return a list of all the assets that are available for trading on the exchange.
+`public ` [`AssetsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1adc55e98828b607f5b6163cf6f571a2e0)`(` [`AssetsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` assetsUriParameterBuilder)` | This function will return a list of assets based on the parameters passed in.
+`public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetDto.md#class_atomic_market_api_client_1_1_assets_1_1_asset_dto)` ` [`Asset`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a8e72956dc29bff81c4855bf7c82c1959)`(string assetId)` | This function will return an AssetDto object from the API.
+`public ` [`StatsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--StatsDto.md#class_atomic_market_api_client_1_1_stats_dto)` ` [`AssetStats`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a77880d824d173d2d7d5a205eee08a90e)`(string assetId)` | This function returns the statistics of an asset.
 `public ` [`LogsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--LogsDto.md#class_atomic_market_api_client_1_1_logs_dto)` ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a7185cc74320faa73cbd1bdb5244002c5)`(string assetId)` | This function returns a list of logs for a given asset.
 `public ` [`LogsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--LogsDto.md#class_atomic_market_api_client_1_1_logs_dto)` ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a4fe06e212c3432f70ecdb650d47a4a1d)`(string assetId, ` [`AssetsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` assetsUriParameterBuilder)` | This function returns a list of logs for a given asset.
 `private readonly string ` [`_requestUriBase`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a1854c4909a1013a684af16fb52e8a387) | 
@@ -22,14 +22,14 @@
 
 ##### `public ` [`AssetsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1acdb8d694084b095eb723eeaeb4c23adc)`()` 
 
-This function will return a list of all the assets that are available for trading on the exchange
+This function will return a list of all the assets that are available for trading on the exchange.
 
 #### Returns
 A list of assets.
 
 ##### `public ` [`AssetsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1adc55e98828b607f5b6163cf6f571a2e0)`(` [`AssetsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` assetsUriParameterBuilder)` 
 
-This function will return a list of assets based on the parameters passed in
+This function will return a list of assets based on the parameters passed in.
 
 #### Parameters
 * `AssetsUriParameterBuilder` This is a class that contains all the parameters that can be passed to the API.
@@ -39,7 +39,7 @@ A list of assets.
 
 ##### `public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetDto.md#class_atomic_market_api_client_1_1_assets_1_1_asset_dto)` ` [`Asset`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a8e72956dc29bff81c4855bf7c82c1959)`(string assetId)` 
 
-This function will return an AssetDto object from the API
+This function will return an AssetDto object from the API.
 
 #### Parameters
 * `assetId` The id of the asset you want to retrieve.
@@ -49,7 +49,7 @@ An AssetDto object
 
 ##### `public ` [`StatsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--StatsDto.md#class_atomic_market_api_client_1_1_stats_dto)` ` [`AssetStats`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a77880d824d173d2d7d5a205eee08a90e)`(string assetId)` 
 
-This function returns the statistics of an asset
+This function returns the statistics of an asset.
 
 #### Parameters
 * `assetId` The asset id of the asset you want to get the stats for.

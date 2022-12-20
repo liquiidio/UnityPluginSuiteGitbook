@@ -29,21 +29,21 @@ class AtomicMarketApiClient::Auctions::AuctionsUriParameterBuilder
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithOwner`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1af42d78c47a782479286a67e56cb3575b)`(string owner)` | `WithOwner` sets the `owner` parameter
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithBurned`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a4ed0a5a95f1ab5154207e2e69ef61664)`(bool burned)` | `WithBurned` sets the `_burned` field to the value of the `burned` parameter
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithCollectionName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1afed6c221e1c0732ab1d736f9e7728d00)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `AuctionsUriParameterBuilder` object
-`public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a1dcb95228dd3bf3c4ff6d10d437e6745)`(string schemaName)` | This function sets the schema name for the query
+`public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a1dcb95228dd3bf3c4ff6d10d437e6745)`(string schemaName)` | This function sets the schema name for the query.
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithTemplateId`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aebf636f319b0979d68ab35b3fe44b629)`(string templateId)` | It sets the value of the templateId variable.
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithIsTransferable`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a47a55b931aef8bedda2d5e5d4ba21f00)`(bool isTransferable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithIsBurnable`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a476dd6b17e7d7b61047f5e7f58f3eedc)`(bool isBurnable)` | `WithIsBurnable` sets the `_isBurnable` field to the value of the `isBurnable` parameter
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithMatch`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aadf20273f71d5a1797e52ec602493b8f)`(string match)` | `WithMatch` sets the `match` parameter
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a9e6142c9ae57fe54d848cd09059296e9)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `AuctionsUriParameterBuilder` object
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a84c07a027bb19d4252cd83e74e19dc1d)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `AuctionsUriParameterBuilder` object
-`public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithIds`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a896d6b1ef9a5640dc0553238c47cf113)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
+`public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithIds`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a896d6b1ef9a5640dc0553238c47cf113)`(string[] ids)` | This function takes an array of strings and joins them together with a comma.
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithLowerBound`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a2537cfa64369223b20d626a06d730254)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithUpperBound`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aebee308b54abe33bf20e77ea712fa47c)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithBefore`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a41eb50583e6c20b12b314dd1465cfc8a)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithAfter`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a8cacff7cab1864b1ce8ae9e61e657ed5)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithPage`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a822e83817b5f8fc6b692ce4584da3a00)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithLimit`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a5c895d53e96fff01bec67a0d0f01776f)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aa2152b5b399407ee93cd8105a188b4bc)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` | This function sets the sort strategy for the query
+`public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aa2152b5b399407ee93cd8105a188b4bc)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` | This function sets the sort strategy for the query.
 `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithSort`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1abbd1c36bc897a6a489ca7caab6a45534)`(string sort)` | It sets the sort parameter to the value passed in.
 `public string ` [`Build`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string ` [`_state`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a9577beb4165c1157d2e7f8f0ff065dde) | 
@@ -287,7 +287,7 @@ The AuctionsUriParameterBuilder object.
 
 ##### `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a1dcb95228dd3bf3c4ff6d10d437e6745)`(string schemaName)` 
 
-This function sets the schema name for the query
+This function sets the schema name for the query.
 
 #### Parameters
 * `schemaName` The name of the schema to use.
@@ -357,7 +357,7 @@ The AuctionsUriParameterBuilder object.
 
 ##### `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithIds`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1a896d6b1ef9a5640dc0553238c47cf113)`(string[] ids)` 
 
-This function takes an array of strings and joins them together with a comma
+This function takes an array of strings and joins them together with a comma.
 
 #### Parameters
 * `ids` A comma-separated list of account IDs.
@@ -427,7 +427,7 @@ The AuctionsUriParameterBuilder object.
 
 ##### `public ` [`AuctionsUriParameterBuilder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_uri_parameter_builder_1aa2152b5b399407ee93cd8105a188b4bc)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` 
 
-This function sets the sort strategy for the query
+This function sets the sort strategy for the query.
 
 #### Parameters
 * `SortStrategy` 

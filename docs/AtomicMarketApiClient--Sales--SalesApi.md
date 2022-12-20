@@ -4,8 +4,8 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`SalesDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto)` ` [`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` | It builds an HTTP request, sends it to the API, and returns the response as a SalesDto object
-`public ` [`SaleDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SaleDto.md#class_atomic_market_api_client_1_1_sales_1_1_sale_dto)` ` [`Sale`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a98a3e978a8fbea5e89099f424aee67c4)`(int id)` | This function will return a `SaleDto` object from the API
+`public ` [`SalesDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto)` ` [`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` | It builds an HTTP request, sends it to the API, and returns the response as a SalesDto object.
+`public ` [`SaleDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SaleDto.md#class_atomic_market_api_client_1_1_sales_1_1_sale_dto)` ` [`Sale`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a98a3e978a8fbea5e89099f424aee67c4)`(int id)` | This function will return a `SaleDto` object from the API.
 `public ` [`SalesDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto)` ` [`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a8542ba9eda33d0fb33cf44eceaf27ff8)`(` [`SalesUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesUriParameterBuilder.md#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` uriParameterBuilder)` | It returns a SalesDto object.
 `public ` [`SalesDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto)` ` [`SalesByTemplate`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a00f707e3432812eefca67e359b8f7968)`(` [`SalesUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesUriParameterBuilder.md#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` uriParameterBuilder)` | It returns a list of sales.
 `public ` [`LogsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--LogsDto.md#class_atomic_market_api_client_1_1_logs_dto)` ` [`SalesLogs`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1acd26501f9678db3b73773e6c34add5d0)`(int id)` | This function will return a list of logs for a specific sales order.
@@ -22,14 +22,14 @@
 
 ##### `public ` [`SalesDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto)` ` [`Sales`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` 
 
-It builds an HTTP request, sends it to the API, and returns the response as a SalesDto object
+It builds an HTTP request, sends it to the API, and returns the response as a SalesDto object.
 
 #### Returns
 A SalesDto object
 
 ##### `public ` [`SaleDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SaleDto.md#class_atomic_market_api_client_1_1_sales_1_1_sale_dto)` ` [`Sale`](#class_atomic_market_api_client_1_1_sales_1_1_sales_api_1a98a3e978a8fbea5e89099f424aee67c4)`(int id)` 
 
-This function will return a `SaleDto` object from the API
+This function will return a `SaleDto` object from the API.
 
 #### Parameters
 * `id` The id of the sale you want to retrieve.
