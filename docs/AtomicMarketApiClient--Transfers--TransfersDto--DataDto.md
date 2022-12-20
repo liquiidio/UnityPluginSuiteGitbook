@@ -16,7 +16,7 @@
 
 ## Members
 
-##### `class ` [`AtomicMarketApiClient::Transfers::TransfersDto::DataDto::AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Transfers--TransfersDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1_1_asset_dto) 
+##### `class ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Transfers--TransfersDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1_1_asset_dto) 
 
 ##### `public string ` [`Contract`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1a9b4baf8484b98d89513d7776a8877d0e) 
 

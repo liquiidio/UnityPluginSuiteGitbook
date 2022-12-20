@@ -11,7 +11,7 @@
 
 ## Members
 
-##### `class ` [`AtomicMarketApiClient::LogsDto::DataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--LogsDto--DataDto.md#class_atomic_market_api_client_1_1_logs_dto_1_1_data_dto) 
+##### `class ` [`DataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--LogsDto--DataDto.md#class_atomic_market_api_client_1_1_logs_dto_1_1_data_dto) 
 
 ##### `public bool ` [`Success`](#class_atomic_market_api_client_1_1_logs_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) 
 

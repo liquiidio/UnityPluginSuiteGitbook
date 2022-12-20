@@ -13,7 +13,7 @@
 
 ## Members
 
-##### `class ` [`AtomicMarketApiClient::Config::ConfigDto::DataDto::SupportedPairsDto::PairsDataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto--PairsDataDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_pairs_dto_1_1_pairs_data_dto) 
+##### `class ` [`PairsDataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto--PairsDataDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_pairs_dto_1_1_pairs_data_dto) 
 
 ##### `public string ` [`ListingSymbol`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_pairs_dto_1a2ab8232a6a9dcb4f37cfad099aa2bebf) 
 

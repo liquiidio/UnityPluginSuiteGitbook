@@ -27,11 +27,11 @@
 
 ## Members
 
-##### `class ` [`AtomicMarketApiClient::BuyOffers::BuyOfferDto::DataDto::AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_asset_dto) 
+##### `class ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_asset_dto) 
 
-##### `class ` [`AtomicMarketApiClient::BuyOffers::BuyOfferDto::DataDto::CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--CollectionDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_collection_dto) 
+##### `class ` [`CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--CollectionDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_collection_dto) 
 
-##### `class ` [`AtomicMarketApiClient::BuyOffers::BuyOfferDto::DataDto::PriceDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--PriceDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_price_dto) 
+##### `class ` [`PriceDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--PriceDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_price_dto) 
 
 ##### `public string ` [`MarketContract`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1a20de5c38363f0c6bf6b151e6ae648f99) 
 

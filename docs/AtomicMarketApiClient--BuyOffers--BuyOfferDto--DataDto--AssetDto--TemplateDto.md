@@ -16,7 +16,7 @@
 
 ## Members
 
-##### `class ` [`AtomicMarketApiClient::BuyOffers::BuyOfferDto::DataDto::AssetDto::TemplateDto::ImmutableDataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--AssetDto--TemplateDto--ImmutableDataDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_asset_dto_1_1_t682273d830b7e6c1b948f3ce81ee8bd5) 
+##### `class ` [`ImmutableDataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--AssetDto--TemplateDto--ImmutableDataDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_asset_dto_1_1_t682273d830b7e6c1b948f3ce81ee8bd5) 
 
 ##### `public string ` [`TemplateId`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto_1a5c685b09e3b7fae8be2d38c8f4803549) 
 
