@@ -11,12 +11,12 @@
 `public ` [`LogsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--LogsDto.md#class_atomic_market_api_client_1_1_logs_dto)` ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a7185cc74320faa73cbd1bdb5244002c5)`(string assetId)` | This function returns a list of logs for a given asset.
 `public ` [`LogsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--LogsDto.md#class_atomic_market_api_client_1_1_logs_dto)` ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a4fe06e212c3432f70ecdb650d47a4a1d)`(string assetId, ` [`AssetsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` assetsUriParameterBuilder)` | This function returns a list of logs for a given asset.
 `private readonly string ` [`_requestUriBase`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a1854c4909a1013a684af16fb52e8a387) | 
-`private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ae492984f10f05c5b2c55dff3eeac11c1)`()` | 
-`private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1af05b4c0efc0e0c3c29cfe110a2db404f)`(` [`AssetsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` assetsUriParameterBuilder)` | 
-`private Uri ` [`AssetUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1aad28b71538e9bb09f0d021d107cb77ad)`(string assetId)` | 
-`private Uri ` [`AssetStatsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a42f959437e709f64ce97e7a7c8c02466)`(string assetId)` | 
-`private Uri ` [`AssetLogsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ac8295373df37326f5ccd5a9511ed9e2e)`(string assetId)` | 
-`private Uri ` [`AssetLogsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ac05cfb4a5ff1c123d460a6999935c0cc)`(string assetId, ` [`AssetsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` assetsUriParameterBuilder)` | 
+`private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ae492984f10f05c5b2c55dff3eeac11c1)`()` | It returns a Uri object that represents the assets endpoint.
+`private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1af05b4c0efc0e0c3c29cfe110a2db404f)`(` [`AssetsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` assetsUriParameterBuilder)` | It takes an AssetsUriParameterBuilder object and returns a Uri object.
+`private Uri ` [`AssetUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1aad28b71538e9bb09f0d021d107cb77ad)`(string assetId)` | It returns a URI for the specified asset ID.
+`private Uri ` [`AssetStatsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a42f959437e709f64ce97e7a7c8c02466)`(string assetId)` | It returns a URI for the asset stats endpoint.
+`private Uri ` [`AssetLogsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ac8295373df37326f5ccd5a9511ed9e2e)`(string assetId)` | It returns a Uri object that points to the logs for a given asset.
+`private Uri ` [`AssetLogsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ac05cfb4a5ff1c123d460a6999935c0cc)`(string assetId, ` [`AssetsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` assetsUriParameterBuilder)` | It builds the URI for the asset logs.
 
 ## Members
 
@@ -83,13 +83,42 @@ A list of logs for the asset.
 
 ##### `private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ae492984f10f05c5b2c55dff3eeac11c1)`()` 
 
+It returns a Uri object that represents the assets endpoint.
+
 ##### `private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1af05b4c0efc0e0c3c29cfe110a2db404f)`(` [`AssetsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` assetsUriParameterBuilder)` 
+
+It takes an AssetsUriParameterBuilder object and returns a Uri object.
+
+#### Parameters
+* `AssetsUriParameterBuilder` A class that builds the query string for the assets endpoint.
 
 ##### `private Uri ` [`AssetUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1aad28b71538e9bb09f0d021d107cb77ad)`(string assetId)` 
 
+It returns a URI for the specified asset ID.
+
+#### Parameters
+* `assetId` The ID of the asset you want to retrieve.
+
 ##### `private Uri ` [`AssetStatsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a42f959437e709f64ce97e7a7c8c02466)`(string assetId)` 
+
+It returns a URI for the asset stats endpoint.
+
+#### Parameters
+* `assetId` The ID of the asset you want to get stats for.
 
 ##### `private Uri ` [`AssetLogsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ac8295373df37326f5ccd5a9511ed9e2e)`(string assetId)` 
 
+It returns a Uri object that points to the logs for a given asset.
+
+#### Parameters
+* `assetId` The ID of the asset you want to get logs for.
+
 ##### `private Uri ` [`AssetLogsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ac05cfb4a5ff1c123d460a6999935c0cc)`(string assetId, ` [`AssetsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` assetsUriParameterBuilder)` 
+
+It builds the URI for the asset logs.
+
+#### Parameters
+* `assetId` The ID of the asset you want to get logs for.
+
+* `AssetsUriParameterBuilder` This is a class that builds the query string parameters for the request.
 

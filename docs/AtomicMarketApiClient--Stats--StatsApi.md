@@ -15,16 +15,16 @@
 `public ` [`GraphDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--GraphDto.md#class_atomic_market_api_client_1_1_stats_1_1_graph_dto)` ` [`Graph`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3750a373cd4414c35877b0742bc335e7)`()` | This function will return a `GraphDto` object that contains the graph data.
 `public ` [`SalesDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--SalesDto.md#class_atomic_market_api_client_1_1_stats_1_1_sales_dto)` ` [`Sales`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` | The function sends a GET request to the API and returns the response as a SalesDto object.
 `private readonly string ` [`_requestUriBase`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1854c4909a1013a684af16fb52e8a387) | 
-`private Uri ` [`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a07e4028b75613f3c27b168e278447f34)`()` | 
-`private Uri ` [`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1ba975c33a750ebb181aa7743ca05563)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | 
-`private Uri ` [`CollectionUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ae6ee87506dcf31f5710562e4299a93eb)`(string collectionName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | 
-`private Uri ` [`AccountsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a5e08d8ac1bf0710cd7d921b3102965bd)`()` | 
-`private Uri ` [`AccountsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ac1ca638b8fc8e71629788fd15de02e4b)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | 
-`private Uri ` [`AccountUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ad9c8103b60a0464ea2f44f87d684982e)`(string accountName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | 
-`private Uri ` [`SchemasUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a5c09b26c062c3f79bd9197188be9338e)`(string collectionName)` | 
-`private Uri ` [`SchemasUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a2882b19df8fea482117a7ef079dea621)`(string collectionName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | 
-`private Uri ` [`GraphUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a34c6ee73578f1d1fcfccf4e7bbb870a9)`()` | 
-`private Uri ` [`SalesUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a40df74fdccb558ba58338c9fdff8c5cb)`()` | 
+`private Uri ` [`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a07e4028b75613f3c27b168e278447f34)`()` | It returns a URI that points to the collections endpoint of the stats API.
+`private Uri ` [`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1ba975c33a750ebb181aa7743ca05563)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the collections endpoint
+`private Uri ` [`CollectionUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ae6ee87506dcf31f5710562e4299a93eb)`(string collectionName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the collection stats endpoint
+`private Uri ` [`AccountsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a5e08d8ac1bf0710cd7d921b3102965bd)`()` | It returns a `Uri` object that represents the URL for the `/stats/accounts` endpoint.
+`private Uri ` [`AccountsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ac1ca638b8fc8e71629788fd15de02e4b)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the `/stats/accounts` endpoint
+`private Uri ` [`AccountUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ad9c8103b60a0464ea2f44f87d684982e)`(string accountName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the account stats endpoint
+`private Uri ` [`SchemasUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a5c09b26c062c3f79bd9197188be9338e)`(string collectionName)` | It returns a URI for the schemas endpoint.
+`private Uri ` [`SchemasUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a2882b19df8fea482117a7ef079dea621)`(string collectionName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the `/stats/schemas/{collectionName}` endpoint
+`private Uri ` [`GraphUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a34c6ee73578f1d1fcfccf4e7bbb870a9)`()` | It returns a new Uri object that is the base request URI with the /stats/graph path appended to it.
+`private Uri ` [`SalesUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a40df74fdccb558ba58338c9fdff8c5cb)`()` | It returns a new Uri object that is the base request Uri with the `/stats/sales` path appended to it.
 
 ## Members
 
@@ -126,21 +126,65 @@ A SalesDto object
 
 ##### `private Uri ` [`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a07e4028b75613f3c27b168e278447f34)`()` 
 
+It returns a URI that points to the collections endpoint of the stats API.
+
 ##### `private Uri ` [`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1ba975c33a750ebb181aa7743ca05563)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+
+It returns a URI for the collections endpoint
+
+#### Parameters
+* `IUriParameterBuilder` This is a class that is used to build the query string parameters for the request.
 
 ##### `private Uri ` [`CollectionUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ae6ee87506dcf31f5710562e4299a93eb)`(string collectionName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
 
+It returns a URI for the collection stats endpoint
+
+#### Parameters
+* `collectionName` The name of the collection you want to get stats for.
+
+* `IUriParameterBuilder` This is an interface that is used to build the query string parameters for the request.
+
 ##### `private Uri ` [`AccountsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a5e08d8ac1bf0710cd7d921b3102965bd)`()` 
+
+It returns a `Uri` object that represents the URL for the `/stats/accounts` endpoint.
 
 ##### `private Uri ` [`AccountsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ac1ca638b8fc8e71629788fd15de02e4b)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
 
+It returns a URI for the `/stats/accounts` endpoint
+
+#### Parameters
+* `IUriParameterBuilder` This is a class that will build the query string parameters for the request.
+
 ##### `private Uri ` [`AccountUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ad9c8103b60a0464ea2f44f87d684982e)`(string accountName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+
+It returns a URI for the account stats endpoint
+
+#### Parameters
+* `accountName` The name of the account you want to get stats for.
+
+* `IUriParameterBuilder` This is an interface that is used to build the query string parameters for the request.
 
 ##### `private Uri ` [`SchemasUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a5c09b26c062c3f79bd9197188be9338e)`(string collectionName)` 
 
+It returns a URI for the schemas endpoint.
+
+#### Parameters
+* `collectionName` The name of the collection you want to get the stats for.
+
 ##### `private Uri ` [`SchemasUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a2882b19df8fea482117a7ef079dea621)`(string collectionName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+
+It returns a URI for the `/stats/schemas/{collectionName}` endpoint
+
+#### Parameters
+* `collectionName` The name of the collection you want to get the schema for.
+
+* `IUriParameterBuilder` This is a class that is used to build the query string parameters for the request.
 
 ##### `private Uri ` [`GraphUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a34c6ee73578f1d1fcfccf4e7bbb870a9)`()` 
 
+It returns a new Uri object that is the base request URI with the /stats/graph path appended to it.
+
 ##### `private Uri ` [`SalesUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a40df74fdccb558ba58338c9fdff8c5cb)`()` 
+
+It returns a new Uri object that is the base request Uri with the `/stats/sales` path appended to it.
 

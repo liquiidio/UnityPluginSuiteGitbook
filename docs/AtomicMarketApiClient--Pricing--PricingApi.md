@@ -13,14 +13,14 @@
 `public ` [`AssetsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1acdb8d694084b095eb723eeaeb4c23adc)`()` | This function will return a list of all the assets that are available for trading on the exchange.
 `public ` [`AssetsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a98ad65774a84e715194cd38ae8fd12b9)`(` [`PricingUriParametersBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Pricing--PricingUriParametersBuilder.md#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` uriParametersBuilder)` | This function will return a list of assets that are available for pricing.
 `private readonly string ` [`_requestUriBase`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a1854c4909a1013a684af16fb52e8a387) | 
-`private Uri ` [`SalesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a40df74fdccb558ba58338c9fdff8c5cb)`()` | 
-`private Uri ` [`SalesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a483214393cf288850506d0329012e6af)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | 
-`private Uri ` [`DaysUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a87ddd2563a44aa86c74ddff9150accd6)`()` | 
-`private Uri ` [`DaysUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a42a804fa079726477ab3de3949fb7b15)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | 
-`private Uri ` [`TemplatesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a70668a91db02b5409d48e972387179ce)`()` | 
-`private Uri ` [`TemplatesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a30cb80a82c84d990c2a4d561ba86516e)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | 
-`private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1ae492984f10f05c5b2c55dff3eeac11c1)`()` | 
-`private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1aea89cf6aa0da1ceb2030d2c0fbd9f19e)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | 
+`private Uri ` [`SalesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a40df74fdccb558ba58338c9fdff8c5cb)`()` | It returns a `Uri` object that is the base URI for the sales endpoint.
+`private Uri ` [`SalesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a483214393cf288850506d0329012e6af)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the sales endpoint.
+`private Uri ` [`DaysUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a87ddd2563a44aa86c74ddff9150accd6)`()` | It returns a `Uri` object that represents the URL for the API endpoint that returns the sales data for the last 30 days.
+`private Uri ` [`DaysUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a42a804fa079726477ab3de3949fb7b15)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the `/prices/sales/days` endpoint.
+`private Uri ` [`TemplatesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a70668a91db02b5409d48e972387179ce)`()` | It returns a `Uri` object that represents the URL of the API endpoint that returns the list of templates.
+`private Uri ` [`TemplatesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a30cb80a82c84d990c2a4d561ba86516e)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the `/prices/templates` endpoint
+`private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1ae492984f10f05c5b2c55dff3eeac11c1)`()` | It returns a `Uri` object that points to the `/prices/assets` endpoint.
+`private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1aea89cf6aa0da1ceb2030d2c0fbd9f19e)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the `/prices/assets` endpoint.
 
 ## Members
 
@@ -96,17 +96,45 @@ A list of assets.
 
 ##### `private Uri ` [`SalesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a40df74fdccb558ba58338c9fdff8c5cb)`()` 
 
+It returns a `Uri` object that is the base URI for the sales endpoint.
+
 ##### `private Uri ` [`SalesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a483214393cf288850506d0329012e6af)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+
+It returns a URI for the sales endpoint.
+
+#### Parameters
+* `IUriParameterBuilder` This is an interface that is used to build the query string parameters for the request.
 
 ##### `private Uri ` [`DaysUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a87ddd2563a44aa86c74ddff9150accd6)`()` 
 
+It returns a `Uri` object that represents the URL for the API endpoint that returns the sales data for the last 30 days.
+
 ##### `private Uri ` [`DaysUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a42a804fa079726477ab3de3949fb7b15)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+
+It returns a URI for the `/prices/sales/days` endpoint.
+
+#### Parameters
+* `IUriParameterBuilder` This is an interface that is used to build the query string parameters for the request.
 
 ##### `private Uri ` [`TemplatesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a70668a91db02b5409d48e972387179ce)`()` 
 
+It returns a `Uri` object that represents the URL of the API endpoint that returns the list of templates.
+
 ##### `private Uri ` [`TemplatesUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1a30cb80a82c84d990c2a4d561ba86516e)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+
+It returns a URI for the `/prices/templates` endpoint
+
+#### Parameters
+* `IUriParameterBuilder` This is a class that is used to build the query string parameters for the request.
 
 ##### `private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1ae492984f10f05c5b2c55dff3eeac11c1)`()` 
 
+It returns a `Uri` object that points to the `/prices/assets` endpoint.
+
 ##### `private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api_1aea89cf6aa0da1ceb2030d2c0fbd9f19e)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+
+It returns a URI for the `/prices/assets` endpoint.
+
+#### Parameters
+* `IUriParameterBuilder` This is a class that is used to build the query string parameters for the request.
 
