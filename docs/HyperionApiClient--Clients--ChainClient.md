@@ -10,7 +10,7 @@ class HyperionApiClient::Clients::ChainClient
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `public string ` [`BaseUrl`](#class_hyperion_api_client_1_1_clients_1_1_chain_client_1a5e5e1c3b42a6c7ab84f8aeca3c9e570c) | 
-`public  ` [`ChainClient`](#class_hyperion_api_client_1_1_clients_1_1_chain_client_1a4bb99e30c8715115fb773bda6e21b2e6)`(HttpClient httpClient)` | 
+`public ` [`ChainClient`](#class_hyperion_api_client_1_1_clients_1_1_chain_client_1a4bb99e30c8715115fb773bda6e21b2e6)`(HttpClient httpClient)` | 
 `public async Task ` [`AbiBinToJsonAsync`](#class_hyperion_api_client_1_1_clients_1_1_chain_client_1acb50a40d1dd0c1e5824c3f57ca195b67)`(string code, string action, string binargs, CancellationToken cancellationToken) = default` | Returns an object containing rows from the specified table.
 `public async Task ` [`AbiJsonToBinAsync`](#class_hyperion_api_client_1_1_clients_1_1_chain_client_1a044ae7153bf015634e5b86c42d246b07)`(string binargs, CancellationToken cancellationToken) = default` | Convert JSON object to binary.
 `public async Task< GetAbiResponse > ` [`GetAbiAsync`](#class_hyperion_api_client_1_1_clients_1_1_chain_client_1ad107c0f016fc2e5fd05799b278f09cf1)`(string accountName, CancellationToken cancellationToken) = default` | Retrieves the ABI for a contract based on its account name.
@@ -37,7 +37,7 @@ class HyperionApiClient::Clients::ChainClient
 
 ##### `public string ` [`BaseUrl`](#class_hyperion_api_client_1_1_clients_1_1_chain_client_1a5e5e1c3b42a6c7ab84f8aeca3c9e570c) 
 
-##### `public  ` [`ChainClient`](#class_hyperion_api_client_1_1_clients_1_1_chain_client_1a4bb99e30c8715115fb773bda6e21b2e6)`(HttpClient httpClient)` 
+##### `public ` [`ChainClient`](#class_hyperion_api_client_1_1_clients_1_1_chain_client_1a4bb99e30c8715115fb773bda6e21b2e6)`(HttpClient httpClient)` 
 
 ##### `public async Task ` [`AbiBinToJsonAsync`](#class_hyperion_api_client_1_1_clients_1_1_chain_client_1acb50a40d1dd0c1e5824c3f57ca195b67)`(string code, string action, string binargs, CancellationToken cancellationToken) = default` 
 
