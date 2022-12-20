@@ -12,7 +12,7 @@
 
 ## Members
 
-##### `class ` [`AtomicAssetsApiClient::Offers::OfferDto::DataDto::AssetDto::SchemaDto::FormatDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Offers--OfferDto--DataDto--AssetDto--SchemaDto--FormatDto.md#class_atomic_assets_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1_1_asset_dto_1_1_schema_dto_1_1_format_dto) 
+##### `class ` [`FormatDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Offers--OfferDto--DataDto--AssetDto--SchemaDto--FormatDto.md#class_atomic_assets_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1_1_asset_dto_1_1_schema_dto_1_1_format_dto) 
 
 ##### `public string ` [`SchemaName`](#class_atomic_assets_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1_1_asset_dto_1_1_schema_dto_1a50d439f0d7b1835a13ec1f4da383f957) 
 

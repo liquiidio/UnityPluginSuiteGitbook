@@ -12,9 +12,9 @@
 
 ## Members
 
-##### `class ` [`AtomicAssetsApiClient::Burns::BurnDto::DataDto::CollectionsDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--CollectionsDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_collections_dto) 
+##### `class ` [`CollectionsDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--CollectionsDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_collections_dto) 
 
-##### `class ` [`AtomicAssetsApiClient::Burns::BurnDto::DataDto::TemplatesDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--TemplatesDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_templates_dto) 
+##### `class ` [`TemplatesDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--TemplatesDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_templates_dto) 
 
 ##### `public ` [`CollectionsDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--CollectionsDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_collections_dto)` ` [`Collections`](#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1a2bc01f092566afa3ed263cb706f4c2f5) 
 

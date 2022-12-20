@@ -15,9 +15,9 @@
 
 ## Members
 
-##### `class ` [`AtomicAssetsApiClient::Schemas::SchemasDto::DataDto::CollectionDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Schemas--SchemasDto--DataDto--CollectionDto.md#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_dto_1_1_data_dto_1_1_collection_dto) 
+##### `class ` [`CollectionDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Schemas--SchemasDto--DataDto--CollectionDto.md#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_dto_1_1_data_dto_1_1_collection_dto) 
 
-##### `class ` [`AtomicAssetsApiClient::Schemas::SchemasDto::DataDto::FormatDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Schemas--SchemasDto--DataDto--FormatDto.md#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_dto_1_1_data_dto_1_1_format_dto) 
+##### `class ` [`FormatDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Schemas--SchemasDto--DataDto--FormatDto.md#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_dto_1_1_data_dto_1_1_format_dto) 
 
 ##### `public string ` [`Contract`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_dto_1_1_data_dto_1a9b4baf8484b98d89513d7776a8877d0e) 
 
