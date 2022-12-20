@@ -4,7 +4,7 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`AtomicMarketApiClient::Sales::SalesDto::DataDto::AssetDto::TemplateDto::ImmutableDataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--AssetDto--TemplateDto--ImmutableDataDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto_1_1_immutable_data_dto)        | 
+`class ` [`ImmutableDataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--AssetDto--TemplateDto--ImmutableDataDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto_1_1_immutable_data_dto)        | 
 `public string ` [`TemplateId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto_1a5c685b09e3b7fae8be2d38c8f4803549) | 
 `public string ` [`MaxSupply`](#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto_1a4dd50194618fac55b4d08b6c93724a32) | 
 `public bool ` [`Transferable`](#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto_1ab0a2025837cfad369c22e114d1c93d42) | 
