@@ -4,8 +4,8 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`AtomicAssetsApiClient::Templates::TemplatesDto::DataDto::CollectionDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesDto--DataDto--CollectionDto.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_dto_1_1_data_dto_1_1_collection_dto)        | 
-`class ` [`AtomicAssetsApiClient::Templates::TemplatesDto::DataDto::SchemaDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesDto--DataDto--SchemaDto.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_dto_1_1_data_dto_1_1_schema_dto)        | 
+`class ` [`CollectionDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesDto--DataDto--CollectionDto.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_dto_1_1_data_dto_1_1_collection_dto)        | 
+`class ` [`SchemaDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesDto--DataDto--SchemaDto.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_dto_1_1_data_dto_1_1_schema_dto)        | 
 `public string ` [`Contract`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_dto_1_1_data_dto_1a9b4baf8484b98d89513d7776a8877d0e) | 
 `public string ` [`TemplateId`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_dto_1_1_data_dto_1a5c685b09e3b7fae8be2d38c8f4803549) | 
 `public string ` [`MaxSupply`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_dto_1_1_data_dto_1a4dd50194618fac55b4d08b6c93724a32) | 
