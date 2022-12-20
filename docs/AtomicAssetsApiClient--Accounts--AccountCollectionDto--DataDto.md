@@ -12,9 +12,9 @@
 
 ## Members
 
-##### `class ` [`AtomicAssetsApiClient::Accounts::AccountCollectionDto::DataDto::SchemasDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Accounts--AccountCollectionDto--DataDto--SchemasDto.md#class_atomic_assets_api_client_1_1_accounts_1_1_account_collection_dto_1_1_data_dto_1_1_schemas_dto) 
+##### `class ` [`SchemasDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Accounts--AccountCollectionDto--DataDto--SchemasDto.md#class_atomic_assets_api_client_1_1_accounts_1_1_account_collection_dto_1_1_data_dto_1_1_schemas_dto) 
 
-##### `class ` [`AtomicAssetsApiClient::Accounts::AccountCollectionDto::DataDto::TemplatesDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Accounts--AccountCollectionDto--DataDto--TemplatesDto.md#class_atomic_assets_api_client_1_1_accounts_1_1_account_collection_dto_1_1_data_dto_1_1_templates_dto) 
+##### `class ` [`TemplatesDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Accounts--AccountCollectionDto--DataDto--TemplatesDto.md#class_atomic_assets_api_client_1_1_accounts_1_1_account_collection_dto_1_1_data_dto_1_1_templates_dto) 
 
 ##### `public ` [`SchemasDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Accounts--AccountCollectionDto--DataDto--SchemasDto.md#class_atomic_assets_api_client_1_1_accounts_1_1_account_collection_dto_1_1_data_dto_1_1_schemas_dto)` ` [`Schemas`](#class_atomic_assets_api_client_1_1_accounts_1_1_account_collection_dto_1_1_data_dto_1a020c9e234cc78e121e157419f9a4286a) 
 

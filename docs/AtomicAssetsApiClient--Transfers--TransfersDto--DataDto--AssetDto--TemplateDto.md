@@ -16,7 +16,7 @@
 
 ## Members
 
-##### `class ` [`AtomicAssetsApiClient::Transfers::TransfersDto::DataDto::AssetDto::TemplateDto::ImmutableDataDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Transfers--TransfersDto--DataDto--AssetDto--TemplateDto--ImmutableDataDto.md#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1_1_asset_dto_1_1_te4bfed47b4ad23562fb55e5fde346c6c1) 
+##### `class ` [`ImmutableDataDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Transfers--TransfersDto--DataDto--AssetDto--TemplateDto--ImmutableDataDto.md#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1_1_asset_dto_1_1_te4bfed47b4ad23562fb55e5fde346c6c1) 
 
 ##### `public string ` [`TemplateId`](#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto_1a5c685b09e3b7fae8be2d38c8f4803549) 
 

@@ -15,7 +15,7 @@
 `public ` [`TemplatesApi`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesApi.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_api)` ` [`TemplatesApi`](#class_atomic_assets_api_client_1_1_atomic_assets_api_factory_1ae436cd2abc8a665c3e06d34a34abcb91) | 
 `public ` [`TransfersApi`](.github/workflows/documentation/md/AtomicAssetsApiClient--Transfers--TransfersApi.md#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_api)` ` [`TransfersApi`](#class_atomic_assets_api_client_1_1_atomic_assets_api_factory_1a99c8dcee62833d9aab10b4c702fca109) | 
 `private readonly string ` [`_baseUrl`](#class_atomic_assets_api_client_1_1_atomic_assets_api_factory_1a50e91e46e4294c5dda34da06f1d5824a) | 
-`private  ` [`AtomicAssetsApiFactory`](#class_atomic_assets_api_client_1_1_atomic_assets_api_factory_1a9c81342da281be342072935492e9fce4)`(string baseUrl)` | 
+`private ` [`AtomicAssetsApiFactory`](#class_atomic_assets_api_client_1_1_atomic_assets_api_factory_1a9c81342da281be342072935492e9fce4)`(string baseUrl)` | 
 
 ## Members
 
@@ -41,5 +41,5 @@
 
 ##### `private readonly string ` [`_baseUrl`](#class_atomic_assets_api_client_1_1_atomic_assets_api_factory_1a50e91e46e4294c5dda34da06f1d5824a) 
 
-##### `private  ` [`AtomicAssetsApiFactory`](#class_atomic_assets_api_client_1_1_atomic_assets_api_factory_1a9c81342da281be342072935492e9fce4)`(string baseUrl)` 
+##### `private ` [`AtomicAssetsApiFactory`](#class_atomic_assets_api_client_1_1_atomic_assets_api_factory_1a9c81342da281be342072935492e9fce4)`(string baseUrl)` 
 
