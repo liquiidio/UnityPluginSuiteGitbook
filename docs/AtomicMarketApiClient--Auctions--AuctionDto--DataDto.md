@@ -4,10 +4,10 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`AtomicMarketApiClient::Auctions::AuctionDto::DataDto::AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1_1_asset_dto)        | 
-`class ` [`AtomicMarketApiClient::Auctions::AuctionDto::DataDto::BidsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionDto--DataDto--BidsDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1_1_bids_dto)        | 
-`class ` [`AtomicMarketApiClient::Auctions::AuctionDto::DataDto::CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionDto--DataDto--CollectionDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1_1_collection_dto)        | 
-`class ` [`AtomicMarketApiClient::Auctions::AuctionDto::DataDto::PriceDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionDto--DataDto--PriceDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1_1_price_dto)        | 
+`class ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1_1_asset_dto)        | 
+`class ` [`BidsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionDto--DataDto--BidsDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1_1_bids_dto)        | 
+`class ` [`CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionDto--DataDto--CollectionDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1_1_collection_dto)        | 
+`class ` [`PriceDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionDto--DataDto--PriceDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1_1_price_dto)        | 
 `public string ` [`MarketContract`](#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1a20de5c38363f0c6bf6b151e6ae648f99) | 
 `public string ` [`AssetsContract`](#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1a4bccc9f554dbf86212f9cd2fa46d0752) | 
 `public string ` [`AuctionId`](#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1ad7e7317f31fd0202dfdee9acc900ce45) | 

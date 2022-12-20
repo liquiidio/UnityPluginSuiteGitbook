@@ -4,9 +4,9 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`AtomicMarketApiClient::BuyOffers::BuyOfferDto::DataDto::AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_asset_dto)        | 
-`class ` [`AtomicMarketApiClient::BuyOffers::BuyOfferDto::DataDto::CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--CollectionDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_collection_dto)        | 
-`class ` [`AtomicMarketApiClient::BuyOffers::BuyOfferDto::DataDto::PriceDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--PriceDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_price_dto)        | 
+`class ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_asset_dto)        | 
+`class ` [`CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--CollectionDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_collection_dto)        | 
+`class ` [`PriceDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOfferDto--DataDto--PriceDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1_1_price_dto)        | 
 `public string ` [`MarketContract`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1a20de5c38363f0c6bf6b151e6ae648f99) | 
 `public string ` [`AssetsContract`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1a4bccc9f554dbf86212f9cd2fa46d0752) | 
 `public string ` [`BuyOfferId`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offer_dto_1_1_data_dto_1a1e4136e35a6aa9f7eec18d98c30ec334) | 

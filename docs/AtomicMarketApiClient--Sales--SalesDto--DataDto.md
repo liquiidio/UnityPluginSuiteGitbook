@@ -4,9 +4,9 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`AtomicMarketApiClient::Sales::SalesDto::DataDto::AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto)        | 
-`class ` [`AtomicMarketApiClient::Sales::SalesDto::DataDto::CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--CollectionDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_collection_dto)        | 
-`class ` [`AtomicMarketApiClient::Sales::SalesDto::DataDto::PriceDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--PriceDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_price_dto)        | 
+`class ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto)        | 
+`class ` [`CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--CollectionDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_collection_dto)        | 
+`class ` [`PriceDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--PriceDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_price_dto)        | 
 `public string ` [`MarketContract`](#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1a20de5c38363f0c6bf6b151e6ae648f99) | 
 `public string ` [`AssetsContract`](#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1a4bccc9f554dbf86212f9cd2fa46d0752) | 
 `public string ` [`SaleId`](#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1a239b73cb4b557129fb890e1e584808f0) | 

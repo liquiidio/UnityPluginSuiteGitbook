@@ -4,8 +4,8 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`AtomicMarketApiClient::Config::ConfigDto::DataDto::SupportedPairsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_pairs_dto)        | 
-`class ` [`AtomicMarketApiClient::Config::ConfigDto::DataDto::SupportedTokensDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedTokensDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_tokens_dto)        | 
+`class ` [`SupportedPairsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_pairs_dto)        | 
+`class ` [`SupportedTokensDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedTokensDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_tokens_dto)        | 
 `public string ` [`AtomicAssetsContract`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a3e0c1d2851ee7570131d29b9b71b262e) | 
 `public string ` [`AtomicMarketContract`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1aca5e9436bee9841b4b8328398fa9727a) | 
 `public string ` [`DelphioracleContract`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a142081e81705fd766d92bb874b47c7a8) | 
