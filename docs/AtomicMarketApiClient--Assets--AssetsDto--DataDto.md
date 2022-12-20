@@ -30,13 +30,13 @@
 
 ## Members
 
-##### `class ` [`AtomicMarketApiClient::Assets::AssetsDto::DataDto::BackedTokensDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto--DataDto--BackedTokensDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto_1_1_data_dto_1_1_backed_tokens_dto) 
+##### `class ` [`BackedTokensDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto--DataDto--BackedTokensDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto_1_1_data_dto_1_1_backed_tokens_dto) 
 
-##### `class ` [`AtomicMarketApiClient::Assets::AssetsDto::DataDto::CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto--DataDto--CollectionDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto_1_1_data_dto_1_1_collection_dto) 
+##### `class ` [`CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto--DataDto--CollectionDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto_1_1_data_dto_1_1_collection_dto) 
 
-##### `class ` [`AtomicMarketApiClient::Assets::AssetsDto::DataDto::SchemaDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto--DataDto--SchemaDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto_1_1_data_dto_1_1_schema_dto) 
+##### `class ` [`SchemaDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto--DataDto--SchemaDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto_1_1_data_dto_1_1_schema_dto) 
 
-##### `class ` [`AtomicMarketApiClient::Assets::AssetsDto::DataDto::TemplateDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto--DataDto--TemplateDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto_1_1_data_dto_1_1_template_dto) 
+##### `class ` [`TemplateDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Assets--AssetsDto--DataDto--TemplateDto.md#class_atomic_market_api_client_1_1_assets_1_1_assets_dto_1_1_data_dto_1_1_template_dto) 
 
 ##### `public string ` [`Contract`](#class_atomic_market_api_client_1_1_assets_1_1_assets_dto_1_1_data_dto_1a9b4baf8484b98d89513d7776a8877d0e) 
 

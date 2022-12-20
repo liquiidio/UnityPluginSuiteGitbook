@@ -16,7 +16,7 @@
 
 ## Members
 
-##### `class ` [`AtomicMarketApiClient::Auctions::AuctionDto::DataDto::AssetDto::TemplateDto::ImmutableDataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionDto--DataDto--AssetDto--TemplateDto--ImmutableDataDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto_1_1_immutable_data_dto) 
+##### `class ` [`ImmutableDataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionDto--DataDto--AssetDto--TemplateDto--ImmutableDataDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto_1_1_immutable_data_dto) 
 
 ##### `public string ` [`TemplateId`](#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto_1a5c685b09e3b7fae8be2d38c8f4803549) 
 

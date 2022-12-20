@@ -16,7 +16,7 @@
 `public ` [`TransfersApi`](.github/workflows/documentation/md/AtomicMarketApiClient--Transfers--TransfersApi.md#class_atomic_market_api_client_1_1_transfers_1_1_transfers_api)` ` [`TransfersApi`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a99c8dcee62833d9aab10b4c702fca109) | 
 `public ` [`PricingApi`](.github/workflows/documentation/md/AtomicMarketApiClient--Pricing--PricingApi.md#class_atomic_market_api_client_1_1_pricing_1_1_pricing_api)` ` [`PricingApi`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a1152d6d7a45a24520df7cfdaccbdd684) | 
 `private readonly string ` [`_baseUrl`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a50e91e46e4294c5dda34da06f1d5824a) | 
-`private  ` [`AtomicMarketApiFactory`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1ac500a4aa7e23a1efc1a8c5545b17fc49)`(string baseUrl)` | 
+`private ` [`AtomicMarketApiFactory`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1ac500a4aa7e23a1efc1a8c5545b17fc49)`(string baseUrl)` | 
 
 ## Members
 
@@ -44,5 +44,5 @@
 
 ##### `private readonly string ` [`_baseUrl`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a50e91e46e4294c5dda34da06f1d5824a) 
 
-##### `private  ` [`AtomicMarketApiFactory`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1ac500a4aa7e23a1efc1a8c5545b17fc49)`(string baseUrl)` 
+##### `private ` [`AtomicMarketApiFactory`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1ac500a4aa7e23a1efc1a8c5545b17fc49)`(string baseUrl)` 
 

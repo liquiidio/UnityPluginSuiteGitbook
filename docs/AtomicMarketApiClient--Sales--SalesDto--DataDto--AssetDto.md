@@ -33,11 +33,11 @@
 
 ## Members
 
-##### `class ` [`AtomicMarketApiClient::Sales::SalesDto::DataDto::AssetDto::BackedTokensDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--AssetDto--BackedTokensDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1_1_backed_tokens_dto) 
+##### `class ` [`BackedTokensDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--AssetDto--BackedTokensDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1_1_backed_tokens_dto) 
 
-##### `class ` [`AtomicMarketApiClient::Sales::SalesDto::DataDto::AssetDto::SchemaDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--AssetDto--SchemaDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1_1_schema_dto) 
+##### `class ` [`SchemaDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--AssetDto--SchemaDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1_1_schema_dto) 
 
-##### `class ` [`AtomicMarketApiClient::Sales::SalesDto::DataDto::AssetDto::TemplateDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--AssetDto--TemplateDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto) 
+##### `class ` [`TemplateDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Sales--SalesDto--DataDto--AssetDto--TemplateDto.md#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1_1_template_dto) 
 
 ##### `public string ` [`Contract`](#class_atomic_market_api_client_1_1_sales_1_1_sales_dto_1_1_data_dto_1_1_asset_dto_1a9b4baf8484b98d89513d7776a8877d0e) 
 

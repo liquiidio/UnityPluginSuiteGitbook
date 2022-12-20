@@ -11,7 +11,7 @@
 
 ## Members
 
-##### `class ` [`AtomicMarketApiClient::MarketPlaces::MarketplaceDto::DataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--MarketPlaces--MarketplaceDto--DataDto.md#class_atomic_market_api_client_1_1_market_places_1_1_marketplace_dto_1_1_data_dto) 
+##### `class ` [`DataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--MarketPlaces--MarketplaceDto--DataDto.md#class_atomic_market_api_client_1_1_market_places_1_1_marketplace_dto_1_1_data_dto) 
 
 ##### `public bool ` [`Success`](#class_atomic_market_api_client_1_1_market_places_1_1_marketplace_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) 
 

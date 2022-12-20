@@ -11,9 +11,9 @@
 
 ## Members
 
-##### `class ` [`AtomicMarketApiClient::Stats::CollectionsDto::DataDto::ResultDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionsDto--DataDto--ResultDto.md#class_atomic_market_api_client_1_1_stats_1_1_collections_dto_1_1_data_dto_1_1_result_dto) 
+##### `class ` [`ResultDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionsDto--DataDto--ResultDto.md#class_atomic_market_api_client_1_1_stats_1_1_collections_dto_1_1_data_dto_1_1_result_dto) 
 
-##### `class ` [`AtomicMarketApiClient::Stats::CollectionsDto::DataDto::SymbolDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionsDto--DataDto--SymbolDto.md#class_atomic_market_api_client_1_1_stats_1_1_collections_dto_1_1_data_dto_1_1_symbol_dto) 
+##### `class ` [`SymbolDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionsDto--DataDto--SymbolDto.md#class_atomic_market_api_client_1_1_stats_1_1_collections_dto_1_1_data_dto_1_1_symbol_dto) 
 
 ##### `public ` [`SymbolDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionsDto--DataDto--SymbolDto.md#class_atomic_market_api_client_1_1_stats_1_1_collections_dto_1_1_data_dto_1_1_symbol_dto)` ` [`Symbol`](#class_atomic_market_api_client_1_1_stats_1_1_collections_dto_1_1_data_dto_1a10788cdb2d6d32f8a4b33f075a7e3925) 
 

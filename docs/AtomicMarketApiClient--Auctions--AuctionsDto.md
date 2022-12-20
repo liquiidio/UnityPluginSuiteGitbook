@@ -11,7 +11,7 @@
 
 ## Members
 
-##### `class ` [`AtomicMarketApiClient::Auctions::AuctionsDto::DataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionsDto--DataDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auctions_dto_1_1_data_dto) 
+##### `class ` [`DataDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Auctions--AuctionsDto--DataDto.md#class_atomic_market_api_client_1_1_auctions_1_1_auctions_dto_1_1_data_dto) 
 
 ##### `public bool ` [`Success`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) 
 
