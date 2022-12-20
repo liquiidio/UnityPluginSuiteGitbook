@@ -14,8 +14,8 @@
 `public bool ` [`IsSenderContract`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1ade800cb1f05a507dc30d49c105cfff62) | 
 `public bool ` [`IsRecipientContract`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a07f590cec8ec1aa154b011469a393f5e) | 
 `public object ` [`Data`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a248bfced8a2a84c147f9b20efe3e669a) | 
-`public float ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a0caa720646d595f07067fcc6c44a4b2e) | 
-`public float ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a14bdb6268c108cfc8647325d8aff2078) | 
+`public string ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a022adc431e5845376e250208a999e12d) | 
+`public string ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a4cb9b4aaa1372df6dc2bb7d8f4916403) | 
 `public float ` [`UpdatedAtBlock`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a6a61fb4c918dc2245accba312dc05e54) | 
 `public float ` [`UpdatedAtTime`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a8dbb9afc1eef46b8d8a1c645804ef180) | 
 `public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1_1_asset_dto)` ` [`SenderAssets`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a86e7c6a130fb6362e9c7acccadccc56e) | 
@@ -43,9 +43,9 @@
 
 ##### `public object ` [`Data`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a248bfced8a2a84c147f9b20efe3e669a) 
 
-##### `public float ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a0caa720646d595f07067fcc6c44a4b2e) 
+##### `public string ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a022adc431e5845376e250208a999e12d) 
 
-##### `public float ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a14bdb6268c108cfc8647325d8aff2078) 
+##### `public string ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a4cb9b4aaa1372df6dc2bb7d8f4916403) 
 
 ##### `public float ` [`UpdatedAtBlock`](#class_atomic_market_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a6a61fb4c918dc2245accba312dc05e54) 
 

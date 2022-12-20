@@ -11,8 +11,8 @@
 `public string ` [`RecipientName`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1a4db149de8d9e2720942cc478bf9b67e2) | 
 `public string ` [`Memo`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1ae120ff01d30f40e9771e30e58f1a1d7f) | 
 `public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Transfers--TransfersDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1_1_asset_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1af4eeb79abe4abf6489007349e93616f9) | 
-`public float ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1a0caa720646d595f07067fcc6c44a4b2e) | 
-`public float ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1a14bdb6268c108cfc8647325d8aff2078) | 
+`public string ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1a022adc431e5845376e250208a999e12d) | 
+`public string ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1a4cb9b4aaa1372df6dc2bb7d8f4916403) | 
 
 ## Members
 
@@ -30,7 +30,7 @@
 
 ##### `public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Transfers--TransfersDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1_1_asset_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1af4eeb79abe4abf6489007349e93616f9) 
 
-##### `public float ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1a0caa720646d595f07067fcc6c44a4b2e) 
+##### `public string ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1a022adc431e5845376e250208a999e12d) 
 
-##### `public float ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1a14bdb6268c108cfc8647325d8aff2078) 
+##### `public string ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_dto_1_1_data_dto_1a4cb9b4aaa1372df6dc2bb7d8f4916403) 
 
