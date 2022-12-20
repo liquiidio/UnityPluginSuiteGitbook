@@ -10,7 +10,7 @@ class HyperionApiClient::Clients::HistoryClient
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `public string ` [`BaseUrl`](#class_hyperion_api_client_1_1_clients_1_1_history_client_1a5e5e1c3b42a6c7ab84f8aeca3c9e570c) | 
-`public  ` [`HistoryClient`](#class_hyperion_api_client_1_1_clients_1_1_history_client_1afb0bb1a0f3845eb1875cb41a202e6e7e)`(HttpClient httpClient)` | 
+`public ` [`HistoryClient`](#class_hyperion_api_client_1_1_clients_1_1_history_client_1afb0bb1a0f3845eb1875cb41a202e6e7e)`(HttpClient httpClient)` | 
 `public async Task< GetApiSnapshotResponse > ` [`GetAbiSnapshotAsync`](#class_hyperion_api_client_1_1_clients_1_1_history_client_1acf64321b0c1cbee53fa031aba5d3125d)`(string contract, int? block, bool? fetch, CancellationToken cancellationToken) = default` | fetch abi at specific block
 `public async Task< GetActionsResponse > ` [`GetActionsAsync`](#class_hyperion_api_client_1_1_clients_1_1_history_client_1aa6d8280d420cbebbe276925cd762965d)`(int? limit, int? skip, string account, string track, string filter, ` [`Sort`](.github/workflows/documentation/md/HyperionApiClient--Models.md#namespace_hyperion_api_client_1_1_models_1ab865d2a43d5c0a9363bf5112589ea852)`? sort, string after, string before, bool? simple, bool? hotOnly, bool? noBinary, bool? checkLib, CancellationToken cancellationToken) = default` | get root actions
 `public async Task< GetDeltasResponse > ` [`GetDeltasAsync`](#class_hyperion_api_client_1_1_clients_1_1_history_client_1a797cb65f1f8d94ef24c8038542e5de47)`(int? limit, int? skip, string code, string scope, string table, string payer, string after, string before, CancellationToken cancellationToken) = default` | get state deltas
@@ -23,7 +23,7 @@ class HyperionApiClient::Clients::HistoryClient
 
 ##### `public string ` [`BaseUrl`](#class_hyperion_api_client_1_1_clients_1_1_history_client_1a5e5e1c3b42a6c7ab84f8aeca3c9e570c) 
 
-##### `public  ` [`HistoryClient`](#class_hyperion_api_client_1_1_clients_1_1_history_client_1afb0bb1a0f3845eb1875cb41a202e6e7e)`(HttpClient httpClient)` 
+##### `public ` [`HistoryClient`](#class_hyperion_api_client_1_1_clients_1_1_history_client_1afb0bb1a0f3845eb1875cb41a202e6e7e)`(HttpClient httpClient)` 
 
 ##### `public async Task< GetApiSnapshotResponse > ` [`GetAbiSnapshotAsync`](#class_hyperion_api_client_1_1_clients_1_1_history_client_1acf64321b0c1cbee53fa031aba5d3125d)`(string contract, int? block, bool? fetch, CancellationToken cancellationToken) = default` 
 

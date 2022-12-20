@@ -10,7 +10,7 @@ class HyperionApiClient::Clients::AccountsClient
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `public string ` [`BaseUrl`](#class_hyperion_api_client_1_1_clients_1_1_accounts_client_1a5e5e1c3b42a6c7ab84f8aeca3c9e570c) | 
-`public  ` [`AccountsClient`](#class_hyperion_api_client_1_1_clients_1_1_accounts_client_1a9ac22a9cdfa1aee84aca6f92790cadfb)`(HttpClient httpClient)` | 
+`public ` [`AccountsClient`](#class_hyperion_api_client_1_1_clients_1_1_accounts_client_1a9ac22a9cdfa1aee84aca6f92790cadfb)`(HttpClient httpClient)` | 
 `public async Task< GetCreatedAccountsResponse > ` [`GetCreatedAccountsAsync`](#class_hyperion_api_client_1_1_clients_1_1_accounts_client_1a635c3eab451507a0d8e5a4bb8ed90072)`(string account, int? limit, int? skip, CancellationToken cancellationToken) = default` | get created accounts
 `public async Task< GetCreatorResponse > ` [`GetCreatorAsync`](#class_hyperion_api_client_1_1_clients_1_1_accounts_client_1a69b6295546037d1b1719172b91babdb0)`(string account, CancellationToken cancellationToken) = default` | get account creator
 `public async Task< GetAccountResponse > ` [`GetAccountAsync`](#class_hyperion_api_client_1_1_clients_1_1_accounts_client_1a8f28c769216fc1f7240aa7cdf9a6c64a)`(string account, int? limit, int? skip, CancellationToken cancellationToken) = default` | get account summary
@@ -24,7 +24,7 @@ class HyperionApiClient::Clients::AccountsClient
 
 ##### `public string ` [`BaseUrl`](#class_hyperion_api_client_1_1_clients_1_1_accounts_client_1a5e5e1c3b42a6c7ab84f8aeca3c9e570c) 
 
-##### `public  ` [`AccountsClient`](#class_hyperion_api_client_1_1_clients_1_1_accounts_client_1a9ac22a9cdfa1aee84aca6f92790cadfb)`(HttpClient httpClient)` 
+##### `public ` [`AccountsClient`](#class_hyperion_api_client_1_1_clients_1_1_accounts_client_1a9ac22a9cdfa1aee84aca6f92790cadfb)`(HttpClient httpClient)` 
 
 ##### `public async Task< GetCreatedAccountsResponse > ` [`GetCreatedAccountsAsync`](#class_hyperion_api_client_1_1_clients_1_1_accounts_client_1a635c3eab451507a0d8e5a4bb8ed90072)`(string account, int? limit, int? skip, CancellationToken cancellationToken) = default` 
 
