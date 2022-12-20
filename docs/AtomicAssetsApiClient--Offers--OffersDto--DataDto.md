@@ -4,7 +4,7 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`AtomicAssetsApiClient::Offers::OffersDto::DataDto::AssetDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Offers--OffersDto--DataDto--AssetDto.md#class_atomic_assets_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1_1_asset_dto)        | 
+`class ` [`AssetDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Offers--OffersDto--DataDto--AssetDto.md#class_atomic_assets_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1_1_asset_dto)        | 
 `public string ` [`Contract`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a9b4baf8484b98d89513d7776a8877d0e) | 
 `public string ` [`OfferId`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a176ccbd661a78c99444e637ed0af4c6e) | 
 `public string ` [`SenderName`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_dto_1_1_data_dto_1a8435cbd7a4dda595164d4ff47d4f4525) | 
