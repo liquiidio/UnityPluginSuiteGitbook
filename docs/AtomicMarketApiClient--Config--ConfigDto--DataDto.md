@@ -4,8 +4,8 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`SupportedPairsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_pairs_dto)        | 
-`class ` [`SupportedTokensDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedTokensDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_tokens_dto)        | 
+`class ` [`SupportedPairsDto`](AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto.md)        | 
+`class ` [`SupportedTokensDto`](AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedTokensDto.md)        | 
 `public string ` [`AtomicAssetsContract`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a3e0c1d2851ee7570131d29b9b71b262e) | The Name of the AtomicAssets Smart Contract.
 `public string ` [`AtomicMarketContract`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1aca5e9436bee9841b4b8328398fa9727a) | The Name of the AtomicMarket Smart Contract.
 `public string ` [`DelphioracleContract`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a142081e81705fd766d92bb874b47c7a8) | The Name of the DelphiOracle Smart Contract.
@@ -16,15 +16,15 @@
 `public string ` [`MaximumAuctionDuration`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1abefaf2e737142d85ce4a6d7205078847) | The maximum Auction Duration.
 `public string ` [`MinimumBidIncrease`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a181ca286196c3e6a28ca0035f1973a63) | The minimum bid increase.
 `public string ` [`AuctionResetDuration`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a2d2d054c7aca6e6407d0f771401fedf9) | The auction reset duration.
-`public ` [`SupportedTokensDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedTokensDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_tokens_dto)` ` [`SupportedTokens`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1aeb94d5b332ac438ad66b0f5c8033ce4b) | Array of supported Tokens.
-`public ` [`SupportedPairsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_pairs_dto)` ` [`SupportedPairs`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a92bb04ac64846a4ab2cb6e9951d6ce29) | Array of supported Currency-/Token-Pairs.
+`public ` [`SupportedTokensDto`](AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedTokensDto.md)` ` [`SupportedTokens`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1aeb94d5b332ac438ad66b0f5c8033ce4b) | Array of supported Tokens.
+`public ` [`SupportedPairsDto`](AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto.md)` ` [`SupportedPairs`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a92bb04ac64846a4ab2cb6e9951d6ce29) | Array of supported Currency-/Token-Pairs.
 `public long ` [`QueryTime`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a6cc7a06930fbe1e28eb7eed2599015c9) | The time this Query took.
 
 ## Members
 
-##### `class ` [`SupportedPairsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_pairs_dto) 
+##### `class ` [`SupportedPairsDto`](AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto.md) 
 
-##### `class ` [`SupportedTokensDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedTokensDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_tokens_dto) 
+##### `class ` [`SupportedTokensDto`](AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedTokensDto.md) 
 
 ##### `public string ` [`AtomicAssetsContract`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a3e0c1d2851ee7570131d29b9b71b262e) 
 
@@ -66,11 +66,11 @@ The minimum bid increase.
 
 The auction reset duration.
 
-##### `public ` [`SupportedTokensDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedTokensDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_tokens_dto)` ` [`SupportedTokens`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1aeb94d5b332ac438ad66b0f5c8033ce4b) 
+##### `public ` [`SupportedTokensDto`](AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedTokensDto.md)` ` [`SupportedTokens`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1aeb94d5b332ac438ad66b0f5c8033ce4b) 
 
 Array of supported Tokens.
 
-##### `public ` [`SupportedPairsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto.md#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1_1_supported_pairs_dto)` ` [`SupportedPairs`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a92bb04ac64846a4ab2cb6e9951d6ce29) 
+##### `public ` [`SupportedPairsDto`](AtomicMarketApiClient--Config--ConfigDto--DataDto--SupportedPairsDto.md)` ` [`SupportedPairs`](#class_atomic_market_api_client_1_1_config_1_1_config_dto_1_1_data_dto_1a92bb04ac64846a4ab2cb6e9951d6ce29) 
 
 Array of supported Currency-/Token-Pairs.
 
