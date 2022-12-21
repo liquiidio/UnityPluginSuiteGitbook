@@ -4,7 +4,7 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1_1_asset_dto)        | 
+`class ` [`AssetDto`](AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md)        | 
 `public string ` [`Contract`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a9b4baf8484b98d89513d7776a8877d0e) | The name of the Smart Contract.
 `public string ` [`OfferId`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a176ccbd661a78c99444e637ed0af4c6e) | The unique identifier of an Offer.
 `public string ` [`SenderName`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a8435cbd7a4dda595164d4ff47d4f4525) | The Name of the Sender Account.
@@ -18,12 +18,12 @@
 `public string ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a4cb9b4aaa1372df6dc2bb7d8f4916403) | 
 `public string ` [`UpdatedAtBlock`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a6bb57b5afa05403c9d9c39296178c9ef) | 
 `public string ` [`UpdatedAtTime`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a72262f869452135882a475b6636de902) | 
-`public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1_1_asset_dto)` ` [`SenderAssets`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a86e7c6a130fb6362e9c7acccadccc56e) | The Sender Assets.
-`public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1_1_asset_dto)` ` [`RecipientAssets`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a358e5087b184a62aa204fdbb91ec8ef5) | The Recipient Assets.
+`public ` [`AssetDto`](AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md)` ` [`SenderAssets`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a86e7c6a130fb6362e9c7acccadccc56e) | The Sender Assets.
+`public ` [`AssetDto`](AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md)` ` [`RecipientAssets`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a358e5087b184a62aa204fdbb91ec8ef5) | The Recipient Assets.
 
 ## Members
 
-##### `class ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1_1_asset_dto) 
+##### `class ` [`AssetDto`](AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md) 
 
 ##### `public string ` [`Contract`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a9b4baf8484b98d89513d7776a8877d0e) 
 
@@ -67,11 +67,11 @@ The Bock Number this was created.
 
 ##### `public string ` [`UpdatedAtTime`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a72262f869452135882a475b6636de902) 
 
-##### `public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1_1_asset_dto)` ` [`SenderAssets`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a86e7c6a130fb6362e9c7acccadccc56e) 
+##### `public ` [`AssetDto`](AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md)` ` [`SenderAssets`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a86e7c6a130fb6362e9c7acccadccc56e) 
 
 The Sender Assets.
 
-##### `public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1_1_asset_dto)` ` [`RecipientAssets`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a358e5087b184a62aa204fdbb91ec8ef5) 
+##### `public ` [`AssetDto`](AtomicMarketApiClient--Offers--OfferDto--DataDto--AssetDto.md)` ` [`RecipientAssets`](#class_atomic_market_api_client_1_1_offers_1_1_offer_dto_1_1_data_dto_1a358e5087b184a62aa204fdbb91ec8ef5) 
 
 The Recipient Assets.
 

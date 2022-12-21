@@ -9,7 +9,7 @@ class AtomicMarketApiClient::Sales::SalesUriParameterBuilder
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithState`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a86a45df5fbd7b8e856862532a64a4f2e)`(params ` [`State`](.github/workflows/documentation/md/AtomicMarketApiClient.md#namespace_atomic_market_api_client_1ac975e092be6aef4456c9af8ddc8e33bf)` states)` | `WithState` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
+`public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithState`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a86a45df5fbd7b8e856862532a64a4f2e)`(params ` [`State`](AtomicMarketApiClient.md)` states)` | `WithState` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
 `public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithMaxAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a76c7fc41d88b240adcdbde353906eca5)`(int maxAssets)` | `WithMaxAssets` sets the `_maxAssets` variable
 `public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithMinAssets`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a33744ffa60e39119821b9f1ecad5cdc9)`(int minAssets)` | `WithMinAssets` sets the `_minAssets` variable
 `public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithShowSellerContracts`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a2f6ffc1f4ef5b03100b645c6599ecdf2)`(bool showSellerContracts)` | `WithShowSellerContracts` sets the `_showSellerContracts` field to the value of the `showSellerContracts` parameter
@@ -43,7 +43,7 @@ class AtomicMarketApiClient::Sales::SalesUriParameterBuilder
 `public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithAfter`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1aab02bf05e9c019d8bb6f2b0a5a0712a4)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
 `public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithPage`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ac1859744cba9862df4d50f592c9cfd3b)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
 `public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithLimit`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a46d49579bbdf1539139fecf1a6adebcd)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7bffd7098963c702d0871a5706e76c40)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` | This function sets the sort strategy for the query.
+`public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7bffd7098963c702d0871a5706e76c40)`(` [`SortStrategy`](AtomicMarketApiClient--Core.md)` sorting)` | This function sets the sort strategy for the query.
 `public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithSort`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7dfb9ebde66b8ca18245d42aaf9b2fb3)`(string sort)` | It sets the sort parameter to the value passed in.
 `public string ` [`Build`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string ` [`_state`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a9577beb4165c1157d2e7f8f0ff065dde) | A private variable that is used to store the value of the state parameter.
@@ -80,12 +80,12 @@ class AtomicMarketApiClient::Sales::SalesUriParameterBuilder
 `private int? ` [`_after`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1ae1483718c3d317e0b6046ada434c53ae) | A nullable integer specifying the next timestamp.
 `private int? ` [`_page`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) | A nullable integer specifying the page.
 `private int? ` [`_limit`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) | A nullable integer specifying the limit of returned values.
-`private ` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | A nullable enum specifying the sortStrategy.
+`private ` [`SortStrategy`](AtomicMarketApiClient--Core.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | A nullable enum specifying the sortStrategy.
 `private string ` [`_sort`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a3ac373edf19e058d7fae7f4c4ba485f4) | Declaring a private variable called _sort.
 
 ## Members
 
-##### `public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithState`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a86a45df5fbd7b8e856862532a64a4f2e)`(params ` [`State`](.github/workflows/documentation/md/AtomicMarketApiClient.md#namespace_atomic_market_api_client_1ac975e092be6aef4456c9af8ddc8e33bf)` states)` 
+##### `public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithState`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a86a45df5fbd7b8e856862532a64a4f2e)`(params ` [`State`](AtomicMarketApiClient.md)` states)` 
 
 `WithState` is a function that takes an array of strings and returns an `SalesUriParameterBuilder` object
 
@@ -425,7 +425,7 @@ The SalesUriParameterBuilder object.
 #### Returns
 The SalesUriParameterBuilder object.
 
-##### `public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7bffd7098963c702d0871a5706e76c40)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` 
+##### `public ` [`SalesUriParameterBuilder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a7bffd7098963c702d0871a5706e76c40)`(` [`SortStrategy`](AtomicMarketApiClient--Core.md)` sorting)` 
 
 This function sets the sort strategy for the query.
 
@@ -588,7 +588,7 @@ A nullable integer specifying the page.
 
 A nullable integer specifying the limit of returned values.
 
-##### `private ` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
+##### `private ` [`SortStrategy`](AtomicMarketApiClient--Core.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_sales_1_1_sales_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
 
 A nullable enum specifying the sortStrategy.
 

@@ -4,28 +4,28 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`OffersDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersDto.md#class_atomic_market_api_client_1_1_offers_1_1_offers_dto)` ` [`Offers`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a6ad9622cb51a2bfb25dce65cc64dacd3)`()` | This function will make a GET request to the `/offers` endpoint and return the response as a `OffersDto` object.
-`public ` [`OffersDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersDto.md#class_atomic_market_api_client_1_1_offers_1_1_offers_dto)` ` [`Offers`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a8a2c0fdc617e6862e7bfc84e5ab7bca8)`(` [`OffersUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` offersUriParameterBuilder)` | It takes a `OffersUriParameterBuilder` object as a parameter, builds a `HttpRequestMessage` object, sends it to the API, and returns a `OffersDto` object.
-`public ` [`OfferDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OfferDto.md#class_atomic_market_api_client_1_1_offers_1_1_offer_dto)` ` [`Offer`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1ae093d07f4cfa336003425539a0a92a13)`(string offerId)` | It builds an HTTP GET request to the `OfferUri` endpoint, sends the request to the API, and returns the response as an `OfferDto` object.
-`public ` [`LogsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--LogsDto.md#class_atomic_market_api_client_1_1_logs_dto)` ` [`OfferLogs`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1ab8311c9a2d3602ab9cb14d0cad5f9c13)`(string offerId)` | This function returns a list of logs for a given offer.
-`public ` [`LogsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--LogsDto.md#class_atomic_market_api_client_1_1_logs_dto)` ` [`OfferLogs`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a5403da960dc8ab3c59e75be746be37a7)`(string offerId, ` [`OffersUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` schemasUriParameterBuilder)` | This function returns a list of logs for a specific offer.
+`public ` [`OffersDto`](AtomicMarketApiClient--Offers--OffersDto.md)` ` [`Offers`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a6ad9622cb51a2bfb25dce65cc64dacd3)`()` | This function will make a GET request to the `/offers` endpoint and return the response as a `OffersDto` object.
+`public ` [`OffersDto`](AtomicMarketApiClient--Offers--OffersDto.md)` ` [`Offers`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a8a2c0fdc617e6862e7bfc84e5ab7bca8)`(` [`OffersUriParameterBuilder`](AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` | It takes a `OffersUriParameterBuilder` object as a parameter, builds a `HttpRequestMessage` object, sends it to the API, and returns a `OffersDto` object.
+`public ` [`OfferDto`](AtomicMarketApiClient--Offers--OfferDto.md)` ` [`Offer`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1ae093d07f4cfa336003425539a0a92a13)`(string offerId)` | It builds an HTTP GET request to the `OfferUri` endpoint, sends the request to the API, and returns the response as an `OfferDto` object.
+`public ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` ` [`OfferLogs`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1ab8311c9a2d3602ab9cb14d0cad5f9c13)`(string offerId)` | This function returns a list of logs for a given offer.
+`public ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` ` [`OfferLogs`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a5403da960dc8ab3c59e75be746be37a7)`(string offerId, ` [`OffersUriParameterBuilder`](AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md)` schemasUriParameterBuilder)` | This function returns a list of logs for a specific offer.
 `private readonly string ` [`_requestUriBase`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a1854c4909a1013a684af16fb52e8a387) | 
 `private Uri ` [`OffersUri`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1ada4f3a19377ef670d6e90db76983d1e5)`()` | It returns a new Uri object with the value of the _requestUriBase field, a forward slash, and the word "offers".
-`private Uri ` [`OffersUri`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a7193d9a8040525ada787f90854c047f8)`(` [`OffersUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` offersUriParameterBuilder)` | It takes a `OffersUriParameterBuilder` object and returns a `Uri` object.
+`private Uri ` [`OffersUri`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a7193d9a8040525ada787f90854c047f8)`(` [`OffersUriParameterBuilder`](AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` | It takes a `OffersUriParameterBuilder` object and returns a `Uri` object.
 `private Uri ` [`OfferUri`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a20b72164e6cdeeb7fe55ada62c70f6cb)`(string offerId)` | It returns a URI for the offer with the given ID.
 `private Uri ` [`OfferLogsUri`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a30e9bba1b128fcfdd45beac4c5529ddc)`(string offerId)` | It returns a URI for the offer logs endpoint.
-`private Uri ` [`OfferLogsUri`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a1b159d8d73aa0ae3b1e72fc84bf13b6d)`(string offerId, ` [`OffersUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` offersUriParameterBuilder)` | It takes an offerId and an OffersUriParameterBuilder and returns a Uri.
+`private Uri ` [`OfferLogsUri`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a1b159d8d73aa0ae3b1e72fc84bf13b6d)`(string offerId, ` [`OffersUriParameterBuilder`](AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` | It takes an offerId and an OffersUriParameterBuilder and returns a Uri.
 
 ## Members
 
-##### `public ` [`OffersDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersDto.md#class_atomic_market_api_client_1_1_offers_1_1_offers_dto)` ` [`Offers`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a6ad9622cb51a2bfb25dce65cc64dacd3)`()` 
+##### `public ` [`OffersDto`](AtomicMarketApiClient--Offers--OffersDto.md)` ` [`Offers`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a6ad9622cb51a2bfb25dce65cc64dacd3)`()` 
 
 This function will make a GET request to the `/offers` endpoint and return the response as a `OffersDto` object.
 
 #### Returns
 A list of offers
 
-##### `public ` [`OffersDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersDto.md#class_atomic_market_api_client_1_1_offers_1_1_offers_dto)` ` [`Offers`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a8a2c0fdc617e6862e7bfc84e5ab7bca8)`(` [`OffersUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` offersUriParameterBuilder)` 
+##### `public ` [`OffersDto`](AtomicMarketApiClient--Offers--OffersDto.md)` ` [`Offers`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a8a2c0fdc617e6862e7bfc84e5ab7bca8)`(` [`OffersUriParameterBuilder`](AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` 
 
 It takes a `OffersUriParameterBuilder` object as a parameter, builds a `HttpRequestMessage` object, sends it to the API, and returns a `OffersDto` object.
 
@@ -35,7 +35,7 @@ It takes a `OffersUriParameterBuilder` object as a parameter, builds a `HttpRequ
 #### Returns
 A list of offers.
 
-##### `public ` [`OfferDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OfferDto.md#class_atomic_market_api_client_1_1_offers_1_1_offer_dto)` ` [`Offer`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1ae093d07f4cfa336003425539a0a92a13)`(string offerId)` 
+##### `public ` [`OfferDto`](AtomicMarketApiClient--Offers--OfferDto.md)` ` [`Offer`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1ae093d07f4cfa336003425539a0a92a13)`(string offerId)` 
 
 It builds an HTTP GET request to the `OfferUri` endpoint, sends the request to the API, and returns the response as an `OfferDto` object.
 
@@ -45,7 +45,7 @@ It builds an HTTP GET request to the `OfferUri` endpoint, sends the request to t
 #### Returns
 A single offer
 
-##### `public ` [`LogsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--LogsDto.md#class_atomic_market_api_client_1_1_logs_dto)` ` [`OfferLogs`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1ab8311c9a2d3602ab9cb14d0cad5f9c13)`(string offerId)` 
+##### `public ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` ` [`OfferLogs`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1ab8311c9a2d3602ab9cb14d0cad5f9c13)`(string offerId)` 
 
 This function returns a list of logs for a given offer.
 
@@ -55,7 +55,7 @@ This function returns a list of logs for a given offer.
 #### Returns
 A list of logs for the offer.
 
-##### `public ` [`LogsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--LogsDto.md#class_atomic_market_api_client_1_1_logs_dto)` ` [`OfferLogs`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a5403da960dc8ab3c59e75be746be37a7)`(string offerId, ` [`OffersUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` schemasUriParameterBuilder)` 
+##### `public ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` ` [`OfferLogs`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a5403da960dc8ab3c59e75be746be37a7)`(string offerId, ` [`OffersUriParameterBuilder`](AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md)` schemasUriParameterBuilder)` 
 
 This function returns a list of logs for a specific offer.
 
@@ -73,7 +73,7 @@ A list of logs for the offer.
 
 It returns a new Uri object with the value of the _requestUriBase field, a forward slash, and the word "offers".
 
-##### `private Uri ` [`OffersUri`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a7193d9a8040525ada787f90854c047f8)`(` [`OffersUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` offersUriParameterBuilder)` 
+##### `private Uri ` [`OffersUri`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a7193d9a8040525ada787f90854c047f8)`(` [`OffersUriParameterBuilder`](AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` 
 
 It takes a `OffersUriParameterBuilder` object and returns a `Uri` object.
 
@@ -94,7 +94,7 @@ It returns a URI for the offer logs endpoint.
 #### Parameters
 * `offerId` The ID of the offer you want to get logs for.
 
-##### `private Uri ` [`OfferLogsUri`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a1b159d8d73aa0ae3b1e72fc84bf13b6d)`(string offerId, ` [`OffersUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md#class_atomic_market_api_client_1_1_offers_1_1_offers_uri_parameter_builder)` offersUriParameterBuilder)` 
+##### `private Uri ` [`OfferLogsUri`](#class_atomic_market_api_client_1_1_offers_1_1_offers_api_1a1b159d8d73aa0ae3b1e72fc84bf13b6d)`(string offerId, ` [`OffersUriParameterBuilder`](AtomicMarketApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` 
 
 It takes an offerId and an OffersUriParameterBuilder and returns a Uri.
 

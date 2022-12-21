@@ -4,38 +4,38 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`CollectionsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionsDto.md#class_atomic_market_api_client_1_1_stats_1_1_collections_dto)` ` [`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a99d55526cbe148310bd140c1ea21e97a)`()` | This function will return a list of all collections in the database.
-`public ` [`CollectionsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionsDto.md#class_atomic_market_api_client_1_1_stats_1_1_collections_dto)` ` [`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a9ee68cbabd519bdbf0a5e5becb6adfb8)`(` [`StatsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` uriParameterBuilder)` | This function will return a `CollectionsDto` object that contains a list of `CollectionDto` objects.
-`public ` [`CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionDto.md#class_atomic_market_api_client_1_1_stats_1_1_collection_dto)` ` [`Collection`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a94744e7cb4182c866d42d10bb5d4441c)`(string collectionName, ` [`StatsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` uriParameterBuilder)` | This function will return a `CollectionDto` object that contains the collection's name, the number of documents in the collection, the number of documents that have been deleted, the number of documents that are new (i.e. have not been persisted to disk), the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been.
-`public ` [`AccountsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--AccountsDto.md#class_atomic_market_api_client_1_1_stats_1_1_accounts_dto)` ` [`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` | This function will return a list of accounts for the current user.
-`public ` [`AccountsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--AccountsDto.md#class_atomic_market_api_client_1_1_stats_1_1_accounts_dto)` ` [`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1aee62547caf2696855c3d18ef8d2be2)`(` [`StatsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` uriParameterBuilder)` | This function will return a list of accounts that match the criteria specified in the `uriParameterBuilder` parameter.
-`public ` [`AccountDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--AccountDto.md#class_atomic_market_api_client_1_1_stats_1_1_account_dto)` ` [`Account`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a117e7abeab8e57b9439a62a124270b71)`(string accountName, ` [`StatsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` uriParameterBuilder)` | This function will return an AccountDto object that contains the account information for the account name passed in.
-`public ` [`SchemaDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--SchemaDto.md#class_atomic_market_api_client_1_1_stats_1_1_schema_dto)` ` [`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a010d66ee9d420f333f5bc096cfb02122)`(string collectionName)` | This function will return the schema for the specified collection.
-`public ` [`SchemaDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--SchemaDto.md#class_atomic_market_api_client_1_1_stats_1_1_schema_dto)` ` [`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1abd9aa3a18365cf538bf0729a41e109e4)`(string collectionName, ` [`StatsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` uriParameterBuilder)` | This function returns a schema for a given collection.
-`public ` [`GraphDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--GraphDto.md#class_atomic_market_api_client_1_1_stats_1_1_graph_dto)` ` [`Graph`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3750a373cd4414c35877b0742bc335e7)`()` | This function will return a `GraphDto` object that contains the graph data.
-`public ` [`SalesDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--SalesDto.md#class_atomic_market_api_client_1_1_stats_1_1_sales_dto)` ` [`Sales`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` | The function sends a GET request to the API and returns the response as a SalesDto object.
+`public ` [`CollectionsDto`](AtomicMarketApiClient--Stats--CollectionsDto.md)` ` [`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a99d55526cbe148310bd140c1ea21e97a)`()` | This function will return a list of all collections in the database.
+`public ` [`CollectionsDto`](AtomicMarketApiClient--Stats--CollectionsDto.md)` ` [`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a9ee68cbabd519bdbf0a5e5becb6adfb8)`(` [`StatsUriParameterBuilder`](AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md)` uriParameterBuilder)` | This function will return a `CollectionsDto` object that contains a list of `CollectionDto` objects.
+`public ` [`CollectionDto`](AtomicMarketApiClient--Stats--CollectionDto.md)` ` [`Collection`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a94744e7cb4182c866d42d10bb5d4441c)`(string collectionName, ` [`StatsUriParameterBuilder`](AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md)` uriParameterBuilder)` | This function will return a `CollectionDto` object that contains the collection's name, the number of documents in the collection, the number of documents that have been deleted, the number of documents that are new (i.e. have not been persisted to disk), the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been.
+`public ` [`AccountsDto`](AtomicMarketApiClient--Stats--AccountsDto.md)` ` [`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` | This function will return a list of accounts for the current user.
+`public ` [`AccountsDto`](AtomicMarketApiClient--Stats--AccountsDto.md)` ` [`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1aee62547caf2696855c3d18ef8d2be2)`(` [`StatsUriParameterBuilder`](AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md)` uriParameterBuilder)` | This function will return a list of accounts that match the criteria specified in the `uriParameterBuilder` parameter.
+`public ` [`AccountDto`](AtomicMarketApiClient--Stats--AccountDto.md)` ` [`Account`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a117e7abeab8e57b9439a62a124270b71)`(string accountName, ` [`StatsUriParameterBuilder`](AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md)` uriParameterBuilder)` | This function will return an AccountDto object that contains the account information for the account name passed in.
+`public ` [`SchemaDto`](AtomicMarketApiClient--Stats--SchemaDto.md)` ` [`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a010d66ee9d420f333f5bc096cfb02122)`(string collectionName)` | This function will return the schema for the specified collection.
+`public ` [`SchemaDto`](AtomicMarketApiClient--Stats--SchemaDto.md)` ` [`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1abd9aa3a18365cf538bf0729a41e109e4)`(string collectionName, ` [`StatsUriParameterBuilder`](AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md)` uriParameterBuilder)` | This function returns a schema for a given collection.
+`public ` [`GraphDto`](AtomicMarketApiClient--Stats--GraphDto.md)` ` [`Graph`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3750a373cd4414c35877b0742bc335e7)`()` | This function will return a `GraphDto` object that contains the graph data.
+`public ` [`SalesDto`](AtomicMarketApiClient--Stats--SalesDto.md)` ` [`Sales`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` | The function sends a GET request to the API and returns the response as a SalesDto object.
 `private readonly string ` [`_requestUriBase`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1854c4909a1013a684af16fb52e8a387) | 
 `private Uri ` [`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a07e4028b75613f3c27b168e278447f34)`()` | It returns a URI that points to the collections endpoint of the stats API.
-`private Uri ` [`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1ba975c33a750ebb181aa7743ca05563)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the collections endpoint
-`private Uri ` [`CollectionUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ae6ee87506dcf31f5710562e4299a93eb)`(string collectionName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the collection stats endpoint
+`private Uri ` [`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1ba975c33a750ebb181aa7743ca05563)`(` [`IUriParameterBuilder`](AtomicMarketApiClient--Core.md)` uriParameterBuilder)` | It returns a URI for the collections endpoint
+`private Uri ` [`CollectionUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ae6ee87506dcf31f5710562e4299a93eb)`(string collectionName, ` [`IUriParameterBuilder`](AtomicMarketApiClient--Core.md)` uriParameterBuilder)` | It returns a URI for the collection stats endpoint
 `private Uri ` [`AccountsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a5e08d8ac1bf0710cd7d921b3102965bd)`()` | It returns a `Uri` object that represents the URL for the `/stats/accounts` endpoint.
-`private Uri ` [`AccountsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ac1ca638b8fc8e71629788fd15de02e4b)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the `/stats/accounts` endpoint
-`private Uri ` [`AccountUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ad9c8103b60a0464ea2f44f87d684982e)`(string accountName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the account stats endpoint
+`private Uri ` [`AccountsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ac1ca638b8fc8e71629788fd15de02e4b)`(` [`IUriParameterBuilder`](AtomicMarketApiClient--Core.md)` uriParameterBuilder)` | It returns a URI for the `/stats/accounts` endpoint
+`private Uri ` [`AccountUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ad9c8103b60a0464ea2f44f87d684982e)`(string accountName, ` [`IUriParameterBuilder`](AtomicMarketApiClient--Core.md)` uriParameterBuilder)` | It returns a URI for the account stats endpoint
 `private Uri ` [`SchemasUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a5c09b26c062c3f79bd9197188be9338e)`(string collectionName)` | It returns a URI for the schemas endpoint.
-`private Uri ` [`SchemasUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a2882b19df8fea482117a7ef079dea621)`(string collectionName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` | It returns a URI for the `/stats/schemas/{collectionName}` endpoint
+`private Uri ` [`SchemasUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a2882b19df8fea482117a7ef079dea621)`(string collectionName, ` [`IUriParameterBuilder`](AtomicMarketApiClient--Core.md)` uriParameterBuilder)` | It returns a URI for the `/stats/schemas/{collectionName}` endpoint
 `private Uri ` [`GraphUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a34c6ee73578f1d1fcfccf4e7bbb870a9)`()` | It returns a new Uri object that is the base request URI with the /stats/graph path appended to it.
 `private Uri ` [`SalesUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a40df74fdccb558ba58338c9fdff8c5cb)`()` | It returns a new Uri object that is the base request Uri with the `/stats/sales` path appended to it.
 
 ## Members
 
-##### `public ` [`CollectionsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionsDto.md#class_atomic_market_api_client_1_1_stats_1_1_collections_dto)` ` [`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a99d55526cbe148310bd140c1ea21e97a)`()` 
+##### `public ` [`CollectionsDto`](AtomicMarketApiClient--Stats--CollectionsDto.md)` ` [`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a99d55526cbe148310bd140c1ea21e97a)`()` 
 
 This function will return a list of all collections in the database.
 
 #### Returns
 A list of collections
 
-##### `public ` [`CollectionsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionsDto.md#class_atomic_market_api_client_1_1_stats_1_1_collections_dto)` ` [`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a9ee68cbabd519bdbf0a5e5becb6adfb8)`(` [`StatsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` uriParameterBuilder)` 
+##### `public ` [`CollectionsDto`](AtomicMarketApiClient--Stats--CollectionsDto.md)` ` [`Collections`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a9ee68cbabd519bdbf0a5e5becb6adfb8)`(` [`StatsUriParameterBuilder`](AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md)` uriParameterBuilder)` 
 
 This function will return a `CollectionsDto` object that contains a list of `CollectionDto` objects.
 
@@ -45,7 +45,7 @@ This function will return a `CollectionsDto` object that contains a list of `Col
 #### Returns
 A CollectionsDto object.
 
-##### `public ` [`CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--CollectionDto.md#class_atomic_market_api_client_1_1_stats_1_1_collection_dto)` ` [`Collection`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a94744e7cb4182c866d42d10bb5d4441c)`(string collectionName, ` [`StatsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` uriParameterBuilder)` 
+##### `public ` [`CollectionDto`](AtomicMarketApiClient--Stats--CollectionDto.md)` ` [`Collection`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a94744e7cb4182c866d42d10bb5d4441c)`(string collectionName, ` [`StatsUriParameterBuilder`](AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md)` uriParameterBuilder)` 
 
 This function will return a `CollectionDto` object that contains the collection's name, the number of documents in the collection, the number of documents that have been deleted, the number of documents that are new (i.e. have not been persisted to disk), the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been updated, the number of documents that have been replaced, the number of documents that have been removed, the number of documents that have been inserted, the number of documents that have been ignored, the number of documents that have been.
 
@@ -57,14 +57,14 @@ This function will return a `CollectionDto` object that contains the collection'
 #### Returns
 A collection of documents.
 
-##### `public ` [`AccountsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--AccountsDto.md#class_atomic_market_api_client_1_1_stats_1_1_accounts_dto)` ` [`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` 
+##### `public ` [`AccountsDto`](AtomicMarketApiClient--Stats--AccountsDto.md)` ` [`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` 
 
 This function will return a list of accounts for the current user.
 
 #### Returns
 A list of accounts
 
-##### `public ` [`AccountsDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--AccountsDto.md#class_atomic_market_api_client_1_1_stats_1_1_accounts_dto)` ` [`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1aee62547caf2696855c3d18ef8d2be2)`(` [`StatsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` uriParameterBuilder)` 
+##### `public ` [`AccountsDto`](AtomicMarketApiClient--Stats--AccountsDto.md)` ` [`Accounts`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1aee62547caf2696855c3d18ef8d2be2)`(` [`StatsUriParameterBuilder`](AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md)` uriParameterBuilder)` 
 
 This function will return a list of accounts that match the criteria specified in the `uriParameterBuilder` parameter.
 
@@ -74,7 +74,7 @@ This function will return a list of accounts that match the criteria specified i
 #### Returns
 A list of accounts.
 
-##### `public ` [`AccountDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--AccountDto.md#class_atomic_market_api_client_1_1_stats_1_1_account_dto)` ` [`Account`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a117e7abeab8e57b9439a62a124270b71)`(string accountName, ` [`StatsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` uriParameterBuilder)` 
+##### `public ` [`AccountDto`](AtomicMarketApiClient--Stats--AccountDto.md)` ` [`Account`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a117e7abeab8e57b9439a62a124270b71)`(string accountName, ` [`StatsUriParameterBuilder`](AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md)` uriParameterBuilder)` 
 
 This function will return an AccountDto object that contains the account information for the account name passed in.
 
@@ -86,7 +86,7 @@ This function will return an AccountDto object that contains the account informa
 #### Returns
 An AccountDto object.
 
-##### `public ` [`SchemaDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--SchemaDto.md#class_atomic_market_api_client_1_1_stats_1_1_schema_dto)` ` [`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a010d66ee9d420f333f5bc096cfb02122)`(string collectionName)` 
+##### `public ` [`SchemaDto`](AtomicMarketApiClient--Stats--SchemaDto.md)` ` [`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a010d66ee9d420f333f5bc096cfb02122)`(string collectionName)` 
 
 This function will return the schema for the specified collection.
 
@@ -96,7 +96,7 @@ This function will return the schema for the specified collection.
 #### Returns
 A SchemaDto object
 
-##### `public ` [`SchemaDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--SchemaDto.md#class_atomic_market_api_client_1_1_stats_1_1_schema_dto)` ` [`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1abd9aa3a18365cf538bf0729a41e109e4)`(string collectionName, ` [`StatsUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` uriParameterBuilder)` 
+##### `public ` [`SchemaDto`](AtomicMarketApiClient--Stats--SchemaDto.md)` ` [`Schema`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1abd9aa3a18365cf538bf0729a41e109e4)`(string collectionName, ` [`StatsUriParameterBuilder`](AtomicMarketApiClient--Stats--StatsUriParameterBuilder.md)` uriParameterBuilder)` 
 
 This function returns a schema for a given collection.
 
@@ -108,14 +108,14 @@ This function returns a schema for a given collection.
 #### Returns
 A SchemaDto object.
 
-##### `public ` [`GraphDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--GraphDto.md#class_atomic_market_api_client_1_1_stats_1_1_graph_dto)` ` [`Graph`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3750a373cd4414c35877b0742bc335e7)`()` 
+##### `public ` [`GraphDto`](AtomicMarketApiClient--Stats--GraphDto.md)` ` [`Graph`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a3750a373cd4414c35877b0742bc335e7)`()` 
 
 This function will return a `GraphDto` object that contains the graph data.
 
 #### Returns
 A GraphDto object
 
-##### `public ` [`SalesDto`](.github/workflows/documentation/md/AtomicMarketApiClient--Stats--SalesDto.md#class_atomic_market_api_client_1_1_stats_1_1_sales_dto)` ` [`Sales`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` 
+##### `public ` [`SalesDto`](AtomicMarketApiClient--Stats--SalesDto.md)` ` [`Sales`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1aa0e37cd4086cddc4ba41ff9855d83b9b)`()` 
 
 The function sends a GET request to the API and returns the response as a SalesDto object.
 
@@ -128,14 +128,14 @@ A SalesDto object
 
 It returns a URI that points to the collections endpoint of the stats API.
 
-##### `private Uri ` [`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1ba975c33a750ebb181aa7743ca05563)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+##### `private Uri ` [`CollectionsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a1ba975c33a750ebb181aa7743ca05563)`(` [`IUriParameterBuilder`](AtomicMarketApiClient--Core.md)` uriParameterBuilder)` 
 
 It returns a URI for the collections endpoint
 
 #### Parameters
 * `IUriParameterBuilder` This is a class that is used to build the query string parameters for the request.
 
-##### `private Uri ` [`CollectionUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ae6ee87506dcf31f5710562e4299a93eb)`(string collectionName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+##### `private Uri ` [`CollectionUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ae6ee87506dcf31f5710562e4299a93eb)`(string collectionName, ` [`IUriParameterBuilder`](AtomicMarketApiClient--Core.md)` uriParameterBuilder)` 
 
 It returns a URI for the collection stats endpoint
 
@@ -148,14 +148,14 @@ It returns a URI for the collection stats endpoint
 
 It returns a `Uri` object that represents the URL for the `/stats/accounts` endpoint.
 
-##### `private Uri ` [`AccountsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ac1ca638b8fc8e71629788fd15de02e4b)`(` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+##### `private Uri ` [`AccountsUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ac1ca638b8fc8e71629788fd15de02e4b)`(` [`IUriParameterBuilder`](AtomicMarketApiClient--Core.md)` uriParameterBuilder)` 
 
 It returns a URI for the `/stats/accounts` endpoint
 
 #### Parameters
 * `IUriParameterBuilder` This is a class that will build the query string parameters for the request.
 
-##### `private Uri ` [`AccountUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ad9c8103b60a0464ea2f44f87d684982e)`(string accountName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+##### `private Uri ` [`AccountUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1ad9c8103b60a0464ea2f44f87d684982e)`(string accountName, ` [`IUriParameterBuilder`](AtomicMarketApiClient--Core.md)` uriParameterBuilder)` 
 
 It returns a URI for the account stats endpoint
 
@@ -171,7 +171,7 @@ It returns a URI for the schemas endpoint.
 #### Parameters
 * `collectionName` The name of the collection you want to get the stats for.
 
-##### `private Uri ` [`SchemasUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a2882b19df8fea482117a7ef079dea621)`(string collectionName, ` [`IUriParameterBuilder`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#interface_atomic_market_api_client_1_1_core_1_1_i_uri_parameter_builder)` uriParameterBuilder)` 
+##### `private Uri ` [`SchemasUri`](#class_atomic_market_api_client_1_1_stats_1_1_stats_api_1a2882b19df8fea482117a7ef079dea621)`(string collectionName, ` [`IUriParameterBuilder`](AtomicMarketApiClient--Core.md)` uriParameterBuilder)` 
 
 It returns a URI for the `/stats/schemas/{collectionName}` endpoint
 

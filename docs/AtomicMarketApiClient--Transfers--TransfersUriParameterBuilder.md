@@ -15,7 +15,7 @@
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1af515834be5fe24240fd21a2edd32a47e)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `TransfersUriParameterBuilder` object
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithPage`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a81116c0e2c466a1d667869646d62e2a0)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithLimit`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a756c268697783b5604274f09f913cdcf)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a9301a8382257d4b63d98703a5e704856)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` | This function sets the sort strategy for the query.
+`public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a9301a8382257d4b63d98703a5e704856)`(` [`SortStrategy`](AtomicMarketApiClient--Core.md)` sorting)` | This function sets the sort strategy for the query.
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithSort`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1adf4159f0405483ab0dfad67097a8982d)`(string sort)` | It sets the sort parameter for the request.
 `public string ` [`Build`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string ` [`_account`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1aa5823aa98a8362446f2f023628121726) | A private variable that is used to store the value of the account parameter.
@@ -29,7 +29,7 @@
 `private string ` [`_collectionWhitelist`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a525c994ce1a584f4d763ac9d5c1b3cb5) | A private variable that is used to store the value of the collectionWhitelist parameter.
 `private int? ` [`_page`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) | A nullable integer specifying the page. <br/>
 `private int? ` [`_limit`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) | A nullable integer specifying the limit of returned values.
-`private ` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | A nullable enum specifying the sortStrategy.
+`private ` [`SortStrategy`](AtomicMarketApiClient--Core.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | A nullable enum specifying the sortStrategy.
 `private string ` [`_sort`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a3ac373edf19e058d7fae7f4c4ba485f4) | A private variable that is used to store the value of the sort parameter.
 
 ## Members
@@ -144,7 +144,7 @@ The TransfersUriParameterBuilder object.
 #### Returns
 The TranfersUriParameterBuilder object.
 
-##### `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a9301a8382257d4b63d98703a5e704856)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` 
+##### `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a9301a8382257d4b63d98703a5e704856)`(` [`SortStrategy`](AtomicMarketApiClient--Core.md)` sorting)` 
 
 This function sets the sort strategy for the query.
 
@@ -215,7 +215,7 @@ A nullable integer specifying the page. <br/>
 
 A nullable integer specifying the limit of returned values.
 
-##### `private ` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
+##### `private ` [`SortStrategy`](AtomicMarketApiClient--Core.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
 
 A nullable enum specifying the sortStrategy.
 
