@@ -21,7 +21,7 @@
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithAfter`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a230a997297f58a85418fbc48def59169)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithPage`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a73131924601db3a0625d97878fb02851)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithLimit`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a16b75952442c1bef02d7e463de894f7e)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public ` [`AssetsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a02762697b0e4b93a03641f5663df86df)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicAssetsApiClient.md#namespace_atomic_assets_api_client_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` | This function sets the sort strategy for the query.
+`public ` [`AssetsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a02762697b0e4b93a03641f5663df86df)`(` [`SortStrategy`](AtomicAssetsApiClient.md)` sorting)` | This function sets the sort strategy for the query.
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithSort`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ad6a7cd9614a056ee785704cea58be02d)`(string sort)` | It sets the sort parameter to the value passed in.
 `public string ` [`Build`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string ` [`_owner`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ac091a560bcb5025581c60ad2b3e1f3bb) | 
@@ -41,7 +41,7 @@
 `private int? ` [`_after`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ae1483718c3d317e0b6046ada434c53ae) | 
 `private int? ` [`_page`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) | 
 `private int? ` [`_limit`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) | 
-`private ` [`SortStrategy`](.github/workflows/documentation/md/AtomicAssetsApiClient.md#namespace_atomic_assets_api_client_1a1a2688049f7c9dc4f77213ca78b6de0f)`? ` [`_sortStrategy`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | 
+`private ` [`SortStrategy`](AtomicAssetsApiClient.md)`? ` [`_sortStrategy`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | 
 `private string ` [`_sort`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a3ac373edf19e058d7fae7f4c4ba485f4) | 
 
 ## Members
@@ -216,7 +216,7 @@ The AssetsUriParameterBuilder object.
 #### Returns
 The AssetsUriParameterBuilder object.
 
-##### `public ` [`AssetsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a02762697b0e4b93a03641f5663df86df)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicAssetsApiClient.md#namespace_atomic_assets_api_client_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` 
+##### `public ` [`AssetsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a02762697b0e4b93a03641f5663df86df)`(` [`SortStrategy`](AtomicAssetsApiClient.md)` sorting)` 
 
 This function sets the sort strategy for the query.
 
@@ -277,7 +277,7 @@ A string that contains the parameters for the query.
 
 ##### `private int? ` [`_limit`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) 
 
-##### `private ` [`SortStrategy`](.github/workflows/documentation/md/AtomicAssetsApiClient.md#namespace_atomic_assets_api_client_1a1a2688049f7c9dc4f77213ca78b6de0f)`? ` [`_sortStrategy`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
+##### `private ` [`SortStrategy`](AtomicAssetsApiClient.md)`? ` [`_sortStrategy`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
 
 ##### `private string ` [`_sort`](#class_atomic_assets_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a3ac373edf19e058d7fae7f4c4ba485f4) 
 

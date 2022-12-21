@@ -4,8 +4,8 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`TemplateDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplateDto.md#class_atomic_assets_api_client_1_1_templates_1_1_template_dto) | 
-`class ` [`TemplatesApi`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesApi.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_api) | 
-`class ` [`TemplatesDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesDto.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_dto) | 
-`class ` [`TemplatesUriParameterBuilder`](.github/workflows/documentation/md/AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md#class_atomic_assets_api_client_1_1_templates_1_1_templates_uri_parameter_builder) | 
+`class ` [`TemplateDto`](AtomicAssetsApiClient--Templates--TemplateDto.md) | 
+`class ` [`TemplatesApi`](AtomicAssetsApiClient--Templates--TemplatesApi.md) | 
+`class ` [`TemplatesDto`](AtomicAssetsApiClient--Templates--TemplatesDto.md) | 
+`class ` [`TemplatesUriParameterBuilder`](AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md) | 
 
