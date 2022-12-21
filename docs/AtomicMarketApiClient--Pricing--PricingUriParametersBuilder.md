@@ -12,7 +12,7 @@ class AtomicMarketApiClient::Pricing::PricingUriParametersBuilder
 `public ` [`PricingUriParametersBuilder`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` ` [`WithSymbol`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a09ad8b6a8d73526f5a0fc20c76894819)`(string symbol)` | `WithSymbol` sets the `symbol` parameter
 `public ` [`PricingUriParametersBuilder`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` ` [`WithBurned`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a4f7c02ab695e063599b873e235d5ce47)`(bool burned)` | `WithBurned` sets the `_burned` field to the value of the `burned` parameter
 `public ` [`PricingUriParametersBuilder`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` ` [`WithCollectionName`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1ade45698cd327201f24270ccede733cd3)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `PricingUriParameterBuilder` object
-`public ` [`PricingUriParametersBuilder`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a3728ef603ca60a309fe59e96213208b5)`(string schemaName)` | This function sets the schema name for the query
+`public ` [`PricingUriParametersBuilder`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a3728ef603ca60a309fe59e96213208b5)`(string schemaName)` | This function sets the schema name for the query.
 `public ` [`PricingUriParametersBuilder`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` ` [`WithTemplateId`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a56b890f7fa617e3ae6908264cb6fca6d)`(string templateId)` | `WithTemplateId` sets the `_templateId` variable to the value of the `templateId` parameter
 `public ` [`PricingUriParametersBuilder`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` ` [`WithIsTransferable`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a6520a84e79a0e115c121cafc67cf6cf1)`(bool isTransferable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
 `public ` [`PricingUriParametersBuilder`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` ` [`WithIsBurnable`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a373cece648672a58d814966f3bc91b60)`(bool isBurnable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
@@ -59,7 +59,7 @@ The PricingUriParameterBuilder object.
 
 ##### `public ` [`PricingUriParametersBuilder`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a3728ef603ca60a309fe59e96213208b5)`(string schemaName)` 
 
-This function sets the schema name for the query
+This function sets the schema name for the query.
 
 #### Parameters
 * `schemaName` The name of the schema to use.

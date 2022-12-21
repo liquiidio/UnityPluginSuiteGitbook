@@ -9,13 +9,13 @@
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithAssetId`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1ad6c2cf65c7cbcf992a6c552103c54823)`(string assetId)` | `WithAssetId` sets the assetId parameter
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithSender`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1ac7e6fec43448d261bdb09915f403bff8)`(string sender)` | `WithSender` sets the `sender` parameter
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithCollectionName`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1abc3a11082b9bc76a77a32c42ec37722b)`(string collectionName)` | 
-`public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a41f09cb31c7e928fe07e985ceeed6690)`(string schemaName)` | This function sets the schema name for the query
+`public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a41f09cb31c7e928fe07e985ceeed6690)`(string schemaName)` | This function sets the schema name for the query.
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithTemplateId`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a0b95df82022ced696713fbce52c008c3)`(string templateId)` | It sets the value of the templateId variable.
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1af40daebe2d6ae323cd6dbe84216f5841)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `TransfersUriParameterBuilder` object
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithCollectionWhitelist`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1af515834be5fe24240fd21a2edd32a47e)`(string[] collectionWhitelist)` | `WithCollectionWhitelist` is a function that takes an array of strings and returns an `TransfersUriParameterBuilder` object
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithPage`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a81116c0e2c466a1d667869646d62e2a0)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithLimit`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a756c268697783b5604274f09f913cdcf)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a9301a8382257d4b63d98703a5e704856)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` | This function sets the sort strategy for the query
+`public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a9301a8382257d4b63d98703a5e704856)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` | This function sets the sort strategy for the query.
 `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithSort`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1adf4159f0405483ab0dfad67097a8982d)`(string sort)` | It sets the sort parameter for the request.
 `public string ` [`Build`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string ` [`_account`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1aa5823aa98a8362446f2f023628121726) | 
@@ -86,7 +86,7 @@ The TransfersUriParameterBuilder object.
 
 ##### `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a41f09cb31c7e928fe07e985ceeed6690)`(string schemaName)` 
 
-This function sets the schema name for the query
+This function sets the schema name for the query.
 
 #### Parameters
 * `schemaName` The name of the schema to use.
@@ -146,7 +146,7 @@ The TranfersUriParameterBuilder object.
 
 ##### `public ` [`TransfersUriParameterBuilder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder_1a9301a8382257d4b63d98703a5e704856)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` 
 
-This function sets the sort strategy for the query
+This function sets the sort strategy for the query.
 
 #### Parameters
 * `SortStrategy` 

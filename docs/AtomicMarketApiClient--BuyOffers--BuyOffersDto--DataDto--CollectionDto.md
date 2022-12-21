@@ -12,8 +12,8 @@
 `public string[] ` [`AuthorizedAccounts`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a73107b37932581e90371846fa5426738) | 
 `public string[] ` [`NotifyAccounts`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a630d4b26de24402e31e54373d21d0f66) | 
 `public float ` [`MarketFee`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1acb0447ac03c9fb10b63432c5294f3a93) | 
-`public float ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a0caa720646d595f07067fcc6c44a4b2e) | 
-`public float ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a14bdb6268c108cfc8647325d8aff2078) | 
+`public string ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a022adc431e5845376e250208a999e12d) | 
+`public string ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a4cb9b4aaa1372df6dc2bb7d8f4916403) | 
 
 ## Members
 
@@ -33,7 +33,7 @@
 
 ##### `public float ` [`MarketFee`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1acb0447ac03c9fb10b63432c5294f3a93) 
 
-##### `public float ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a0caa720646d595f07067fcc6c44a4b2e) 
+##### `public string ` [`CreatedAtBlock`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a022adc431e5845376e250208a999e12d) 
 
-##### `public float ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a14bdb6268c108cfc8647325d8aff2078) 
+##### `public string ` [`CreatedAtTime`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a4cb9b4aaa1372df6dc2bb7d8f4916403) 
 

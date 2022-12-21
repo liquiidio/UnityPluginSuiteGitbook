@@ -6,7 +6,7 @@
 ----------------------------------------|---------------------------------------------
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithOwner`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab93ca7050e6cbd0834f777815e7d1f68)`(string owner)` | `WithOwner` sets the `owner` parameter
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithCollectionName`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a406e0848fdc8bbedaf3bb83492d46e2d)`(string collectionName)` | `WithCollectionName` is a function that takes a string as a parameter and returns an `AssetsUriParameterBuilder` object
-`public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab107b452700a62b85e3c98b9c9d05025)`(string schemaName)` | This function sets the schema name for the query
+`public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab107b452700a62b85e3c98b9c9d05025)`(string schemaName)` | This function sets the schema name for the query.
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithTemplateId`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a4993b894f4424ff22bc50a37001d64a0)`(int templateId)` | `WithTemplateId` sets the `_templateId` variable to the value of the `templateId` parameter
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithMatch`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a30e26eeb6cc3ea1f4b2457cb67c0a47a)`(string match)` | `WithMatch` sets the `match` parameter
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithCollectionBlacklist`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1adccc7dee63e4354b72049a00b557723b)`(string[] collectionBlacklist)` | `WithCollectionBlacklist` is a function that takes an array of strings and returns an `AssetsUriParameterBuilder` object
@@ -14,14 +14,14 @@
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithOnlyDuplicateTemplate`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5e4201b39e95d8b4fb55612ad9134de4)`(bool onlyDuplicateTemplates)` | `WithOnlyDuplicatedTemplate` sets the `_onlyDuplicatedTemplate` field to the value of the 'onlyDuplicateTemplate' parameter
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithAuthorisedAccount`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a33396fa69d46616fd89b306b7af84305)`(string authorisedAccount)` | `WithAuthorisedAccount` sets the `authorisedAccount` parameter
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithHideOffers`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1adcd2da27d74180921d699da25fd39c1a)`(bool hideOffers)` | `WithHideOffers` sets the `_hideOffers` field to the value of the `hideOffers` parameter
-`public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithIds`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5bffdf95cdd9997c00260d5de954c572)`(string[] ids)` | This function takes an array of strings and joins them together with a comma
+`public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithIds`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5bffdf95cdd9997c00260d5de954c572)`(string[] ids)` | This function takes an array of strings and joins them together with a comma.
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithLowerBound`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a939923f8ce1c696ee3c7a9394c74d037)`(string lowerBound)` | `WithLowerBound` sets the lower bound of the `account_ids` parameter
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithUpperBound`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a6a4d95dad1f7ca3981a2042e522ab06d)`(string upperBound)` | `WithUpperBound` sets the upper bound of the range of accounts to be returned
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithBefore`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a095c857762a9bb9ff7aa81ff88faadd8)`(int before)` | `WithBefore` sets the `_before` variable to the value of the `before` parameter
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithAfter`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a230a997297f58a85418fbc48def59169)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithPage`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a73131924601db3a0625d97878fb02851)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithLimit`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a16b75952442c1bef02d7e463de894f7e)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a02762697b0e4b93a03641f5663df86df)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` | This function sets the sort strategy for the query
+`public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a02762697b0e4b93a03641f5663df86df)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` | This function sets the sort strategy for the query.
 `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithSort`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ad6a7cd9614a056ee785704cea58be02d)`(string sort)` | It sets the sort parameter to the value passed in.
 `public string ` [`Build`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string ` [`_owner`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ac091a560bcb5025581c60ad2b3e1f3bb) | 
@@ -68,7 +68,7 @@ The AssetsUriParameterBuilder object.
 
 ##### `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithSchemaName`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1ab107b452700a62b85e3c98b9c9d05025)`(string schemaName)` 
 
-This function sets the schema name for the query
+This function sets the schema name for the query.
 
 #### Parameters
 * `schemaName` The name of the schema to use.
@@ -148,7 +148,7 @@ The AccountsUriParameterBuilder object.
 
 ##### `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithIds`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a5bffdf95cdd9997c00260d5de954c572)`(string[] ids)` 
 
-This function takes an array of strings and joins them together with a comma
+This function takes an array of strings and joins them together with a comma.
 
 #### Parameters
 * `ids` A comma-separated list of account IDs.
@@ -218,7 +218,7 @@ The AssetsUriParameterBuilder object.
 
 ##### `public ` [`AssetsUriParameterBuilder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_assets_1_1_assets_uri_parameter_builder_1a02762697b0e4b93a03641f5663df86df)`(` [`SortStrategy`](.github/workflows/documentation/md/AtomicMarketApiClient--Core.md#namespace_atomic_market_api_client_1_1_core_1a1a2688049f7c9dc4f77213ca78b6de0f)` sorting)` 
 
-This function sets the sort strategy for the query
+This function sets the sort strategy for the query.
 
 #### Parameters
 * `SortStrategy` 
