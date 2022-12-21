@@ -4,7 +4,7 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`TransfersApi`](.github/workflows/documentation/md/AtomicAssetsApiClient--Transfers--TransfersApi.md#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_api) | 
-`class ` [`TransfersDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Transfers--TransfersDto.md#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_dto) | 
-`class ` [`TransfersUriParameterBuilder`](.github/workflows/documentation/md/AtomicAssetsApiClient--Transfers--TransfersUriParameterBuilder.md#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_uri_parameter_builder) | 
+`class ` [`TransfersApi`](AtomicAssetsApiClient--Transfers--TransfersApi.md) | 
+`class ` [`TransfersDto`](AtomicAssetsApiClient--Transfers--TransfersDto.md) | 
+`class ` [`TransfersUriParameterBuilder`](AtomicAssetsApiClient--Transfers--TransfersUriParameterBuilder.md) | 
 

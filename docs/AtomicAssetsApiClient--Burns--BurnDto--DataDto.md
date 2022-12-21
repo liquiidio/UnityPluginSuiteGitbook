@@ -4,21 +4,21 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`CollectionsDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--CollectionsDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_collections_dto)        | 
-`class ` [`TemplatesDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--TemplatesDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_templates_dto)        | 
-`public ` [`CollectionsDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--CollectionsDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_collections_dto)` ` [`Collections`](#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1a2bc01f092566afa3ed263cb706f4c2f5) | 
-`public ` [`TemplatesDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--TemplatesDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_templates_dto)` ` [`Templates`](#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1a5be33ec113d1815470242d3e117adbd7) | 
+`class ` [`CollectionsDto`](AtomicAssetsApiClient--Burns--BurnDto--DataDto--CollectionsDto.md)        | 
+`class ` [`TemplatesDto`](AtomicAssetsApiClient--Burns--BurnDto--DataDto--TemplatesDto.md)        | 
+`public ` [`CollectionsDto`](AtomicAssetsApiClient--Burns--BurnDto--DataDto--CollectionsDto.md)` ` [`Collections`](#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1a2bc01f092566afa3ed263cb706f4c2f5) | 
+`public ` [`TemplatesDto`](AtomicAssetsApiClient--Burns--BurnDto--DataDto--TemplatesDto.md)` ` [`Templates`](#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1a5be33ec113d1815470242d3e117adbd7) | 
 `public string ` [`Assets`](#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1add7a6c8721ab494bfbb6bec5c0de3ede) | 
 
 ## Members
 
-##### `class ` [`CollectionsDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--CollectionsDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_collections_dto) 
+##### `class ` [`CollectionsDto`](AtomicAssetsApiClient--Burns--BurnDto--DataDto--CollectionsDto.md) 
 
-##### `class ` [`TemplatesDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--TemplatesDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_templates_dto) 
+##### `class ` [`TemplatesDto`](AtomicAssetsApiClient--Burns--BurnDto--DataDto--TemplatesDto.md) 
 
-##### `public ` [`CollectionsDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--CollectionsDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_collections_dto)` ` [`Collections`](#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1a2bc01f092566afa3ed263cb706f4c2f5) 
+##### `public ` [`CollectionsDto`](AtomicAssetsApiClient--Burns--BurnDto--DataDto--CollectionsDto.md)` ` [`Collections`](#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1a2bc01f092566afa3ed263cb706f4c2f5) 
 
-##### `public ` [`TemplatesDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto--DataDto--TemplatesDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1_1_templates_dto)` ` [`Templates`](#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1a5be33ec113d1815470242d3e117adbd7) 
+##### `public ` [`TemplatesDto`](AtomicAssetsApiClient--Burns--BurnDto--DataDto--TemplatesDto.md)` ` [`Templates`](#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1a5be33ec113d1815470242d3e117adbd7) 
 
 ##### `public string ` [`Assets`](#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto_1_1_data_dto_1add7a6c8721ab494bfbb6bec5c0de3ede) 
 

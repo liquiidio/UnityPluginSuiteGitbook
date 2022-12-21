@@ -4,8 +4,8 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`BurnDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burn_dto) | 
-`class ` [`BurnsApi`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnsApi.md#class_atomic_assets_api_client_1_1_burns_1_1_burns_api) | 
-`class ` [`BurnsDto`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnsDto.md#class_atomic_assets_api_client_1_1_burns_1_1_burns_dto) | 
-`class ` [`BurnsUriParameterBuilder`](.github/workflows/documentation/md/AtomicAssetsApiClient--Burns--BurnsUriParameterBuilder.md#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder) | 
+`class ` [`BurnDto`](AtomicAssetsApiClient--Burns--BurnDto.md) | 
+`class ` [`BurnsApi`](AtomicAssetsApiClient--Burns--BurnsApi.md) | 
+`class ` [`BurnsDto`](AtomicAssetsApiClient--Burns--BurnsDto.md) | 
+`class ` [`BurnsUriParameterBuilder`](AtomicAssetsApiClient--Burns--BurnsUriParameterBuilder.md) | 
 
