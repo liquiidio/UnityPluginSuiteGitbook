@@ -5,7 +5,7 @@
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `public string ` [`SaleId`](#class_atomic_market_api_client_1_1_pricing_1_1_templates_dto_1_1_data_dto_1a239b73cb4b557129fb890e1e584808f0) | 
-`public string ` [`AssetsContract`](#class_atomic_market_api_client_1_1_pricing_1_1_templates_dto_1_1_data_dto_1a4bccc9f554dbf86212f9cd2fa46d0752) | The Asset Smart Contract.
+`public string ` [`AssetsContract`](#class_atomic_market_api_client_1_1_pricing_1_1_templates_dto_1_1_data_dto_1a4bccc9f554dbf86212f9cd2fa46d0752) | 
 `public string ` [`CollectionName`](#class_atomic_market_api_client_1_1_pricing_1_1_templates_dto_1_1_data_dto_1ab3dee328d6124bafe5953a8f45ce45ea) | 
 `public string ` [`TemplateId`](#class_atomic_market_api_client_1_1_pricing_1_1_templates_dto_1_1_data_dto_1a5c685b09e3b7fae8be2d38c8f4803549) | 
 `public string ` [`TokenSymbol`](#class_atomic_market_api_client_1_1_pricing_1_1_templates_dto_1_1_data_dto_1ac419f589d08baa34f7be58d065aa4a88) | 
@@ -24,8 +24,6 @@
 ##### `public string ` [`SaleId`](#class_atomic_market_api_client_1_1_pricing_1_1_templates_dto_1_1_data_dto_1a239b73cb4b557129fb890e1e584808f0) 
 
 ##### `public string ` [`AssetsContract`](#class_atomic_market_api_client_1_1_pricing_1_1_templates_dto_1_1_data_dto_1a4bccc9f554dbf86212f9cd2fa46d0752) 
-
-The Asset Smart Contract.
 
 ##### `public string ` [`CollectionName`](#class_atomic_market_api_client_1_1_pricing_1_1_templates_dto_1_1_data_dto_1ab3dee328d6124bafe5953a8f45ce45ea) 
 
