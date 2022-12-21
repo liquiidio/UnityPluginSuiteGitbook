@@ -13,7 +13,6 @@
 `public string ` [`Seller`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1aa5502032d18fb2afb35ca3560819275b) | 
 `public string ` [`Buyer`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1a98a10502a99e30c08ee132cbdc9b1955) | 
 `public ` [`PriceDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOffersDto--DataDto--PriceDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_price_dto)` ` [`Price`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1aad692b76a67e3bf06c311cef195337a8) | 
-`public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOffersDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_asset_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1af4eeb79abe4abf6489007349e93616f9) | 
 `public string ` [`MakerMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1ac56762821342790d851bc50b189c6309) | 
 `public string ` [`TakerMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1a8355908769f0cee72777ce35e7e8b9c0) | 
 `public ` [`CollectionDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOffersDto--DataDto--CollectionDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto)` ` [`Collection`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1ac6d9b0c1cef1d8ad020fa9b6fc1c3319) | 
@@ -44,8 +43,6 @@
 ##### `public string ` [`Buyer`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1a98a10502a99e30c08ee132cbdc9b1955) 
 
 ##### `public ` [`PriceDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOffersDto--DataDto--PriceDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_price_dto)` ` [`Price`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1aad692b76a67e3bf06c311cef195337a8) 
-
-##### `public ` [`AssetDto`](.github/workflows/documentation/md/AtomicMarketApiClient--BuyOffers--BuyOffersDto--DataDto--AssetDto.md#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_asset_dto)` ` [`Assets`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1af4eeb79abe4abf6489007349e93616f9) 
 
 ##### `public string ` [`MakerMarketplace`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1ac56762821342790d851bc50b189c6309) 
 

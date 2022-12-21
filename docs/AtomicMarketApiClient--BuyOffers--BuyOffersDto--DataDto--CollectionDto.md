@@ -6,7 +6,6 @@
 ----------------------------------------|---------------------------------------------
 `public string ` [`CollectionName`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1ab3dee328d6124bafe5953a8f45ce45ea) | 
 `public string ` [`Name`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a7ee9065718e6628dc7791b756fa6c0f9) | 
-`public string ` [`Author`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a13cf46aff4dea87a8f5285a09efece69) | 
 `public string ` [`Img`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a535444299930a3b6ed4406a861482ba6) | 
 `public bool ` [`AllowNotify`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a47cf88154d150fad46d4c5bffeeab3f4) | 
 `public string[] ` [`AuthorizedAccounts`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a73107b37932581e90371846fa5426738) | 
@@ -20,8 +19,6 @@
 ##### `public string ` [`CollectionName`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1ab3dee328d6124bafe5953a8f45ce45ea) 
 
 ##### `public string ` [`Name`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a7ee9065718e6628dc7791b756fa6c0f9) 
-
-##### `public string ` [`Author`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a13cf46aff4dea87a8f5285a09efece69) 
 
 ##### `public string ` [`Img`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_dto_1_1_data_dto_1_1_collection_dto_1a535444299930a3b6ed4406a861482ba6) 
 
