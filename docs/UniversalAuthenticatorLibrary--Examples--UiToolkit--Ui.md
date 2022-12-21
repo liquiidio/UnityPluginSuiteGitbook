@@ -4,5 +4,5 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`ExampleMainView`](.github/workflows/documentation/md/UniversalAuthenticatorLibrary--Examples--UiToolkit--Ui--ExampleMainView.md#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view) | 
+`class ` [`ExampleMainView`](UniversalAuthenticatorLibrary--Examples--UiToolkit--Ui--ExampleMainView.md) | 
 
