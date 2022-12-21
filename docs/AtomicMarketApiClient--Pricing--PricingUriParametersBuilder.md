@@ -17,13 +17,13 @@ class AtomicMarketApiClient::Pricing::PricingUriParametersBuilder
 `public ` [`PricingUriParametersBuilder`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` ` [`WithIsTransferable`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a6520a84e79a0e115c121cafc67cf6cf1)`(bool isTransferable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
 `public ` [`PricingUriParametersBuilder`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder)` ` [`WithIsBurnable`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a373cece648672a58d814966f3bc91b60)`(bool isBurnable)` | `WithIsTransferable` sets the `_isTransferable` field to the value of the `isTransferable` parameter
 `public string ` [`Build`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
-`private string ` [`_symbol`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a26c189f7d4c40f40f09ace24c4ccb945) | 
-`private bool? ` [`_burned`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a88325c0b6dc8cb4a570b2faaca18efa7) | 
-`private string ` [`_collectionName`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a10ec2fa990c6478bc519b1e57e1ab2aa) | 
-`private string ` [`_schemaName`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a2f9a887fd4dfcf60bfe4240a27085724) | 
-`private string ` [`_templateId`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a06f918051fc7b04615854510caa85934) | 
-`private bool? ` [`_isTransferable`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a44e26246620bd9d4efa97c195a356672) | 
-`private bool? ` [`_isBurnable`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a6020acf0c5cb6f447cfe5ba95579e74d) | 
+`private string ` [`_symbol`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a26c189f7d4c40f40f09ace24c4ccb945) | A private variable that is used to store the value of the symbol parameter.
+`private bool? ` [`_burned`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a88325c0b6dc8cb4a570b2faaca18efa7) | A nullable boolean specfying burned assets.
+`private string ` [`_collectionName`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a10ec2fa990c6478bc519b1e57e1ab2aa) | A private variable that is used to store the value of the collectionName parameter.
+`private string ` [`_schemaName`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a2f9a887fd4dfcf60bfe4240a27085724) | A private variable that is used to store the value of the schemaName parameter.
+`private string ` [`_templateId`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a06f918051fc7b04615854510caa85934) | A private variable that is used to store the value of the templateId parameter.
+`private bool? ` [`_isTransferable`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a44e26246620bd9d4efa97c195a356672) | A nullable boolean specfying transferable assets.
+`private bool? ` [`_isBurnable`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a6020acf0c5cb6f447cfe5ba95579e74d) | A nullable boolean specfying burnable assets.
 
 ## Members
 
@@ -106,15 +106,29 @@ A string that contains the parameters for the query.
 
 ##### `private string ` [`_symbol`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a26c189f7d4c40f40f09ace24c4ccb945) 
 
+A private variable that is used to store the value of the symbol parameter.
+
 ##### `private bool? ` [`_burned`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a88325c0b6dc8cb4a570b2faaca18efa7) 
+
+A nullable boolean specfying burned assets.
 
 ##### `private string ` [`_collectionName`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a10ec2fa990c6478bc519b1e57e1ab2aa) 
 
+A private variable that is used to store the value of the collectionName parameter.
+
 ##### `private string ` [`_schemaName`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a2f9a887fd4dfcf60bfe4240a27085724) 
+
+A private variable that is used to store the value of the schemaName parameter.
 
 ##### `private string ` [`_templateId`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a06f918051fc7b04615854510caa85934) 
 
+A private variable that is used to store the value of the templateId parameter.
+
 ##### `private bool? ` [`_isTransferable`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a44e26246620bd9d4efa97c195a356672) 
 
+A nullable boolean specfying transferable assets.
+
 ##### `private bool? ` [`_isBurnable`](#class_atomic_market_api_client_1_1_pricing_1_1_pricing_uri_parameters_builder_1a6020acf0c5cb6f447cfe5ba95579e74d) 
+
+A nullable boolean specfying burnable assets.
 
