@@ -20,7 +20,7 @@
 `public string ` [`Build`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string ` [`_match`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_uri_parameter_builder_1a5151210a8aa5d34ea523afbb052deb11) | A private variable that is used to store the value of the match parameter.
 `private string ` [`_collectionName`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_uri_parameter_builder_1a10ec2fa990c6478bc519b1e57e1ab2aa) | A private variable that is used to store the value of the collectionName parameter.
-`private string ` [`_templateId`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_uri_parameter_builder_1a06f918051fc7b04615854510caa85934) | A private variable that is used to store the value of the schemaName parameter.
+`private string _schemaName string ` [`_templateId`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_uri_parameter_builder_1a151b0efc50e45953c776c7dc3430860b) | A private variable that is used to store the value of the schemaName parameter.
 `private bool? ` [`_hideOffers`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_uri_parameter_builder_1a5d1a8bcf6c17c11dee4582a653ca807b) | A nullable boolean specfying if offers should be hidden.
 `private string ` [`_collectionBlacklist`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_uri_parameter_builder_1a11b225f8984dd9ab3ab5fcec261245c4) | A private variable that is used to store the value of the collectionBlacklist parameter.
 `private string ` [`_collectionWhitelist`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_uri_parameter_builder_1a525c994ce1a584f4d763ac9d5c1b3cb5) | A private variable that is used to store the value of the collectionWhitelist parameter.
@@ -178,7 +178,7 @@ A private variable that is used to store the value of the match parameter.
 
 A private variable that is used to store the value of the collectionName parameter.
 
-##### `private string ` [`_templateId`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_uri_parameter_builder_1a06f918051fc7b04615854510caa85934) 
+##### `private string _schemaName string ` [`_templateId`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_uri_parameter_builder_1a151b0efc50e45953c776c7dc3430860b) 
 
 A private variable that is used to store the value of the schemaName parameter.
 
