@@ -11,7 +11,7 @@ Available options when creating a new [[AnchorLink]] instance.
 `public object ` [`Rpc`](AnchorLinkSharp.md) | URL to EOSIO node to communicate with or e EosApi instance. Defaults to [https://eos.greymass.com](https://eos.greymass.com)
 `public string ` [`Service`](AnchorLinkSharp.md) | URL to anchorLink callback service. Defaults to [https://cb.anchor.link](https://cb.anchor.link).
 `public ` [`ILinkStorage`](AnchorLinkSharp.md)` ` [`Storage`](AnchorLinkSharp.md) | Optional storage adapter that will be used to persist sessions if set. If not storage adapter is set but the given transport provides a storage, that will be used. Explicitly set this to `null` to force no storage.
-`public IZlibProvider ` [`ZlibProvider`](AnchorLinkSharp.md) | 
+`public ` [`IZlibProvider`](EosioSigningRequest.md)` ` [`ZlibProvider`](AnchorLinkSharp.md) | 
 
 ## Members
 
@@ -35,5 +35,5 @@ URL to anchorLink callback service. Defaults to [https://cb.anchor.link](https:/
 
 Optional storage adapter that will be used to persist sessions if set. If not storage adapter is set but the given transport provides a storage, that will be used. Explicitly set this to `null` to force no storage.
 
-##### `public IZlibProvider ` [`ZlibProvider`](AnchorLinkSharp.md) 
+##### `public ` [`IZlibProvider`](EosioSigningRequest.md)` ` [`ZlibProvider`](AnchorLinkSharp.md) 
 
