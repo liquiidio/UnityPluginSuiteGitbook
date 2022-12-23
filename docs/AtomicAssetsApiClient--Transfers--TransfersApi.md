@@ -7,8 +7,8 @@
 `public ` [`TransfersDto`](AtomicAssetsApiClient--Transfers--TransfersDto.md)` ` [`Transfers`](#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_api_1aec0b36332a9be12df6ebfb067da0ecba)`()` | It returns a list of transfers.
 `public ` [`TransfersDto`](AtomicAssetsApiClient--Transfers--TransfersDto.md)` ` [`Transfers`](#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_api_1ac692fc0ceac5e8f2bf583f1e41cabdae)`(` [`TransfersUriParameterBuilder`](AtomicAssetsApiClient--Transfers--TransfersUriParameterBuilder.md)` transfersUriParameterBuilder)` | It returns a list of transfers.
 `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_api_1a1854c4909a1013a684af16fb52e8a387) | 
-`private Uri ` [`TransfersUri`](#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_api_1a75e5cf6cddb62fc9e45fbf831b1d71d1)`()` | 
-`private Uri ` [`TransfersUri`](#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_api_1a9388420fefbd204d7f362bc1386dc980)`(` [`TransfersUriParameterBuilder`](AtomicAssetsApiClient--Transfers--TransfersUriParameterBuilder.md)` transfersUriParameterBuilder)` | 
+`private Uri ` [`TransfersUri`](#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_api_1a75e5cf6cddb62fc9e45fbf831b1d71d1)`()` | It returns a URI that points to the transfers endpoint.
+`private Uri ` [`TransfersUri`](#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_api_1a9388420fefbd204d7f362bc1386dc980)`(` [`TransfersUriParameterBuilder`](AtomicAssetsApiClient--Transfers--TransfersUriParameterBuilder.md)` transfersUriParameterBuilder)` | It takes a `TransfersUriParameterBuilder` object and returns a `Uri` object.
 
 ## Members
 
@@ -33,5 +33,12 @@ A TransfersDto object.
 
 ##### `private Uri ` [`TransfersUri`](#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_api_1a75e5cf6cddb62fc9e45fbf831b1d71d1)`()` 
 
+It returns a URI that points to the transfers endpoint.
+
 ##### `private Uri ` [`TransfersUri`](#class_atomic_assets_api_client_1_1_transfers_1_1_transfers_api_1a9388420fefbd204d7f362bc1386dc980)`(` [`TransfersUriParameterBuilder`](AtomicAssetsApiClient--Transfers--TransfersUriParameterBuilder.md)` transfersUriParameterBuilder)` 
+
+It takes a `TransfersUriParameterBuilder` object and returns a `Uri` object.
+
+#### Parameters
+* `TransfersUriParameterBuilder` A class that builds the query string parameters for the transfers endpoint.
 
