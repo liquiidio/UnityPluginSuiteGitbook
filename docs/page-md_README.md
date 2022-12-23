@@ -41,10 +41,17 @@ This package can be included into your project by either:
 #### 3. Install manually.
 3. Install manually.Download this project there here. Then in your Unity project:
 
-1. Copy the sources from `NativeWebSocket/Assets/WebSocket` into your `Assets` directory.
+1. Copy the sources from `NativeWebSocket/Assets/WebSocket` into your `Assets` directory. // Corvin: We should hava a dependencies-section showing how to install dependencies in general, non of our packages includes the WebSocket-Package
 
 #### 4. Install via NuGet
 4. Install via NuGetBlack magic
+
+#### Dependencies
+DependenciesTODO, add WebSocket-Package (if not already installed)
+
+* Via Upm
+
+* clone Repo
 
 ### Usage (!TODO!)
 Usage (!TODO!).NET and Unity3D-compatible (Desktop, Mobile, WebGL) ApiClient for the different APIs. Endpoints have its own set of parameters that you may build up and pass in to the relevant function.
