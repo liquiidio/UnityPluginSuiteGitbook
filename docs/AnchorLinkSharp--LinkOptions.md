@@ -14,7 +14,7 @@ class AnchorLinkSharp::LinkOptions
 `public object ` [`Rpc`](#class_anchor_link_sharp_1_1_link_options_1a714dd6bb6ac64d2aa2a83fa16b291041) | 
 `public string ` [`Service`](#class_anchor_link_sharp_1_1_link_options_1acb72e8546460cb1b9c63792240f4995a) | 
 `public ` [`ILinkStorage`](AnchorLinkSharp.md)` ` [`Storage`](#class_anchor_link_sharp_1_1_link_options_1a3198c2558a95eb66553955ab4b579438) | 
-`public IZlibProvider ` [`ZlibProvider`](#class_anchor_link_sharp_1_1_link_options_1a27585f060ac5d525b44f9078b53aa32a) | 
+`public ` [`IZlibProvider`](EosioSigningRequest.md)` ` [`ZlibProvider`](#class_anchor_link_sharp_1_1_link_options_1a27585f060ac5d525b44f9078b53aa32a) | 
 
 ## Members
 
@@ -28,5 +28,5 @@ class AnchorLinkSharp::LinkOptions
 
 ##### `public ` [`ILinkStorage`](AnchorLinkSharp.md)` ` [`Storage`](#class_anchor_link_sharp_1_1_link_options_1a3198c2558a95eb66553955ab4b579438) 
 
-##### `public IZlibProvider ` [`ZlibProvider`](#class_anchor_link_sharp_1_1_link_options_1a27585f060ac5d525b44f9078b53aa32a) 
+##### `public ` [`IZlibProvider`](EosioSigningRequest.md)` ` [`ZlibProvider`](#class_anchor_link_sharp_1_1_link_options_1a27585f060ac5d525b44f9078b53aa32a) 
 

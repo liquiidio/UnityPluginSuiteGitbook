@@ -1,0 +1,25 @@
+# class `AnchorLinkTransportSharp::Src::Transports::UiToolkit::Ui::Utils` 
+
+## Summary
+
+ Members                                | Descriptions                                
+----------------------------------------|---------------------------------------------
+`public static void ` [`Show`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_utils_1a56f922d5da34114aba5c95b7597d801d)`(this VisualElement element)` | Extension-method to show an UI Element (set it to visible)
+`public static void ` [`Hide`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_utils_1a3d44e5c438f763b51a6222fe3e66b23e)`(this VisualElement element)` | Extension-method to hide an UI Element (set it to invisible)
+
+## Members
+
+##### `public static void ` [`Show`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_utils_1a56f922d5da34114aba5c95b7597d801d)`(this VisualElement element)` 
+
+Extension-method to show an UI Element (set it to visible)
+
+#### Parameters
+* `element`
+
+##### `public static void ` [`Hide`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_utils_1a3d44e5c438f763b51a6222fe3e66b23e)`(this VisualElement element)` 
+
+Extension-method to hide an UI Element (set it to invisible)
+
+#### Parameters
+* `element`
+

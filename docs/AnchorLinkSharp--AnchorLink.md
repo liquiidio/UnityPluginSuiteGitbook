@@ -27,7 +27,7 @@ Main class
 `public async Task ` [`RemoveSession`](#class_anchor_link_sharp_1_1_anchor_link_1a0201a0d51fb824a07270e102192891cf)`(string identifier, PermissionLevel auth)` | Remove stored session for given identifier and auth.
 `public async void ` [`ClearSessions`](#class_anchor_link_sharp_1_1_anchor_link_1a13e8a7c2fc690bff953766788d1c8507)`(string identifier)` | Remove all stored sessions for given identifier.
 `public LinkSignatureProvider ` [`MakeSignatureProvider`](#class_anchor_link_sharp_1_1_anchor_link_1a972262a195b3b8df071d75404acf03d8)`(string[] availableKeys, ` [`ILinkTransport`](AnchorLinkSharp.md)` transport)` | Create an eosjs compatible signature provider using this anchorLink.
-`public async Task< CallbackPayload > ` [`WaitForCallback`](#class_anchor_link_sharp_1_1_anchor_link_1adc00a445712a67d7ae7f6e94aa0facdb)`(string url)` | Connect to a WebSocket channel and wait for a message.
+`public async Task< ` [`CallbackPayload`](EosioSigningRequest--CallbackPayload.md)` > ` [`WaitForCallback`](#class_anchor_link_sharp_1_1_anchor_link_1adc00a445712a67d7ae7f6e94aa0facdb)`(string url)` | Connect to a WebSocket channel and wait for a message.
 `public async Task ` [`PollForCallback`](#class_anchor_link_sharp_1_1_anchor_link_1aab81c9f8580485999fb50b0b92b57297)`(string url)` | 
 `private readonly string ` [`_serviceAddress`](#class_anchor_link_sharp_1_1_anchor_link_1af3111da0cd839afdaa039bb12e192a60) | 
 `private readonly SigningRequestEncodingOptions ` [`_requestOptions`](#class_anchor_link_sharp_1_1_anchor_link_1aa95d1275f898f38a9089ceb4c929942e) | 
@@ -147,7 +147,7 @@ Create an eosjs compatible signature provider using this anchorLink.
 
 We don't know what keys are available so those have to be provided, to avoid this use [[LinkSession.makeSignatureProvider]] instead. Sessions can be created with [[AnchorLink.login]].
 
-##### `public async Task< CallbackPayload > ` [`WaitForCallback`](#class_anchor_link_sharp_1_1_anchor_link_1adc00a445712a67d7ae7f6e94aa0facdb)`(string url)` 
+##### `public async Task< ` [`CallbackPayload`](EosioSigningRequest--CallbackPayload.md)` > ` [`WaitForCallback`](#class_anchor_link_sharp_1_1_anchor_link_1adc00a445712a67d7ae7f6e94aa0facdb)`(string url)` 
 
 Connect to a WebSocket channel and wait for a message.
 
