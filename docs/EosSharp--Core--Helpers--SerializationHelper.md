@@ -27,7 +27,7 @@
 `public static DateTime ` [`BlockTimestampToDate`](#class_eos_sharp_1_1_core_1_1_helpers_1_1_serialization_helper_1a004b7c9cc14fb75cfe80891c316f464d)`(UInt32 slot)` | Convert `block_timestamp_type` (half-seconds since a different epoch) to DateTime.
 `public static UInt64 ` [`ConvertNameToLong`](#class_eos_sharp_1_1_core_1_1_helpers_1_1_serialization_helper_1a20bb129c87aa0f1b1e1be00d6a175556)`(string name)` | Convert Name into unsigned long.
 `public static byte[] ` [`ConvertNameToBytes`](#class_eos_sharp_1_1_core_1_1_helpers_1_1_serialization_helper_1a70509f33a8c6f936a575d5d39af62a15)`(string name)` | Convert Name into bytes.
-`public static string ` [`ReverseHex`](#class_eos_sharp_1_1_core_1_1_helpers_1_1_serialization_helper_1add51ded0a7538be5ff80038ac5df89fc)`(string h)` | 
+`public static string ` [`ReverseHex`](#class_eos_sharp_1_1_core_1_1_helpers_1_1_serialization_helper_1add51ded0a7538be5ff80038ac5df89fc)`(string h)` | It takes a string of hexadecimal digits and reverses the order of the bytes.
 `public static string ` [`ConvertULongToName`](#class_eos_sharp_1_1_core_1_1_helpers_1_1_serialization_helper_1aacf360f56c366a92fa182f6505192cae)`(ulong binary)` | Convert uint64_t into EOSIO name.
 
 ## Members
@@ -248,6 +248,14 @@ Convert Name into bytes.
 Converted value bytes
 
 ##### `public static string ` [`ReverseHex`](#class_eos_sharp_1_1_core_1_1_helpers_1_1_serialization_helper_1add51ded0a7538be5ff80038ac5df89fc)`(string h)` 
+
+It takes a string of hexadecimal digits and reverses the order of the bytes.
+
+#### Parameters
+* `h` The hex string to reverse.
+
+#### Returns
+The hex value is being reversed.
 
 ##### `public static string ` [`ConvertULongToName`](#class_eos_sharp_1_1_core_1_1_helpers_1_1_serialization_helper_1aacf360f56c366a92fa182f6505192cae)`(ulong binary)` 
 
