@@ -9,7 +9,7 @@ class AnchorLinkSharp::WebSocketWrapper
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public WebSocketState ` [`State`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a966c24306ddaffe83224776895135d4b) | 
+`public ` [`WebSocketState`](#_web_socket_wrapper_8cs_1aefe3afdd4c2b88cd158ba997c662022b)` ` [`State`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a966c24306ddaffe83224776895135d4b) | 
 `public async Task ` [`Create`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a86442c5776c9c701b69b9a1b89e2d331)`(string uri)` | Creates a new instance.
 `public async Task ` [`ConnectAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a86bd3880fbaf34bd7945302f2ae8c34d)`()` | 
 `public async Task ` [`CloseAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a60f282781ac602de720e4742a9dc376e)`()` | 
@@ -26,7 +26,7 @@ class AnchorLinkSharp::WebSocketWrapper
 
 ## Members
 
-##### `public WebSocketState ` [`State`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a966c24306ddaffe83224776895135d4b) 
+##### `public ` [`WebSocketState`](#_web_socket_wrapper_8cs_1aefe3afdd4c2b88cd158ba997c662022b)` ` [`State`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a966c24306ddaffe83224776895135d4b) 
 
 ##### `public async Task ` [`Create`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a86442c5776c9c701b69b9a1b89e2d331)`(string uri)` 
 
