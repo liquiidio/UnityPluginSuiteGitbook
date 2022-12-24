@@ -10,7 +10,7 @@ class AnchorLinkTransportSharp::Src::Transports::UiToolkit::Ui::QrCodePanel
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `private readonly Vector3 ` [`_qrCurrentSize`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_qr_code_panel_1a70dd0955f433a378cb45a9ac9d69206c)`= new Vector3(1, 1)` | 
-`private SigningRequest ` [`_request`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_qr_code_panel_1a10f6829816211e5c3488ee844917abae) | 
+`private ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` ` [`_request`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_qr_code_panel_1a10f6829816211e5c3488ee844917abae) | 
 `private Button ` [`_launchAnchorButton`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_qr_code_panel_1a41e2df165671e54dba913c63147cfc3e) | 
 `private VisualElement ` [`_qrCodeBox`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_qr_code_panel_1a9078712266dd2db3d05add33dba0aad2) | 
 `private VisualElement ` [`_readyToCopy`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_qr_code_panel_1a886b9d552e31ca1533ae6dd369bc7f3e) | 
@@ -33,7 +33,7 @@ class AnchorLinkTransportSharp::Src::Transports::UiToolkit::Ui::QrCodePanel
 
 ##### `private readonly Vector3 ` [`_qrCurrentSize`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_qr_code_panel_1a70dd0955f433a378cb45a9ac9d69206c)`= new Vector3(1, 1)` 
 
-##### `private SigningRequest ` [`_request`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_qr_code_panel_1a10f6829816211e5c3488ee844917abae) 
+##### `private ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` ` [`_request`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_qr_code_panel_1a10f6829816211e5c3488ee844917abae) 
 
 ##### `private Button ` [`_launchAnchorButton`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_ui_toolkit_1_1_ui_1_1_qr_code_panel_1a41e2df165671e54dba913c63147cfc3e) 
 
