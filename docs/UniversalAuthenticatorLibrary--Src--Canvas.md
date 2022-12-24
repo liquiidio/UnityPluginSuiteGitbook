@@ -1,8 +1,8 @@
-# namespace `UniversalAuthenticatorLibrary::Src::UiToolkit` 
+# namespace `UniversalAuthenticatorLibrary::Src::Canvas` 
 
 ## Summary
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`UnityUiToolkitUAL`](UniversalAuthenticatorLibrary--Src--UiToolkit--UnityUiToolkitUAL.md) | 
+`class ` [`UnityCanvasUAL`](UniversalAuthenticatorLibrary--Src--Canvas--UnityCanvasUAL.md) | 
 
