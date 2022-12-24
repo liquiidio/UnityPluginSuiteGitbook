@@ -81,4 +81,4 @@
 		* [PlayerPrefsStorage](docs/AnchorLinkTransportSharp--Src--StorageProviders--PlayerPrefsStorage.md)
 		* [JsonLocalStorage](docs/AnchorLinkTransportSharp--Src--StorageProviders--JsonLocalStorage.md)
 	* [TransportOptions](docs/AnchorLinkTransportSharp--Src--TransportOptions.md)
-	* [AnchorLinkTransportSharp](docs/AnchorLinkTransportSharp--Src--NetZlibProvider.md)
+	* [NetZlibProvider](docs/AnchorLinkTransportSharp--Src--NetZlibProvider.md)
