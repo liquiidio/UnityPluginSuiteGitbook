@@ -37,10 +37,10 @@ class UniversalAuthenticatorLibrary::Examples::UiToolkit::Ui::ExampleMainView
 `private VisualElement ` [`_buyRamBox`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1aaa9199bb06aa72126759e9c576a687ae) | 
 `private VisualElement ` [`_voteBox`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab33985a9fb31c8e8c7423fa874e4f734) | 
 `private Label ` [`_accountLabel`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a3985401b5d20cc08776363a38095d411) | 
-`private User ` [`_user`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a0e4623cfba2f709f9712c50e474b8722) | 
+`private ` [`User`](User.md)` ` [`_user`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a0e4623cfba2f709f9712c50e474b8722) | 
 `private void ` [`Start`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a07aaf1227e4d645f15e0a964f54ef291)`()` | 
 `private void ` [`BindButtons`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ac0a62408f7b64fe84a8a710e7119b60b)`()` | 
-`private async void ` [`Rebind`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab378c14625c2a991edc88100c89561f6)`(User user)` | 
+`private async void ` [`Rebind`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab378c14625c2a991edc88100c89561f6)`(` [`User`](User.md)` user)` | 
 `private void ` [`SetTransferAccountText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab8d2fea12b0b68a71ac1900c411ad1de)`()` | 
 `private void ` [`SetSellRamText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a04df316e1b48502dc1a11dccf1741d14)`()` | 
 `private void ` [`SetBuyRamText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1abb62aae70d0490ae16485974f788ff80)`()` | 
@@ -104,13 +104,13 @@ class UniversalAuthenticatorLibrary::Examples::UiToolkit::Ui::ExampleMainView
 
 ##### `private Label ` [`_accountLabel`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a3985401b5d20cc08776363a38095d411) 
 
-##### `private User ` [`_user`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a0e4623cfba2f709f9712c50e474b8722) 
+##### `private ` [`User`](User.md)` ` [`_user`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a0e4623cfba2f709f9712c50e474b8722) 
 
 ##### `private void ` [`Start`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a07aaf1227e4d645f15e0a964f54ef291)`()` 
 
 ##### `private void ` [`BindButtons`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ac0a62408f7b64fe84a8a710e7119b60b)`()` 
 
-##### `private async void ` [`Rebind`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab378c14625c2a991edc88100c89561f6)`(User user)` 
+##### `private async void ` [`Rebind`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab378c14625c2a991edc88100c89561f6)`(` [`User`](User.md)` user)` 
 
 ##### `private void ` [`SetTransferAccountText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab8d2fea12b0b68a71ac1900c411ad1de)`()` 
 
