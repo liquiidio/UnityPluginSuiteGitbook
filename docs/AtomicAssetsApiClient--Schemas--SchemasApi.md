@@ -11,12 +11,12 @@
 `public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`SchemaLogs`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a17158c4d15091467d59996c07a340b97)`(string collectionName, string schemaName)` | This function returns a list of logs for a specific schema.
 `public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`SchemaLogs`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a03d307684126064615e0b2a832a0b929)`(string collectionName, string schemaName, ` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` | This function returns a list of logs for a specific schema.
 `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a1854c4909a1013a684af16fb52e8a387) | 
-`private Uri ` [`SchemasUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a1a498badf0002f7181835480737d5dd8)`()` | 
-`private Uri ` [`SchemasUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a79bc27edb0e05705096dd6721a9a9e26)`(` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` | 
-`private Uri ` [`SchemaUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a591edd6511a415a8554155da1b7b6751)`(string collectionName, string schemaName)` | 
-`private Uri ` [`SchemaStatsUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a8726dba637901b79588b0ec8d3e25fb6)`(string collectionName, string schemaName)` | 
-`private Uri ` [`SchemaLogsUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a4d189f4a5b707893aaab098c9b2d5b7f)`(string collectionName, string schemaName)` | 
-`private Uri ` [`SchemaLogsUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1afd46daaf197c05d3daba0a1815332428)`(string collectionName, string schemaName, ` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` | 
+`private Uri ` [`SchemasUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a1a498badf0002f7181835480737d5dd8)`()` | It returns a URI that points to the schemas endpoint.
+`private Uri ` [`SchemasUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a79bc27edb0e05705096dd6721a9a9e26)`(` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` | It takes a `SchemasUriParameterBuilder` object as a parameter, and returns a `Uri` object.
+`private Uri ` [`SchemaUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a591edd6511a415a8554155da1b7b6751)`(string collectionName, string schemaName)` | It returns a URI for a specific schema in a specific collection
+`private Uri ` [`SchemaStatsUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a8726dba637901b79588b0ec8d3e25fb6)`(string collectionName, string schemaName)` | It returns a URI that points to the stats for a specific schema in a specific collection.
+`private Uri ` [`SchemaLogsUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a4d189f4a5b707893aaab098c9b2d5b7f)`(string collectionName, string schemaName)` | This function returns a URI for the schema logs endpoint
+`private Uri ` [`SchemaLogsUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1afd46daaf197c05d3daba0a1815332428)`(string collectionName, string schemaName, ` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` | It returns a URI for the schema logs endpoint.
 
 ## Members
 
@@ -91,13 +91,50 @@ A LogsDto object.
 
 ##### `private Uri ` [`SchemasUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a1a498badf0002f7181835480737d5dd8)`()` 
 
+It returns a URI that points to the schemas endpoint.
+
 ##### `private Uri ` [`SchemasUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a79bc27edb0e05705096dd6721a9a9e26)`(` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` 
+
+It takes a `SchemasUriParameterBuilder` object as a parameter, and returns a `Uri` object.
+
+#### Parameters
+* `SchemasUriParameterBuilder` A class that builds the query string parameters for the schemas endpoint.
 
 ##### `private Uri ` [`SchemaUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a591edd6511a415a8554155da1b7b6751)`(string collectionName, string schemaName)` 
 
+It returns a URI for a specific schema in a specific collection
+
+#### Parameters
+* `collectionName` The name of the collection you want to create the schema in.
+
+* `schemaName` The name of the schema to be created.
+
 ##### `private Uri ` [`SchemaStatsUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a8726dba637901b79588b0ec8d3e25fb6)`(string collectionName, string schemaName)` 
+
+It returns a URI that points to the stats for a specific schema in a specific collection.
+
+#### Parameters
+* `collectionName` The name of the collection you want to get the schema stats for.
+
+* `schemaName` The name of the schema.
 
 ##### `private Uri ` [`SchemaLogsUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a4d189f4a5b707893aaab098c9b2d5b7f)`(string collectionName, string schemaName)` 
 
+This function returns a URI for the schema logs endpoint
+
+#### Parameters
+* `collectionName` The name of the collection you want to create a schema for.
+
+* `schemaName` The name of the schema.
+
 ##### `private Uri ` [`SchemaLogsUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1afd46daaf197c05d3daba0a1815332428)`(string collectionName, string schemaName, ` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` 
+
+It returns a URI for the schema logs endpoint.
+
+#### Parameters
+* `collectionName` The name of the collection.
+
+* `schemaName` The name of the schema.
+
+* `SchemasUriParameterBuilder` This is a class that helps you build the query parameters for the request.
 
