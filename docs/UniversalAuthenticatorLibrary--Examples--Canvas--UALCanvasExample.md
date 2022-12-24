@@ -9,7 +9,7 @@ class UniversalAuthenticatorLibrary::Examples::Canvas::UALCanvasExample
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`UnityCanvasUAL`](UniversalAuthenticatorLibrary--Src--UiToolkit--UnityCanvasUAL.md)` ` [`UnityCanvasUAL`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a80913e8bd8a266d2b35aac9812c7caf7) | 
+`public ` [`UnityCanvasUAL`](UniversalAuthenticatorLibrary--Src--Canvas--UnityCanvasUAL.md)` ` [`UnityCanvasUAL`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a80913e8bd8a266d2b35aac9812c7caf7) | 
 `public GameObject ` [`TransactionPanel`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a40c2058d3f65a869398ba6d24828071b) | 
 `public async void ` [`TryTransferTokens`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a6438f85911eb313073eca6ec1cc2d3fb)`(GameObject TransferDetailsPanel)` | Gather data from the custom transfer UI panel.
 `private ` [`User`](User.md)` ` [`user`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a7ffd636d88d39d8b4366d5423d352b0b) | 
@@ -21,7 +21,7 @@ class UniversalAuthenticatorLibrary::Examples::Canvas::UALCanvasExample
 
 ## Members
 
-##### `public ` [`UnityCanvasUAL`](UniversalAuthenticatorLibrary--Src--UiToolkit--UnityCanvasUAL.md)` ` [`UnityCanvasUAL`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a80913e8bd8a266d2b35aac9812c7caf7) 
+##### `public ` [`UnityCanvasUAL`](UniversalAuthenticatorLibrary--Src--Canvas--UnityCanvasUAL.md)` ` [`UnityCanvasUAL`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a80913e8bd8a266d2b35aac9812c7caf7) 
 
 ##### `public GameObject ` [`TransactionPanel`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a40c2058d3f65a869398ba6d24828071b) 
 
