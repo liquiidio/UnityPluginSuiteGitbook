@@ -6,8 +6,8 @@
 	* [Example B](custom/examples/example_b.md)
 
 [API Docs](docs/[README.md)
-* [Canvas](docs/UniversalAuthenticatorLibrary--Src--Canvas.md
-	* [UnityCanvasUAL](docs/UniversalAuthenticatorLibrary--Src--Canvas--UnityCanvasUAL.md
+* [Canvas](docs/UniversalAuthenticatorLibrary--Src--Canvas.md)
+	* [UnityCanvasUAL](docs/UniversalAuthenticatorLibrary--Src--Canvas--UnityCanvasUAL.md)
 * [UiToolkit](docs/UniversalAuthenticatorLibrary--Src--UiToolkit.md)
 	* [UnityUiToolkitUAL](docs/UniversalAuthenticatorLibrary--Src--UiToolkit--UnityUiToolkitUAL.md)
 	* [AuthenticatorButtonItem](docs/UniversalAuthenticatorLibrary--Src--UiToolkit--Ui--AuthenticatorButtonItem.md)
