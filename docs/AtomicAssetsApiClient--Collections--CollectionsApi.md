@@ -11,12 +11,12 @@
 `public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`CollectionLogs`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1ae459db65d80a896ba3ca50df6099e51c)`(string collectionName)` | This function will return a list of logs for a given collection.
 `public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`CollectionLogs`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1ab837b276acda594ee59a32bbcfa3899b)`(string collectionName, ` [`CollectionsUriParameterBuilder`](AtomicAssetsApiClient--Collections--CollectionsUriParameterBuilder.md)` collectionsUriParameterBuilder)` | This function returns a list of logs for a given collection.
 `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a1854c4909a1013a684af16fb52e8a387) | 
-`private Uri ` [`CollectionsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a07e4028b75613f3c27b168e278447f34)`()` | It returns a Uri object.
-`private Uri ` [`CollectionsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a1e26b6852994d59587b8fa84fafaac3d)`(` [`CollectionsUriParameterBuilder`](AtomicAssetsApiClient--Collections--CollectionsUriParameterBuilder.md)` collectionsUriParameterBuilder)` | It builds a URI for the collections endpoint.
-`private Uri ` [`CollectionUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1aff56cb901f7ea42535fe8f007c9d4ae4)`(string collectionName)` | It returns a URI for a collection.
-`private Uri ` [`CollectionStatsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a7937ea6f21a012bd204d562b6291b5dd)`(string collectionName)` | It returns a Uri object that is used to make a request to the Azure Search service.
-`private Uri ` [`CollectionLogsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a877ce097f0c95c800d21e40f42434e06)`(string collectionName)` | It returns a URI for the collection logs endpoint
-`private Uri ` [`CollectionLogsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a7f81992d78f135234ecb827d51d8ce0f)`(string collectionName, ` [`CollectionsUriParameterBuilder`](AtomicAssetsApiClient--Collections--CollectionsUriParameterBuilder.md)` collectionsUriParameterBuilder)` | It returns a Uri object that represents the URI for the collection logs endpoint.
+`private Uri ` [`CollectionsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a07e4028b75613f3c27b168e278447f34)`()` | It returns a Uri object that represents the URL for the collections endpoint.
+`private Uri ` [`CollectionsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a1e26b6852994d59587b8fa84fafaac3d)`(` [`CollectionsUriParameterBuilder`](AtomicAssetsApiClient--Collections--CollectionsUriParameterBuilder.md)` collectionsUriParameterBuilder)` | It takes a `CollectionsUriParameterBuilder` object as a parameter and returns a `Uri` object.
+`private Uri ` [`CollectionUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1aff56cb901f7ea42535fe8f007c9d4ae4)`(string collectionName)` | Given a collection name, return a Uri object that represents the collection's endpoint.
+`private Uri ` [`CollectionStatsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a7937ea6f21a012bd204d562b6291b5dd)`(string collectionName)` | It returns a URI that points to the stats endpoint for a given collection.
+`private Uri ` [`CollectionLogsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a877ce097f0c95c800d21e40f42434e06)`(string collectionName)` | It returns a URI for the collection logs endpoint.
+`private Uri ` [`CollectionLogsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a7f81992d78f135234ecb827d51d8ce0f)`(string collectionName, ` [`CollectionsUriParameterBuilder`](AtomicAssetsApiClient--Collections--CollectionsUriParameterBuilder.md)` collectionsUriParameterBuilder)` | It returns a Uri object that represents the URL for the collection logs endpoint.
 
 ## Members
 
@@ -83,39 +83,39 @@ A LogsDto object
 
 ##### `private Uri ` [`CollectionsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a07e4028b75613f3c27b168e278447f34)`()` 
 
-It returns a Uri object.
+It returns a Uri object that represents the URL for the collections endpoint.
 
 ##### `private Uri ` [`CollectionsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a1e26b6852994d59587b8fa84fafaac3d)`(` [`CollectionsUriParameterBuilder`](AtomicAssetsApiClient--Collections--CollectionsUriParameterBuilder.md)` collectionsUriParameterBuilder)` 
 
-It builds a URI for the collections endpoint.
+It takes a `CollectionsUriParameterBuilder` object as a parameter and returns a `Uri` object.
 
 #### Parameters
 * `CollectionsUriParameterBuilder` A class that builds the query string parameters for the collections endpoint.
 
 ##### `private Uri ` [`CollectionUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1aff56cb901f7ea42535fe8f007c9d4ae4)`(string collectionName)` 
 
-It returns a URI for a collection.
+Given a collection name, return a Uri object that represents the collection's endpoint.
 
 #### Parameters
 * `collectionName` The name of the collection you want to query.
 
 ##### `private Uri ` [`CollectionStatsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a7937ea6f21a012bd204d562b6291b5dd)`(string collectionName)` 
 
-It returns a Uri object that is used to make a request to the Azure Search service.
+It returns a URI that points to the stats endpoint for a given collection.
 
 #### Parameters
 * `collectionName` The name of the collection you want to get stats for.
 
 ##### `private Uri ` [`CollectionLogsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a877ce097f0c95c800d21e40f42434e06)`(string collectionName)` 
 
-It returns a URI for the collection logs endpoint
+It returns a URI for the collection logs endpoint.
 
 #### Parameters
-* `collectionName` The name of the collection you want to get logs for.
+* `collectionName` The name of the collection you want to get the logs for.
 
 ##### `private Uri ` [`CollectionLogsUri`](#class_atomic_assets_api_client_1_1_collections_1_1_collections_api_1a7f81992d78f135234ecb827d51d8ce0f)`(string collectionName, ` [`CollectionsUriParameterBuilder`](AtomicAssetsApiClient--Collections--CollectionsUriParameterBuilder.md)` collectionsUriParameterBuilder)` 
 
-It returns a Uri object that represents the URI for the collection logs endpoint.
+It returns a Uri object that represents the URL for the collection logs endpoint.
 
 #### Parameters
 * `collectionName` The name of the collection you want to get the logs for.

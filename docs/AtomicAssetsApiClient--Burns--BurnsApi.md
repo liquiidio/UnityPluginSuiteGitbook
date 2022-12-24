@@ -10,7 +10,7 @@
 `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a1854c4909a1013a684af16fb52e8a387) | 
 `private Uri ` [`BurnsUri`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1ab7e0279e9f4a23c75ec9cd452b1cec78)`()` | This function returns a Uri object that represents the Burns endpoint
 `private Uri ` [`BurnsUri`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a72a4a0af9ef4fa0f42ca09627055ca9e)`(` [`BurnsUriParameterBuilder`](AtomicAssetsApiClient--Burns--BurnsUriParameterBuilder.md)` burnsUriParameterBuilder)` | It takes a BurnsUriParameterBuilder object and returns a Uri object.
-`private Uri ` [`BurnUri`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a4b9fa036cab638a320616ffc440c6eb3)`(string accountName)` | It returns a URI that can be used to burn a specific account
+`private Uri ` [`BurnUri`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a4b9fa036cab638a320616ffc440c6eb3)`(string accountName)` | This function returns a URI that can be used to burn a specific account
 
 ## Members
 
@@ -52,11 +52,11 @@ This function returns a Uri object that represents the Burns endpoint
 It takes a BurnsUriParameterBuilder object and returns a Uri object.
 
 #### Parameters
-* `BurnsUriParameterBuilder` A class that builds the query string parameters for the request.
+* `BurnsUriParameterBuilder` A class that builds the query string parameters for the URI.
 
 ##### `private Uri ` [`BurnUri`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a4b9fa036cab638a320616ffc440c6eb3)`(string accountName)` 
 
-It returns a URI that can be used to burn a specific account
+This function returns a URI that can be used to burn a specific account
 
 #### Parameters
 * `accountName` The name of the account to burn.

@@ -16,17 +16,17 @@
 `public ` [`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` ` [`WithLimit`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a9aa9888884b4aa9833c132f88b6d17a6)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
 `public ` [`BurnsUriParameterBuilder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a7fce18e7a4c84645bbcd9c6114a9352f)`(` [`SortStrategy`](AtomicAssetsApiClient.md)` sorting)` | This function sets the sort strategy for the query.
 `public string ` [`Build`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
-`private string ` [`_collectionName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a10ec2fa990c6478bc519b1e57e1ab2aa) | A private variable that is used to store the value of the collectionName parameter.
-`private string ` [`_schemaName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a2f9a887fd4dfcf60bfe4240a27085724) | A private variable that is used to store the value of the schemaName parameter.
-`private string ` [`_templateId`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a06f918051fc7b04615854510caa85934) | A private variable that is used to store the value of the templateId parameter.
-`private string ` [`_collectionBlacklist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a11b225f8984dd9ab3ab5fcec261245c4) | A private variable that is used to store the value of the collectionBlacklist parameter.
-`private string ` [`_collectionWhitelist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a525c994ce1a584f4d763ac9d5c1b3cb5) | A private variable that is used to store the value of the collectionWhitelist parameter.
-`private string ` [`_ids`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a2a9be788653dd13950b2f00bfce1970b) | A private variable that is used to store the value of the ids parameter.
-`private string ` [`_lowerBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a47926893a523918c50a931018c47480d) | A private variable that is used to store the value of the lowerBound parameter.
-`private string ` [`_upperBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1add1abf9a00e7bb81efb866424f4f34dc) | A private variable that is used to store the value of the upperBound parameter.
-`private int? ` [`_page`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) | A nullable integer specifying the page.
-`private int? ` [`_limit`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) | A nullable integer specifying the limit of returned values.
-`private ` [`SortStrategy`](AtomicAssetsApiClient.md)`? ` [`_sortStrategy`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | A nullable enum specifying the sortStrategy.
+`private string ` [`_collectionName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a10ec2fa990c6478bc519b1e57e1ab2aa) | 
+`private string ` [`_schemaName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a2f9a887fd4dfcf60bfe4240a27085724) | 
+`private string ` [`_templateId`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a06f918051fc7b04615854510caa85934) | 
+`private string ` [`_collectionBlacklist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a11b225f8984dd9ab3ab5fcec261245c4) | 
+`private string ` [`_collectionWhitelist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a525c994ce1a584f4d763ac9d5c1b3cb5) | 
+`private string ` [`_ids`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a2a9be788653dd13950b2f00bfce1970b) | 
+`private string ` [`_lowerBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a47926893a523918c50a931018c47480d) | 
+`private string ` [`_upperBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1add1abf9a00e7bb81efb866424f4f34dc) | 
+`private int? ` [`_page`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) | 
+`private int? ` [`_limit`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) | 
+`private ` [`SortStrategy`](AtomicAssetsApiClient.md)`? ` [`_sortStrategy`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | 
 
 ## Members
 
@@ -149,45 +149,23 @@ A string that contains the parameters for the query.
 
 ##### `private string ` [`_collectionName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a10ec2fa990c6478bc519b1e57e1ab2aa) 
 
-A private variable that is used to store the value of the collectionName parameter.
-
 ##### `private string ` [`_schemaName`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a2f9a887fd4dfcf60bfe4240a27085724) 
-
-A private variable that is used to store the value of the schemaName parameter.
 
 ##### `private string ` [`_templateId`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a06f918051fc7b04615854510caa85934) 
 
-A private variable that is used to store the value of the templateId parameter.
-
 ##### `private string ` [`_collectionBlacklist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a11b225f8984dd9ab3ab5fcec261245c4) 
-
-A private variable that is used to store the value of the collectionBlacklist parameter.
 
 ##### `private string ` [`_collectionWhitelist`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a525c994ce1a584f4d763ac9d5c1b3cb5) 
 
-A private variable that is used to store the value of the collectionWhitelist parameter.
-
 ##### `private string ` [`_ids`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a2a9be788653dd13950b2f00bfce1970b) 
-
-A private variable that is used to store the value of the ids parameter.
 
 ##### `private string ` [`_lowerBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a47926893a523918c50a931018c47480d) 
 
-A private variable that is used to store the value of the lowerBound parameter.
-
 ##### `private string ` [`_upperBound`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1add1abf9a00e7bb81efb866424f4f34dc) 
-
-A private variable that is used to store the value of the upperBound parameter.
 
 ##### `private int? ` [`_page`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) 
 
-A nullable integer specifying the page.
-
 ##### `private int? ` [`_limit`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) 
 
-A nullable integer specifying the limit of returned values.
-
 ##### `private ` [`SortStrategy`](AtomicAssetsApiClient.md)`? ` [`_sortStrategy`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
-
-A nullable enum specifying the sortStrategy.
 
