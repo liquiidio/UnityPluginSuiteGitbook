@@ -102,7 +102,7 @@ Token Transfer
 
         try
         {
-            var transactResult = await _link.Transact(new TransactArgs() { Action = action });
+            var transactResult = await _link.Transact(new TransactArgs() { [Action](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c) = action });
             // OR (see next line)
             //var transactResult = await _session.Transact(new TransactArgs() { Action = action });
             Debug.Log($"Transaction broadcast! {transactResult.Processed}");

@@ -10,11 +10,11 @@ class AnchorLinkTransportSharp::Src::Transports::Canvas::UnityCanvasTransport
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `private string ` [`CountdownText`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aea35f1a5398bcdf185ebdeda7aae882d) | 
-`public ` [`UnityCanvasTransport`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a24308a36f68304db3677b33631cdb563)`(TransportOptions options)` | 
-`public override void ` [`ShowLoading`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ad07a81fbeebbad741a68a3e9b3f310e7)`()` | 
-`public override void ` [`OnSuccess`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ac36aa71aa9c9918667f60b2f046bbb4c)`(SigningRequest request, ` [`TransactResult`](AnchorLinkSharp--TransactResult.md)` result)` | 
-`public override void ` [`OnFailure`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aad0b7848de702f685a2fc45a16474a6d)`(SigningRequest request, Exception exception)` | 
-`public override void ` [`DisplayRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aba60c11e2c8b926bea5109f4230a2a92)`(SigningRequest request)` | 
+`public ` [`UnityCanvasTransport`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a24308a36f68304db3677b33631cdb563)`(` [`TransportOptions`](AnchorLinkTransportSharp--Src--TransportOptions.md)` options)` | 
+`public virtual override void ` [`ShowLoading`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ad07a81fbeebbad741a68a3e9b3f310e7)`()` | 
+`public virtual override void ` [`OnSuccess`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ac36aa71aa9c9918667f60b2f046bbb4c)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`TransactResult`](AnchorLinkSharp--TransactResult.md)` result)` | 
+`public virtual override void ` [`OnFailure`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aad0b7848de702f685a2fc45a16474a6d)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, Exception exception)` | 
+`public virtual override void ` [`DisplayRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aba60c11e2c8b926bea5109f4230a2a92)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request)` | 
 `public void ` [`OnVersionButtonPressed`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1afdf2e2da9324eba7d3008e682495b72e)`()` | 
 `public void ` [`OnDownloadAnchorButtonPressed`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a4d1bb7a2d0f7966169727aea478c2421)`()` | 
 `public void ` [`OnLoginPanelCloseButtonPressed`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a900c2ebcf08d9ae995f8db8b11979679)`()` | 
@@ -51,15 +51,15 @@ class AnchorLinkTransportSharp::Src::Transports::Canvas::UnityCanvasTransport
 
 ##### `private string ` [`CountdownText`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aea35f1a5398bcdf185ebdeda7aae882d) 
 
-##### `public ` [`UnityCanvasTransport`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a24308a36f68304db3677b33631cdb563)`(TransportOptions options)` 
+##### `public ` [`UnityCanvasTransport`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a24308a36f68304db3677b33631cdb563)`(` [`TransportOptions`](AnchorLinkTransportSharp--Src--TransportOptions.md)` options)` 
 
-##### `public override void ` [`ShowLoading`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ad07a81fbeebbad741a68a3e9b3f310e7)`()` 
+##### `public virtual override void ` [`ShowLoading`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ad07a81fbeebbad741a68a3e9b3f310e7)`()` 
 
-##### `public override void ` [`OnSuccess`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ac36aa71aa9c9918667f60b2f046bbb4c)`(SigningRequest request, ` [`TransactResult`](AnchorLinkSharp--TransactResult.md)` result)` 
+##### `public virtual override void ` [`OnSuccess`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ac36aa71aa9c9918667f60b2f046bbb4c)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`TransactResult`](AnchorLinkSharp--TransactResult.md)` result)` 
 
-##### `public override void ` [`OnFailure`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aad0b7848de702f685a2fc45a16474a6d)`(SigningRequest request, Exception exception)` 
+##### `public virtual override void ` [`OnFailure`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aad0b7848de702f685a2fc45a16474a6d)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, Exception exception)` 
 
-##### `public override void ` [`DisplayRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aba60c11e2c8b926bea5109f4230a2a92)`(SigningRequest request)` 
+##### `public virtual override void ` [`DisplayRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aba60c11e2c8b926bea5109f4230a2a92)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request)` 
 
 ##### `public void ` [`OnVersionButtonPressed`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1afdf2e2da9324eba7d3008e682495b72e)`()` 
 
