@@ -78,7 +78,7 @@
 			* [TimeoutPanel](docs/--Src--Transports--UiToolkit--Ui--TimeoutPanel.md)
 			* [Utils](docs/--Src--Transports--UiToolkit--Ui--Utils.md)
 	* StorageProviders
-		* [PlayerPrefsStorage](docs/--Src--StorageProviders--PlayerPrefsStorage.md
-		* [JsonLocalStorage](docs/--Src--StorageProviders--JsonLocalStorage.md
-	* [TransportOptions](docs/--Src--TransportOptions.md
+		* [PlayerPrefsStorage](docs/--Src--StorageProviders--PlayerPrefsStorage.md)
+		* [JsonLocalStorage](docs/--Src--StorageProviders--JsonLocalStorage.md)
+	* [TransportOptions](docs/--Src--TransportOptions.md)
 	* [AnchorLinkTransportSharp](docs/--Src--NetZlibProvider.md)
