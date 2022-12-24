@@ -10,11 +10,11 @@
 `public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`OfferLogs`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1ab8311c9a2d3602ab9cb14d0cad5f9c13)`(string offerId)` | This function will return a list of logs for a specific offer.
 `public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`OfferLogs`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a5403da960dc8ab3c59e75be746be37a7)`(string offerId, ` [`OffersUriParameterBuilder`](AtomicAssetsApiClient--Offers--OffersUriParameterBuilder.md)` schemasUriParameterBuilder)` | This function returns a list of logs for a specific offer.
 `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a1854c4909a1013a684af16fb52e8a387) | 
-`private Uri ` [`OffersUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1ada4f3a19377ef670d6e90db76983d1e5)`()` | It returns a Uri object.
-`private Uri ` [`OffersUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a7193d9a8040525ada787f90854c047f8)`(` [`OffersUriParameterBuilder`](AtomicAssetsApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` | It takes an `OffersUriParameterBuilder` object as a parameter, and returns a `Uri` object.
-`private Uri ` [`OfferUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a20b72164e6cdeeb7fe55ada62c70f6cb)`(string offerId)` | It returns a URI for a specific offer.
-`private Uri ` [`OfferLogsUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a30e9bba1b128fcfdd45beac4c5529ddc)`(string offerId)` | It returns a URI for the offer logs endpoint.
-`private Uri ` [`OfferLogsUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a1b159d8d73aa0ae3b1e72fc84bf13b6d)`(string offerId, ` [`OffersUriParameterBuilder`](AtomicAssetsApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` | It returns a URI for the offer logs endpoint.
+`private Uri ` [`OffersUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1ada4f3a19377ef670d6e90db76983d1e5)`()` | 
+`private Uri ` [`OffersUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a7193d9a8040525ada787f90854c047f8)`(` [`OffersUriParameterBuilder`](AtomicAssetsApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` | 
+`private Uri ` [`OfferUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a20b72164e6cdeeb7fe55ada62c70f6cb)`(string offerId)` | 
+`private Uri ` [`OfferLogsUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a30e9bba1b128fcfdd45beac4c5529ddc)`(string offerId)` | 
+`private Uri ` [`OfferLogsUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a1b159d8d73aa0ae3b1e72fc84bf13b6d)`(string offerId, ` [`OffersUriParameterBuilder`](AtomicAssetsApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` | 
 
 ## Members
 
@@ -71,35 +71,11 @@ A LogsDto object
 
 ##### `private Uri ` [`OffersUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1ada4f3a19377ef670d6e90db76983d1e5)`()` 
 
-It returns a Uri object.
-
 ##### `private Uri ` [`OffersUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a7193d9a8040525ada787f90854c047f8)`(` [`OffersUriParameterBuilder`](AtomicAssetsApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` 
-
-It takes an `OffersUriParameterBuilder` object as a parameter, and returns a `Uri` object.
-
-#### Parameters
-* `OffersUriParameterBuilder` A class that builds the query string parameters for the request.
 
 ##### `private Uri ` [`OfferUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a20b72164e6cdeeb7fe55ada62c70f6cb)`(string offerId)` 
 
-It returns a URI for a specific offer.
-
-#### Parameters
-* `offerId` The offer ID of the offer you want to retrieve.
-
 ##### `private Uri ` [`OfferLogsUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a30e9bba1b128fcfdd45beac4c5529ddc)`(string offerId)` 
 
-It returns a URI for the offer logs endpoint.
-
-#### Parameters
-* `offerId` The ID of the offer you want to get logs for.
-
 ##### `private Uri ` [`OfferLogsUri`](#class_atomic_assets_api_client_1_1_offers_1_1_offers_api_1a1b159d8d73aa0ae3b1e72fc84bf13b6d)`(string offerId, ` [`OffersUriParameterBuilder`](AtomicAssetsApiClient--Offers--OffersUriParameterBuilder.md)` offersUriParameterBuilder)` 
-
-It returns a URI for the offer logs endpoint.
-
-#### Parameters
-* `offerId` The offer ID.
-
-* `OffersUriParameterBuilder` This is a class that builds the query string parameters for the request.
 
