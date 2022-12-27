@@ -64,17 +64,13 @@ Transport constructor.
 
 Method is invoked when a request is made and user signing on the wallet is required.
 
-Refer to this
-
-.
+Refer to [https://github.com/greymass/anchor-link-browser-transport/blob/master/src/index.ts#L361](https://github.com/greymass/anchor-link-browser-transport/blob/master/src/index.ts#L361).
 
 ##### `public virtual override void ` [`OnSuccess`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ac36aa71aa9c9918667f60b2f046bbb4c)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`TransactResult`](AnchorLinkSharp--TransactResult.md)` result)` 
 
 Method is invoked when a succesful signing request is completed.
 
-Refer to this
-
-.
+Refer to [https://github.com/greymass/anchor-link-browser-transport/blob/master/src/index.ts#L680](https://github.com/greymass/anchor-link-browser-transport/blob/master/src/index.ts#L680).
 
 #### Parameters
 * `request` />
@@ -85,9 +81,7 @@ Refer to this
 
 Method is invoked when a signing request fails or is cancelled.
 
-Refer to this
-
-.
+Refer to [https://github.com/greymass/anchor-link-browser-transport/blob/master/src/index.ts#L698](https://github.com/greymass/anchor-link-browser-transport/blob/master/src/index.ts#L698).
 
 #### Parameters
 * `request` 
@@ -97,9 +91,7 @@ Refer to this
 
 Method is invoked when a request to sign or login is made and the QR code and link are generated and displayed.
 
-Refer to this
-
-.
+Refer to [https://github.com/greymass/anchor-link-browser-transport/blob/master/src/index.ts#L264](https://github.com/greymass/anchor-link-browser-transport/blob/master/src/index.ts#L264).
 
 #### Parameters
 * `request`
