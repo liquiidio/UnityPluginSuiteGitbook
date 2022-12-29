@@ -10,14 +10,14 @@ class AnchorLinkSharp::LinkSessionDataConverter
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `class ` [`SerializableLinkSessionWrapper`](AnchorLinkSharp--LinkSessionDataConverter--SerializableLinkSessionWrapper.md)        | 
-`public override void ` [`WriteJson`](#class_anchor_link_sharp_1_1_link_session_data_converter_1afc88168dd00ad5912572b1110a864026)`(JsonWriter writer, ` [`LinkSessionDataBase`](AnchorLinkSharp--LinkSessionDataBase.md)` value, JsonSerializer serializer)` | 
-`public override ` [`LinkSessionDataBase`](AnchorLinkSharp--LinkSessionDataBase.md)` ` [`ReadJson`](#class_anchor_link_sharp_1_1_link_session_data_converter_1a3ae0bfd543c960e5431b8cfcd5bfa0bd)`(JsonReader reader, Type objectType, ` [`LinkSessionDataBase`](AnchorLinkSharp--LinkSessionDataBase.md)` existingValue, bool hasExistingValue, JsonSerializer serializer)` | 
+`public override void ` [`WriteJson`](#class_anchor_link_sharp_1_1_link_session_data_converter_1afc88168dd00ad5912572b1110a864026)`(JsonWriter writer, LinkSessionDataBase value, JsonSerializer serializer)` | 
+`public override LinkSessionDataBase ` [`ReadJson`](#class_anchor_link_sharp_1_1_link_session_data_converter_1a3ae0bfd543c960e5431b8cfcd5bfa0bd)`(JsonReader reader, Type objectType, LinkSessionDataBase existingValue, bool hasExistingValue, JsonSerializer serializer)` | 
 
 ## Members
 
 ##### `class ` [`SerializableLinkSessionWrapper`](AnchorLinkSharp--LinkSessionDataConverter--SerializableLinkSessionWrapper.md) 
 
-##### `public override void ` [`WriteJson`](#class_anchor_link_sharp_1_1_link_session_data_converter_1afc88168dd00ad5912572b1110a864026)`(JsonWriter writer, ` [`LinkSessionDataBase`](AnchorLinkSharp--LinkSessionDataBase.md)` value, JsonSerializer serializer)` 
+##### `public override void ` [`WriteJson`](#class_anchor_link_sharp_1_1_link_session_data_converter_1afc88168dd00ad5912572b1110a864026)`(JsonWriter writer, LinkSessionDataBase value, JsonSerializer serializer)` 
 
-##### `public override ` [`LinkSessionDataBase`](AnchorLinkSharp--LinkSessionDataBase.md)` ` [`ReadJson`](#class_anchor_link_sharp_1_1_link_session_data_converter_1a3ae0bfd543c960e5431b8cfcd5bfa0bd)`(JsonReader reader, Type objectType, ` [`LinkSessionDataBase`](AnchorLinkSharp--LinkSessionDataBase.md)` existingValue, bool hasExistingValue, JsonSerializer serializer)` 
+##### `public override LinkSessionDataBase ` [`ReadJson`](#class_anchor_link_sharp_1_1_link_session_data_converter_1a3ae0bfd543c960e5431b8cfcd5bfa0bd)`(JsonReader reader, Type objectType, LinkSessionDataBase existingValue, bool hasExistingValue, JsonSerializer serializer)` 
 
