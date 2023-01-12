@@ -1,3 +1,3 @@
-### Demo Apllication
+# Demo
 
-<iframe src="https://noodles.lol/gitbook/WCW%20WebGL%202021.x/" title="WCW WebGl Demo"></iframe>
+{% embed url="https://noodles.lol/gitbook/WCW%20WebGL%202021.x/" %}
