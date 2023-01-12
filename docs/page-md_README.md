@@ -16,7 +16,14 @@ This package can be included into your project by either:
 
 1. Manually add the files in this repo.
 
-1. Installing it via NuGet.
+1. Installing it via NuGet. (for Standard .NET users)
+
+#### Dependencies
+DependenciesTODO, add WebSocket-Package (if not already installed)
+
+* Via Upm
+
+* clone Repo
 
 #### 1. Installing via Unity Package Manager (UPM).
 1. Installing via Unity Package Manager (UPM).In your Unity project:
@@ -43,74 +50,137 @@ This package can be included into your project by either:
 
 1. Copy the sources from `NativeWebSocket/Assets/WebSocket` into your `Assets` directory. // Corvin: We should hava a dependencies-section showing how to install dependencies in general, non of our packages includes the WebSocket-Package
 
-#### 4. Install via NuGet
-4. Install via NuGetBlack magic
-
-#### Dependencies
-DependenciesTODO, add WebSocket-Package (if not already installed)
-
-* Via Upm
-
-* clone Repo
+#### 4. Install via NuGet (for Standard .NET users only - No Unity3D)
+4. Install via NuGet (for Standard .NET users only - No Unity3D)Black magic
 
 ### Usage (!TODO!)
 Usage (!TODO!).NET and Unity3D-compatible (Desktop, Mobile, WebGL) ApiClient for the different APIs. Endpoints have its own set of parameters that you may build up and pass in to the relevant function.
 
 #### Examples
-ExamplesBased on the different endpoints
+Examples
+#### Quick Start
+Quick Start
 
-new AnchorLink(new LinkOptions() { Transport = this.Transport, // Uncomment this for and EOS session //ChainId = "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906", //Rpc = "https://eos.greymass.com",
+1. Add one of the Transport-Prefabs (UiToolkitTransport or CanvasTransport) to your Scene.
 
-<br/>// WAX session
-        ChainId = "1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4",
-        Rpc = "https://api.wax.liquidstudios.io",
-        ZlibProvider = new NetZlibProvider(),
-        Storage = new PlayerPrefsStorage()
+1. Instantiate a new AnchorLink-object in one of your scripts, assign the Transport and configure your AnchorLink for the usage with WAX and the endpoints of your choice.
+
+```cpp
+ [SerializeField]
+ internal UnityTransport Transport;
+ internal AnchorLink myLink;
+
+ public void Start(){
+     myLink = new AnchorLink(new LinkOptions()
+     {
+         Transport = this.Transport,
+         ChainId = "1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4",
+         Rpc = "https://api.wax.liquidstudios.io",
     });
+}
+```
 
-### Additional examples (!TODO!)
-Additional examples (!TODO!)These are examples based on the specific plugin/package usage. Achor link - Creating and signing different kinds of transactions. <br/>
+#### Login
+Login
 
-#### An example
-An exampleAnchorLink
+1. Add a method calling the Login(identifier)-Method of the previously instantiated AnchorLink.
 
-Token Transfer // transfer tokens using a session
-    private async Task Transfer(string frmAcc, string toAcc, string qnty, string memo)
+1. When this Method is called from your UI, the Transport will show and Ask the User to Open Anchor to Login.
+
+1. After succesfull Login, data about the Account selected and additional session-data is returned your Application, available for use within the session-variable returned.
+
+1. Storing the Session will allow you to to promt the User with a Transact-Request without the user having to Login again.
+
+```cpp
+internal LinkSession mySession;
+internal async Task LoginAndStoreSession()
+{
+    try
     {
-        var action = new EosSharp.Core.Api.v1.Action()
-        {
-            account = "eosio.token",
-            name = "transfer",
-            authorization = new List<PermissionLevel>() { _session.Auth },
-            data = new Dictionary<string, object>
-            {
-                {"from", frmAcc},
-                {"to", toAcc},
-                {"quantity", qnty},
-                {"memo", memo}
-            }
-        };
-
-        //Debug.Log($"Session {_session.Identifier}");
-        //Debug.Log($"Link: {_link.ChainId}");
-
-        try
-        {
-            var transactResult = await _link.Transact(new TransactArgs() { Action = action });
-            // OR (see next line)
-            //var transactResult = await _session.Transact(new TransactArgs() { Action = action });
-            Debug.Log($"Transaction broadcast! {transactResult.Processed}");
-
-            waitCoroutine = StartCoroutine(SwitchPanels(Transport.currentPanel, CustomActionsPanel, 1.5f));
-
-        }
-        catch (Exception e)
-        {
-            Debug.Log(e);
-            throw;
-        }
+        var loginResult = await myLink.Login(Identifier);
+        mySession = loginResult.Session;
+        Debug.Log($"{mySession.Auth.actor} logged-in");
     }
- Link? (!TODO!)
+    catch (Exception ex)
+    {
+        Debug.LogError(ex.Message);
+    }
+}
+```
+
+#### Transact (without Session)
+Transact (without Session)
+
+1. To transact without a Session, create a Method and pass a EosSharp Action-Object to it.
+
+1. Call await AnchorLink.Transact(new TransactArgs(){Action = action); to transact.
+
+1. When this Method is called from your UI or other Code, the Transport will show and Ask the User to Open Anchor to Login and afterwards to Sign a Transaction containing the Action passed.
+
+```cpp
+internal async Task TransactWithoutSession(EosSharp.Core.Api.v1.Action action)
+{
+    var transactResult = await myLink.Transact(new TransactArgs() { [Action](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c) = action });
+    Debug.Log($"Transaction broadcast! {transactResult.Processed}");
+}
+```
+
+#### Transact (with Session)
+Transact (with Session)
+
+1. To transact without a Session, create a Method and pass a EosSharp Action-Object to it.
+
+1. Call await LinkSession.Transact(new TransactArgs(){Action = action); to transact.
+
+1. When this Method is called from your UI or other Code, the Transport will show and Ask the User to Sign a Transaction containing the Action passed (without requiring the User to Login again). 
+```cpp
+internal async Task TransactWithoutSession(EosSharp.Core.Api.v1.Action action)
+{
+    var transactResult = await mySession.Transact(new TransactArgs() { [Action](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c) = action });
+    Debug.Log($"Transaction broadcast! {transactResult.Processed}");
+}
+```
+
+#### Token Transfer
+Token Transfer
+
+1. Following Example shows how a Token Transfer Action could be created and passed to the Transact-Method using a Session.
+
+```cpp
+// transfer tokens using a session
+private async Task Transfer(string frmAcc, string toAcc, string qnty, string memo)
+{
+    var action = new EosSharp.Core.Api.v1.Action()
+    {
+        account = "eosio.token",
+        name = "transfer",
+        authorization = new List<PermissionLevel>() { _session.Auth },
+        data = new Dictionary<string, object>
+        {
+            {"from", frmAcc},
+            {"to", toAcc},
+            {"quantity", qnty},
+            {"memo", memo}
+        }
+    };
+
+    try
+    {
+        var transactResult = await mySession.Transact(new TransactArgs() { [Action](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c) = action });
+        Debug.Log($"Transaction broadcast! {transactResult.Processed}");
+
+        waitCoroutine = StartCoroutine(SwitchPanels(Transport.currentPanel, CustomActionsPanel, 1.5f));
+
+    }
+    catch (Exception e)
+    {
+        Debug.Log(e);
+        throw;
+    }
+}
+```
+
+Link? (!TODO!)
 
 * NFT Transfer - link
 
