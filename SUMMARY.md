@@ -2,7 +2,6 @@
 
 * [Getting Started](README.md)
 * [Installation](custom/installation.md)
-* [Demo](custom/demo\_app.md)
 * [Examples](custom/examples/README.md)
   * [Example A](custom/examples/example\_a.md)
   * [Example B](custom/examples/example\_b.md)
