@@ -9,6 +9,7 @@ class UniversalAuthenticatorLibrary::Examples::UiToolkit::Ui::ExampleMainView
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
+`public async void ` [`Rebind`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab378c14625c2a991edc88100c89561f6)`(` [`User`](UniversalAuthenticatorLibrary--User.md)` user)` | 
 `private Button ` [`_changeToBidNameButton`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ac7c73aa8fa9bfe4ba0d2e6d659a346ce) | 
 `private Button ` [`_changeToBuyRamButton`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a0f24036b720fc6ca717c7ce2874022a7) | 
 `private Button ` [`_changeToSellRamButton`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a21ffd5348d4a37dd3cd7d2dcd161fdcd) | 
@@ -40,13 +41,14 @@ class UniversalAuthenticatorLibrary::Examples::UiToolkit::Ui::ExampleMainView
 `private ` [`User`](UniversalAuthenticatorLibrary--User.md)` ` [`_user`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a0e4623cfba2f709f9712c50e474b8722) | 
 `private void ` [`Start`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a07aaf1227e4d645f15e0a964f54ef291)`()` | 
 `private void ` [`BindButtons`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ac0a62408f7b64fe84a8a710e7119b60b)`()` | 
-`private async void ` [`Rebind`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab378c14625c2a991edc88100c89561f6)`(` [`User`](UniversalAuthenticatorLibrary--User.md)` user)` | 
 `private void ` [`SetTransferAccountText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab8d2fea12b0b68a71ac1900c411ad1de)`()` | 
 `private void ` [`SetSellRamText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a04df316e1b48502dc1a11dccf1741d14)`()` | 
 `private void ` [`SetBuyRamText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1abb62aae70d0490ae16485974f788ff80)`()` | 
 `private void ` [`SetBidNameText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1aea934c7204b2977c74d78b45cdc0c596)`()` | 
 
 ## Members
+
+##### `public async void ` [`Rebind`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab378c14625c2a991edc88100c89561f6)`(` [`User`](UniversalAuthenticatorLibrary--User.md)` user)` 
 
 ##### `private Button ` [`_changeToBidNameButton`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ac7c73aa8fa9bfe4ba0d2e6d659a346ce) 
 
@@ -109,8 +111,6 @@ class UniversalAuthenticatorLibrary::Examples::UiToolkit::Ui::ExampleMainView
 ##### `private void ` [`Start`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a07aaf1227e4d645f15e0a964f54ef291)`()` 
 
 ##### `private void ` [`BindButtons`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ac0a62408f7b64fe84a8a710e7119b60b)`()` 
-
-##### `private async void ` [`Rebind`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab378c14625c2a991edc88100c89561f6)`(` [`User`](UniversalAuthenticatorLibrary--User.md)` user)` 
 
 ##### `private void ` [`SetTransferAccountText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab8d2fea12b0b68a71ac1900c411ad1de)`()` 
 
