@@ -4,7 +4,7 @@
 * [Examples](custom/examples/README.md)
 	* [Example A](custom/examples/example_a.md)
 	* [Example B](custom/examples/example_b.md)
-* [API Read Methods]
+* API Read Methods
 	* [GetInfo](custom/api_read_methods/getinfo.md)
 	* [GetAccount](custom/api_read_methods/getaccount.md)
 	* [GetBlock](custom/api_read_methods/getblock.md)
