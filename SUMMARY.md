@@ -4,6 +4,13 @@
 * [Examples](custom/examples/README.md)
 	* [Example A](custom/examples/example_a.md)
 	* [Example B](custom/examples/example_b.md)
+* [API Read Methods]
+	* [GetInfo](custom/api_read_methods/getinfo.md)
+	* [GetAccount](custom/api_read_methods/getaccount.md)
+	* [GetBlock](custom/api_read_methods/getblock.md)
+	* [GetTableRows](custom/api_read_methods/gettablerows)
+	* [GetTableByScope](custom/api_read_methods/gettablebyscope.md)
+	* [GetActions](custom/api_read_methods/getactions.md)
 
 * [API Docs](docs/[README.md)
 	* [Eos](docs/EosSharp--Eos.md)
