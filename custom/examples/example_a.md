@@ -1,6 +1,6 @@
 #### Create Transaction
 
-**NOTE: using anonymous objects and / or properties as action data is not supported on WEBGL Unity exports
+**NOTE: Using anonymous objects and/or properties as action data is not supported on WEBGL Unity exports.
 Use data as dictionary or strongly typed objects with fields.**
 
 ```csharp
