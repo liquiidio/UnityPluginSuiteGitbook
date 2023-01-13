@@ -8,7 +8,7 @@
 	* [GetInfo](custom/api_read_methods/get_info.md)
 	* [GetAccount](custom/api_read_methods/get_account.md)
 	* [GetBlock](custom/api_read_methods/get_block.md)
-	* [GetTableRows](custom/api_read_methods/get_tablerows)
+	* [GetTableRows](custom/api_read_methods/get_table_rows.md)
 	* [GetTableByScope](custom/api_read_methods/get_table_by_scope.md)
 	* [GetActions](custom/api_read_methods/get_actions.md)
 
