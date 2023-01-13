@@ -3,7 +3,8 @@
 * [Installation](custom/installation.md)
 * [Examples](custom/examples/README.md)
 	* [CustomSignProvider](custom/examples/example_a.md)
-	* [CombinedSignersProvider](custom/examples/example_b.md)
+	* [CustomSignProvider](custom/examples/example_b.md)
+	* [CombinedSignersProvider](custom/examples/example_c.md)
 * API Read Methods
 	* [GetInfo](custom/api_read_methods/get_info.md)
 	* [GetAccount](custom/api_read_methods/get_account.md)
