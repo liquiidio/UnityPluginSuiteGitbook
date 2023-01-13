@@ -1,10 +1,10 @@
-- **GetTableByScope** call
-    * Code - accountName of the contract to search for tables
-    * Table - table name to filter
-    * LowerBound - lower bound of scope, optional
-    * UpperBound - upper bound of scope, optional
-    * Limit
-    * Reverse - reverse result order
+**GetTableByScope** call
+ * Code - accountName of the contract to search for tables
+ * Table - table name to filter
+ * LowerBound - lower bound of scope, optional
+ * UpperBound - upper bound of scope, optional
+ * Limit
+ * Reverse - reverse result order
 
 ```csharp
 var result = await eos.GetTableByScope(new GetTableByScopeRequest() {
