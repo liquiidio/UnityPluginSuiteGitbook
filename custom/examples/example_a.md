@@ -1,4 +1,4 @@
- ## Example calling the /v1/assets endpoint
+# Example calling the /v1/assets endpoint
  ### Initialise the Assets API
 ```csharp
      var assetsApi = AtomicAssetsApiFactory.Version1.AssetsApi();
