@@ -1,6 +1,6 @@
 #### Custom SignProvider
 
-Is also possible to implement your own **ISignProvider** to customize how the signatures and key handling is done.
+It is also possible to implement your own **ISignProvider** to customize how the signatures and key handling is done.
 
 Example:
 
