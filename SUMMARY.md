@@ -1,4 +1,4 @@
-* [EosSharp](custom/README.md)
+[EosSharp](custom/README.md)
 * [Getting Started](custom/getting_started.md)
 * [Installation](custom/installation.md)
 * [Examples](custom/examples/README.md)
