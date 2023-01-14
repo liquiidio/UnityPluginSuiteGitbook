@@ -1,22 +1,13 @@
 # Installation
 
-## Installation (!TODO!)
-
 _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_
 
 This package can be included into your project by either:
 
 1. Installing the package via Unity's Package Manager (UPM) in the editor (recommended).
-2. Importing the .unitypackage which you can download here.
-3. Manually add the files in this repo.
+2. Importing the .unitypackage which you can download [here](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp).
+3. Manually add the files from the repo.
 4. Installing it via NuGet. (for Standard .NET users)
-
-#### Dependencies
-
-TODO, add WebSocket-Package (if not already installed)
-
-* Via Upm
-* clone Repo
 
 #### 1. Installing via Unity Package Manager (UPM).
 
@@ -24,13 +15,15 @@ In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/endel/NativeWebSocket.git#upm`
+3. Enter URL: `https://github.com/endel/AnchorLinkTransportSharp.git#unity`
 
 ***
 
 #### 2. Importing the Unity Package.
 
-Download the UnityPackage here. Then in your Unity project:
+Download the [UnityPackage here](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp).
+
+Then in your Unity project:
 
 1. Open up the import a custom package window
 2. Navigate to where you downloaded the file and open it.
@@ -40,12 +33,21 @@ Download the UnityPackage here. Then in your Unity project:
 
 #### 3. Install manually.
 
-Download this project there here. Then in your Unity project:
+Download this [project here](https://github.com/liquiidio/AnchorLinkTransportSharp/releases).
 
-1. Copy the sources from `NativeWebSocket/Assets/WebSocket` into your `Assets` directory. // Corvin: We should hava a dependencies-section showing how to install dependencies in general, non of our packages includes the WebSocket-Package
+  * [zip](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp)
+  * [tar.gz](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp)
+
+Then in your Unity project, copy the sources from `AnchorLinkTransportSharp` into your Unity `Assets` directory.
 
 ***
 
 #### 4. Install via NuGet (for Standard .NET users only - No Unity3D)
 
-Black magic
+#### .NET CLI (TODO!: Get correct command)
+
+`>dotnet add package Liquiid.io.AnchorLinkTransportSharp --version 1.0.24`
+
+#### Package Manager (TODO!: Get correct command)
+
+`PM> Install-Package Liquiid.io.AnchorLinkTransportSharp -Version 1.0.24`
