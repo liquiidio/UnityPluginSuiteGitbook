@@ -20,7 +20,7 @@
               }
           };
 		
-		  // Sign 
-	  	 _waxCloudWalletPlugin.Sign(new[] { action });
+	  // Sign 
+	 _waxCloudWalletPlugin.Sign(new[] { action });
 	}
 ```
