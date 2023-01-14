@@ -1,6 +1,6 @@
 # Token Transfer
 
-1. The following example shows how a Token Transfer Action can be created and passed to the Sign-Method of a previously initialized WaxCloudWalletPlugin-Object.
+1. The following example shows how a Token Transfer Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example_a) initialized WaxCloudWalletPlugin-Object.
 
 ```csharp
    // transfer tokens using a session
