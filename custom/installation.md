@@ -1,7 +1,5 @@
 # Installation
 
-## Installation (!TODO!)
-
 _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_
 
 This package can be included into your project by either:
@@ -24,13 +22,15 @@ In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/endel/NativeWebSocket.git#upm`
+3. Enter URL: `https://github.com/endel/WcwUnity.git#upm`
 
 ***
 
 #### 2. Importing the Unity Package.
 
-Download the UnityPackage here. Then in your Unity project:
+Download the [UnityPackage here](https://github.com/liquiidio/WcwUnityWebGl/releases/download/1.0.2/io.liquiid.wcwunitywebgl.unitypackage). 
+
+Then in your Unity project:
 
 1. Open up the import a custom package window
 2. Navigate to where you downloaded the file and open it.
@@ -40,14 +40,21 @@ Download the UnityPackage here. Then in your Unity project:
 
 #### 3. Install manually.
 
-Download this project there here. Then in your Unity project:
+Download this [project here](https://github.com/liquiidio/WcwUnityWebGl/releases/tag/1.0.2).
 
-1. Copy the sources from `NativeWebSocket/Assets/WebSocket` into your `Assets` directory. // Corvin: We should hava a dependencies-section showing how to install dependencies in general, non of our packages includes the WebSocket-Package
+  * [ZIP](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.2.zip)
+  * [TAR.GZ](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.2.tar.gz)
+
+Then in your Unity project, copy the sources from `WCWUnity` into your Unity `Assets` directory.
 
 ***
 
 #### 4. Install via NuGet (for Standard .NET users only - No Unity3D)
 
-Black magic
+#### .NET CLI
 
-***
+`>dotnet add package Liquiid.io.AtomicAssets --version 1.0.24`
+
+#### Package Manager
+
+`PM> Install-Package Liquiid.io.AtomicAssets -Version 1.0.24`
