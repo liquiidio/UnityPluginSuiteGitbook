@@ -18,7 +18,9 @@ In your Unity project:
 3. Enter URL: 
 
 Both Canvas and UIToolkit: `https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp.git#upm_full` (TODO! Get final URL)
+
 Just canvas: `https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp.git#upm_canvas` (TODO! Get final URL)
+
 Both Canvas and UIToolkit: `https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp.git#upm_uitoolkit` (TODO! Get final URL)
 
 ***
