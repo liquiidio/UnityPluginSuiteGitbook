@@ -9,13 +9,6 @@ This package can be included into your project by either:
 3. Manually add the files in this repo.
 4. Installing it via NuGet. (for Standard .NET users)
 
-#### Dependencies
-
-TODO, add WebSocket-Package (if not already installed)
-
-* Via Upm
-* clone Repo
-
 #### 1. Installing via Unity Package Manager (UPM).
 
 In your Unity project:
