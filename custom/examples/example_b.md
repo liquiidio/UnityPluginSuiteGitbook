@@ -11,7 +11,7 @@
  
  ### Call the /assets endpoint, passing in the builder
 ```csharp
-     var assets = assetsApi.Assets(builder);
+     var assets = await assetsApi.Assets(builder);
 ```
  
  ### Print all asset ids
