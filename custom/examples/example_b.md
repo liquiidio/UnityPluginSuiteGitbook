@@ -1,7 +1,7 @@
 ## Example calling the /v1/assets endpoint with parameters
 ### Initialise the Assets API
 ```csharp
-     var assetsApi = AtomicAssetsApiFactory.Version1.AssetsApi();
+     var assetsApi = AtomicAssetsApiFactory.Version1.AssetsApi;
 ```
  
 ### Build up the AssetsParameters with the AssetsUriParameterBuilder
@@ -11,10 +11,16 @@
  
 ### Call the /assets endpoint, passing in the builder
 ```csharp
-     var assets = assetsApi.Assets(builder);
+     var assets = await assetsApi.Assets(builder);
 ```
- 
+
+
 ### Print all asset ids
+
+```csharp
+assets.Data.ToList().ForEach(a => Console.WriteLine(a.AssetId));
+ ```
+
 1099567200114
 
 1099567200113  
