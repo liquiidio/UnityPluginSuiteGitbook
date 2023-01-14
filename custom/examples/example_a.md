@@ -1,8 +1,7 @@
 # Quick Start
 
-**Quick Start**
+1. Add one of the Transport-Prefabs (UiToolkitTransport or CanvasTransport) to your scene.
 
-1. Add one of the Transport-Prefabs (UiToolkitTransport or CanvasTransport) to your Scene.
 2. Instantiate a new AnchorLink-object in one of your scripts, assign the Transport and configure your AnchorLink for the usage with WAX and the endpoints of your choice.
 
 ```csharp
