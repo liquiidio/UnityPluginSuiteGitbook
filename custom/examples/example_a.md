@@ -6,7 +6,7 @@
  
  ### Call the /assets endpoint
 ```csharp
-     var assets = assetsApi.Assets();
+     var assets = await assetsApi.Assets();
 ```
  
  ### Print all asset ids
