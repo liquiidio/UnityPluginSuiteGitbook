@@ -46,8 +46,8 @@ Then in your Unity project, copy the sources from `AtomicAssetsApiClient` into y
 
 #### .NET CLI
 
-`>dotnet add package Liquiid.io.AtomicAssets --version 1.0.24`
+`> dotnet add package Liquiid.io.AtomicAssets --version 1.0.24`
 
 #### Package Manager
 
-`PM> NuGet\Install-Package Liquiid.io.AtomicAssets -Version 1.0.24`
+`PM> Install-Package Liquiid.io.AtomicAssets -Version 1.0.24`
