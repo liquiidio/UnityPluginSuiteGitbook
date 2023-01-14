@@ -2,9 +2,11 @@
 
 **Quick Start**
 
-1. Create a new Script inheriting from MonoBehaviour
-2. Add a Member of Type WaxCloudWalletPlugin as well as a string to store the Name of the Logged in User
-3. Create the Start-Method and instantiate/initialize the CloudWalletPlugin as follows 4. Instantiate the WaxCloudWalletPlugin as seen below 5. Assign the EventHandlers/Callbacks allowing the CloudWalletPlugin to notify your Script about events and related Data 6. Initialize the CloudWalletPlugin. This will start the communication with the Browser and create the binding between your local script and the wax-js running in the Browser.
+1. Create a new script inheriting from MonoBehaviour
+2. Add a member of type WaxCloudWalletPlugin as well as a string to store the name of the user that is logged in.
+3. In the Start-method, instantiate/initialize the CloudWalletPlugin as follows 
+4. Instantiate the WaxCloudWalletPlugin as seen below 
+5. Assign the EventHandlers/Callbacks allowing the CloudWalletPlugin to notify your Script about events and related Data 6. Initialize the CloudWalletPlugin. This will start the communication with the Browser and create the binding between your local script and the wax-js running in the Browser.
 
 ```csharp
 private WaxCloudWalletPlugin _waxCloudWalletPlugin;
