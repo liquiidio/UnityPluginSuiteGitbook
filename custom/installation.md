@@ -5,7 +5,7 @@ _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_
 This package can be included into your project by either:
 
 1. Installing the package via Unity's Package Manager (UPM) in the editor (recommended).
-2. Importing the .unitypackage which you can download [here](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp).
+2. Importing the .unitypackage which you can download [here](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp). (TODO! Get final URL)
 3. Manually add the files from the repo.
 4. Installing it via NuGet. (for Standard .NET users)
 
@@ -15,13 +15,13 @@ In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/endel/AnchorLinkTransportSharp.git#unity`
+3. Enter URL: `https://github.com/endel/AnchorLinkTransportSharp.git#unity` (TODO! Get final URL)
 
 ***
 
 #### 2. Importing the Unity Package.
 
-Download the [UnityPackage here](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp).
+Download the [UnityPackage here](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp). (TODO! Get final URL)
 
 Then in your Unity project:
 
@@ -35,8 +35,8 @@ Then in your Unity project:
 
 Download this [project here](https://github.com/liquiidio/AnchorLinkTransportSharp/releases).
 
-  * [zip](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp)
-  * [tar.gz](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp)
+  * [zip](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp) (TODO! Get final URL)
+  * [tar.gz](https://github.com/orgs/liquiidio/packages?repo_name=AnchorLinkTransportSharp) (TODO! Get final URL)
 
 Then in your Unity project, copy the sources from `AnchorLinkTransportSharp` into your Unity `Assets` directory.
 
