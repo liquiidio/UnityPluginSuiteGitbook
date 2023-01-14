@@ -14,11 +14,11 @@ Included in this suite is a full implementation/integration of all interfaces, 3
 ```
 
 ## Download for .NET
-
+```bash
     git clone https://github.com/liquiidio/UnityPluginSuite.git
     cd UnityPluginSuite
     git submodule update --init --recursive
-
+```
 #### Demo Application
 
 Open the Link to the Demo Application below\
