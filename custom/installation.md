@@ -38,7 +38,7 @@ Download this [project here](https://github.com/liquiidio/AtomicMarketApiClient-
   * [zip](https://github.com/liquiidio/AtomicMarketApiClient-Private/archive/refs/tags/1.0.6.zip) (TODO! Get final URL)
   * [tar.gz](https://github.com/liquiidio/AtomicMarketApiClient-Private/archive/refs/tags/1.0.6.tar.gz) (TODO! Get final URL)
 
-Then in your Unity project, copy the sources from `AtomicAssetsApiClient` into your Unity `Assets` directory.
+Then in your Unity project, copy the sources from `AtomicMarketApiClient` into your Unity `Assets` directory.
 
 ***
 
