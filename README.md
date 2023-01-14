@@ -1,12 +1,10 @@
 # Getting Started
 
-A native integration compatible with Unity3D and C# allowing users and developers to connect and communicate with Anchor Wallet and ESR-based applications. The Anchor & ESR Integration consists of multiple libraries for the ESR-Protocol, the Anchor-integration, Transports etc. which will be included via Submodules while being packaged and published as a single Package.
-
-
+A native integration compatible with Unity3D and C# allowing users and developers to connect and communicate with Anchor Wallet and ESR-based applications. The Anchor and ESR integration consists of multiple libraries for the ESR-Protocol, the Anchor-integration, Transports among others, which will be included via submodules while being packaged and published as a single UnityPackage.
 
 #### Demo Application
 
-Open the Link to one of the Demo Application below\
+Open each of the links to test one of the AnchorLink demo applications below:
 
 
 {% embed url="https://noodles.lol/gitbook/Anchor%20Canvas%20WebGL%202021.x/" %}
