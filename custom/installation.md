@@ -44,10 +44,10 @@ Then in your Unity project, copy the sources from `WCWUnity` into your Unity `As
 
 #### 4. Install via NuGet (for Standard .NET users only - No Unity3D)
 
-#### .NET CLI
+#### .NET CLI (TODO!: Get correct command)
 
-`>dotnet add package Liquiid.io.AtomicAssets --version 1.0.24`
+`>dotnet add package Liquiid.io.WcwUnity --version 1.0.24`
 
-#### Package Manager
+#### Package Manager (TODO!: Get correct command)
 
-`PM> Install-Package Liquiid.io.AtomicAssets -Version 1.0.24`
+`PM> Install-Package Liquiid.io.WcwUnity -Version 1.0.24`
