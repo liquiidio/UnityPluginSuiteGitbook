@@ -1,4 +1,4 @@
-# Transact (with a ession)
+# Transact (with a session)
 
 1. To transact with a session, create a method and pass an EosSharp Action-Object to it.
 2. Call the method `await LinkSession.Transact(new TransactArgs(){Action = action)` to attempt the transaction.
