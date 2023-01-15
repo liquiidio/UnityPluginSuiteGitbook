@@ -1,4 +1,4 @@
-# Transact (without Session)
+# Transact (without a session)
 
 1. To make a transaction without a session, create a method and pass an EosSharp Action-Object to it.
 2. Call `await AnchorLink.Transact(new TransactArgs(){Action = action)` to attempt the transaction.
