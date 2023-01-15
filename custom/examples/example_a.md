@@ -4,14 +4,14 @@
      var assetsApi = AtomicAssetsApiFactory.Version1.AssetsApi;
 ```
  
- ### Call the /assets endpoint
+ ### Call the assets endpoint
 ```csharp
      var assets = await assetsApi.Assets();
 ```
  
  ### Print all asset ids
 ```csharp
-     assets.Data.ToList().ForEach(a => Console.Write(a.AssetId));
+     assets.Data.ToList().ForEach(a => Console.WriteLine(a.AssetId));
 ```
  
  ##### Example output
