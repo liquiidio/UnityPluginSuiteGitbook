@@ -14,5 +14,3 @@ Authenticator Library Canvas Demo
 {% embed url="https://noodles.lol/gitbook/UAL%20UiToolkit%20WebGL%202021.x/" %}
 Authenticator Library UiToolkit Demo
 {% endembed %}
-
-\
