@@ -7,7 +7,6 @@ This package can be included into your project by either:
 1. Installing the package via Unity's Package Manager (UPM) in the editor (recommended).
 2. Importing the .unitypackage which you can download [here](https://github.com/orgs/liquiidio/packages?repo_name=UniversalAuthenticatorLibrarySharp). (TODO! Get final URL)
 3. Manually add the files from the repo.
-4. Installing it via NuGet. (for Standard .NET users)
 
 #### 1. Installing via Unity Package Manager (UPM).
 
@@ -51,15 +50,3 @@ Download this [project here](https://github.com/liquiidio/UniversalAuthenticator
   * [tar.gz](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.0.tar.gz) (TODO! Get final URL)
 
 Then in your Unity project, copy the sources from `UniversalAuthenticatorLibrarySharp` into your Unity `Assets` directory.
-
-***
-
-#### 4. Install via NuGet (for Standard .NET users only - No Unity3D)
-
-#### .NET CLI (TODO!: Get correct command)
-
-`>dotnet add package Liquiid.io.UniversalAuthenticatorLibrarySharp --version 1.0.24`
-
-#### Package Manager (TODO!: Get correct command)
-
-`PM> Install-Package Liquiid.io.UniversalAuthenticatorLibrarySharp -Version 1.0.24`
