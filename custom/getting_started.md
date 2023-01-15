@@ -4,8 +4,6 @@
 
 In order to interact with the Eos blockchain, you need to create a new instance of the **Eos** class with an **EosConfigurator**.
 
-An example:
-
 ```csharp
 Eos eos = new Eos(new EosConfigurator()
 {    
