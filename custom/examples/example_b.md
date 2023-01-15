@@ -9,7 +9,7 @@
      var builder = new AssetsUriParameterBuilder().WithLimit(1);
 ```
  
-### Call the /assets endpoint, passing in the builder
+### Call the assets endpoint, passing in the builder
 ```csharp
      var assets = await assetsApi.Assets(builder);
 ```
