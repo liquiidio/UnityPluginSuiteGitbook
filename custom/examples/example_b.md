@@ -9,12 +9,12 @@
      var builder = new AssetsUriParameterBuilder().WithLimit(1);
 ```
  
- ### Call the /assets endpoint, passing in the builder
+ ### Call the assets endpoint, passing in the builder
 ```csharp
      var assets = await assetsApi.Assets(builder);
 ```
  
- ### Print all asset ids
+ ### Print all asset IDs
 ```csharp
      assets.Data.ToList().ForEach(a => Console.WriteLine(a.AssetId));
 ```
