@@ -11,7 +11,7 @@ Type describing a anchorLink session that can create a eosjs compatible signatur
 `public abstract string ` [`PublicKey`](#class_anchor_link_sharp_1_1_link_session_1a9092880216062f04702041399665a74d) | The public key the session can sign for.
 `public abstract EosSharp.Core.Api.v1.PermissionLevel ` [`Auth`](#class_anchor_link_sharp_1_1_link_session_1a7424a61714b657c515f465a310fabc81) | The EOSIO auth (a.k.a. permission level) the session can sign for.
 `public abstract Dictionary< string, object > ` [`Metadata`](#class_anchor_link_sharp_1_1_link_session_1a378bcbea14f9daadc8628853b844c2d4) | Arbitrary metadata that will be serialized with the session.
-`public abstract LinkSignatureProvider ` [`MakeSignatureProvider`](#class_anchor_link_sharp_1_1_link_session_1afc8c4aabbaaa67518000b0c94aaff5c0)`()` | Creates a eosjs compatible signature provider that can sign for the session public key.
+`public abstract ` [`LinkSignatureProvider`](AnchorLinkSharp--LinkSignatureProvider.md)` ` [`MakeSignatureProvider`](#class_anchor_link_sharp_1_1_link_session_1afc8c4aabbaaa67518000b0c94aaff5c0)`()` | Creates a eosjs compatible signature provider that can sign for the session public key.
 `public abstract Task< ` [`TransactResult`](AnchorLinkSharp--TransactResult.md)` > ` [`Transact`](#class_anchor_link_sharp_1_1_link_session_1a7d7f4df7098b04d6f399a7b4b861ee25)`(` [`TransactArgs`](AnchorLinkSharp--TransactArgs.md)` args, ` [`TransactOptions`](AnchorLinkSharp--TransactOptions.md)` options)` | Transact using this session. See [[AnchorLink.transact]].
 `public abstract ` [`SerializedLinkSession`](AnchorLinkSharp--SerializedLinkSession.md)` ` [`Serialize`](#class_anchor_link_sharp_1_1_link_session_1a04c6ca5dcf9567f3b194d7b53805c097)`()` | Returns a JSON-encodable object that can be used recreate the session.
 `public async Task ` [`Remove`](#class_anchor_link_sharp_1_1_link_session_1a67092cd86472aa75e839abd38491001b)`()` | Convenience, remove this session from associated [[AnchorLink]] storage if set. Equivalent to:
@@ -39,7 +39,7 @@ The EOSIO auth (a.k.a. permission level) the session can sign for.
 
 Arbitrary metadata that will be serialized with the session.
 
-##### `public abstract LinkSignatureProvider ` [`MakeSignatureProvider`](#class_anchor_link_sharp_1_1_link_session_1afc8c4aabbaaa67518000b0c94aaff5c0)`()` 
+##### `public abstract ` [`LinkSignatureProvider`](AnchorLinkSharp--LinkSignatureProvider.md)` ` [`MakeSignatureProvider`](#class_anchor_link_sharp_1_1_link_session_1afc8c4aabbaaa67518000b0c94aaff5c0)`()` 
 
 Creates a eosjs compatible signature provider that can sign for the session public key.
 
