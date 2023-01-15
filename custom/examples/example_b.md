@@ -2,8 +2,6 @@
 
 It is also possible to implement your own **ISignProvider** to customize how the signatures and key handling is done.
 
-Example:
-
 ```csharp
 /// <summary>
 /// Signature provider implementation that uses a private server to hold keys
