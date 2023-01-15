@@ -5,7 +5,7 @@
 * [Examples](custom/examples/README.md)
   * [Getting Started](custom/examples/example\_a.md)
   * [User Data](custom/examples/example\_b.md)
-  * [Transferring Tokens](custom/examples/example\_c.md)
+  * [Token transfer](custom/examples/example\_c.md)
 * [API Docs](api-docs/README.md)
   * [Canvas](docs/UniversalAuthenticatorLibrary--Src--Canvas.md)
     * [UnityCanvasUAL](docs/UniversalAuthenticatorLibrary--Src--Canvas--UnityCanvasUAL.md)
