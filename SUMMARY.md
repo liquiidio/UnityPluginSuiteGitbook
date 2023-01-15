@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting Started](README.md)
+* [Introduction](README.md)
 * [Installation](custom/installation.md)
 * [Examples](custom/examples/README.md)
   * [Getting Started](custom/examples/example\_a.md)
