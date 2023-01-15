@@ -2,10 +2,10 @@
 
 **Login**
 
-1. Add a method calling the Login(identifier)-Method of the previously instantiated AnchorLink.
-2. When this Method is called from your UI, the Transport will show and Ask the User to Open Anchor to Login.
-3. After succesfull Login, data about the Account selected and additional session-data is returned your Application, available for use within the session-variable returned.
-4. Storing the Session will allow you to to promt the User with a Transact-Request without the user having to Login again.
+1. Add a method calling the Login(identifier)-Method of the [previously instantiated AnchorLink](https://liquiidio.gitbook.io/unity-plugin-suite/v/anchorlink/examples/example_a).
+2. When this method is called from your UI, the Transport will show and request the user to open AnchorWallet to log in.
+3. After succesfully logging in, data about the account selected and additional session-data is returned to your application and is available for use within the session-variable returned.
+4. Storing the session will allow you to to prompt the user with a Transaction-Request without the user having to log in again.
 
 ```csharp
 
