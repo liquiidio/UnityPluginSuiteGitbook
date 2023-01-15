@@ -1,8 +1,6 @@
 # Token Transfer
 
-**Token Transfer**
-
-1. Following Example shows how a Token Transfer Action could be created and passed to the Transact-Method using a Session.
+1. The following example shows how a Token Transfer Action can be created and passed to the Transact-Method using a session.
 
 ```csharp
 	    // transfer tokens using a session
