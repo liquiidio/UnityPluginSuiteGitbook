@@ -20,6 +20,7 @@
 ```csharp
 assets.Data.ToList().ForEach(a => Console.WriteLine(a.AssetId));
  ```
+##### Example output
 
 1099567200114
 
