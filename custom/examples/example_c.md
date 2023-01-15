@@ -1,8 +1,6 @@
 #### CombinedSignersProvider
 
-It is also possible to combine multiple signature providers to complete all the signatures for a transaction
-
-Example:
+It is possible to combine multiple signature providers to complete all the signatures for a transaction
 
 ```csharp
 Eos eos = new Eos(new EosConfigurator()
