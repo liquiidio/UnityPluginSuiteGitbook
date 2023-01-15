@@ -1,12 +1,12 @@
 # Getting Started
 
-*.NET and Unity3D-compatible (Desktop, Mobile, WebGL) Client-Library for Hyperion History APIs*
+.NET and Unity3D-compatible (Desktop, Mobile, WebGL) Client-Library for Hyperion History APIs
 
 *See [Hyperion History by EosRio](https://eosrio.io/hyperion/)*
 
 ## Usage
 .NET and Unity3D-compatible (Desktop, Mobile, WebGL) ApiClient for the different  APIs. 
-Endpoints have its own set of parameters that you may build up and pass in to the relevant function.
+Endpoints have their own set of parameters that you may build up and pass in to the relevant function.
 
 #### Demo Application
 
