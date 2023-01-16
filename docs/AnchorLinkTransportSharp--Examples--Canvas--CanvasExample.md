@@ -14,7 +14,7 @@ class AnchorLinkTransportSharp::Examples::Canvas::CanvasExample
 `public async void ` [`DoLogout`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a50120f60083f3b65162d886528fbe29c)`()` | Call from UI button.
 `public void ` [`ShowTargetPanel`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1aa07ec4761b8644ff9aeaf15c3872dcdd)`(GameObject targetPanel)` | Use this to toggle on a new rect (or a gameobject) in the canvas.
 `public async void ` [`TryTransferTokens`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6438f85911eb313073eca6ec1cc2d3fb)`(GameObject TransferDetailsPanel)` | Gather data from the custom transfer UI panel.
-`private ` [`UnityCanvasTransport`](AnchorLinkTransportSharp--Src--Transports--Canvas--UnityCanvasTransport.md)` ` [`Transport`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6fb478943c7a1f823ab22bfa7b15f015) | Assign UnityTransport through the Editor.
+`private UnityCanvasTransport ` [`Transport`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6fb478943c7a1f823ab22bfa7b15f015) | Assign UnityTransport through the Editor.
 `private GameObject ` [`CustomActionsPanel`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6fff9e3e3300f7c0960ddcaccef1ffbd) | 
 `private GameObject ` [`CustomTransferPanel`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a4596cbd6121197c94bd4e0d4109deecc) | 
 `private Button ` [`LoginButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a14ce573f076bdd94dc78abf946718885) | 
@@ -60,7 +60,7 @@ Gather data from the custom transfer UI panel.
 #### Parameters
 * `TransferDetailsPanel`
 
-##### `private ` [`UnityCanvasTransport`](AnchorLinkTransportSharp--Src--Transports--Canvas--UnityCanvasTransport.md)` ` [`Transport`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6fb478943c7a1f823ab22bfa7b15f015) 
+##### `private UnityCanvasTransport ` [`Transport`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6fb478943c7a1f823ab22bfa7b15f015) 
 
 Assign UnityTransport through the Editor.
 
