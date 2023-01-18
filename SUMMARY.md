@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Installation](custom/installation.md)
 * [Examples](custom/examples/README.md)
-  * [Getting Started](custom/examples/example\_a.md)
+  * [Getting Started](custom/examples/examples_getting_started.md)
     * [Canvas Example](custom/examples/canvas_example.md)
     * [UIToolkit Example](custom/examples/uitoolkit_example.md)
   * [User Data](custom/examples/example\_b.md)
