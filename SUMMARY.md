@@ -9,3 +9,4 @@
   * [Hyperion](sources/hyperion.md)
   * [Authenticator Library](sources/authenticator_library.md)
   * [EosSharp](sources/eos_sharp.md)
+* [Getting Started](getting_started.md)
