@@ -5,4 +5,4 @@ View all available modules on GitHub through the link below.
 Liquiid.io on Github
 {% endembed %}
 
-To get further info on each module, see the [sources](https://liquiidio.gitbook.io/unity-plugin-suite/sources).
+Get further information and a link to each module on the left.
