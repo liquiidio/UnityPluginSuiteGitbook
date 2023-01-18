@@ -8,6 +8,7 @@
 
 4. In the Start-method, instantiate/initialize the respective handler prefab added above and add an action when the user login is successful.
 
+**N.B. Ensure that there is an assign event handler/callback for the login to get the `User` object. Click [here](https://liquiidio.gitbook.io/unity-plugin-suite/v/universalauthenticatorlibrary/examples/example_b) for more information.**
 
 #### Canvas 
 ```csharp
