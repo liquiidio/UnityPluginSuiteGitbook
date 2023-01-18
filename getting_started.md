@@ -2,7 +2,7 @@
 
 Not sure where to start?
 
-Experiment with the whole Plugin Suite by following these steps:
+Download and experiment with the whole Plugin Suite by following these steps:
 
 ## Download for Unity3D
 ```bash
