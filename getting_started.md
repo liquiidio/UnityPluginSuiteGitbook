@@ -19,7 +19,7 @@ Download and experiment with the whole Plugin Suite by following these steps:
     cd UnityPluginSuite
     git submodule update --init --recursive
 ```
-#### Demo Application
+## Demo Application
 
 Open the Link to the Demo Application below:
 
