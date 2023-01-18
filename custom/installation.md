@@ -20,7 +20,7 @@ In your Unity project:
 
 #### 2. Importing the Unity Package.
 
-Download the [UnityPackage here](https://github.com/liquiidio/WcwUnityWebGl/releases/download/1.0.2/io.liquiid.wcwunitywebgl.unitypackage).
+Download the [UnityPackage here](https://github.com/liquiidio/WcwUnityWebGl/releases/latest/download/io.liquiid.wcwunitywebgl.unitypackage).
 
 Then in your Unity project:
 
