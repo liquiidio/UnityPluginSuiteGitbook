@@ -5,6 +5,7 @@
 * [Examples](custom/examples/README.md)
   * [Calling the /v1/assets endpoint](custom/examples/example\_a.md)
   * [Calling the /v1/assets endpoint with parameters](custom/examples/example\_b.md)
+  * [Unity example](custom/examples/example\_3.md)
 * [API Docs](api-docs/README.md)
   * [AtomicMarketApiFactory](docs/AtomicMarketApiClient--AtomicMarketApiFactory.md)
   * [Assets](docs/AtomicMarketApiClient--Assets.md)
