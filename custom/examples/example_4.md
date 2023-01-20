@@ -1,4 +1,4 @@
-## Getting assets available for trading on the exchange
+### Getting assets available for trading on the exchange
 
 ```csharp
 
