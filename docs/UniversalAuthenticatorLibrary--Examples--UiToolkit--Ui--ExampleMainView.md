@@ -10,6 +10,7 @@ class UniversalAuthenticatorLibrary::Examples::UiToolkit::Ui::ExampleMainView
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `public async void ` [`Rebind`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab378c14625c2a991edc88100c89561f6)`(` [`User`](UniversalAuthenticatorLibrary--User.md)` user)` | 
+`public void ` [`OnBrowserClipboardPaste`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a009752823a43afe0e10b9e91dfee8ae2)`(string pastedText)` | Called when ctrl + v is pressed in browser (webgl)
 `private Button ` [`_changeToBidNameButton`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ac7c73aa8fa9bfe4ba0d2e6d659a346ce) | Child-Controls
 `private Button ` [`_changeToBuyRamButton`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a0f24036b720fc6ca717c7ce2874022a7) | 
 `private Button ` [`_changeToSellRamButton`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a21ffd5348d4a37dd3cd7d2dcd161fdcd) | 
@@ -49,6 +50,13 @@ class UniversalAuthenticatorLibrary::Examples::UiToolkit::Ui::ExampleMainView
 ## Members
 
 ##### `public async void ` [`Rebind`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ab378c14625c2a991edc88100c89561f6)`(` [`User`](UniversalAuthenticatorLibrary--User.md)` user)` 
+
+##### `public void ` [`OnBrowserClipboardPaste`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1a009752823a43afe0e10b9e91dfee8ae2)`(string pastedText)` 
+
+Called when ctrl + v is pressed in browser (webgl)
+
+#### Parameters
+* `pastedText` The pasted text.
 
 ##### `private Button ` [`_changeToBidNameButton`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_example_main_view_1ac7c73aa8fa9bfe4ba0d2e6d659a346ce) 
 
