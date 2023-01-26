@@ -9,6 +9,7 @@ class AnchorLinkTransportSharp::Examples::UiToolkit::Ui::MainView
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
+`public void ` [`OnBrowserClipboardPaste`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a009752823a43afe0e10b9e91dfee8ae2)`(string pastedText)` | Called when ctrl + v is pressed in browser (webgl)
 `private Button ` [`_changeToBidNameButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1ac7c73aa8fa9bfe4ba0d2e6d659a346ce) | Child-Controls
 `private Button ` [`_changeToBuyRamButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a0f24036b720fc6ca717c7ce2874022a7) | 
 `private Button ` [`_changeToRestoreSessionButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a0f31c2a8951edd6f46a5f5d3bd55303f) | 
@@ -48,6 +49,13 @@ class AnchorLinkTransportSharp::Examples::UiToolkit::Ui::MainView
 `private void ` [`SetBidNameText`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1aea934c7204b2977c74d78b45cdc0c596)`()` | Assign default values to the bid window variables.
 
 ## Members
+
+##### `public void ` [`OnBrowserClipboardPaste`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a009752823a43afe0e10b9e91dfee8ae2)`(string pastedText)` 
+
+Called when ctrl + v is pressed in browser (webgl)
+
+#### Parameters
+* `pastedText` The pasted text.
 
 ##### `private Button ` [`_changeToBidNameButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1ac7c73aa8fa9bfe4ba0d2e6d659a346ce) 
 
