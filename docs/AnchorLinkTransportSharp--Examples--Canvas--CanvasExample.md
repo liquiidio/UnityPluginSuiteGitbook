@@ -14,6 +14,7 @@ class AnchorLinkTransportSharp::Examples::Canvas::CanvasExample
 `public async void ` [`DoLogout`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a50120f60083f3b65162d886528fbe29c)`()` | Call from UI button.
 `public void ` [`ShowTargetPanel`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1aa07ec4761b8644ff9aeaf15c3872dcdd)`(GameObject targetPanel)` | Use this to toggle on a new rect (or a gameobject) in the canvas.
 `public async void ` [`TryTransferTokens`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6438f85911eb313073eca6ec1cc2d3fb)`(GameObject TransferDetailsPanel)` | Gather data from the custom transfer UI panel.
+`public void ` [`OnBrowserClipboardPaste`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a009752823a43afe0e10b9e91dfee8ae2)`(string pastedText)` | Called when ctrl + v is pressed in browser (webgl)
 `private ` [`UnityCanvasTransport`](AnchorLinkTransportSharp--Src--Transports--Canvas--UnityCanvasTransport.md)` ` [`Transport`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6fb478943c7a1f823ab22bfa7b15f015) | Assign UnityTransport through the Editor.
 `private GameObject ` [`CustomActionsPanel`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6fff9e3e3300f7c0960ddcaccef1ffbd) | 
 `private GameObject ` [`CustomTransferPanel`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a4596cbd6121197c94bd4e0d4109deecc) | 
@@ -24,6 +25,7 @@ class AnchorLinkTransportSharp::Examples::Canvas::CanvasExample
 `private Coroutine ` [`waitCoroutine`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1acaf3524519c2960c79f6a7d20e97d9aa) | 
 `private ` [`AnchorLink`](AnchorLinkSharp--AnchorLink.md)` ` [`_link`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1ab83a853dc8e03635061e08d6e0330778) | initialize the link
 `private ` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` ` [`_session`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a028dc4f27d9ba73226782f611d3ac6b4) | the session instance, either restored using link.restoreSession() or created with link.login()
+`private EventSystem ` [`_canvasEventSystem`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1acc92c1097922093b8ddd19f150619efa) | 
 `private void ` [`Start`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a07aaf1227e4d645f15e0a964f54ef291)`()` | 
 `private async Task ` [`Login`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a1e2c964859fcad3068b0e8c497dfc595)`()` | Login and store session if sucessful.
 `private async Task ` [`RestoreSession`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1adadc720358152fd54c27c3b46e0e9e3f)`()` | Tries to restore session, called when document is loaded.
@@ -60,6 +62,13 @@ Gather data from the custom transfer UI panel.
 #### Parameters
 * `TransferDetailsPanel`
 
+##### `public void ` [`OnBrowserClipboardPaste`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a009752823a43afe0e10b9e91dfee8ae2)`(string pastedText)` 
+
+Called when ctrl + v is pressed in browser (webgl)
+
+#### Parameters
+* `pastedText` The pasted text.
+
 ##### `private ` [`UnityCanvasTransport`](AnchorLinkTransportSharp--Src--Transports--Canvas--UnityCanvasTransport.md)` ` [`Transport`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6fb478943c7a1f823ab22bfa7b15f015) 
 
 Assign UnityTransport through the Editor.
@@ -85,6 +94,8 @@ initialize the link
 ##### `private ` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` ` [`_session`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a028dc4f27d9ba73226782f611d3ac6b4) 
 
 the session instance, either restored using link.restoreSession() or created with link.login()
+
+##### `private EventSystem ` [`_canvasEventSystem`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1acc92c1097922093b8ddd19f150619efa) 
 
 ##### `private void ` [`Start`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a07aaf1227e4d645f15e0a964f54ef291)`()` 
 
