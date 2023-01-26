@@ -9,7 +9,6 @@ class AnchorLinkTransportSharp::Examples::UiToolkit::Ui::MainView
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public void ` [`OnBrowserClipboardPaste`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a009752823a43afe0e10b9e91dfee8ae2)`(string pastedText)` | Called when ctrl + v is pressed in browser (webgl)
 `private Button ` [`_changeToBidNameButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1ac7c73aa8fa9bfe4ba0d2e6d659a346ce) | Child-Controls
 `private Button ` [`_changeToBuyRamButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a0f24036b720fc6ca717c7ce2874022a7) | 
 `private Button ` [`_changeToRestoreSessionButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a0f31c2a8951edd6f46a5f5d3bd55303f) | 
@@ -22,17 +21,6 @@ class AnchorLinkTransportSharp::Examples::UiToolkit::Ui::MainView
 `private Button ` [`_voteButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1afc09fb4200cf4d201876ac764a32372b) | 
 `private Button ` [`_sellRamButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a9a9142f62111d3191cede6029943c154) | 
 `private Button ` [`_logoutButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a447a79b3836e7bc65b7cc7b1572a3ae6) | 
-`private TextField ` [`_toTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a2cc54f6a7b58fd65029cb0d5382fa1ae) | 
-`private TextField ` [`_fromTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a871512e0e20d054224927791ed8741ed) | 
-`private TextField ` [`_memoTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1ab823d6fdae6298d9b476bdfacd2c64a3) | 
-`private TextField ` [`_nameToBidTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a5d3cb99d7f5a4aee96b4c663d645d10b) | 
-`private TextField ` [`_quantityTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a407de0db96b44e273044507ab078c7f1) | 
-`private TextField ` [`_receiverAccountTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a578686eb753953fde8db1af3d2c58b4d) | 
-`private TextField ` [`_userAccountTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a00ddd7a17c67b327dafcf5609d0c46b5) | 
-`private TextField ` [`_sellRamAmountTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1aee910684f9b5e60a25c15ab225d6634e) | 
-`private TextField ` [`_amountToBuyTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a3b990681d5885ecc2b16f949a839b7e1) | 
-`private TextField ` [`_amountWaxTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1aa48ad1a6ef7f3fca4eaf0799599d5f4c) | 
-`private TextField ` [`_bidAmountTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1ab518c1e06df1bf6cd42a00dd98003ad8) | 
 `private VisualElement ` [`_sellRamBox`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a443512555902ec306c197fffd8994572) | 
 `private VisualElement ` [`_transferTokenBox`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1ad230772cfc6da2fd9e5c3943015769e7) | 
 `private VisualElement ` [`_bidNameBox`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1af0183409a7aca13640f533076c4e1f65) | 
@@ -47,15 +35,9 @@ class AnchorLinkTransportSharp::Examples::UiToolkit::Ui::MainView
 `private void ` [`SetSellRamText`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a04df316e1b48502dc1a11dccf1741d14)`()` | Assign default values to the sell RAM transfer window variables.
 `private void ` [`SetBuyRamText`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1abb62aae70d0490ae16485974f788ff80)`()` | Assign default values to the buy RAM transfer window variables.
 `private void ` [`SetBidNameText`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1aea934c7204b2977c74d78b45cdc0c596)`()` | Assign default values to the bid window variables.
+`public static void ` [`OnBrowserClipboardPaste`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a4ad2d22497016b76545d7f94605b76e0)`(string pastedText)` | Called when ctrl + v is pressed in browser (webgl)
 
 ## Members
-
-##### `public void ` [`OnBrowserClipboardPaste`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a009752823a43afe0e10b9e91dfee8ae2)`(string pastedText)` 
-
-Called when ctrl + v is pressed in browser (webgl)
-
-#### Parameters
-* `pastedText` The pasted text.
 
 ##### `private Button ` [`_changeToBidNameButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1ac7c73aa8fa9bfe4ba0d2e6d659a346ce) 
 
@@ -82,28 +64,6 @@ Child-Controls
 ##### `private Button ` [`_sellRamButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a9a9142f62111d3191cede6029943c154) 
 
 ##### `private Button ` [`_logoutButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a447a79b3836e7bc65b7cc7b1572a3ae6) 
-
-##### `private TextField ` [`_toTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a2cc54f6a7b58fd65029cb0d5382fa1ae) 
-
-##### `private TextField ` [`_fromTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a871512e0e20d054224927791ed8741ed) 
-
-##### `private TextField ` [`_memoTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1ab823d6fdae6298d9b476bdfacd2c64a3) 
-
-##### `private TextField ` [`_nameToBidTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a5d3cb99d7f5a4aee96b4c663d645d10b) 
-
-##### `private TextField ` [`_quantityTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a407de0db96b44e273044507ab078c7f1) 
-
-##### `private TextField ` [`_receiverAccountTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a578686eb753953fde8db1af3d2c58b4d) 
-
-##### `private TextField ` [`_userAccountTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a00ddd7a17c67b327dafcf5609d0c46b5) 
-
-##### `private TextField ` [`_sellRamAmountTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1aee910684f9b5e60a25c15ab225d6634e) 
-
-##### `private TextField ` [`_amountToBuyTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a3b990681d5885ecc2b16f949a839b7e1) 
-
-##### `private TextField ` [`_amountWaxTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1aa48ad1a6ef7f3fca4eaf0799599d5f4c) 
-
-##### `private TextField ` [`_bidAmountTextField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1ab518c1e06df1bf6cd42a00dd98003ad8) 
 
 ##### `private VisualElement ` [`_sellRamBox`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a443512555902ec306c197fffd8994572) 
 
@@ -142,4 +102,11 @@ Assign default values to the buy RAM transfer window variables.
 ##### `private void ` [`SetBidNameText`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1aea934c7204b2977c74d78b45cdc0c596)`()` 
 
 Assign default values to the bid window variables.
+
+##### `public static void ` [`OnBrowserClipboardPaste`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_main_view_1a4ad2d22497016b76545d7f94605b76e0)`(string pastedText)` 
+
+Called when ctrl + v is pressed in browser (webgl)
+
+#### Parameters
+* `pastedText` The pasted text.
 
