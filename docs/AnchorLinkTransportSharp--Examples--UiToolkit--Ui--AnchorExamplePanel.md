@@ -36,7 +36,6 @@ class AnchorLinkTransportSharp::Examples::UiToolkit::Ui::AnchorExamplePanel
 `private void ` [`SetSellRamText`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_anchor_example_panel_1a04df316e1b48502dc1a11dccf1741d14)`()` | Assign default values to the sell RAM transfer window variables.
 `private void ` [`SetBuyRamText`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_anchor_example_panel_1abb62aae70d0490ae16485974f788ff80)`()` | Assign default values to the buy RAM transfer window variables.
 `private void ` [`SetBidNameText`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_anchor_example_panel_1aea934c7204b2977c74d78b45cdc0c596)`()` | Assign default values to the bid window variables.
-`public static void ` [`MultiExampleClipboardPaste`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_anchor_example_panel_1a21d6386abd2ee0bb933d9a54d743c01f)`(string pastedText)` | Called when ctrl + v is pressed in browser for the PluginSuiteMultiExample Scene (webgl)
 
 ## Members
 
@@ -110,11 +109,4 @@ Assign default values to the buy RAM transfer window variables.
 ##### `private void ` [`SetBidNameText`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_anchor_example_panel_1aea934c7204b2977c74d78b45cdc0c596)`()` 
 
 Assign default values to the bid window variables.
-
-##### `public static void ` [`MultiExampleClipboardPaste`](#class_anchor_link_transport_sharp_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_anchor_example_panel_1a21d6386abd2ee0bb933d9a54d743c01f)`(string pastedText)` 
-
-Called when ctrl + v is pressed in browser for the PluginSuiteMultiExample Scene (webgl)
-
-#### Parameters
-* `pastedText` The pasted text.
 
