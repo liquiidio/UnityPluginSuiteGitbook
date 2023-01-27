@@ -4,5 +4,5 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`ExampleMainView`](UniversalAuthenticatorLibrary--Examples--UiToolkit--Ui--ExampleMainView.md) | 
+`class ` [`UALExamplePanel`](UniversalAuthenticatorLibrary--Examples--UiToolkit--Ui--UALExamplePanel.md) | 
 
