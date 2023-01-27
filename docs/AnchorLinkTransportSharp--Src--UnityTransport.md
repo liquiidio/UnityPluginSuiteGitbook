@@ -12,8 +12,8 @@ class AnchorLinkTransportSharp::Src::UnityTransport
 ----------------------------------------|---------------------------------------------
 `public ` [`ILinkStorage`](AnchorLinkSharp.md)` ` [`Storage`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1a3198c2558a95eb66553955ab4b579438) | The Storage used for sessions and metadata.
 `public ` [`UnityTransport`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1ac17cf84d27619a7170e46e363eee0412)`(` [`TransportOptions`](AnchorLinkTransportSharp--Src--TransportOptions.md)` options)` | 
-`public void ` [`OnRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1af033a491264433deccf8f379377bf0de)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` | 
-`public void ` [`OnSessionRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1ab43ebe78aa7d484d52f5d1f80e8a0e74)`(` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` session, ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` | 
+`public void ` [`OnRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1af033a491264433deccf8f379377bf0de)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` | 
+`public void ` [`OnSessionRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1ab43ebe78aa7d484d52f5d1f80e8a0e74)`(` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` session, ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` | 
 `public async Task< ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` > ` [`Prepare`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1a2ba24fa9a86412c68780ae3157322251)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` session)` | 
 `public void ` [`CopyToClipboard`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1a78826733039b0d0513d3a8d096c964c5)`(string targetString)` | Puts the passed string into the clipboard buffer to be pasted elsewhere.
 `public Texture2D ` [`StringToQRCodeTexture2D`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1aacd85aff186fa6642a396d97be396fba)`(string textForEncoding, int textureWidth, int textureHeight, Color32 baseColor, Color32 pixelColor)` | Call this to generate a QR code based on the parameters passed.
@@ -23,7 +23,7 @@ class AnchorLinkTransportSharp::Src::UnityTransport
 `public abstract void ` [`DisplayRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1a768e8851a4d14b2454161b925e5efc16)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request)` | Method is invoked when a request to sign or login is made and the QR code and link are generated and displayed.
 `private readonly bool ` [`_requestStatus`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1aca210874d7d563cfc1475451b4e26ad1) | The Status of the current Request.
 `private ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` ` [`_activeRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1a259fde2c0f9f930be8631c1d4427df9a) | The current active Request.
-`private ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > ` [`_activeCancel`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1a0c4229d810ba5ac013493dd663c0b6f5) | The activeCancel Delegate (invoked when a Request is cancelled)
+`private ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > ` [`_activeCancel`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1a0c4229d810ba5ac013493dd663c0b6f5) | The activeCancel Delegate (invoked when a Request is cancelled)
 `private Color32[] ` [`StringEncoder`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1af25c30c32b47c2b50192173b1133ed01)`(string textForEncoding, int width, int height)` | 
 
 ## Members
@@ -34,9 +34,9 @@ The Storage used for sessions and metadata.
 
 ##### `public ` [`UnityTransport`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1ac17cf84d27619a7170e46e363eee0412)`(` [`TransportOptions`](AnchorLinkTransportSharp--Src--TransportOptions.md)` options)` 
 
-##### `public void ` [`OnRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1af033a491264433deccf8f379377bf0de)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` 
+##### `public void ` [`OnRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1af033a491264433deccf8f379377bf0de)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` 
 
-##### `public void ` [`OnSessionRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1ab43ebe78aa7d484d52f5d1f80e8a0e74)`(` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` session, ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` 
+##### `public void ` [`OnSessionRequest`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1ab43ebe78aa7d484d52f5d1f80e8a0e74)`(` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` session, ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` 
 
 ##### `public async Task< ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` > ` [`Prepare`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1a2ba24fa9a86412c68780ae3157322251)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` session)` 
 
@@ -95,7 +95,7 @@ The Status of the current Request.
 
 The current active Request.
 
-##### `private ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > ` [`_activeCancel`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1a0c4229d810ba5ac013493dd663c0b6f5) 
+##### `private ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > ` [`_activeCancel`](#class_anchor_link_transport_sharp_1_1_src_1_1_unity_transport_1a0c4229d810ba5ac013493dd663c0b6f5) 
 
 The activeCancel Delegate (invoked when a Request is cancelled)
 

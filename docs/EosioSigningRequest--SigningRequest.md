@@ -19,11 +19,11 @@
 `public List< string > ` [`GetRequiredAbis`](#class_eosio_signing_request_1_1_signing_request_1a7b34185fe9fd822121fb22e49d8afd4d)`()` | ABI definitions required to resolve request.
 `public bool ` [`RequiresTapos`](#class_eosio_signing_request_1_1_signing_request_1ae8a1fd251d474cfff3134e308cb27a50)`()` | Whether TaPoS values are required to resolve request.
 `public async Task< Dictionary< string, Abi > > ` [`FetchAbis`](#class_eosio_signing_request_1_1_signing_request_1a49a3def59d20c7724587b064e6b3319f)`(IAbiSerializationProvider abiSerializationProvider)` | Resolve required ABI definitions.
-`public ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`ResolveActions`](#class_eosio_signing_request_1_1_signing_request_1a43068a7abd40e9be516db811d7b02b84)`(Dictionary< string, Abi > abis, PermissionLevel signer)` | Decode raw actions actions to object representations.
+`public ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`ResolveActions`](#class_eosio_signing_request_1_1_signing_request_1a43068a7abd40e9be516db811d7b02b84)`(Dictionary< string, Abi > abis, PermissionLevel signer)` | Decode raw actions actions to object representations.
 `public Transaction ` [`ResolveTransaction`](#class_eosio_signing_request_1_1_signing_request_1a9e0c11b5aa86e9b2b261615a7f5a449e)`(Dictionary< string, Abi > abis, PermissionLevel signer, ` [`TransactionContext`](EosioSigningRequest--TransactionContext.md)` ctx)` | 
 `public ` [`ResolvedSigningRequest`](EosioSigningRequest--ResolvedSigningRequest.md)` ` [`Resolve`](#class_eosio_signing_request_1_1_signing_request_1ae1e92664b24b5d43cfa5025eff574c2c)`(Dictionary< string, Abi > abis, PermissionLevel signer, ` [`TransactionContext`](EosioSigningRequest--TransactionContext.md)` ctx)` | 
 `public string ` [`GetChainId`](#class_eosio_signing_request_1_1_signing_request_1adcc54fdf072893165ef0a596b27b783f)`()` | Get the id of the chain where this request is valid.
-`public ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`GetRawActions`](#class_eosio_signing_request_1_1_signing_request_1ab95120e3b87a8f38277dc17dd0be31eb)`()` | Return the actions in this request with action data encoded.
+`public ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`GetRawActions`](#class_eosio_signing_request_1_1_signing_request_1ab95120e3b87a8f38277dc17dd0be31eb)`()` | Return the actions in this request with action data encoded.
 `public Transaction ` [`GetRawTransaction`](#class_eosio_signing_request_1_1_signing_request_1af1bc0253a1530079097b7aa56aac2c3f)`()` | Unresolved transaction.
 `public bool ` [`IsIdentity`](#class_eosio_signing_request_1_1_signing_request_1a41c5fe4ef868e91de373ecd8406afbea)`()` | Whether the request is an identity request.
 `public bool ` [`ShouldBroadcast`](#class_eosio_signing_request_1_1_signing_request_1a6b1c7dd6917b5792fea9cade44bff88a)`()` | Whether the request should be broadcast by signer.
@@ -117,7 +117,7 @@ Whether TaPoS values are required to resolve request.
 
 Resolve required ABI definitions.
 
-##### `public ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`ResolveActions`](#class_eosio_signing_request_1_1_signing_request_1a43068a7abd40e9be516db811d7b02b84)`(Dictionary< string, Abi > abis, PermissionLevel signer)` 
+##### `public ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`ResolveActions`](#class_eosio_signing_request_1_1_signing_request_1a43068a7abd40e9be516db811d7b02b84)`(Dictionary< string, Abi > abis, PermissionLevel signer)` 
 
 Decode raw actions actions to object representations. 
 #### Parameters
@@ -135,7 +135,7 @@ Get the id of the chain where this request is valid.
 #### Returns
 The 32-byte chain id as hex encoded string.
 
-##### `public ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`GetRawActions`](#class_eosio_signing_request_1_1_signing_request_1ab95120e3b87a8f38277dc17dd0be31eb)`()` 
+##### `public ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`GetRawActions`](#class_eosio_signing_request_1_1_signing_request_1ab95120e3b87a8f38277dc17dd0be31eb)`()` 
 
 Return the actions in this request with action data encoded.
 

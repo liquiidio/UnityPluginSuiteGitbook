@@ -4,8 +4,8 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`Action`](#class_eosio_signing_request_1_1_signing_request_create_arguments_1ac377793b12e6b1c3a4a087af2736db71) | Single action to create request with.
-`public ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`Actions`](#class_eosio_signing_request_1_1_signing_request_create_arguments_1a450c08d1f1cc5e400251b488172d7be8) | Multiple actions to create request with.
+`public ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`Action`](#class_eosio_signing_request_1_1_signing_request_create_arguments_1ac377793b12e6b1c3a4a087af2736db71) | Single action to create request with.
+`public ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`Actions`](#class_eosio_signing_request_1_1_signing_request_create_arguments_1a450c08d1f1cc5e400251b488172d7be8) | Multiple actions to create request with.
 `public Transaction ` [`Transaction`](#class_eosio_signing_request_1_1_signing_request_create_arguments_1af92c81fa5e0db1514333005d04e9d1d5) | Full or partial transaction to create request with. If TAPoS info is omitted it will be filled in when resolving the request.
 `public ` [`IdentityV2`](EosioSigningRequest--IdentityV2.md)` ` [`Identity`](#class_eosio_signing_request_1_1_signing_request_create_arguments_1a2f44e5d64b7b947586378f15fbb0034c) | Create an identity request.
 `public string ` [`ChainId`](#class_eosio_signing_request_1_1_signing_request_create_arguments_1a4476ef8ec88d45c994accc6d8c4f0da3) | Chain to use, defaults to EOS main-net if omitted.
@@ -15,11 +15,11 @@
 
 ## Members
 
-##### `public ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`Action`](#class_eosio_signing_request_1_1_signing_request_create_arguments_1ac377793b12e6b1c3a4a087af2736db71) 
+##### `public ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`Action`](#class_eosio_signing_request_1_1_signing_request_create_arguments_1ac377793b12e6b1c3a4a087af2736db71) 
 
 Single action to create request with.
 
-##### `public ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`Actions`](#class_eosio_signing_request_1_1_signing_request_create_arguments_1a450c08d1f1cc5e400251b488172d7be8) 
+##### `public ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)` ` [`Actions`](#class_eosio_signing_request_1_1_signing_request_create_arguments_1a450c08d1f1cc5e400251b488172d7be8) 
 
 Multiple actions to create request with.
 

@@ -4,6 +4,6 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`class ` [`LoginView`](AnchorLinkTransportSharp--Examples--UiToolkit--Ui--LoginView.md) | 
-`class ` [`MainView`](AnchorLinkTransportSharp--Examples--UiToolkit--Ui--MainView.md) | 
+`class ` [`AnchorExamplePanel`](AnchorLinkTransportSharp--Examples--UiToolkit--Ui--AnchorExamplePanel.md) | 
+`class ` [`AnchorLoginPanel`](AnchorLinkTransportSharp--Examples--UiToolkit--Ui--AnchorLoginPanel.md) | 
 

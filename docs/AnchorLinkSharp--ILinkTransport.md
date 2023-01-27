@@ -7,10 +7,10 @@ Protocol anchorLink transports need to implement. A transport is responsible for
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `public ` [`ILinkStorage`](AnchorLinkSharp.md)` ` [`Storage`](AnchorLinkSharp.md) | Can be implemented if transport provides a storage as well.
-`public void ` [`OnRequest`](AnchorLinkSharp.md)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` | Present a signing request to the user.
+`public void ` [`OnRequest`](AnchorLinkSharp.md)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` | Present a signing request to the user.
 `public void ` [`OnSuccess`](AnchorLinkSharp.md)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`TransactResult`](AnchorLinkSharp--TransactResult.md)` result)` | Called if the request was successful.
 `public void ` [`OnFailure`](AnchorLinkSharp.md)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, Exception exception)` | Called if the request failed.
-`public void ` [`OnSessionRequest`](AnchorLinkSharp.md)`(` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` session, ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` | Called when a session request is initiated.
+`public void ` [`OnSessionRequest`](AnchorLinkSharp.md)`(` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` session, ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` | Called when a session request is initiated.
 `public Task< ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` > ` [`Prepare`](AnchorLinkSharp.md)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` session)` | Can be implemented to modify request just after it has been created.
 `public void ` [`ShowLoading`](AnchorLinkSharp.md)`()` | Called immediately when the transaction starts
 
@@ -20,7 +20,7 @@ Protocol anchorLink transports need to implement. A transport is responsible for
 
 Can be implemented if transport provides a storage as well.
 
-##### `public void ` [`OnRequest`](AnchorLinkSharp.md)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` 
+##### `public void ` [`OnRequest`](AnchorLinkSharp.md)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` 
 
 Present a signing request to the user. 
 #### Parameters
@@ -36,7 +36,7 @@ Called if the request was successful.
 
 Called if the request failed.
 
-##### `public void ` [`OnSessionRequest`](AnchorLinkSharp.md)`(` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` session, ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` 
+##### `public void ` [`OnSessionRequest`](AnchorLinkSharp.md)`(` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` session, ` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`Action`](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c)`< object > cancel)` 
 
 Called when a session request is initiated. 
 #### Parameters

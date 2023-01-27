@@ -125,7 +125,7 @@ Transact (without Session)
 ```cpp
 internal async Task TransactWithoutSession(EosSharp.Core.Api.v1.Action action)
 {
-    var transactResult = await myLink.Transact(new TransactArgs() { [Action](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c) = action });
+    var transactResult = await myLink.Transact(new TransactArgs() { [Action](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c) = action });
     Debug.Log($"Transaction broadcast! {transactResult.Processed}");
 }
 ```
@@ -141,7 +141,7 @@ Transact (with Session)
 ```cpp
 internal async Task TransactWithoutSession(EosSharp.Core.Api.v1.Action action)
 {
-    var transactResult = await mySession.Transact(new TransactArgs() { [Action](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c) = action });
+    var transactResult = await mySession.Transact(new TransactArgs() { [Action](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c) = action });
     Debug.Log($"Transaction broadcast! {transactResult.Processed}");
 }
 ```
@@ -171,7 +171,7 @@ private async Task Transfer(string frmAcc, string toAcc, string qnty, string mem
 
     try
     {
-        var transactResult = await mySession.Transact(new TransactArgs() { [Action](#_main_view_8cs_1a24e91c56095a0673d92c6eac6e069a3c) = action });
+        var transactResult = await mySession.Transact(new TransactArgs() { [Action](#_anchor_example_panel_8cs_1a24e91c56095a0673d92c6eac6e069a3c) = action });
         Debug.Log($"Transaction broadcast! {transactResult.Processed}");
 
         waitCoroutine = StartCoroutine(SwitchPanels(Transport.currentPanel, CustomActionsPanel, 1.5f));
