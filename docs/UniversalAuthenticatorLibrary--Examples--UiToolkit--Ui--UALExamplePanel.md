@@ -35,7 +35,6 @@ class UniversalAuthenticatorLibrary::Examples::UiToolkit::Ui::UALExamplePanel
 `private void ` [`SetSellRamText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_u_a_l_example_panel_1a04df316e1b48502dc1a11dccf1741d14)`()` | 
 `private void ` [`SetBuyRamText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_u_a_l_example_panel_1abb62aae70d0490ae16485974f788ff80)`()` | 
 `private void ` [`SetBidNameText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_u_a_l_example_panel_1aea934c7204b2977c74d78b45cdc0c596)`()` | 
-`public static void ` [`MultiExampleClipboardPaste`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_u_a_l_example_panel_1a21d6386abd2ee0bb933d9a54d743c01f)`(string pastedText)` | Called when ctrl + v is pressed in browser for the PluginSuiteMultiExample Scene (webgl)
 
 ## Members
 
@@ -97,11 +96,4 @@ Child-Controls
 ##### `private void ` [`SetBuyRamText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_u_a_l_example_panel_1abb62aae70d0490ae16485974f788ff80)`()` 
 
 ##### `private void ` [`SetBidNameText`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_u_a_l_example_panel_1aea934c7204b2977c74d78b45cdc0c596)`()` 
-
-##### `public static void ` [`MultiExampleClipboardPaste`](#class_universal_authenticator_library_1_1_examples_1_1_ui_toolkit_1_1_ui_1_1_u_a_l_example_panel_1a21d6386abd2ee0bb933d9a54d743c01f)`(string pastedText)` 
-
-Called when ctrl + v is pressed in browser for the PluginSuiteMultiExample Scene (webgl)
-
-#### Parameters
-* `pastedText` The pasted text.
 
