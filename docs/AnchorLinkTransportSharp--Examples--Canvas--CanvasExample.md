@@ -33,6 +33,7 @@ class AnchorLinkTransportSharp::Examples::Canvas::CanvasExample
 `private void ` [`DidLogin`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a44c32017daaa3807a8938a368b707ac1)`()` | Called when session was restored or created.
 `private async Task ` [`Transfer`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a25397506d3153a001f7a7fa954d7b1f1)`(string frmAcc, string toAcc, string qnty, string memo)` | Transfer tokens using a session.
 `private IEnumerator ` [`SwitchPanels`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a906a251a06dfd177e4d81bbf1645c2c1)`(GameObject fromPanel, GameObject toPanel, float SecondsToWait)` | 
+`private void ` [`Update`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1aec0783b5a136e042adcc47bae4fe5291)`()` | 
 
 ## Members
 
@@ -134,4 +135,6 @@ Transfer tokens using a session.
 #### Returns
 
 ##### `private IEnumerator ` [`SwitchPanels`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a906a251a06dfd177e4d81bbf1645c2c1)`(GameObject fromPanel, GameObject toPanel, float SecondsToWait)` 
+
+##### `private void ` [`Update`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1aec0783b5a136e042adcc47bae4fe5291)`()` 
 
