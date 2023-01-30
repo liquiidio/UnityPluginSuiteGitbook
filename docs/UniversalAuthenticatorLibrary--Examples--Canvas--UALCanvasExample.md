@@ -18,6 +18,7 @@ class UniversalAuthenticatorLibrary::Examples::Canvas::UALCanvasExample
 `private async void ` [`Start`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a5957aa0d15061f2c6b7145cca4139d83)`()` | 
 `private void ` [`BindButtons`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1ac0a62408f7b64fe84a8a710e7119b60b)`()` | 
 `private void ` [`ReturnToAuthenticatorSelection`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a673d166cf5d64fbd7c0da1f932ec3f0a)`()` | 
+`private void ` [`Update`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1aec0783b5a136e042adcc47bae4fe5291)`()` | 
 `private void ` [`UserLogin`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a163bfe7d532dad50f4c6a6be0179d2ab)`(` [`User`](UniversalAuthenticatorLibrary--User.md)` _user)` | 
 `private async Task ` [`Transfer`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a25397506d3153a001f7a7fa954d7b1f1)`(string frmAcc, string toAcc, string qnty, string memo)` | 
 
@@ -50,6 +51,8 @@ Gather data from the custom transfer UI panel.
 ##### `private void ` [`BindButtons`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1ac0a62408f7b64fe84a8a710e7119b60b)`()` 
 
 ##### `private void ` [`ReturnToAuthenticatorSelection`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a673d166cf5d64fbd7c0da1f932ec3f0a)`()` 
+
+##### `private void ` [`Update`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1aec0783b5a136e042adcc47bae4fe5291)`()` 
 
 ##### `private void ` [`UserLogin`](#class_universal_authenticator_library_1_1_examples_1_1_canvas_1_1_u_a_l_canvas_example_1a163bfe7d532dad50f4c6a6be0179d2ab)`(` [`User`](UniversalAuthenticatorLibrary--User.md)` _user)` 
 
