@@ -32,7 +32,7 @@ Then in your Unity project:
 
 #### 3. Install manually.
 
-Download this [project here](https://github.com/liquiidio/WcwUnityWebGl/releases).
+Download this [project here](https://github.com/liquiidio/WcwUnityWebGl/releases/latest).
 
   * [zip](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.5.zip)
   * [tar.gz](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.5.tar.gz)
