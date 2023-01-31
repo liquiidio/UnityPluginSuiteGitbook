@@ -33,10 +33,10 @@ Then in your Unity project:
 
 #### 3. Install manually.
 
-Download this [project here](https://github.com/liquiidio/AtomicMarketApiClient-Private/releases/tag/1.0.6).
+Download this [project here](https://github.com/liquiidio/AtomicMarketApiClient-Private/releases/latest).
 
-  * [zip](https://github.com/liquiidio/AtomicMarketApiClient-Private/archive/refs/tags/1.0.6.zip) (TODO! Get final URL)
-  * [tar.gz](https://github.com/liquiidio/AtomicMarketApiClient-Private/archive/refs/tags/1.0.6.tar.gz) (TODO! Get final URL)
+  * [zip](https://github.com/liquiidio/AtomicMarketApiClient-Private/archive/refs/tags/1.0.9.6.zip) (TODO! Get final URL)
+  * [tar.gz](https://github.com/liquiidio/AtomicMarketApiClient-Private/archive/refs/tags/1.0.9.6.tar.gz) (TODO! Get final URL)
 
 Then in your Unity project, copy the sources from `AtomicMarketApiClient` into your Unity `Assets` directory.
 
