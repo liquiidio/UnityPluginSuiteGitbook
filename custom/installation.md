@@ -33,10 +33,10 @@ Then in your Unity project:
 
 #### 3. Install manually.
 
-Download this [project here](https://github.com/liquiidio/HyperionApiClient-Private/releases/tag/1.0.3).
+Download this [project here](https://github.com/liquiidio/HyperionApiClient-Private/releases/latest).
 
-  * [zip](https://github.com/liquiidio/HyperionApiClient-Private/archive/refs/tags/1.0.3.zip) (TODO! Get final URL)
-  * [tar.gz](https://github.com/liquiidio/HyperionApiClient-Private/archive/refs/tags/1.0.3.tar.gz) (TODO! Get final URL)
+  * [zip](https://github.com/liquiidio/HyperionApiClient-Private/archive/refs/tags/1.0.9.zip) (TODO! Get final URL)
+  * [tar.gz](https://github.com/liquiidio/HyperionApiClient-Private/archive/refs/tags/1.0.9.tar.gz) (TODO! Get final URL)
 
 Then in your Unity project, copy the sources from `HyperionApiClient` into your Unity `Assets` directory.
 
