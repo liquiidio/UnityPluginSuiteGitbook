@@ -16,7 +16,6 @@ _**EosSharp**_
 1. EosSharp is a library containing the necessary functionallity to serialize and deserialize Actions, Transactions, Blocks and other Data
 2. In addition it contains the necessary functionallity for all kinds of cryptographic operations
 3. Lastly it contains the functionallity allowing you to and the AnchorLink-Library to access EOSIO or LEAP-based Nodes via their APIS
-4. &#x20;It's a piece to make AnchorLink work.
 
 _EosSharp is not contained in this Package_ and no matter which installation method you choose, you _have to install it manually_ in addition to this Package. \
 \
