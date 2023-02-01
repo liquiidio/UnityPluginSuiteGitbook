@@ -33,10 +33,10 @@ Then in your Unity project:
 
 #### 3. Install manually.
 
-Download this [project here](https://github.com/liquiidio/EosSharp-Private/releases/).
+Download this [project here](https://github.com/liquiidio/EosSharp-Private/releases/latest).
 
-  * [zip](https://github.com/liquiidio/EosSharp-Private/archive/refs/tags/1.0.1.zip) (TODO! Get final URL)
-  * [tar.gz](https://github.com/liquiidio/EosSharp-Private/archive/refs/tags/1.0.1.tar.gz) (TODO! Get final URL)
+  * [zip](https://github.com/liquiidio/EosSharp-Private/archive/refs/tags/1.0.3.zip) (TODO! Get final URL)
+  * [tar.gz](https://github.com/liquiidio/EosSharp-Private/archive/refs/tags/1.0.3.tar.gz) (TODO! Get final URL)
 
 Then in your Unity project, copy the sources from `EosSharp` into your Unity `Assets` directory.
 
