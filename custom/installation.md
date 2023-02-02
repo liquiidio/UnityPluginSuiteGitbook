@@ -5,7 +5,7 @@ _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_
 This package can be included into your project by either:
 
 1. Installing the package via Unity's Package Manager (UPM) in the editor (recommended).
-2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/EosSharp-Private/releases/download/1.0.2/io.liquiid.eossharp.unitypackage). (TODO! Get final URL)
+2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/EosSharp-Private/releases/latest/download/io.liquiid.eossharp.unitypackage). (TODO! Get final URL)
 3. Manually add the files from the repo.
 4. Installing it via NuGet. (for Standard .NET users)
 
