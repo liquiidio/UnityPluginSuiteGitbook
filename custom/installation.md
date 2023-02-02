@@ -56,8 +56,8 @@ Then in your Unity project, copy the sources from `AnchorLinkTransportSharp` int
 
 #### .NET CLI (TODO!: Get correct command)
 
-`>dotnet add package Liquiid.io.AnchorLinkSharp --version 1.0.24`
+`>dotnet add package Liquiid.io.AnchorLinkSharp --version 1.0.3`
 
 #### Package Manager (TODO!: Get correct command)
 
-`PM> Install-Package Liquiid.io.AnchorLinkSharp -Version 1.0.24`
+`PM> Install-Package Liquiid.io.AnchorLinkSharp -Version 1.0.3`
