@@ -5,7 +5,7 @@ _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_
 This package can be included into your project by either:
 
 1. Installing the package via Unity's Package Manager (UPM) in the editor (recommended).
-2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/WcwUnityWebGl/releases/latest/download/io.liquiid.wcwunitywebgl.unitypackage).
+2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/WcwUnityWebGl/releases/download/1.0.5/io.liquiid.wcwunitywebgl.unitypackage).
 3. Manually add the files from the repo.
 
 #### 1. Installing via Unity Package Manager (UPM).
