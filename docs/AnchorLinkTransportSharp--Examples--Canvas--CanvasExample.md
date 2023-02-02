@@ -22,6 +22,10 @@ class AnchorLinkTransportSharp::Examples::Canvas::CanvasExample
 `private Button ` [`RestoreSessionButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1aa3122a5c822deeb2e84a04f637936d42) | 
 `private Button ` [`TransferButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1ac372f612d7aed4ac8a1b4a3349f3eeba) | 
 `private Button ` [`LogoutButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1ad2f6ad4809aaadcd5a7884c5bf69acd9) | 
+`private TMP_InputField ` [`_fromAccountField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a46c49700135c903e55307b84df853307) | 
+`private TMP_InputField ` [`_toAccountField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a823b12fdd05f0799abb0fd8050fe60a1) | 
+`private TMP_InputField ` [`_tokenAmountField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6e9aa7c7cba3519f52ebbe42495513f9) | 
+`private TMP_InputField ` [`_memoField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a1bf551e8540482d05a47837326a48fd7) | 
 `private Coroutine ` [`waitCoroutine`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1acaf3524519c2960c79f6a7d20e97d9aa) | 
 `private ` [`AnchorLink`](AnchorLinkSharp--AnchorLink.md)` ` [`_link`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1ab83a853dc8e03635061e08d6e0330778) | initialize the link
 `private ` [`LinkSession`](AnchorLinkSharp--LinkSession.md)` ` [`_session`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a028dc4f27d9ba73226782f611d3ac6b4) | the session instance, either restored using link.restoreSession() or created with link.login()
@@ -84,6 +88,14 @@ Assign UnityTransport through the Editor.
 ##### `private Button ` [`TransferButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1ac372f612d7aed4ac8a1b4a3349f3eeba) 
 
 ##### `private Button ` [`LogoutButton`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1ad2f6ad4809aaadcd5a7884c5bf69acd9) 
+
+##### `private TMP_InputField ` [`_fromAccountField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a46c49700135c903e55307b84df853307) 
+
+##### `private TMP_InputField ` [`_toAccountField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a823b12fdd05f0799abb0fd8050fe60a1) 
+
+##### `private TMP_InputField ` [`_tokenAmountField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a6e9aa7c7cba3519f52ebbe42495513f9) 
+
+##### `private TMP_InputField ` [`_memoField`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1a1bf551e8540482d05a47837326a48fd7) 
 
 ##### `private Coroutine ` [`waitCoroutine`](#class_anchor_link_transport_sharp_1_1_examples_1_1_canvas_1_1_canvas_example_1acaf3524519c2960c79f6a7d20e97d9aa) 
 
