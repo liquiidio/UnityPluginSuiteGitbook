@@ -1,10 +1,11 @@
 # Getting Started
 
-Not sure where to start?
+**Still unsure where to start?**
 
-Download and experiment with the whole Plugin Suite by following these steps:
+Feel free to download and experiment with our Plugin Suite Example-Project containing diverse Examples showing the usage of each individual Package provided.
 
 ## Download for Unity3D
+
 ```bash
     git clone https://github.com/liquiidio/UnityPluginSuite.git
     cd UnityPluginSuite
@@ -13,15 +14,11 @@ Download and experiment with the whole Plugin Suite by following these steps:
     git submodule update --init --recursive
 ```
 
-## Download for .NET
-```bash
-    git clone https://github.com/liquiidio/UnityPluginSuite.git
-    cd UnityPluginSuite
-    git submodule update --init --recursive
-```
+
+
 ## Demo Application
 
-Open the Link to the Demo Application below:
+We also deployed a WebGL-build to the Plugin-Suite-Example-Project, open the Link below to give it a try.
 
 {% embed url="https://noodles.lol/gitbook/MultiExample%20WebGL%202022.x/" %}
 Plugin Suite Demo
