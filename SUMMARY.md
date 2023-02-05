@@ -2,6 +2,7 @@
 
 * [Getting Started](README.md)
 * [Installation](custom/installation.md)
+  * [WebGL Installation](custom/webgl_installation.md)
 * [Examples](custom/examples/README.md)
   * [Calling the /v1/assets endpoint](custom/examples/example\_a.md)
   * [Calling the /v1/assets endpoint with parameters](custom/examples/example\_b.md)
