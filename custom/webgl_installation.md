@@ -2,6 +2,10 @@ WebGL builds will require the index.html file to be customised.
 
 https://github.com/liquiidio/UnityPluginSuiteGitbook/blob/66c1ba19c1e8dfa45f34087f607498cb5e10e822/custom/downloads/index.html?plain=1#L118-L120
 
+https://github.com/liquiidio/UnityPluginSuiteGitbook/blob/66c1ba19c1e8dfa45f34087f607498cb5e10e822/custom/downloads/index.html
+
+[Installation](custom/downloads/index.html)
+
 ```html
 <!DOCTYPE html>
 <html lang="en-us">
