@@ -4,7 +4,7 @@ https://github.com/liquiidio/UnityPluginSuiteGitbook/blob/66c1ba19c1e8dfa45f3408
 
 https://github.com/liquiidio/UnityPluginSuiteGitbook/blob/66c1ba19c1e8dfa45f34087f607498cb5e10e822/custom/downloads/index.html
 
-[Installation](custom/downloads/index.html)
+[Installation](downloads/index.html)
 
 ```html
 <!DOCTYPE html>
