@@ -2,6 +2,10 @@ WebGL builds will require the index.html file to be customised.
 
 The custom html file can be downloaded <a id="raw-url" href="https://noodles.lol/gitbook/Anchor%20Canvas%20WebGL%202021.x/index.html">here</a>.
 
+<a download="index.html" href="https://noodles.lol/gitbook/Anchor%20Canvas%20WebGL%202021.x/" title="HTML File">
+	link
+</a>
+
 ```html
 <!DOCTYPE html>
 <html lang="en-us">
