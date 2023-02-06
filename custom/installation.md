@@ -27,7 +27,7 @@ In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/endel/AnchorLinkTransportSharp.git#unity` (TODO! Get final URL)
+3. Enter URL: `https://github.com/liquiidio/AnchorLinkSharp-Private.git#upm` 
 
 #### 2. Importing the Unity Package.
 
@@ -43,7 +43,7 @@ Then in your Unity project:
 
 #### 3. Install manually.
 
-Download this [project here](https://github.com/liquiidio/AnchorLinkTransportSharp/releases).
+Download this [project here](https://github.com/liquiidio/AnchorLinkSharp/releases/latest).
 
 * [zip](https://github.com/orgs/liquiidio/packages?repo\_name=AnchorLinkTransportSharp) (TODO! Get final URL)
 * [tar.gz](https://github.com/orgs/liquiidio/packages?repo\_name=AnchorLinkTransportSharp) (TODO! Get final URL)
