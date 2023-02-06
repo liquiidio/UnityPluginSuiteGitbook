@@ -2,8 +2,8 @@ WebGL builds will require the index.html file to be customised.
 
 https://github.com/liquiidio/UnityPluginSuiteGitbook/blob/66c1ba19c1e8dfa45f34087f607498cb5e10e822/custom/downloads/index.html?plain=1#L118-L120
 
-Download the full customised file <a download="index.html" href="/custom/downloads/index.html" title="Custom HTML file">here</a>.
-
+<!--Download the full customised file <a download="index.html" href="/custom/downloads/index.html" title="Custom HTML file">here</a>.--> 
+Download the full customised file [here](/custom/downloads/index.html).
 
 
 [Installation](https://github.com/liquiidio/UnityPluginSuiteGitbook/blob/anchorlinksharp/custom/downloads/index.html)
