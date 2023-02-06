@@ -43,7 +43,7 @@ Then in your Unity project:
 
 #### 3. Install manually.
 
-Download this [project here](https://github.com/liquiidio/AnchorLinkSharp/releases/latest).
+Download this [project here](https://github.com/liquiidio/AnchorLinkSharp-Private/releases/latest).
 
 * [zip](https://github.com/liquiidio/AnchorLinkSharp-Private/archive/ref/tags/1.0.7.zip) 
 * [tar.gz](https://github.com/liquiidio/AnchorLinkSharp-Private/archive/ref/tags/1.0.7.tar.gz)  (TODO! Get final URL)
