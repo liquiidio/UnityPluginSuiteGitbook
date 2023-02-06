@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Installation](custom/installation.md)
+  * [WebGL Insatallation](custom/webgl_installation.md)
 * [Examples](custom/examples/README.md)
   * [Getting Started](custom/examples/examples_getting_started.md)
     * [Canvas Example](custom/examples/canvas_example.md)
