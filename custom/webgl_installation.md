@@ -6,7 +6,7 @@ Download the full customised file <a download="index.html" href="/custom/downloa
 
 
 
-[Installation](https://noodles.lol/gitbook/Anchor%20Canvas%20WebGL%202021.x/index.html)
+[Installation](https://github.com/liquiidio/UnityPluginSuiteGitbook/blob/anchorlinksharp/custom/downloads/index.html)
 
 ```html
 <!DOCTYPE html>
