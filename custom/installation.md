@@ -5,8 +5,7 @@ _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_
 This package can be included into your project by either:
 
 1. Installing the package via Unity's Package Manager (UPM) in the editor (recommended).
-2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/AnchorLinkSharp-Private/releases/latest/download/io.liquiid.anchorlinksharp.unitypackage). (TODO! Get final URL)
-3. Manually add the files from the repo.
+2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/AnchorLinkSharp-Private/releases/latest/download/io.liquiid.anchorlinksharp.unitypackage). 
 4. Installing it via NuGet. (for Standard .NET users)
 
 **Dependencies**
@@ -54,10 +53,10 @@ Then in your Unity project, copy the sources from `AnchorLinkSharp` into your Un
 
 #### 4. Install via NuGet (for Standard .NET users only - No Unity3D)
 
-#### .NET CLI (TODO!: Get correct command)
+#### .NET CLI 
 
 `>dotnet add package Liquiid.io.AnchorLinkSharp --version 1.0.3`
 
-#### Package Manager (TODO!: Get correct command)
+#### Package Manager
 
 `PM> Install-Package Liquiid.io.AnchorLinkSharp -Version 1.0.3`
