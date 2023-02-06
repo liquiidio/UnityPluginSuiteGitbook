@@ -45,10 +45,10 @@ Then in your Unity project:
 
 Download this [project here](https://github.com/liquiidio/AnchorLinkSharp/releases/latest).
 
-* [zip](https://github.com/orgs/liquiidio/packages?repo\_name=AnchorLinkTransportSharp) (TODO! Get final URL)
-* [tar.gz](https://github.com/orgs/liquiidio/packages?repo\_name=AnchorLinkTransportSharp) (TODO! Get final URL)
+* [zip](https://github.com/liquiidio/AnchorLinkSharp-Private/archive/ref/tags/1.0.7.zip) 
+* [tar.gz](https://github.com/liquiidio/AnchorLinkSharp-Private/archive/ref/tags/1.0.7.tar.gz)  (TODO! Get final URL)
 
-Then in your Unity project, copy the sources from `AnchorLinkTransportSharp` into your Unity `Assets` directory.
+Then in your Unity project, copy the sources from `AnchorLinkSharp` into your Unity `Assets` directory.
 
 ***
 
