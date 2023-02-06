@@ -5,7 +5,7 @@ _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_
 This package can be included into your project by either:
 
 1. Installing the package via Unity's Package Manager (UPM) in the editor (recommended).
-2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/EosSharp-Private/releases/latest/download/io.liquiid.eossharp.unitypackage). (TODO! Get final URL)
+2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/EosSharp-Private/releases/latest/download/io.liquiid.eossharp.unitypackage). 
 3. Manually add the files from the repo.
 4. Installing it via NuGet. (for Standard .NET users)
 
@@ -15,13 +15,13 @@ In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/liquiidio/EosSharp-Private.git#upm` (TODO! Get final URL)
+3. Enter URL: `https://github.com/liquiidio/EosSharp-Private.git#upm` 
 
 ***
 
 #### 2. Importing the Unity Package.
 
-Download the [UnityPackage here](https://github.com/liquiidio/EosSharp-Private/releases/latest/download/io.liquiid.eossharp.unitypackage). (TODO! Get final URL)
+Download the [UnityPackage here](https://github.com/liquiidio/EosSharp-Private/releases/latest/download/io.liquiid.eossharp.unitypackage). 
 
 Then in your Unity project:
 
@@ -35,8 +35,8 @@ Then in your Unity project:
 
 Download this [project here](https://github.com/liquiidio/EosSharp-Private/releases/latest).
 
-  * [zip](https://github.com/liquiidio/EosSharp-Private/archive/refs/tags/1.0.3.zip) (TODO! Get final URL)
-  * [tar.gz](https://github.com/liquiidio/EosSharp-Private/archive/refs/tags/1.0.3.tar.gz) (TODO! Get final URL)
+  * [zip](https://github.com/liquiidio/EosSharp-Private/archive/refs/tags/1.0.5.zip) 
+  * [tar.gz](https://github.com/liquiidio/EosSharp-Private/archive/refs/tags/1.0.5.tar.gz) 
 
 Then in your Unity project, copy the sources from `EosSharp` into your Unity `Assets` directory.
 
