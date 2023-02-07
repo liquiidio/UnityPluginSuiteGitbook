@@ -18,7 +18,7 @@ In your Unity project:
 
 #### Both Canvas and UIToolkit: 
 
-`https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp.git#upm_full` (TODO! Get final URL)
+`https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp.git#upm` 
 
 #### Canvas: 
 
@@ -32,7 +32,7 @@ In your Unity project:
 
 #### 2. Importing the Unity Package.
 
-Download the [UnityPackage here](https://github.com/orgs/liquiidio/packages?repo_name=UniversalAuthenticatorLibrarySharp). (TODO! Get final URL)
+Download the [UnityPackage here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest/download/io.liquiid.universalauthenticatorlibrarysharp.unitypackage). 
 
 Then in your Unity project:
 
