@@ -10,6 +10,12 @@ class AnchorLinkTransportSharp::Src::Transports::Canvas::UnityCanvasTransport
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `private string ` [`CountdownText`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aea35f1a5398bcdf185ebdeda7aae882d) | Property that updates the UI with the relevant time during countdown when assigned to.
+`public GameObject ` [`LoginPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1afccacff8828784ab34af88cac0162975) | The holding panel for the login details.
+`public GameObject ` [`SignPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1af443bf1061324b8dc67a5ebb163b61ec) | Panel used to prompt for signing.
+`public GameObject ` [`LoadingPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1afe0ac71be750718705dc11055007b835) | 
+`public GameObject ` [`SuccessPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a75256c85a7791ce0efe944302d67f681) | 
+`public GameObject ` [`FailurePanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a8f9dc9d3f493d388a149512fa180b884) | 
+`public GameObject ` [`TimeoutPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ab0a5d8a4b03b6123f26aed5755df7e42) | 
 `public ` [`UnityCanvasTransport`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a24308a36f68304db3677b33631cdb563)`(` [`TransportOptions`](AnchorLinkTransportSharp--Src--TransportOptions.md)` options)` | Transport constructor.
 `public virtual override void ` [`ShowLoading`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ad07a81fbeebbad741a68a3e9b3f310e7)`()` | Method is invoked when a request is made and user signing on the wallet is required.
 `public virtual override void ` [`OnSuccess`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ac36aa71aa9c9918667f60b2f046bbb4c)`(` [`SigningRequest`](EosioSigningRequest--SigningRequest.md)` request, ` [`TransactResult`](AnchorLinkSharp--TransactResult.md)` result)` | Method is invoked when a succesful signing request is completed.
@@ -28,6 +34,8 @@ class AnchorLinkTransportSharp::Src::Transports::Canvas::UnityCanvasTransport
 `public void ` [`OnCloseSignPanelButtonPressed`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1afa0820373b93a06e25f53b864c1a45ae)`()` | Executed when the close sign panel button is interacted with.
 `public void ` [`OnCloseSuccessPanelButtonPressed`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aea61bcc3a54d9b2cacdad4c2ab048b14)`()` | Executed when the close success panel button is interacted with.
 `public void ` [`OnCloseFailurePanelButtonPressed`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a6fb08c47e732890db36d68e359de6fab)`()` | Executed when the failure panel button is interacted with.
+`public void ` [`SwitchToNewPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a383a4c6ba181d88858b0f2497955bb31)`(GameObject toPanel)` | Hide any displayed panel and switch to the new supplied one.
+`public void ` [`DisableAllPanels`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a96de2a767c18b006f490e47adbbf9406)`()` | Hide all panels that are declared.
 `private Coroutine ` [`counterCoroutine`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a26fad57f840357a24b32a0498e4b2c1f)`= null` | Used to manage the countdown timer.
 `private GameObject ` [`HyperlinkCopiedNotificationPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a1e3cbb7c5d6339f3c84d1052a78b5442) | Confirmation panel for when the link has been successfully copied.
 `private GameObject ` [`LoginSubpanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ae8ca578b4a4359a5aa38ee0872bd5af1) | Primary panel for the login prompt.
@@ -52,6 +60,22 @@ class AnchorLinkTransportSharp::Src::Transports::Canvas::UnityCanvasTransport
 ##### `private string ` [`CountdownText`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1aea35f1a5398bcdf185ebdeda7aae882d) 
 
 Property that updates the UI with the relevant time during countdown when assigned to.
+
+##### `public GameObject ` [`LoginPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1afccacff8828784ab34af88cac0162975) 
+
+The holding panel for the login details.
+
+##### `public GameObject ` [`SignPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1af443bf1061324b8dc67a5ebb163b61ec) 
+
+Panel used to prompt for signing.
+
+##### `public GameObject ` [`LoadingPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1afe0ac71be750718705dc11055007b835) 
+
+##### `public GameObject ` [`SuccessPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a75256c85a7791ce0efe944302d67f681) 
+
+##### `public GameObject ` [`FailurePanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a8f9dc9d3f493d388a149512fa180b884) 
+
+##### `public GameObject ` [`TimeoutPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1ab0a5d8a4b03b6123f26aed5755df7e42) 
 
 ##### `public ` [`UnityCanvasTransport`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a24308a36f68304db3677b33631cdb563)`(` [`TransportOptions`](AnchorLinkTransportSharp--Src--TransportOptions.md)` options)` 
 
@@ -153,6 +177,17 @@ Executed when the close success panel button is interacted with.
 ##### `public void ` [`OnCloseFailurePanelButtonPressed`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a6fb08c47e732890db36d68e359de6fab)`()` 
 
 Executed when the failure panel button is interacted with.
+
+##### `public void ` [`SwitchToNewPanel`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a383a4c6ba181d88858b0f2497955bb31)`(GameObject toPanel)` 
+
+Hide any displayed panel and switch to the new supplied one.
+
+#### Parameters
+* `toPanel`
+
+##### `public void ` [`DisableAllPanels`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a96de2a767c18b006f490e47adbbf9406)`()` 
+
+Hide all panels that are declared.
 
 ##### `private Coroutine ` [`counterCoroutine`](#class_anchor_link_transport_sharp_1_1_src_1_1_transports_1_1_canvas_1_1_unity_canvas_transport_1a26fad57f840357a24b32a0498e4b2c1f)`= null` 
 
