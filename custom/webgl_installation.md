@@ -7,13 +7,7 @@ Download the full customised file [here](/custom/downloads/index.html).
 window.unityInstance = unityInstance;
 ```
 
-<details>
-<summary>Further reading</summary>
-  
-WebAssembly for [security](https://webassembly.org/docs/security/) purposes does not have Networking-Capabilities.
 
-Read more here: https://webassembly.org/docs/security/
-</details>
 
 ### Final script should have this included
 
