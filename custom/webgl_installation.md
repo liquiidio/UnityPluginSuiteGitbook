@@ -3,11 +3,12 @@ WebGL builds will require the index.html file to be customised.
 <!--Download the full customised file <a download="index.html" href="/custom/downloads/index.html" title="Custom HTML file">here</a>.--> 
 Download the full customised file [here](/custom/downloads/index.html).
 
-
-[Installation](https://github.com/liquiidio/UnityPluginSuiteGitbook/blob/anchorlinksharp/custom/downloads/index.html)
-
-
 Ensure that this line is added to make websockets work.
+
+<details>
+<spoiler>	Test	</spoiler>
+</details>
+
 ```js
 window.unityInstance = unityInstance;
 ```
