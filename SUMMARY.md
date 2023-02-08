@@ -9,7 +9,7 @@
     * [UIToolkit Example](custom/examples/uitoolkit_example.md)
   * [User Data](custom/examples/example\_b.md)
   * [Token Transfer](custom/examples/example\_c.md)
-  * [Transact](custom/examples/transact.md)
+  * [Transact](custom/examples/transaction.md)
 * [API Docs](api-docs/README.md)
   * [Canvas](docs/UniversalAuthenticatorLibrary--Src--Canvas.md)
     * [UnityCanvasUAL](docs/UniversalAuthenticatorLibrary--Src--Canvas--UnityCanvasUAL.md)
