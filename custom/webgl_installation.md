@@ -2,7 +2,7 @@ WebGL builds will require the index.html file to be customised.
 
 Download the full customised file [here](/custom/downloads/index.html).
 
-**Ensure that this line is added to make websockets work.**
+> **Ensure that this line is added to make websockets work.**
 ```js
 window.unityInstance = unityInstance;
 ```
@@ -36,3 +36,14 @@ Read more here: (https://webassembly.org/docs/security/)
           alert(message);
         });
 ```
+
+### Additional snippets
+Unity WebGL requires an event listener to paste from the OS clipboard. Use the following structure in `script.onload`.
+
+``` js
+window.addEventListener('paste', function (e) {
+      const str = e.clipboardData.getData('text');
+      window.unityInstance.SendMessage('CanvasExample', 'OnBrowserClipboardPaste', str);
+     });
+```
+
