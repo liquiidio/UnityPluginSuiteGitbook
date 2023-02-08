@@ -1,34 +1,32 @@
 WebGL builds will require the index.html file to be customised.
 
-<!--Download the full customised file <a download="index.html" href="/custom/downloads/index.html" title="Custom HTML file">here</a>.--> 
 Download the full customised file [here](/custom/downloads/index.html).
 
-Ensure that this line is added to make websockets work.
-
-<details>
-  <summary>Spoiler warning</summary>
-  
-  Spoiler text. Note that it's important to have a space after the summary tag. You should be able to write any markdown you want inside the `<details>` tag... just make sure you close `<details>` afterward.
-  
-  ```javascript
-  console.log("I'm a code block!");
-  ```
-  
-</details>
-
+**Ensure that this line is added to make websockets work.**
 ```js
 window.unityInstance = unityInstance;
 ```
 
+<details>
+<summary>Further reading</summary>
+  
+WebAssembly for [security](https://webassembly.org/docs/security/) purposes does not have Networking-Capabilities.
+
+Read more here: https://webassembly.org/docs/security/
+</details>
+
+### Final script should have this included
 
 ```js
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
           }).then((unityInstance) => {
-	  // !!!
-	   window.unityInstance = unityInstance; // <-- this line must be added to make websockets work!!!
-          // !!!
+	  
+	  // !!! IMPORTANT
+	  window.unityInstance = unityInstance; // <-- THIS LINE MUST BE ADDED TO ENSURE WEBSOCKETS WORK!!!
+          // !!! IMPORTANT
+	  
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
           unityInstance.SetFullscreen(1);
