@@ -12,7 +12,7 @@ window.unityInstance = unityInstance;
   
 WebAssembly for [security](https://webassembly.org/docs/security/) purposes does not have Networking-Capabilities.
 
-Read more here: https://webassembly.org/docs/security/
+Read more here: (https://webassembly.org/docs/security/)
 </details>
 
 
