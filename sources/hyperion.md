@@ -24,9 +24,9 @@ Hyperion is the most widely provided and used History Solution by developers for
 
 
 
-Swagger Docs
+### Swagger Docs
 
-Also, there are several Companies and Teams providing the Hyperion History Solution including a Swagger Doc, allowing you to try out the functionallity without having to install Tools or Packages.
+In addition, there are several Companies and Teams providing the Hyperion History Solution including a Swagger Documentation, allowing you to try out the functionallity without having to install any Tools or Packages.
 
 * [Liquiid.io WAX Swagger](https://api.wax.liquidstudios.io/v2/docs/static/index.html)
 * [EOSphere WAX Swagger](http://wax.eosphere.io/v2/docs/static/index.html#/)
