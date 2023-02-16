@@ -106,9 +106,11 @@
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
-		  // !!!
-		  window.unityInstance = unityInstance; // <-- this line must be added to make websockets work!!!
-          // !!!
+		// !!!
+		// Allows the WebGL-Build to communicate with the Browser-Scripting
+		// See https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html for additional information
+		window.unityInstance = unityInstance; // <-- this line must be added to make websockets or other browser-scripting-interactions (like with the WCW-libraries) work!!!
+          	// !!!
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
@@ -116,11 +118,14 @@
         }).catch((message) => {
           alert(message);
         });
-         window.addEventListener('paste', function (e) {
-      const str = e.clipboardData.getData('text');
-      window.unityInstance.SendMessage('WaxCloudWalletMainPanel', 'OnBrowserClipboardPaste', str
-        );
+	// !!!
+	// adding this Listener allows to copy-paste date from outside the WebGL-Build into the WebGL-Build
+        window.addEventListener('paste', function (e) {
+		const str = e.clipboardData.getData('text');
+		// Calls Method OnBrowserClipboardPaste in class WaxCloudWalletMainPanel while passing str as argument
+           	window.unityInstance.SendMessage('WaxCloudWalletMainPanel', 'OnBrowserClipboardPaste', str);
         });
+	// !!!
       };
       document.body.appendChild(script);
     </script>
