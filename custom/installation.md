@@ -46,7 +46,7 @@ Then in your Unity project:
 
 Download this [project here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest).
 
-  * [zip](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.10.zip) (TODO! Get final URL)
-  * [tar.gz](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.10.tar.gz) (TODO! Get final URL)
+  * [zip](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.11.zip)
+  * [tar.gz](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.11.tar.gz) 
 
 Then in your Unity project, copy the sources from `UniversalAuthenticatorLibrarySharp` into your Unity `Assets` directory.
