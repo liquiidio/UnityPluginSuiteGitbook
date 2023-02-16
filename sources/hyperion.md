@@ -22,8 +22,6 @@ Other than WAX Hyperion is also available on other Antelope.io chains. More deta
 \
 Hyperion is the most widely provided and used History Solution by developers for Antelope.io-based blockchains and the go-to-tool if you, the developer need access to historical blockchain data.
 
-
-
 ### Swagger Docs
 
 In addition, there are several Companies and Teams providing the Hyperion History Solution including a Swagger Documentation, allowing you to try out the functionallity without having to install any Tools or Packages.
@@ -44,11 +42,11 @@ Rio Blocks is an active participant in the community for years and and apart fro
 * The [bp-info-standard](https://github.com/eosrio/bp-info-standard), widely used to allow Block Producers to provide Information about provided Services and Nodes\
 
 
-### The Hyperion History Api Client for Unity3d, Standard .NET and C\#
+### The Hyperion History Api Client for Unity3D, Standard .NET and C\#
 
 The Package Provided by Liquiid.io is a .NET and Unity3D-compatible (Desktop, Mobile, WebGL) Client-Library for the Hyperion History API. \
 \
-If this introduction has piqued your interest and you think the Hyperion History Api could be a useful tool in developing your next-level dApp, either jump directly into the [Hyperion Space](https://app.gitbook.com/o/Sd7hm2B4HSaYXGsBxj86/s/4FHhtnO6QhgR0r2ZTKQP/)[ ](https://app.gitbook.com/o/Sd7hm2B4HSaYXGsBxj86/s/4FHhtnO6QhgR0r2ZTKQP/)of this GitBook or take a look at the provided links to learn more aboute the Solution and the Team behind.\
+If this introduction has piqued your interest and you think the Hyperion History Api could be a useful tool in developing your next-level dApp, either jump directly into the **** [**Hyperion Space**](https://app.gitbook.com/o/Sd7hm2B4HSaYXGsBxj86/s/4FHhtnO6QhgR0r2ZTKQP/)****[ **** ](https://app.gitbook.com/o/Sd7hm2B4HSaYXGsBxj86/s/4FHhtnO6QhgR0r2ZTKQP/)of this GitBook or take a look at the provided links to learn more aboute the Solution and the Team behind.\
 
 
 {% embed url="https://github.com/liquiidio/HyperionApiClient-Private" %}
