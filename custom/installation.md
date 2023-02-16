@@ -34,7 +34,7 @@ Then in your Unity project:
 
 Download this [project here](https://github.com/liquiidio/WcwUnityWebGl/releases/latest).
 
-  * [zip](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.9.zip)
-  * [tar.gz](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.9.tar.gz)
+  * [zip](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.10.zip)
+  * [tar.gz](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.10.tar.gz)
 
 Then in your Unity project, copy the sources from `WCWUnity` into your Unity `Assets` directory.
