@@ -6,7 +6,7 @@
   * [AnchorLink](sources/anchor\_link.md)
   * [AtomicAssets](sources/atomic\_assets.md)
   * [AtomicMarket](sources/atomic\_market.md)
-  * [Hyperion](sources/hyperion.md)
+  * [Hyperion History API](sources/hyperion.md)
   * [Authenticator Library](sources/authenticator\_library.md)
   * [EosSharp](sources/eos\_sharp.md)
 * [Getting Started](getting\_started.md)
