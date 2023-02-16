@@ -23,7 +23,11 @@
         <div id="unity-build-title">Unity WebGL Authenticator Library Canvas</div>
       </div>
     </div>
-	<script src='waxjs.js'></script>
+	  // !!!
+	  // !!! include waxjs.js to allow the emscripten jslib plugin to communicate 
+	  // !!! with the browser-scripting and the functionallity provided by the waxjs.js-library
+	  <script src='waxjs.js'></script>
+	  // !!!
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
@@ -55,6 +59,12 @@
         }
         updateBannerVisibility();
       }
+	// !!! 
+    	// !!! Ensure that the following file-names match the FileNames of your Build
+	// !!! if your Application has a different Name or is build via Unity Cloud Build while defining a custom Name for 
+	// !!! the Application, the FileNames in your build-output will not match the FileNames and result a failure in loading
+        // !!! these. In case your FileNames differ, correct them ensure necessary Files will be loaded correctly.
+        // !!! 
 
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/UAL Canvas WebGL 2021.x.loader.js";
@@ -107,6 +117,8 @@
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
 			// !!!
+		        // Allows the WebGL-Build to communicate with the Browser-Scripting
+		        // See https://docs.unity3d.com/Manual/webgl-interactingwithbrowserscripting.html for additional information
 			window.unityInstance = unityInstance; // <-- this line must be added to make websockets work!!!
 			// !!!
           loadingBar.style.display = "none";
