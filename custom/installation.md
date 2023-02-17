@@ -5,7 +5,7 @@ _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_
 This package can be included into your project by either:
 
 1. Installing the package via Unity's Package Manager (UPM) in the editor (recommended).
-2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest/download/io.liquiid.universalauthenticatorlibrarysharp.unitypackage). 
+2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest/download/universalauthenticatorlibrarysharp.unitypackage). 
 3. Manually add the files from the repo.
 
 #### 1. Installing via Unity Package Manager (UPM).
@@ -32,7 +32,7 @@ In your Unity project:
 
 #### 2. Importing the Unity Package.
 
-Download the [UnityPackage here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest/download/io.liquiid.universalauthenticatorlibrarysharp.unitypackage). 
+Download the [UnityPackage here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest/download/universalauthenticatorlibrarysharp.unitypackage). 
 
 Then in your Unity project:
 
