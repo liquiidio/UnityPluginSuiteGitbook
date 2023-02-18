@@ -16,17 +16,7 @@ In your Unity project:
 2. Click Add Package From Git URL
 3. Enter URL: 
 
-#### Both Canvas and UIToolkit: 
-
 `https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp.git#upm` 
-
-#### Canvas: 
-
-`https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp.git#upm_canvas` (TODO! Get final URL)
-
-#### UIToolkit: 
-
-`https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp.git#upm_uitoolkit` (TODO! Get final URL)
 
 ***
 
@@ -46,7 +36,7 @@ Then in your Unity project:
 
 Download this [project here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest).
 
-  * [zip](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.11.zip)
-  * [tar.gz](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.11.tar.gz) 
+  * [zip](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.12.zip)
+  * [tar.gz](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.12.tar.gz) 
 
 Then in your Unity project, copy the sources from `UniversalAuthenticatorLibrarySharp` into your Unity `Assets` directory.
