@@ -8,6 +8,30 @@ This package can be included into your project by either:
 2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest/download/universalauthenticatorlibrarysharp.unitypackage). 
 3. Manually add the files from the repo.
 
+**Dependencies**
+
+_**EosSharp**_
+
+1. EosSharp is a library containing the necessary functionallity to serialize and deserialize Actions, Transactions, Blocks and other Data
+2. In addition it contains the necessary functionallity for all kinds of cryptographic operations
+3. Lastly it contains the functionallity allowing you and the AnchorLink-Library to access EOSIO or LEAP-based Nodes via their APIs.
+
+_**AnchorLinkSharp**_
+
+Allows users and developers to connect and communicate with Anchor Wallet and ESR-based applications. The Anchor & ESR Integration consists of multiple libraries for the ESR-Protocol, the Anchor-integration, Transports among others.
+
+_**WaxCLoudWallet (WCW)**_
+
+A combination of local HttpListeners receiving OAuth-Callbacks from WCW-related web-adresses opened through the WebView-Plugin, gathering necessary initial information like OAuth-Tokens, followed by regular non-browser-based (non-WebView required) communication with the WCW-API/Server.
+
+_None of the dependencies is contained in this Package_ and no matter which installation method you choose, you _have to install it manually_ in addition to this Package. \
+\
+If you havn't already installed the above dependencies please follow the instructions in the following sections on gitbook.
+1 .[EosSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)
+2. [AnchorLinkSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/anchorlink/installation)
+3. [WCW](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/installation)
+
+
 #### 1. Installing via Unity Package Manager (UPM).
 
 In your Unity project:
