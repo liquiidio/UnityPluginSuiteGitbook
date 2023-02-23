@@ -18,7 +18,7 @@ _**EosSharp**_
 
 _EosSharp is not contained in this Package_ and no matter which installation method you choose, you _have to install it manually_ in addition to this Package. \
 \
-If you havn't already installed it please follow the instructions in the section for EosSharp of this GitBook.
+If you havn't already installed it please follow the instructions in the section for [EosSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation ) of this GitBook.
 
 #### 1. Installing via Unity Package Manager (UPM).
 
