@@ -34,6 +34,7 @@ If you havn't already installed the above dependencies please follow the instruc
 
 3.[WCW](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/installation)
 
+***
 
 #### 1. Installing via Unity Package Manager (UPM).
 
