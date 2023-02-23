@@ -5,7 +5,7 @@ _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_
 This package can be included into your project by either:
 
 1. Installing the package via Unity's Package Manager (UPM) in the editor (recommended).
-2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest/download/universalauthenticatorlibrarysharp.unitypackage).
+2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest/download/universalauthenticatorlibrarysharp.unitypackage). 
 3. Manually add the files from the repo.
 
 **Dependencies**
@@ -24,31 +24,9 @@ _**WaxCLoudWallet (WCW)**_
 
 A combination of local HttpListeners receiving OAuth-Callbacks from WCW-related web-adresses opened through the WebView-Plugin, gathering necessary initial information like OAuth-Tokens, followed by regular non-browser-based (non-WebView required) communication with the WCW-API/Server.
 
-_None of the dependencies is contained in this Package_ and no matter which installation method you choose, you _have to install it manually_ in addition to this Package.\
+_None of the dependencies is contained in this Package_ and no matter which installation method you choose, you _have to install it manually_ in addition to this Package. \
 \
 If you havn't already installed the above dependencies please follow the instructions in the following sections on gitbook.
-
-
-
-<details>
-
-<summary>EosSharp</summary>
-
-
-
-Follow the Instructions in[ ](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)[EosSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)\
-\
-[_Or install the Package directly via UPM_](#user-content-fn-1)[^1]__
-
-Installing via Unity Package Manager (UPM).
-
-In your Unity project:
-
-1. Open the Package Manager Window/Tab
-2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/liquiidio/EosSharp-Private.git#upm`
-
-</details>
 
 1.[EosSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)
 
@@ -64,15 +42,15 @@ In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL:
+3. Enter URL: 
 
-`https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp.git#upm`
+`https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp.git#upm` 
 
 ***
 
 #### 2. Importing the Unity Package.
 
-Download the [UnityPackage here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest/download/universalauthenticatorlibrarysharp.unitypackage).
+Download the [UnityPackage here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest/download/universalauthenticatorlibrarysharp.unitypackage). 
 
 Then in your Unity project:
 
@@ -86,9 +64,7 @@ Then in your Unity project:
 
 Download this [project here](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/releases/latest).
 
-* [zip](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.12.zip)
-* [tar.gz](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.12.tar.gz)
+  * [zip](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.12.zip)
+  * [tar.gz](https://github.com/liquiidio/UniversalAuthenticatorLibrarySharp/archive/refs/tags/1.0.12.tar.gz) 
 
 Then in your Unity project, copy the sources from `UniversalAuthenticatorLibrarySharp` into your Unity `Assets` directory.
-
-[^1]: 
