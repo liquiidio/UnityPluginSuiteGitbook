@@ -8,7 +8,7 @@ This package can be included into your project by either:
 2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/WcwUnityWebGl/releases/latest/download/wcwunity.unitypackage).
 3. Manually add the files from the repo.
 
-*Dependencies**
+**Dependencies**
 
 _**EosSharp**_
 
