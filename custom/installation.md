@@ -17,13 +17,13 @@ _**EosSharp**_
 3. Lastly it contains the functionallity allowing you and the AnchorLink-Library to access EOSIO or LEAP-based Nodes via their APIs.
 
 _EosSharp is not contained in this Package_ and no matter which installation method you choose, you _have to install it manually_ in addition to this Package. \
-\
+
 
 _**AnchorLinkSharp**_
 
 Allows users and developers to connect and communicate with Anchor Wallet and ESR-based applications. The Anchor & ESR Integration consists of multiple libraries for the ESR-Protocol, the Anchor-integration, Transports among others.
 
-If you havn't already installed the above dependencies please follow the instructions in ethe EosSharp and AnchorLinkSharp sections of this GitBook.
+If you havn't already installed the above dependencies please follow the instructions in the EosSharp and AnchorLinkSharp sections of this GitBook.
 
 #### 1. Installing via Unity Package Manager (UPM).
 
