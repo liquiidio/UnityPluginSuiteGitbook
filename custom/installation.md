@@ -32,7 +32,13 @@ If you havn't already installed the above dependencies please follow the instruc
 
 <details>
 
-<summary>EosSharp<br><br>Follow the Instructions in<a href="https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation"> </a><a href="https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation">EosSharp</a><br><br><a data-footnote-ref href="#user-content-fn-1"><em>Or install the Package directly via UPM</em></a><em></em></summary>
+<summary>EosSharp</summary>
+
+
+
+Follow the Instructions in[ ](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)[EosSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)\
+\
+[_Or install the Package directly via UPM_](#user-content-fn-1)[^1]__
 
 Installing via Unity Package Manager (UPM).
 
