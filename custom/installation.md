@@ -28,11 +28,11 @@ _None of the dependencies is contained in this Package_ and no matter which inst
 \
 If you havn't already installed the above dependencies please follow the instructions in the following sections on gitbook.
 
-1 .[EosSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)
+1.[EosSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)
 
-2. [AnchorLinkSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/anchorlink/installation)
+2.[AnchorLinkSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/anchorlink/installation)
 
-3. [WCW](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/installation)
+3.[WCW](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/installation)
 
 
 #### 1. Installing via Unity Package Manager (UPM).
