@@ -32,7 +32,7 @@ _None of the dependencies is contained in this Package_ and no matter which inst
  
  
  
-Follow the Instructions in [ ](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)[*EosSharp*](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)\
+Follow the Instructions in [ ] (https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)[*EosSharp*](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)\
  \
 __Or install the Package directly via UPM__
   
