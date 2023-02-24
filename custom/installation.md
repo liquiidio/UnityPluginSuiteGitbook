@@ -20,19 +20,33 @@ _**AnchorLinkSharp**_
 
 Allows users and developers to connect and communicate with Anchor Wallet and ESR-based applications. The Anchor & ESR Integration consists of multiple libraries for the ESR-Protocol, the Anchor-integration, Transports among others.
 
-_**WaxCLoudWallet (WCW)**_
+_**WaxCloudWallet (WCW)**_
 
 A combination of local HttpListeners receiving OAuth-Callbacks from WCW-related web-adresses opened through the WebView-Plugin, gathering necessary initial information like OAuth-Tokens, followed by regular non-browser-based (non-WebView required) communication with the WCW-API/Server.
 
 _None of the dependencies is contained in this Package_ and no matter which installation method you choose, you _have to install it manually_ in addition to this Package. \
 \
-If you havn't already installed the above dependencies please follow the instructions in the following sections on gitbook.
+<details>
 
-1.[EosSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)
+<summary>EosSharp package installation</summary>
+ 
+ 
+ 
+Follow the Instructions in [ ](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)[*EosSharp*](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)\
+ \
+__Or install the Package directly via UPM__
+  
+Installing via Unity Package Manager (UPM).
 
-2.[AnchorLinkSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/anchorlink/installation)
+In your Unity project:
 
-3.[WCW](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/installation)
+1. Open the Package Manager Window/Tab
+2. Click Add Package From Git URL
+3. Enter URL: `https://github.com/liquiidio/EosSharp-Private.git#upm`
+
+</details>
+
+
 
 ***
 
