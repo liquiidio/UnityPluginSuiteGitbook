@@ -67,6 +67,27 @@ In your Unity project:
 
 </details>
 
+
+<details>
+
+<summary>WCW package installation</summary>
+ 
+ 
+ 
+Follow the Instructions in [ ](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/installation)[*WCW*](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/installation)\
+ \
+__Or install the Package directly via UPM__
+  
+Installing via Unity Package Manager (UPM).
+
+In your Unity project:
+
+1. Open the Package Manager Window/Tab
+2. Click Add Package From Git URL
+3. Enter URL: `https://github.com/liquiidio/WcwUnityWebGl.git#upm`
+
+</details>
+
 ***
 
 #### 1. Installing via Unity Package Manager (UPM).
