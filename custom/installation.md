@@ -32,7 +32,7 @@ _None of the dependencies is contained in this Package_ and no matter which inst
  
  
  
-Follow the Instructions in [ ] (https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)[*EosSharp*](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)\
+Follow the Instructions in [ ](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)[*EosSharp*](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)\
  \
 __Or install the Package directly via UPM__
   
@@ -47,6 +47,25 @@ In your Unity project:
 </details>
 
 
+<details>
+
+<summary>AnchorLinkSharp package installation</summary>
+ 
+ 
+ 
+Follow the Instructions in [ ](https://liquiidio.gitbook.io/unity-plugin-suite/v/anchorlink/installation)[*AnchorLinkSharp*](https://liquiidio.gitbook.io/unity-plugin-suite/v/anchorlink/installation)\
+ \
+__Or install the Package directly via UPM__
+  
+Installing via Unity Package Manager (UPM).
+
+In your Unity project:
+
+1. Open the Package Manager Window/Tab
+2. Click Add Package From Git URL
+3. Enter URL: `https://github.com/liquiidio/EosSharp-Private.git#upm`
+
+</details>
 
 ***
 
