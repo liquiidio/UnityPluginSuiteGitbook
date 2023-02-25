@@ -10,21 +10,13 @@ This package can be included into your project by either:
 
 **Dependencies**
 
+_None of the dependencies is contained in this Package_ and no matter which installation method you choose, you _have to install it manually_ in addition to this Package.
+
 _**EosSharp**_
 
 1. EosSharp is a library containing the necessary functionallity to serialize and deserialize Actions, Transactions, Blocks and other Data
 2. In addition it contains the necessary functionallity for all kinds of cryptographic operations
 3. Lastly it contains the functionallity allowing you and the AnchorLink-Library to access EOSIO or LEAP-based Nodes via their APIs.
-
-_**AnchorLinkSharp**_
-
-Allows users and developers to connect and communicate with Anchor Wallet and ESR-based applications. The Anchor & ESR Integration consists of multiple libraries for the ESR-Protocol, the Anchor-integration, Transports among others.
-
-_**WaxCloudWallet (WCW)**_
-
-A combination of local HttpListeners receiving OAuth-Callbacks from WCW-related web-adresses opened through the WebView-Plugin, gathering necessary initial information like OAuth-Tokens, followed by regular non-browser-based (non-WebView required) communication with the WCW-API/Server.
-
-_None of the dependencies is contained in this Package_ and no matter which installation method you choose, you _have to install it manually_ in addition to this Package. 
 
 <details>
 
@@ -46,6 +38,9 @@ In your Unity project:
 
 </details>
 
+_**AnchorLinkSharp**_
+
+Allows users and developers to connect and communicate with Anchor Wallet and ESR-based applications. The Anchor & ESR Integration consists of multiple libraries for the ESR-Protocol, the Anchor-integration, Transports among others.
 
 <details>
 
@@ -67,8 +62,11 @@ In your Unity project:
 
 </details>
 
+_**WaxCloudWallet (WCW)**_
 
-<details>
+A combination of local HttpListeners receiving OAuth-Callbacks from WCW-related web-adresses opened through the WebView-Plugin, gathering necessary initial information like OAuth-Tokens, followed by regular non-browser-based (non-WebView required) communication with the WCW-API/Server.
+
+ <details>
 
 <summary>WCW package installation</summary>
  
