@@ -20,6 +20,11 @@ _EosSharp is not contained in this Package_ and no matter which installation met
 \
 If you havn't already installed it please follow the instructions in the section for [EosSharp](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation ) of this GitBook.
 
+_**NativeWebsocket**_
+
+WebSocket is a protocol that allows for real-time, two-way communication between a client and a server over a single, long-lived TCP connection.
+You can get installation instructions from this [link](https://github.com/endel/NativeWebSocket) 
+
 #### 1. Installing via Unity Package Manager (UPM).
 
 In your Unity project:
