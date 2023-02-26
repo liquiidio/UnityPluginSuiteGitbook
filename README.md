@@ -12,6 +12,6 @@ Endpoints have their own set of parameters that you may build up and pass in to 
 
 Open the Link to the Demo Application below
 
-{% embed url="https://noodles.lol/gitbook/Hyperion%20UiToolKit%20WebGL%202021.x/" %}
+{% embed url="https://api.wax-test.liquidstudios.io/webgl/HyperionUnityUiToolKit/" %}
 Hyperion History Demo
 {% endembed %}
