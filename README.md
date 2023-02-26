@@ -7,10 +7,10 @@ A native integration compatible with Unity3D and C# allowing users and developer
 Open each of the links to test one of the AnchorLink demo applications below:
 
 
-{% embed url="https://noodles.lol/gitbook/Anchor%20Canvas%20WebGL%202021.x/" %}
+{% embed url="https://api.wax-test.liquidstudios.io/webgl/AnchorUnityCanvas/" %}
 AnchorLink Canvas Demo
 {% endembed %}
 
-{% embed url="https://noodles.lol/gitbook/Anchor%20UiToolkit%20WebGL%202021.x/" %}
+{% embed url="https://api.wax-test.liquidstudios.io/webgl/AnchorUnityCanvas/" %}
 AnchorLink UiToolkit Demo
 {% endembed %}
