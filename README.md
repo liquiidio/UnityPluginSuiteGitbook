@@ -12,6 +12,6 @@ Each endpoint has its own set of parameters that you may build up and pass in to
 
 Open the Link to the Demo Application below
 
-{% embed url="https://noodles.lol/gitbook/AtomicMarket%20UiToolKit%20WebGL%202021.x/" %}
+{% embed url="https://api.wax-test.liquidstudios.io/webgl/AtomicMarketUnityUiToolKit/" %}
 Atomic Market Demo
 {% endembed %}
