@@ -6,7 +6,7 @@ A combination of local HttpListeners receiving OAuth-Callbacks from WCW-related 
 
 Open the Link to the Demo Application below:
 
-{% embed url="https://noodles.lol/gitbook/WCW%20WebGL%202021.x/" %}
+{% embed url="https://api.wax-test.liquidstudios.io/webgl/WCWUnityUiToolkit/" %}
 
 
 
