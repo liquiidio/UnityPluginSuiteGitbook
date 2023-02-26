@@ -12,6 +12,6 @@
 
 Open the Link to the Demo Application below
 
-{% embed url="https://noodles.lol/gitbook/AtomicAssets%20UiToolKit%20WebGL%202021.x/" %}
+{% embed url="https://api.wax-test.liquidstudios.io/webgl/AtomicAssetsUnityUiToolKit/" %}
 Atomic Assets Demo
 {% endembed %}
