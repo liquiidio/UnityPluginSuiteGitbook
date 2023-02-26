@@ -7,10 +7,10 @@ A native UAL allowing the use of supported SignatureProviders, similar to the js
 Open the Link to one of the Demo Application below:
 
 
-{% embed url="https://noodles.lol/gitbook/UAL%20Canvas%20WebGL%202021.x/" %}
+{% embed url="https://api.wax-test.liquidstudios.io/webgl/UALUnityCanvas/" %}
 Authenticator Library Canvas Demo
 {% endembed %}
 
-{% embed url="https://noodles.lol/gitbook/UAL%20UiToolkit%20WebGL%202021.x/" %}
+{% embed url="https://api.wax-test.liquidstudios.io/webgl/UALUnityUiToolkit/" %}
 Authenticator Library UiToolkit Demo
 {% endembed %}
