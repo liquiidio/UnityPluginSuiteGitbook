@@ -1,6 +1,6 @@
 # page `md_README` 
 
-[](https://github.com/liquiidio/AtomicAssetsApiClient-Private/actions/workflows/dotnet-build.yml)[](https://github.com/liquiidio/AtomicAssetsApiClient-Private/actions/workflows/dotnet-test.yml)
+[](https://github.com/liquiidio/AtomicAssetsApiClient-Private/actions/workflows/build.yml)[](https://github.com/liquiidio/AtomicAssetsApiClient-Private/actions/workflows/test.yml)[](https://github.com/liquiidio/AtomicAssetsApiClient-Private/actions/workflows/docs.yml)[](https://github.com/liquiidio/AtomicAssetsApiClient-Private/actions/workflows/deploy.yml)
 
 One Paragraph of the package description/overview. Reference any services and additional sources used by the package .Can be a link
 
