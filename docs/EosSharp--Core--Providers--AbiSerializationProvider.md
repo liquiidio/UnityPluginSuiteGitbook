@@ -327,18 +327,18 @@ Deserialize type by binary data, ref readIndex.
 ##### `public byte[] ` [`Serialize`](#class_eos_sharp_1_1_core_1_1_providers_1_1_abi_serialization_provider_1a2919381e8f0160aa4bbb440bd951a183)`(object value, string type)` 
 
 #### Parameters
-* `value` object to pack
+* `action` action to pack
 
-* `type` abi-type (base-type) used for serialization
+* `abi` abi schema to look action structure
 
 #### Returns
 
 ##### `public T ` [`Deserialize< T >`](#class_eos_sharp_1_1_core_1_1_providers_1_1_abi_serialization_provider_1a445d5a518f2460cc3c78e0c15a1178fc)`(byte[] value, string type)` 
 
 #### Parameters
-* `value` bytes to unpack
+* `action` action to pack
 
-* `type` abi-type (base-type) used for deserialization
+* `abi` abi schema to look action structure
 
 #### Returns
 

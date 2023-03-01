@@ -31,10 +31,6 @@ Client wrapper to interact with eos blockchains.
 `public async Task< string > ` [`CreateTransaction`](#class_eos_sharp_1_1_core_1_1_eos_base_1acaabbb4670c2779fc9f009e50fdc4ad4)`(` [`Transaction`](EosSharp--Core--Api--v1--Transaction.md)` trx, List< string > requiredKeys)` | Creates a signed transaction using the signature provider and broadcasts it to the network.
 `public async Task< ` [`SignedTransaction`](EosSharp--Core--SignedTransaction.md)` > ` [`SignTransaction`](#class_eos_sharp_1_1_core_1_1_eos_base_1acb01e94f7d13631730aa8e1bea115c1a)`(` [`Transaction`](EosSharp--Core--Api--v1--Transaction.md)` trx, List< string > requiredKeys)` | Creates a signed transaction using the signature provider.
 `public async Task< string > ` [`BroadcastTransaction`](#class_eos_sharp_1_1_core_1_1_eos_base_1aeb354dd36b81b44501dfd198e5ec6316)`(` [`SignedTransaction`](EosSharp--Core--SignedTransaction.md)` strx)` | Broadcast signed transaction to the network.
-`public Task< ` [`GetActionsResponse`](EosSharp--Core--Api--v1--GetActionsResponse.md)` > ` [`GetActions`](#class_eos_sharp_1_1_core_1_1_eos_base_1aa5ac98fd11b1554d9de72534e5860e31)`(string accountName, Int32 pos, Int32 offset)` | Query for account actions log.
-`public Task< ` [`GetTransactionResponse`](EosSharp--Core--Api--v1--GetTransactionResponse.md)` > ` [`GetTransaction`](#class_eos_sharp_1_1_core_1_1_eos_base_1a719b040ac427c7cacd65ff67f66279f9)`(string transactionId, UInt32? blockNumberHint)` | Query transaction information.
-`public async Task< List< string > > ` [`GetKeyAccounts`](#class_eos_sharp_1_1_core_1_1_eos_base_1a299509fb41993013eb49c38341e3cebc)`(string publicKey)` | Query public key accounts.
-`public async Task< List< string > > ` [`GetControlledAccounts`](#class_eos_sharp_1_1_core_1_1_eos_base_1a8174c1396340fe8f56749fd0e1a67284)`(string accountName)` | Query controlled accounts by a given account.
 
 ## Members
 
@@ -317,47 +313,4 @@ Broadcast signed transaction to the network.
 * `strx` Signed transaction to send
 
 #### Returns
-
-##### `public Task< ` [`GetActionsResponse`](EosSharp--Core--Api--v1--GetActionsResponse.md)` > ` [`GetActions`](#class_eos_sharp_1_1_core_1_1_eos_base_1aa5ac98fd11b1554d9de72534e5860e31)`(string accountName, Int32 pos, Int32 offset)` 
-
-Query for account actions log.
-
-#### Parameters
-* `accountName` account to query information
-
-* `pos` Absolute sequence positon -1 is the end/last action
-
-* `offset` Number of actions relative to pos, negative numbers return [pos-offset,pos), positive numbers return [pos,pos+offset)
-
-#### Returns
-
-##### `public Task< ` [`GetTransactionResponse`](EosSharp--Core--Api--v1--GetTransactionResponse.md)` > ` [`GetTransaction`](#class_eos_sharp_1_1_core_1_1_eos_base_1a719b040ac427c7cacd65ff67f66279f9)`(string transactionId, UInt32? blockNumberHint)` 
-
-Query transaction information.
-
-#### Parameters
-* `transactionId` transaction id
-
-#### Returns
-Transaction information
-
-##### `public async Task< List< string > > ` [`GetKeyAccounts`](#class_eos_sharp_1_1_core_1_1_eos_base_1a299509fb41993013eb49c38341e3cebc)`(string publicKey)` 
-
-Query public key accounts.
-
-#### Parameters
-* `publicKey` public key
-
-#### Returns
-account names
-
-##### `public async Task< List< string > > ` [`GetControlledAccounts`](#class_eos_sharp_1_1_core_1_1_eos_base_1a8174c1396340fe8f56749fd0e1a67284)`(string accountName)` 
-
-Query controlled accounts by a given account.
-
-#### Parameters
-* `accountName` account name to search
-
-#### Returns
-controlled account names
 
