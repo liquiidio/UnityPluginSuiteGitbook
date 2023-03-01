@@ -1,6 +1,6 @@
 # class `EosioSigningRequest::CallbackPayload` 
 
-The callback payload sent to background callbacks.
+Interface that should be implemented by signature providers. The callback payload sent to background callbacks.
 
 ## Summary
 

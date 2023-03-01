@@ -5,7 +5,7 @@
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `enum ` [`LinkErrorCode`](#namespace_anchor_link_sharp_1a92a85044068cecc9fbc18797e0626208)            | 
-`class ` [`AnchorLink`](AnchorLinkSharp--AnchorLink.md) | Main class
+`class ` [`AnchorLink`](AnchorLinkSharp--AnchorLink.md) | Main class, also exposed as the default export of the library.
 `class ` [`CancelException`](AnchorLinkSharp--CancelException.md) | Error that is thrown if a [[LinkTransport]] cancels a request.
 `class ` [`ChannelInfo`](AnchorLinkSharp--ChannelInfo.md) | 
 `class ` [`Defaults`](AnchorLinkSharp--Defaults.md) | 

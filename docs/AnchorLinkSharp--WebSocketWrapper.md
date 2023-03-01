@@ -1,34 +1,62 @@
 # class `AnchorLinkSharp::WebSocketWrapper` 
 
-```
-class AnchorLinkSharp::WebSocketWrapper
-  : public MonoBehaviour
-```
-
 ## Summary
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`WebSocketState`](#_web_socket_wrapper_8cs_1aefe3afdd4c2b88cd158ba997c662022b)` ` [`State`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a966c24306ddaffe83224776895135d4b) | 
-`public async Task ` [`Create`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a86442c5776c9c701b69b9a1b89e2d331)`(string uri)` | Creates a new instance.
+`public WebSocketState ` [`State`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a966c24306ddaffe83224776895135d4b) | 
+`public ` [`WebSocketWrapper`](#class_anchor_link_sharp_1_1_web_socket_wrapper)` ` [`Connect`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a685fe2391fd8db666828b323207df232)`()` | Connects to the WebSocket server.
+`public void ` [`SendMessage`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a92dca680c62360c29da6980d9a622179)`(string message)` | Send a message to the WebSocket server.
 `public async Task ` [`ConnectAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a86bd3880fbaf34bd7945302f2ae8c34d)`()` | 
-`public async Task ` [`CloseAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a60f282781ac602de720e4742a9dc376e)`()` | 
-`public void ` [`Clear`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1aa71d36872f416feaa853788a7a7a7ef8)`()` | 
-`private string ` [`_uri`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a7ebc558df19b9e661a58ea51ee2aa499) | 
-`private bool ` [`_newRequest`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a60a6687fdd89a49fcb64541f433b94b9) | 
-`private void ` [`Update`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1aec0783b5a136e042adcc47bae4fe5291)`()` | 
-`private void ` [`WebSocketOnOnError`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a2fee57c376761a906e3f2b3c6a9e74cd)`(string errormsg)` | 
-`private void ` [`WebSocketOnOpen`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1ad2c18ea2e10ce78f71a17520f4a20606)`()` | 
-`private void ` [`WebSocketOnOnClose`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1ae48ff1a243aa4dea6a13ab7ee6d9baa2)`(WebSocketCloseCode closeCode)` | 
-`private void ` [`WebSocketOnMessageReceived`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1aa54325c796772820ef651bf820408886)`(byte[] data)` | 
-`private async void ` [`OnDisable`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a07442cbc23615cbf9ff556b3c144119c)`()` | 
-`private async void ` [`OnApplicationQuit`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1ad62c6267dac9b36be1d8bec9370b3297)`()` | 
+`public async Task ` [`ConnectAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a7fa650ba674d361ff90f08ba20f8c5b0)`(CancellationToken cts)` | 
+`public async Task ` [`CloseAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1aef23671d9ac826feac12e827928df001)`(WebSocketCloseStatus closeStatus, string statusDescription, CancellationToken clt) = default` | 
+`protected ` [`WebSocketWrapper`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1ab7556e1ee8352871126230d9ad5310da)`(string uri)` | 
+`private readonly ClientWebSocket ` [`_ws`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a0077728dcd210864ec15bb6f56df9397) | 
+`private readonly Uri ` [`_uri`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1adc5dbdbb8e36afb4cdcfd681b7d22a5e) | 
+`private readonly CancellationTokenSource ` [`_cancellationTokenSource`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a7497c35e8b85c6d0820a9e9800ca8da6)`= new CancellationTokenSource()` | 
+`private readonly CancellationToken ` [`_cancellationToken`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1ae75f89cd3db480a08927706bf42509b3) | 
+`private async void ` [`SendMessageAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a414b7797f81f24b83912f5ddd7f33e2a)`(string message)` | 
+`private async void ` [`StartListen`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a1b8970fc1ba94268efe3be921f1798d8)`()` | 
+`public static ` [`WebSocketWrapper`](#class_anchor_link_sharp_1_1_web_socket_wrapper)` ` [`Create`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a5d6a17bcf371d6b967d7cd51a523b601)`(string uri)` | Creates a new instance.
 
 ## Members
 
-##### `public ` [`WebSocketState`](#_web_socket_wrapper_8cs_1aefe3afdd4c2b88cd158ba997c662022b)` ` [`State`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a966c24306ddaffe83224776895135d4b) 
+##### `public WebSocketState ` [`State`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a966c24306ddaffe83224776895135d4b) 
 
-##### `public async Task ` [`Create`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a86442c5776c9c701b69b9a1b89e2d331)`(string uri)` 
+##### `public ` [`WebSocketWrapper`](#class_anchor_link_sharp_1_1_web_socket_wrapper)` ` [`Connect`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a685fe2391fd8db666828b323207df232)`()` 
+
+Connects to the WebSocket server.
+
+#### Returns
+
+##### `public void ` [`SendMessage`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a92dca680c62360c29da6980d9a622179)`(string message)` 
+
+Send a message to the WebSocket server.
+
+#### Parameters
+* `message` The message to send
+
+##### `public async Task ` [`ConnectAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a86bd3880fbaf34bd7945302f2ae8c34d)`()` 
+
+##### `public async Task ` [`ConnectAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a7fa650ba674d361ff90f08ba20f8c5b0)`(CancellationToken cts)` 
+
+##### `public async Task ` [`CloseAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1aef23671d9ac826feac12e827928df001)`(WebSocketCloseStatus closeStatus, string statusDescription, CancellationToken clt) = default` 
+
+##### `protected ` [`WebSocketWrapper`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1ab7556e1ee8352871126230d9ad5310da)`(string uri)` 
+
+##### `private readonly ClientWebSocket ` [`_ws`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a0077728dcd210864ec15bb6f56df9397) 
+
+##### `private readonly Uri ` [`_uri`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1adc5dbdbb8e36afb4cdcfd681b7d22a5e) 
+
+##### `private readonly CancellationTokenSource ` [`_cancellationTokenSource`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a7497c35e8b85c6d0820a9e9800ca8da6)`= new CancellationTokenSource()` 
+
+##### `private readonly CancellationToken ` [`_cancellationToken`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1ae75f89cd3db480a08927706bf42509b3) 
+
+##### `private async void ` [`SendMessageAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a414b7797f81f24b83912f5ddd7f33e2a)`(string message)` 
+
+##### `private async void ` [`StartListen`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a1b8970fc1ba94268efe3be921f1798d8)`()` 
+
+##### `public static ` [`WebSocketWrapper`](#class_anchor_link_sharp_1_1_web_socket_wrapper)` ` [`Create`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a5d6a17bcf371d6b967d7cd51a523b601)`(string uri)` 
 
 Creates a new instance.
 
@@ -36,28 +64,4 @@ Creates a new instance.
 * `uri` The URI of the WebSocket server.
 
 #### Returns
-
-##### `public async Task ` [`ConnectAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a86bd3880fbaf34bd7945302f2ae8c34d)`()` 
-
-##### `public async Task ` [`CloseAsync`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a60f282781ac602de720e4742a9dc376e)`()` 
-
-##### `public void ` [`Clear`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1aa71d36872f416feaa853788a7a7a7ef8)`()` 
-
-##### `private string ` [`_uri`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a7ebc558df19b9e661a58ea51ee2aa499) 
-
-##### `private bool ` [`_newRequest`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a60a6687fdd89a49fcb64541f433b94b9) 
-
-##### `private void ` [`Update`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1aec0783b5a136e042adcc47bae4fe5291)`()` 
-
-##### `private void ` [`WebSocketOnOnError`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a2fee57c376761a906e3f2b3c6a9e74cd)`(string errormsg)` 
-
-##### `private void ` [`WebSocketOnOpen`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1ad2c18ea2e10ce78f71a17520f4a20606)`()` 
-
-##### `private void ` [`WebSocketOnOnClose`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1ae48ff1a243aa4dea6a13ab7ee6d9baa2)`(WebSocketCloseCode closeCode)` 
-
-##### `private void ` [`WebSocketOnMessageReceived`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1aa54325c796772820ef651bf820408886)`(byte[] data)` 
-
-##### `private async void ` [`OnDisable`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1a07442cbc23615cbf9ff556b3c144119c)`()` 
-
-##### `private async void ` [`OnApplicationQuit`](#class_anchor_link_sharp_1_1_web_socket_wrapper_1ad62c6267dac9b36be1d8bec9370b3297)`()` 
 
