@@ -1,6 +1,6 @@
 # page `md_README` 
 
-[](https://github.com/liquiidio/AtomicAssetsApiClient-Private/actions/workflows/dotnet-build.yml)[](https://github.com/liquiidio/AtomicAssetsApiClient-Private/actions/workflows/dotnet-test.yml)
+[](https://github.com/liquiidio/AtomicMarketApiClient-Private/actions/workflows/build.yml)[](https://github.com/liquiidio/AtomicMarketApiClient-Private/actions/workflows/test.yml)[](https://github.com/liquiidio/AtomicMarketApiClient-Private/actions/workflows/docs.yml)[](https://github.com/liquiidio/AtomicMarketApiClient-Private/actions/workflows/deploy.yml)
 
 ## AtomicMarketApiClient
 AtomicMarketApiClient.NET and Unity3D-compatible (Desktop, Mobile, WebGL) ApiClient for AtomicMarket
