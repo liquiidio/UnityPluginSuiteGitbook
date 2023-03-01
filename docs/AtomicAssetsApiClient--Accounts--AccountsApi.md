@@ -4,11 +4,12 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`AccountsDto`](AtomicAssetsApiClient--Accounts--AccountsDto.md)` ` [`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` | It returns a list of accounts.
-`public ` [`AccountsDto`](AtomicAssetsApiClient--Accounts--AccountsDto.md)` ` [`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a21b62093a68ab5c18774ae77add176ff)`(` [`AccountsUriParameterBuilder`](AtomicAssetsApiClient--Accounts--AccountsUriParameterBuilder.md)` accountsUriParameterBuilder)` | It returns a list of accounts.
-`public ` [`AccountDto`](AtomicAssetsApiClient--Accounts--AccountDto.md)` ` [`Account`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a5ac6ce36569f4531d3efc6976bd2d10d)`(string accountName)` | This function will return an AccountDto object if the API call is successful, otherwise it will throw an exception.
-`public ` [`AccountCollectionDto`](AtomicAssetsApiClient--Accounts--AccountCollectionDto.md)` ` [`Collection`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1ab3df414a63bbd8b27455e4dd5a3a3e93)`(string accountName, string collectionName)` | This function will return an AccountCollectionDto object if the request is successful.
+`public async Task< ` [`AccountsDto`](AtomicAssetsApiClient--Accounts--AccountsDto.md)` > ` [`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1aea06c946a7e9ab7bdc8905119ecc63c0)`()` | It returns a list of accounts.
+`public async Task< ` [`AccountsDto`](AtomicAssetsApiClient--Accounts--AccountsDto.md)` > ` [`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1ad6c785c1b99d390972b34252bb0155b7)`(` [`AccountsUriParameterBuilder`](AtomicAssetsApiClient--Accounts--AccountsUriParameterBuilder.md)` accountsUriParameterBuilder)` | It returns a list of accounts.
+`public async Task< ` [`AccountDto`](AtomicAssetsApiClient--Accounts--AccountDto.md)` > ` [`Account`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a4c91d7d96b009be33c49b89148e7d2de)`(string accountName)` | This function will return an AccountDto object if the API call is successful, otherwise it will throw an exception.
+`public async Task< ` [`AccountCollectionDto`](AtomicAssetsApiClient--Accounts--AccountCollectionDto.md)` > ` [`Collection`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1af3d365615d7e8640e59523ed01031dd8)`(string accountName, string collectionName)` | This function will return an AccountCollectionDto object if the request is successful.
 `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a1854c4909a1013a684af16fb52e8a387) | 
+`private readonly ` [`IHttpHandler`](AtomicAssetsApiClient.md)` ` [`_httpHandler`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a278528cd3027ee0a4ca8e04964f99674) | 
 `private Uri ` [`AccountsUri`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a5e08d8ac1bf0710cd7d921b3102965bd)`()` | It returns a URI for the accounts endpoint.
 `private Uri ` [`AccountsUri`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1afca248f16f36e27bbfb8749031ed2b2b)`(` [`AccountsUriParameterBuilder`](AtomicAssetsApiClient--Accounts--AccountsUriParameterBuilder.md)` accountsUriParameterBuilder)` | It takes an `AccountsUriParameterBuilder` object and returns a `Uri` object.
 `private Uri ` [`AccountUri`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1ab2a03af57777e9423eee43615699a34f)`(string accountName)` | Given an account name, return a URI for the account.
@@ -16,14 +17,14 @@
 
 ## Members
 
-##### `public ` [`AccountsDto`](AtomicAssetsApiClient--Accounts--AccountsDto.md)` ` [`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a3cb498f35499fd037a88b3b1e37c2163)`()` 
+##### `public async Task< ` [`AccountsDto`](AtomicAssetsApiClient--Accounts--AccountsDto.md)` > ` [`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1aea06c946a7e9ab7bdc8905119ecc63c0)`()` 
 
 It returns a list of accounts.
 
 #### Returns
 A list of accounts
 
-##### `public ` [`AccountsDto`](AtomicAssetsApiClient--Accounts--AccountsDto.md)` ` [`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a21b62093a68ab5c18774ae77add176ff)`(` [`AccountsUriParameterBuilder`](AtomicAssetsApiClient--Accounts--AccountsUriParameterBuilder.md)` accountsUriParameterBuilder)` 
+##### `public async Task< ` [`AccountsDto`](AtomicAssetsApiClient--Accounts--AccountsDto.md)` > ` [`Accounts`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1ad6c785c1b99d390972b34252bb0155b7)`(` [`AccountsUriParameterBuilder`](AtomicAssetsApiClient--Accounts--AccountsUriParameterBuilder.md)` accountsUriParameterBuilder)` 
 
 It returns a list of accounts.
 
@@ -33,7 +34,7 @@ It returns a list of accounts.
 #### Returns
 A list of accounts.
 
-##### `public ` [`AccountDto`](AtomicAssetsApiClient--Accounts--AccountDto.md)` ` [`Account`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a5ac6ce36569f4531d3efc6976bd2d10d)`(string accountName)` 
+##### `public async Task< ` [`AccountDto`](AtomicAssetsApiClient--Accounts--AccountDto.md)` > ` [`Account`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a4c91d7d96b009be33c49b89148e7d2de)`(string accountName)` 
 
 This function will return an AccountDto object if the API call is successful, otherwise it will throw an exception.
 
@@ -43,7 +44,7 @@ This function will return an AccountDto object if the API call is successful, ot
 #### Returns
 An AccountDto object
 
-##### `public ` [`AccountCollectionDto`](AtomicAssetsApiClient--Accounts--AccountCollectionDto.md)` ` [`Collection`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1ab3df414a63bbd8b27455e4dd5a3a3e93)`(string accountName, string collectionName)` 
+##### `public async Task< ` [`AccountCollectionDto`](AtomicAssetsApiClient--Accounts--AccountCollectionDto.md)` > ` [`Collection`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1af3d365615d7e8640e59523ed01031dd8)`(string accountName, string collectionName)` 
 
 This function will return an AccountCollectionDto object if the request is successful.
 
@@ -56,6 +57,8 @@ This function will return an AccountCollectionDto object if the request is succe
 An AccountCollectionDto object.
 
 ##### `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a1854c4909a1013a684af16fb52e8a387) 
+
+##### `private readonly ` [`IHttpHandler`](AtomicAssetsApiClient.md)` ` [`_httpHandler`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a278528cd3027ee0a4ca8e04964f99674) 
 
 ##### `private Uri ` [`AccountsUri`](#class_atomic_assets_api_client_1_1_accounts_1_1_accounts_api_1a5e08d8ac1bf0710cd7d921b3102965bd)`()` 
 

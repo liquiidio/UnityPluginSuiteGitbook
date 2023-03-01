@@ -4,24 +4,25 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`BurnsDto`](AtomicAssetsApiClient--Burns--BurnsDto.md)` ` [`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a2e4454210656355fc68d2fd454cf75ad)`()` | This function will make a GET request to the Burns endpoint and return the response as a BurnsDto object.
-`public ` [`BurnsDto`](AtomicAssetsApiClient--Burns--BurnsDto.md)` ` [`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a7f8383ecd99252b57d68ee3fe1372aac)`(` [`BurnsUriParameterBuilder`](AtomicAssetsApiClient--Burns--BurnsUriParameterBuilder.md)` burnsUriParameterBuilder)` | This function will return a BurnsDto object if the API call is successful. Otherwise, it will throw an exception.
-`public ` [`BurnDto`](AtomicAssetsApiClient--Burns--BurnDto.md)` ` [`Account`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a477590800625fbc1d4087ee8aec5350b)`(string accountName)` | It returns the burn amount for a given account.
+`public async Task< ` [`BurnsDto`](AtomicAssetsApiClient--Burns--BurnsDto.md)` > ` [`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1aea11e2893f206185acea9d97d7bd2d69)`()` | This function will make a GET request to the Burns endpoint and return the response as a BurnsDto object.
+`public async Task< ` [`BurnsDto`](AtomicAssetsApiClient--Burns--BurnsDto.md)` > ` [`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a89be84155d7887059f0e2680dc05f591)`(` [`BurnsUriParameterBuilder`](AtomicAssetsApiClient--Burns--BurnsUriParameterBuilder.md)` burnsUriParameterBuilder)` | This function will return a BurnsDto object if the API call is successful. Otherwise, it will throw an exception.
+`public async Task< ` [`BurnDto`](AtomicAssetsApiClient--Burns--BurnDto.md)` > ` [`Account`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a25b5748405e2a835ca1b0a0242621cb3)`(string accountName)` | It returns the burn amount for a given account.
 `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a1854c4909a1013a684af16fb52e8a387) | 
+`private readonly ` [`IHttpHandler`](AtomicAssetsApiClient.md)` ` [`_httpHander`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a9d6aefe5d22f75d6325426f4e58efe7a) | 
 `private Uri ` [`BurnsUri`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1ab7e0279e9f4a23c75ec9cd452b1cec78)`()` | This function returns a Uri object that represents the Burns endpoint
 `private Uri ` [`BurnsUri`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a72a4a0af9ef4fa0f42ca09627055ca9e)`(` [`BurnsUriParameterBuilder`](AtomicAssetsApiClient--Burns--BurnsUriParameterBuilder.md)` burnsUriParameterBuilder)` | It takes a BurnsUriParameterBuilder object and returns a Uri object.
 `private Uri ` [`BurnUri`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a4b9fa036cab638a320616ffc440c6eb3)`(string accountName)` | This function returns a URI that can be used to burn a specific account
 
 ## Members
 
-##### `public ` [`BurnsDto`](AtomicAssetsApiClient--Burns--BurnsDto.md)` ` [`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a2e4454210656355fc68d2fd454cf75ad)`()` 
+##### `public async Task< ` [`BurnsDto`](AtomicAssetsApiClient--Burns--BurnsDto.md)` > ` [`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1aea11e2893f206185acea9d97d7bd2d69)`()` 
 
 This function will make a GET request to the Burns endpoint and return the response as a BurnsDto object.
 
 #### Returns
 BurnsDto
 
-##### `public ` [`BurnsDto`](AtomicAssetsApiClient--Burns--BurnsDto.md)` ` [`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a7f8383ecd99252b57d68ee3fe1372aac)`(` [`BurnsUriParameterBuilder`](AtomicAssetsApiClient--Burns--BurnsUriParameterBuilder.md)` burnsUriParameterBuilder)` 
+##### `public async Task< ` [`BurnsDto`](AtomicAssetsApiClient--Burns--BurnsDto.md)` > ` [`Burns`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a89be84155d7887059f0e2680dc05f591)`(` [`BurnsUriParameterBuilder`](AtomicAssetsApiClient--Burns--BurnsUriParameterBuilder.md)` burnsUriParameterBuilder)` 
 
 This function will return a BurnsDto object if the API call is successful. Otherwise, it will throw an exception.
 
@@ -31,7 +32,7 @@ This function will return a BurnsDto object if the API call is successful. Other
 #### Returns
 A BurnsDto object.
 
-##### `public ` [`BurnDto`](AtomicAssetsApiClient--Burns--BurnDto.md)` ` [`Account`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a477590800625fbc1d4087ee8aec5350b)`(string accountName)` 
+##### `public async Task< ` [`BurnDto`](AtomicAssetsApiClient--Burns--BurnDto.md)` > ` [`Account`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a25b5748405e2a835ca1b0a0242621cb3)`(string accountName)` 
 
 It returns the burn amount for a given account.
 
@@ -42,6 +43,8 @@ It returns the burn amount for a given account.
 A BurnDto object
 
 ##### `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a1854c4909a1013a684af16fb52e8a387) 
+
+##### `private readonly ` [`IHttpHandler`](AtomicAssetsApiClient.md)` ` [`_httpHander`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1a9d6aefe5d22f75d6325426f4e58efe7a) 
 
 ##### `private Uri ` [`BurnsUri`](#class_atomic_assets_api_client_1_1_burns_1_1_burns_api_1ab7e0279e9f4a23c75ec9cd452b1cec78)`()` 
 

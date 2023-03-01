@@ -4,13 +4,14 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`SchemasDto`](AtomicAssetsApiClient--Schemas--SchemasDto.md)` ` [`Schemas`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1ab9e752b76dbad14f4940f2471db7e1c0)`()` | This function will return a `SchemasDto` object that contains a list of all the schemas that are available in the API.
-`public ` [`SchemasDto`](AtomicAssetsApiClient--Schemas--SchemasDto.md)` ` [`Schemas`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a1e653311a7a7b77065d37fda7c52aa66)`(` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` | This function will return a list of schemas that match the criteria specified in the `SchemasUriParameterBuilder` object.
-`public ` [`SchemaDto`](AtomicAssetsApiClient--Schemas--SchemaDto.md)` ` [`Schema`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a9474dd30438b70ef4f199b829e449c42)`(string collectionName, string schemaName)` | This function will return a schema object for the specified collection and schema name.
-`public ` [`StatsDto`](AtomicAssetsApiClient--StatsDto.md)` ` [`SchemaStats`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a54dfa68d9be1fd02b2b97e67c37be57b)`(string collectionName, string schemaName)` | It returns the stats of a schema.
-`public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`SchemaLogs`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a17158c4d15091467d59996c07a340b97)`(string collectionName, string schemaName)` | This function returns a list of logs for a specific schema.
-`public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`SchemaLogs`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a03d307684126064615e0b2a832a0b929)`(string collectionName, string schemaName, ` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` | This function returns a list of logs for a specific schema.
+`public async Task< ` [`SchemasDto`](AtomicAssetsApiClient--Schemas--SchemasDto.md)` > ` [`Schemas`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1ab9002abfbc07fb7dae114a66cabaac5a)`()` | This function will return a `SchemasDto` object that contains a list of all the schemas that are available in the API.
+`public async Task< ` [`SchemasDto`](AtomicAssetsApiClient--Schemas--SchemasDto.md)` > ` [`Schemas`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a44616d88205c7afa1496ca9e7a8df5f5)`(` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` | This function will return a list of schemas that match the criteria specified in the `SchemasUriParameterBuilder` object.
+`public async Task< ` [`SchemaDto`](AtomicAssetsApiClient--Schemas--SchemaDto.md)` > ` [`Schema`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1acb58c1d18d9c2f6a0aa54482fb64a4e3)`(string collectionName, string schemaName)` | This function will return a schema object for the specified collection and schema name.
+`public async Task< ` [`StatsDto`](AtomicAssetsApiClient--StatsDto.md)` > ` [`SchemaStats`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1ac17198710d41cfe90393f543c0a23cc9)`(string collectionName, string schemaName)` | It returns the stats of a schema.
+`public async Task< ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` > ` [`SchemaLogs`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1ab6aea7f4fbdffbbadd2e5956ffd0f77c)`(string collectionName, string schemaName)` | This function returns a list of logs for a specific schema.
+`public async Task< ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` > ` [`SchemaLogs`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a4188f706ceb39653d1e0f5123cbed790)`(string collectionName, string schemaName, ` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` | This function returns a list of logs for a specific schema.
 `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a1854c4909a1013a684af16fb52e8a387) | 
+`private readonly ` [`IHttpHandler`](AtomicAssetsApiClient.md)` ` [`_httpHandler`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a278528cd3027ee0a4ca8e04964f99674) | 
 `private Uri ` [`SchemasUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a1a498badf0002f7181835480737d5dd8)`()` | It returns a URI that points to the schemas endpoint.
 `private Uri ` [`SchemasUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a79bc27edb0e05705096dd6721a9a9e26)`(` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` | It takes a `SchemasUriParameterBuilder` object as a parameter, and returns a `Uri` object.
 `private Uri ` [`SchemaUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a591edd6511a415a8554155da1b7b6751)`(string collectionName, string schemaName)` | It returns a URI for a specific schema in a specific collection
@@ -20,14 +21,14 @@
 
 ## Members
 
-##### `public ` [`SchemasDto`](AtomicAssetsApiClient--Schemas--SchemasDto.md)` ` [`Schemas`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1ab9e752b76dbad14f4940f2471db7e1c0)`()` 
+##### `public async Task< ` [`SchemasDto`](AtomicAssetsApiClient--Schemas--SchemasDto.md)` > ` [`Schemas`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1ab9002abfbc07fb7dae114a66cabaac5a)`()` 
 
 This function will return a `SchemasDto` object that contains a list of all the schemas that are available in the API.
 
 #### Returns
 A SchemasDto object.
 
-##### `public ` [`SchemasDto`](AtomicAssetsApiClient--Schemas--SchemasDto.md)` ` [`Schemas`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a1e653311a7a7b77065d37fda7c52aa66)`(` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` 
+##### `public async Task< ` [`SchemasDto`](AtomicAssetsApiClient--Schemas--SchemasDto.md)` > ` [`Schemas`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a44616d88205c7afa1496ca9e7a8df5f5)`(` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` 
 
 This function will return a list of schemas that match the criteria specified in the `SchemasUriParameterBuilder` object.
 
@@ -37,7 +38,7 @@ This function will return a list of schemas that match the criteria specified in
 #### Returns
 A list of schemas.
 
-##### `public ` [`SchemaDto`](AtomicAssetsApiClient--Schemas--SchemaDto.md)` ` [`Schema`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a9474dd30438b70ef4f199b829e449c42)`(string collectionName, string schemaName)` 
+##### `public async Task< ` [`SchemaDto`](AtomicAssetsApiClient--Schemas--SchemaDto.md)` > ` [`Schema`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1acb58c1d18d9c2f6a0aa54482fb64a4e3)`(string collectionName, string schemaName)` 
 
 This function will return a schema object for the specified collection and schema name.
 
@@ -49,7 +50,7 @@ This function will return a schema object for the specified collection and schem
 #### Returns
 A SchemaDto object.
 
-##### `public ` [`StatsDto`](AtomicAssetsApiClient--StatsDto.md)` ` [`SchemaStats`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a54dfa68d9be1fd02b2b97e67c37be57b)`(string collectionName, string schemaName)` 
+##### `public async Task< ` [`StatsDto`](AtomicAssetsApiClient--StatsDto.md)` > ` [`SchemaStats`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1ac17198710d41cfe90393f543c0a23cc9)`(string collectionName, string schemaName)` 
 
 It returns the stats of a schema.
 
@@ -61,7 +62,7 @@ It returns the stats of a schema.
 #### Returns
 A StatsDto object
 
-##### `public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`SchemaLogs`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a17158c4d15091467d59996c07a340b97)`(string collectionName, string schemaName)` 
+##### `public async Task< ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` > ` [`SchemaLogs`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1ab6aea7f4fbdffbbadd2e5956ffd0f77c)`(string collectionName, string schemaName)` 
 
 This function returns a list of logs for a specific schema.
 
@@ -73,7 +74,7 @@ This function returns a list of logs for a specific schema.
 #### Returns
 A list of logs for the schema.
 
-##### `public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`SchemaLogs`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a03d307684126064615e0b2a832a0b929)`(string collectionName, string schemaName, ` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` 
+##### `public async Task< ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` > ` [`SchemaLogs`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a4188f706ceb39653d1e0f5123cbed790)`(string collectionName, string schemaName, ` [`SchemasUriParameterBuilder`](AtomicAssetsApiClient--Schemas--SchemasUriParameterBuilder.md)` schemasUriParameterBuilder)` 
 
 This function returns a list of logs for a specific schema.
 
@@ -88,6 +89,8 @@ This function returns a list of logs for a specific schema.
 A LogsDto object.
 
 ##### `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a1854c4909a1013a684af16fb52e8a387) 
+
+##### `private readonly ` [`IHttpHandler`](AtomicAssetsApiClient.md)` ` [`_httpHandler`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a278528cd3027ee0a4ca8e04964f99674) 
 
 ##### `private Uri ` [`SchemasUri`](#class_atomic_assets_api_client_1_1_schemas_1_1_schemas_api_1a1a498badf0002f7181835480737d5dd8)`()` 
 

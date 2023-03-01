@@ -4,13 +4,14 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`TemplatesDto`](AtomicAssetsApiClient--Templates--TemplatesDto.md)` ` [`Templates`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a25e67d4b511a23a1b839ddda3f068270)`()` | This function will return a list of templates that are available to the user.
-`public ` [`TemplatesDto`](AtomicAssetsApiClient--Templates--TemplatesDto.md)` ` [`Templates`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a8ea5c7db0240a2a35df4a5102fc54dc6)`(` [`TemplatesUriParameterBuilder`](AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md)` templatesUriParameterBuilder)` | This function will return a TemplatesDto object that contains a list of templates that match the criteria specified in the TemplatesUriParameterBuilder object.
-`public ` [`TemplateDto`](AtomicAssetsApiClient--Templates--TemplateDto.md)` ` [`Template`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a2407db816a9531d64ebb2a45e1baf94f)`(string collectionName, string templateId)` | This function will return a TemplateDto object from the API.
-`public ` [`StatsDto`](AtomicAssetsApiClient--StatsDto.md)` ` [`TemplateStats`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1aae016864d3b9036a46fe974edda95bdb)`(string collectionName, string templateId)` | This function will return a StatsDto object that contains the number of documents that have been indexed using the specified template.
-`public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`TemplateLogs`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1aafe2d7ea95fef1f9e52b0542ab98da04)`(string collectionName, string templateId)` | This function returns a list of logs for a specific template.
-`public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`TemplateLogs`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1abfe898a4671b389c83d65ebb70439e4d)`(string collectionName, string templateId, ` [`TemplatesUriParameterBuilder`](AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md)` templatesUriParameterBuilder)` | This function returns a list of logs for a specific template.
+`public async Task< ` [`TemplatesDto`](AtomicAssetsApiClient--Templates--TemplatesDto.md)` > ` [`Templates`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a86541ec88b827efe8636521c4d77aa08)`()` | This function will return a list of templates that are available to the user.
+`public async Task< ` [`TemplatesDto`](AtomicAssetsApiClient--Templates--TemplatesDto.md)` > ` [`Templates`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a67c922f0333ddaa25ea23f31bd1f6bcf)`(` [`TemplatesUriParameterBuilder`](AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md)` templatesUriParameterBuilder)` | This function will return a TemplatesDto object that contains a list of templates that match the criteria specified in the TemplatesUriParameterBuilder object.
+`public async Task< ` [`TemplateDto`](AtomicAssetsApiClient--Templates--TemplateDto.md)` > ` [`Template`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a5e52879fcc80f9a83259afb9bc83f98f)`(string collectionName, string templateId)` | This function will return a TemplateDto object from the API.
+`public async Task< ` [`StatsDto`](AtomicAssetsApiClient--StatsDto.md)` > ` [`TemplateStats`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a9141c096683dd1d450d8abfc99d13aec)`(string collectionName, string templateId)` | This function will return a StatsDto object that contains the number of documents that have been indexed using the specified template.
+`public async Task< ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` > ` [`TemplateLogs`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a80ca39fcd7ef1546a317d842deb16840)`(string collectionName, string templateId)` | This function returns a list of logs for a specific template.
+`public async Task< ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` > ` [`TemplateLogs`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1ac27731853a526f4fb2167714814f58c7)`(string collectionName, string templateId, ` [`TemplatesUriParameterBuilder`](AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md)` templatesUriParameterBuilder)` | This function returns a list of logs for a specific template.
 `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a1854c4909a1013a684af16fb52e8a387) | 
+`private readonly ` [`IHttpHandler`](AtomicAssetsApiClient.md)` ` [`_httpHandler`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a278528cd3027ee0a4ca8e04964f99674) | 
 `private Uri ` [`TemplatesUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a70668a91db02b5409d48e972387179ce)`()` | It returns a new `Uri` object that is the base URI for the templates endpoint
 `private Uri ` [`TemplatesUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a3120a9b5fd6173bdc6e13bf34ddcd6d1)`(` [`TemplatesUriParameterBuilder`](AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md)` templatessUriParameterBuilder)` | It takes a `TemplatesUriParameterBuilder` object as a parameter and returns a `Uri` object.
 `private Uri ` [`TemplateUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a495ebc65461d52505612c98c313f1326)`(string collectionName, string templateId)` | It returns a URI for a specific template in a specific collection
@@ -20,14 +21,14 @@
 
 ## Members
 
-##### `public ` [`TemplatesDto`](AtomicAssetsApiClient--Templates--TemplatesDto.md)` ` [`Templates`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a25e67d4b511a23a1b839ddda3f068270)`()` 
+##### `public async Task< ` [`TemplatesDto`](AtomicAssetsApiClient--Templates--TemplatesDto.md)` > ` [`Templates`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a86541ec88b827efe8636521c4d77aa08)`()` 
 
 This function will return a list of templates that are available to the user.
 
 #### Returns
 A TemplatesDto object
 
-##### `public ` [`TemplatesDto`](AtomicAssetsApiClient--Templates--TemplatesDto.md)` ` [`Templates`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a8ea5c7db0240a2a35df4a5102fc54dc6)`(` [`TemplatesUriParameterBuilder`](AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md)` templatesUriParameterBuilder)` 
+##### `public async Task< ` [`TemplatesDto`](AtomicAssetsApiClient--Templates--TemplatesDto.md)` > ` [`Templates`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a67c922f0333ddaa25ea23f31bd1f6bcf)`(` [`TemplatesUriParameterBuilder`](AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md)` templatesUriParameterBuilder)` 
 
 This function will return a TemplatesDto object that contains a list of templates that match the criteria specified in the TemplatesUriParameterBuilder object.
 
@@ -37,7 +38,7 @@ This function will return a TemplatesDto object that contains a list of template
 #### Returns
 A TemplatesDto object.
 
-##### `public ` [`TemplateDto`](AtomicAssetsApiClient--Templates--TemplateDto.md)` ` [`Template`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a2407db816a9531d64ebb2a45e1baf94f)`(string collectionName, string templateId)` 
+##### `public async Task< ` [`TemplateDto`](AtomicAssetsApiClient--Templates--TemplateDto.md)` > ` [`Template`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a5e52879fcc80f9a83259afb9bc83f98f)`(string collectionName, string templateId)` 
 
 This function will return a TemplateDto object from the API.
 
@@ -49,7 +50,7 @@ This function will return a TemplateDto object from the API.
 #### Returns
 A TemplateDto object
 
-##### `public ` [`StatsDto`](AtomicAssetsApiClient--StatsDto.md)` ` [`TemplateStats`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1aae016864d3b9036a46fe974edda95bdb)`(string collectionName, string templateId)` 
+##### `public async Task< ` [`StatsDto`](AtomicAssetsApiClient--StatsDto.md)` > ` [`TemplateStats`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a9141c096683dd1d450d8abfc99d13aec)`(string collectionName, string templateId)` 
 
 This function will return a StatsDto object that contains the number of documents that have been indexed using the specified template.
 
@@ -61,7 +62,7 @@ This function will return a StatsDto object that contains the number of document
 #### Returns
 A StatsDto object
 
-##### `public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`TemplateLogs`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1aafe2d7ea95fef1f9e52b0542ab98da04)`(string collectionName, string templateId)` 
+##### `public async Task< ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` > ` [`TemplateLogs`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a80ca39fcd7ef1546a317d842deb16840)`(string collectionName, string templateId)` 
 
 This function returns a list of logs for a specific template.
 
@@ -73,7 +74,7 @@ This function returns a list of logs for a specific template.
 #### Returns
 A list of logs for a specific template.
 
-##### `public ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` ` [`TemplateLogs`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1abfe898a4671b389c83d65ebb70439e4d)`(string collectionName, string templateId, ` [`TemplatesUriParameterBuilder`](AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md)` templatesUriParameterBuilder)` 
+##### `public async Task< ` [`LogsDto`](AtomicAssetsApiClient--LogsDto.md)` > ` [`TemplateLogs`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1ac27731853a526f4fb2167714814f58c7)`(string collectionName, string templateId, ` [`TemplatesUriParameterBuilder`](AtomicAssetsApiClient--Templates--TemplatesUriParameterBuilder.md)` templatesUriParameterBuilder)` 
 
 This function returns a list of logs for a specific template.
 
@@ -88,6 +89,8 @@ This function returns a list of logs for a specific template.
 A LogsDto object
 
 ##### `private readonly string ` [`_requestUriBase`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a1854c4909a1013a684af16fb52e8a387) 
+
+##### `private readonly ` [`IHttpHandler`](AtomicAssetsApiClient.md)` ` [`_httpHandler`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a278528cd3027ee0a4ca8e04964f99674) 
 
 ##### `private Uri ` [`TemplatesUri`](#class_atomic_assets_api_client_1_1_templates_1_1_templates_api_1a70668a91db02b5409d48e972387179ce)`()` 
 
