@@ -43,7 +43,7 @@ class AtomicMarketApiClient::Stats::StatsUriParameterBuilder
 `public ` [`StatsUriParameterBuilder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` ` [`WithAfter`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1aa0fa14716037c21d14363e4f177e8b1f)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
 `public ` [`StatsUriParameterBuilder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` ` [`WithPage`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a58e92b45338b6cb8adfc0da4ceb1a8dd)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
 `public ` [`StatsUriParameterBuilder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` ` [`WithLimit`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae53959225ddb917572ac9cfc06ffafd3)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public ` [`StatsUriParameterBuilder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6494b12ba6819baaf471db2f0a20bc9e)`(` [`SortStrategy`](AtomicMarketApiClient--Core.md)` sorting)` | This function sets the sort strategy for the query.
+`public ` [`StatsUriParameterBuilder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6494b12ba6819baaf471db2f0a20bc9e)`(` [`SortStrategy`](AtomicMarketApiClient.md)` sorting)` | This function sets the sort strategy for the query.
 `public ` [`StatsUriParameterBuilder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` ` [`WithSort`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4f4b753e9568dc813f6c9353d0defc35)`(string sort)` | `WithSort` is a function that takes a string as an argument and returns a `StatsUriParameterBuilder` object.
 `public string ` [`Build`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string ` [`_state`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a9577beb4165c1157d2e7f8f0ff065dde) | A private variable that is used to store the value of the state parameter.
@@ -80,7 +80,7 @@ class AtomicMarketApiClient::Stats::StatsUriParameterBuilder
 `private int? ` [`_after`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1ae1483718c3d317e0b6046ada434c53ae) | A nullable integer specifying the next timestamp. <br/>
 `private int? ` [`_page`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) | A nullable integer specifying the page. <br/>
 `private int? ` [`_limit`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) | A nullable integer specifying the limit of returned values.
-`private ` [`SortStrategy`](AtomicMarketApiClient--Core.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | A nullable enum specifying the sortStrategy.
+`private ` [`SortStrategy`](AtomicMarketApiClient.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | A nullable enum specifying the sortStrategy.
 `private string ` [`_sort`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a3ac373edf19e058d7fae7f4c4ba485f4) | Declaring a private variable called _sort.
 
 ## Members
@@ -422,7 +422,7 @@ The StatsUriParameterBuilder object.
 #### Returns
 The StatsUriParameterBuilder object.
 
-##### `public ` [`StatsUriParameterBuilder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6494b12ba6819baaf471db2f0a20bc9e)`(` [`SortStrategy`](AtomicMarketApiClient--Core.md)` sorting)` 
+##### `public ` [`StatsUriParameterBuilder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a6494b12ba6819baaf471db2f0a20bc9e)`(` [`SortStrategy`](AtomicMarketApiClient.md)` sorting)` 
 
 This function sets the sort strategy for the query.
 
@@ -585,7 +585,7 @@ A nullable integer specifying the page. <br/>
 
 A nullable integer specifying the limit of returned values.
 
-##### `private ` [`SortStrategy`](AtomicMarketApiClient--Core.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
+##### `private ` [`SortStrategy`](AtomicMarketApiClient.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_stats_1_1_stats_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
 
 A nullable enum specifying the sortStrategy.
 

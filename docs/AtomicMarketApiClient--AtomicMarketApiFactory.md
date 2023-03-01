@@ -5,7 +5,7 @@
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
 `public ` [`AtomicMarketApiFactory`](#class_atomic_market_api_client_1_1_atomic_market_api_factory)` ` [`Version1`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a128f58d66efc599b159c9ce47b14b02b) | 
-`public ` [`SalesApi`](AtomicMarketApiClient--Sales--SalesApi.md)` ` [`SalesApi`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a498126f12ac328ac742c0c8ff5d07a7b) | 
+`public ` [`SalesApi`](AtomicMarketApiClient--Sales--SalesApi.md)` ` [`SalesApi`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a498126f12ac328ac742c0c8ff5d07a7b) | A shorthand for creating a new instance of the SalesApi class.
 `public ` [`AuctionsApi`](AtomicMarketApiClient--Auctions--AuctionsApi.md)` ` [`AuctionsApi`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a96ea580a5287dc7777fc4e6d5bf80292) | A shorthand for creating a new instance of the AuctionsApi class.
 `public ` [`BuyOffersApi`](AtomicMarketApiClient--BuyOffers--BuyOffersApi.md)` ` [`BuyOffersApi`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a908eff26a88171a0ee21cec78fc8c36b) | A shorthand for creating a new instance of the BuyOffersApi class.
 `public ` [`MarketPlacesApi`](AtomicMarketApiClient--MarketPlaces--MarketPlacesApi.md)` ` [`MarketPlacesApi`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a25fd47bd7f1cc870f8211c5863af15f4) | A shorthand for creating a new instance of the MarketPlacesApi class.
@@ -23,6 +23,8 @@
 ##### `public ` [`AtomicMarketApiFactory`](#class_atomic_market_api_client_1_1_atomic_market_api_factory)` ` [`Version1`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a128f58d66efc599b159c9ce47b14b02b) 
 
 ##### `public ` [`SalesApi`](AtomicMarketApiClient--Sales--SalesApi.md)` ` [`SalesApi`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a498126f12ac328ac742c0c8ff5d07a7b) 
+
+A shorthand for creating a new instance of the SalesApi class.
 
 ##### `public ` [`AuctionsApi`](AtomicMarketApiClient--Auctions--AuctionsApi.md)` ` [`AuctionsApi`](#class_atomic_market_api_client_1_1_atomic_market_api_factory_1a96ea580a5287dc7777fc4e6d5bf80292) 
 

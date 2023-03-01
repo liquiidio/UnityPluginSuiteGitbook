@@ -43,7 +43,7 @@ class AtomicMarketApiClient::BuyOffers::BuyOffersUriParameterBuilder
 `public ` [`BuyOffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder)` ` [`WithAfter`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3057e050bf7054593aa959fcdc028b1c)`(int after)` | `WithAfter` sets the `_after` variable to the value of the `after` parameter
 `public ` [`BuyOffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder)` ` [`WithPage`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a7db8f1d764e3f81768b7d1820e13b1a3)`(int page)` | `WithPage` sets the `_page` variable to the value of the `page` parameter
 `public ` [`BuyOffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder)` ` [`WithLimit`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a6fdc43968793eec37e4ed6b72b0dadff)`(int limit)` | `WithLimit` sets the `_limit` variable to the value of the `limit` parameter
-`public ` [`BuyOffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5cba5a767a3d1174cf57cc6adf4917fc)`(` [`SortStrategy`](AtomicMarketApiClient--Core.md)` sorting)` | This function sets the sort strategy for the query.
+`public ` [`BuyOffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5cba5a767a3d1174cf57cc6adf4917fc)`(` [`SortStrategy`](AtomicMarketApiClient.md)` sorting)` | This function sets the sort strategy for the query.
 `public ` [`BuyOffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder)` ` [`WithSort`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a00d65b0190e84f48ae1bbb611da90824)`(string sort)` | `WithSort` is a function that takes a string as a parameter and returns a `BuyOffersUriParameterBuilder` object
 `public string ` [`Build`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a933ab72b517a9c3879ef78b27a2483bf)`()` | It builds a query string based on the parameters that have been set.
 `private string ` [`_state`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a9577beb4165c1157d2e7f8f0ff065dde) | A private variable that is used to store the value of the state parameter.
@@ -80,7 +80,7 @@ class AtomicMarketApiClient::BuyOffers::BuyOffersUriParameterBuilder
 `private int? ` [`_after`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1ae1483718c3d317e0b6046ada434c53ae) | A nullable integer specifying the next timestamp. <br/>
 `private int? ` [`_page`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a4dea13c8190a694fe00b24309b1814f8) | A nullable integer specifying the page. <br/>
 `private int? ` [`_limit`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a353a19a0da576dc8f69a61548a710395) | A nullable integer specifying the limit of returned values.
-`private ` [`SortStrategy`](AtomicMarketApiClient--Core.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | A nullable enum specifying the sortStrategy.
+`private ` [`SortStrategy`](AtomicMarketApiClient.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) | A nullable enum specifying the sortStrategy.
 `private string ` [`_sort`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a3ac373edf19e058d7fae7f4c4ba485f4) | Declaring a private variable called _sort.
 
 ## Members
@@ -422,7 +422,7 @@ The BuyOffersUriParameterBuilder object.
 #### Returns
 The BuyOffersUriParameterBuilder object.
 
-##### `public ` [`BuyOffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5cba5a767a3d1174cf57cc6adf4917fc)`(` [`SortStrategy`](AtomicMarketApiClient--Core.md)` sorting)` 
+##### `public ` [`BuyOffersUriParameterBuilder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder)` ` [`WithOrder`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a5cba5a767a3d1174cf57cc6adf4917fc)`(` [`SortStrategy`](AtomicMarketApiClient.md)` sorting)` 
 
 This function sets the sort strategy for the query.
 
@@ -585,7 +585,7 @@ A nullable integer specifying the page. <br/>
 
 A nullable integer specifying the limit of returned values.
 
-##### `private ` [`SortStrategy`](AtomicMarketApiClient--Core.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
+##### `private ` [`SortStrategy`](AtomicMarketApiClient.md)`? ` [`_sortStrategy`](#class_atomic_market_api_client_1_1_buy_offers_1_1_buy_offers_uri_parameter_builder_1a122ea78edfd15b44a8a547a7046b8651) 
 
 A nullable enum specifying the sortStrategy.
 

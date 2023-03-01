@@ -4,13 +4,14 @@
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public ` [`AssetsDto`](AtomicMarketApiClient--Assets--AssetsDto.md)` ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1acdb8d694084b095eb723eeaeb4c23adc)`()` | This function will return a list of all the assets that are available for trading on the exchange.
-`public ` [`AssetsDto`](AtomicMarketApiClient--Assets--AssetsDto.md)` ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1adc55e98828b607f5b6163cf6f571a2e0)`(` [`AssetsUriParameterBuilder`](AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md)` assetsUriParameterBuilder)` | This function will return a list of assets based on the parameters passed in.
-`public ` [`AssetDto`](AtomicMarketApiClient--Assets--AssetDto.md)` ` [`Asset`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a8e72956dc29bff81c4855bf7c82c1959)`(string assetId)` | This function will return an AssetDto object from the API.
-`public ` [`StatsDto`](AtomicMarketApiClient--StatsDto.md)` ` [`AssetStats`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a77880d824d173d2d7d5a205eee08a90e)`(string assetId)` | This function returns the statistics of an asset.
-`public ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a7185cc74320faa73cbd1bdb5244002c5)`(string assetId)` | This function returns a list of logs for a given asset.
-`public ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a4fe06e212c3432f70ecdb650d47a4a1d)`(string assetId, ` [`AssetsUriParameterBuilder`](AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md)` assetsUriParameterBuilder)` | This function returns a list of logs for a given asset.
+`public async Task< ` [`AssetsDto`](AtomicMarketApiClient--Assets--AssetsDto.md)` > ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a8a565ae05b3153f229a850676468d101)`()` | This function will return a list of all the assets that are available for trading on the exchange.
+`public async Task< ` [`AssetsDto`](AtomicMarketApiClient--Assets--AssetsDto.md)` > ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a7aefb1b21af75f4cb9eae25c1231fc2d)`(` [`AssetsUriParameterBuilder`](AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md)` assetsUriParameterBuilder)` | This function will return a list of assets based on the parameters passed in.
+`public async Task< ` [`AssetDto`](AtomicMarketApiClient--Assets--AssetDto.md)` > ` [`Asset`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ae65e7033ede94933f713c7bdf5a26289)`(string assetId)` | This function will return an AssetDto object from the API.
+`public async Task< ` [`StatsDto`](AtomicMarketApiClient--StatsDto.md)` > ` [`AssetStats`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a24fdc6b752898e5b0111b16318f1420b)`(string assetId)` | This function returns the statistics of an asset.
+`public async Task< ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` > ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1aee8b27d61b49621495588026437ea85c)`(string assetId)` | This function returns a list of logs for a given asset.
+`public async Task< ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` > ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a319ab1a97d1ed3c0485190b0214a6fc3)`(string assetId, ` [`AssetsUriParameterBuilder`](AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md)` assetsUriParameterBuilder)` | This function returns a list of logs for a given asset.
 `private readonly string ` [`_requestUriBase`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a1854c4909a1013a684af16fb52e8a387) | 
+`private readonly ` [`IHttpHandler`](AtomicMarketApiClient.md)` ` [`_httpHandler`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a278528cd3027ee0a4ca8e04964f99674) | 
 `private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ae492984f10f05c5b2c55dff3eeac11c1)`()` | It returns a Uri object that represents the assets endpoint.
 `private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1af05b4c0efc0e0c3c29cfe110a2db404f)`(` [`AssetsUriParameterBuilder`](AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md)` assetsUriParameterBuilder)` | It takes an AssetsUriParameterBuilder object and returns a Uri object.
 `private Uri ` [`AssetUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1aad28b71538e9bb09f0d021d107cb77ad)`(string assetId)` | It returns a URI for the specified asset ID.
@@ -20,14 +21,14 @@
 
 ## Members
 
-##### `public ` [`AssetsDto`](AtomicMarketApiClient--Assets--AssetsDto.md)` ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1acdb8d694084b095eb723eeaeb4c23adc)`()` 
+##### `public async Task< ` [`AssetsDto`](AtomicMarketApiClient--Assets--AssetsDto.md)` > ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a8a565ae05b3153f229a850676468d101)`()` 
 
 This function will return a list of all the assets that are available for trading on the exchange.
 
 #### Returns
 A list of assets.
 
-##### `public ` [`AssetsDto`](AtomicMarketApiClient--Assets--AssetsDto.md)` ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1adc55e98828b607f5b6163cf6f571a2e0)`(` [`AssetsUriParameterBuilder`](AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md)` assetsUriParameterBuilder)` 
+##### `public async Task< ` [`AssetsDto`](AtomicMarketApiClient--Assets--AssetsDto.md)` > ` [`Assets`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a7aefb1b21af75f4cb9eae25c1231fc2d)`(` [`AssetsUriParameterBuilder`](AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md)` assetsUriParameterBuilder)` 
 
 This function will return a list of assets based on the parameters passed in.
 
@@ -37,7 +38,7 @@ This function will return a list of assets based on the parameters passed in.
 #### Returns
 A list of assets.
 
-##### `public ` [`AssetDto`](AtomicMarketApiClient--Assets--AssetDto.md)` ` [`Asset`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a8e72956dc29bff81c4855bf7c82c1959)`(string assetId)` 
+##### `public async Task< ` [`AssetDto`](AtomicMarketApiClient--Assets--AssetDto.md)` > ` [`Asset`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ae65e7033ede94933f713c7bdf5a26289)`(string assetId)` 
 
 This function will return an AssetDto object from the API.
 
@@ -47,7 +48,7 @@ This function will return an AssetDto object from the API.
 #### Returns
 An AssetDto object
 
-##### `public ` [`StatsDto`](AtomicMarketApiClient--StatsDto.md)` ` [`AssetStats`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a77880d824d173d2d7d5a205eee08a90e)`(string assetId)` 
+##### `public async Task< ` [`StatsDto`](AtomicMarketApiClient--StatsDto.md)` > ` [`AssetStats`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a24fdc6b752898e5b0111b16318f1420b)`(string assetId)` 
 
 This function returns the statistics of an asset.
 
@@ -57,7 +58,7 @@ This function returns the statistics of an asset.
 #### Returns
 A StatsDto object
 
-##### `public ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a7185cc74320faa73cbd1bdb5244002c5)`(string assetId)` 
+##### `public async Task< ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` > ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1aee8b27d61b49621495588026437ea85c)`(string assetId)` 
 
 This function returns a list of logs for a given asset.
 
@@ -67,7 +68,7 @@ This function returns a list of logs for a given asset.
 #### Returns
 A list of logs for the asset.
 
-##### `public ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a4fe06e212c3432f70ecdb650d47a4a1d)`(string assetId, ` [`AssetsUriParameterBuilder`](AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md)` assetsUriParameterBuilder)` 
+##### `public async Task< ` [`LogsDto`](AtomicMarketApiClient--LogsDto.md)` > ` [`AssetLogs`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a319ab1a97d1ed3c0485190b0214a6fc3)`(string assetId, ` [`AssetsUriParameterBuilder`](AtomicMarketApiClient--Assets--AssetsUriParameterBuilder.md)` assetsUriParameterBuilder)` 
 
 This function returns a list of logs for a given asset.
 
@@ -80,6 +81,8 @@ This function returns a list of logs for a given asset.
 A list of logs for the asset.
 
 ##### `private readonly string ` [`_requestUriBase`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a1854c4909a1013a684af16fb52e8a387) 
+
+##### `private readonly ` [`IHttpHandler`](AtomicMarketApiClient.md)` ` [`_httpHandler`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1a278528cd3027ee0a4ca8e04964f99674) 
 
 ##### `private Uri ` [`AssetsUri`](#class_atomic_market_api_client_1_1_assets_1_1_assets_api_1ae492984f10f05c5b2c55dff3eeac11c1)`()` 
 
