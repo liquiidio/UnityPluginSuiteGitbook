@@ -1,28 +1,6 @@
 # page `md_README` 
 
-[](https://github.com/liquiidio/HyperionApiClient-Private/actions/workflows/dotnet-build.yml)[](https://github.com/liquiidio/HyperionApiClient-Private/actions/workflows/dotnet-test.yml)
-
-## HyperionApiClient
-HyperionApiClient*.NET and Unity3D-compatible (Desktop, Mobile, WebGL) Client-Library for Hyperion History APIs*
-
-*See [Hyperion History by EosRio](https://eosrio.io/hyperion/)*
-
-### ### INSTALLATION
-### INSTALLATIONA step by step series of examples that tell you how to get a package. There is the Unity package,Unity Package Manager GitHub and Nuget Package.
-
-1. Say what the steps will be for each package
-
-Give the example
-
-1. A step by step explanation on how to clone and import the repository
-
-give the instructions
-
-### Usage
-Usage.NET and Unity3D-compatible (Desktop, Mobile, WebGL) ApiClient for the different APIs. Endpoints have its own set of parameters that you may build up and pass in to the relevant function.
-
-## ### Examples
-### Examples
+[](https://github.com/liquiidio/HyperionApiClient-Private/actions/workflows/build.yml)[](https://github.com/liquiidio/HyperionApiClient-Private/actions/workflows/test.yml)[](https://github.com/liquiidio/HyperionApiClient-Private/actions/workflows/docs.yml)[](https://github.com/liquiidio/HyperionApiClient-Private/actions/workflows/deploy.yml)
 
 ## HyperionApiClient
 HyperionApiClient*.NET and Unity3D-compatible (Desktop, Mobile, WebGL) Client-Library for Hyperion History APIs*
