@@ -34,8 +34,8 @@ Then in your Unity project:
 
 Download this [project here](https://github.com/liquiidio/AtomicAssetsApiClient-Private/releases/latest).
 
-  * [zip](https://github.com/liquiidio/AtomicAssetsApiClient-Private/archive/refs/tags/1.0.35.zip) 
-  * [tar.gz](https://github.com/liquiidio/AtomicAssetsApiClient-Private/archive/refs/tags/1.0.35.tar.gz) 
+  * [zip](https://github.com/liquiidio/AtomicAssetsApiClient-Private/archive/refs/tags/1.0.38.zip) 
+  * [tar.gz](https://github.com/liquiidio/AtomicAssetsApiClient-Private/archive/refs/tags/1.0.38.tar.gz) 
 
 Then in your Unity project, copy the sources from `AtomicAssetsApiClient` into your Unity `Assets` directory.
 
