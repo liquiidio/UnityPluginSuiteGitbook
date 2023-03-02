@@ -1,7 +1,7 @@
 # page `md_README` 
 
 ### **_ACTIVELY MAINTAINED Version of Eos-Sharp(originally developed by SCATTER)_**
-**_ACTIVELY MAINTAINED Version of Eos-Sharp(originally developed by SCATTER)_**[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/build.yml)[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/test.yml)[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/deploy.yml)
+**_ACTIVELY MAINTAINED Version of Eos-Sharp(originally developed by SCATTER)_**[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/build.yml)[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/test.yml)[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/docs.yml)[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/deploy.yml)
 
 ## EOS Sharp
 EOS SharpC# client library for EOSIO blockchains. The library is based on [https://github.com/EOSIO/eosjs](https://github.com/EOSIO/eosjs) and MIT licensed.
