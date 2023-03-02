@@ -1,9 +1,6 @@
 # page `md_README` 
 
-[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/build.yml)[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/test.yml)[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/docs.yml)[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/deploy.yml)<br/>
-
-### </div>
-</div>
+[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/build.yml)[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/test.yml)[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/docs.yml)[](https://github.com/liquiidio/EosSharp-Private/actions/workflows/deploy.yml)<br/><br/>
 
 ### **_ACTIVELY MAINTAINED Version of Eos-Sharp(originally developed by SCATTER)_**
 **_ACTIVELY MAINTAINED Version of Eos-Sharp(originally developed by SCATTER)_**
@@ -12,7 +9,7 @@
 EOS SharpC# client library for EOSIO blockchains. The library is based on [https://github.com/EOSIO/eosjs](https://github.com/EOSIO/eosjs) and MIT licensed.
 
 ## Installation
-Installation **_Requires Unity 2019.1+ with .NET 4.x+ Runtime_**
+Installation**_Requires Unity 2019.1+ with .NET 4.x+ Runtime_**
 
 This package can be included into your project by either:
 
@@ -34,7 +31,7 @@ This package can be included into your project by either:
 1. Enter URL: `[https://github.com/liquiidio/EosSharp-Private.git](https://github.com/liquiidio/EosSharp-Private.git)#upm`
 
 #### 2. Importing the Unity Package.
-2. Importing the Unity Package. Download the [UnityPackage here](https://github.com/liquiidio/EosSharp-Private/releases/latest/download/eossharp.unitypackage).
+2. Importing the Unity Package.Download the [UnityPackage here](https://github.com/liquiidio/EosSharp-Private/releases/latest/download/eossharp.unitypackage).
 
 Then in your Unity project:
 
@@ -45,7 +42,7 @@ Then in your Unity project:
 1. Check all the relevant files needed (if this is a first time import, just select ALL) and click on import.
 
 #### 3. Install manually.
-3. Install manually. Download this [project here](https://github.com/liquiidio/EosSharp-Private/releases/latest).
+3. Install manually.Download this [project here](https://github.com/liquiidio/EosSharp-Private/releases/latest).
 
 * [zip](https://github.com/liquiidio/EosSharp-Private/archive/refs/tags/1.0.6.zip)
 
@@ -55,7 +52,6 @@ Then in your Unity project, copy the sources from `[EosSharp](EosSharp.md)` into
 
 #### 4. Install via NuGet (for Standard .NET users only - No Unity3D)
 4. Install via NuGet (for Standard .NET users only - No Unity3D)
-
 #### .NET CLI
 .NET CLI`> dotnet add package Liquiid.io.EosSharp --version 1.0.1`
 
@@ -66,7 +62,7 @@ Package Manager`PM> Install-Package Liquiid.io.EosSharp -Version 1.0.1`
 Usage
 
 ### Configuration
-Configuration In order to interact with eos blockchain you need to create a new instance of the **Eos** class with a **EosConfigurator**.
+ConfigurationIn order to interact with eos blockchain you need to create a new instance of the **Eos** class with a **EosConfigurator**.
 
 Example:
 
@@ -360,7 +356,7 @@ var result = await eos.CreateTransaction(new Transaction()
 Returns the transactionId 
 
 ### Custom SignProvider
-Custom SignProvider Is also possible to implement your own **ISignProvider** to customize how the signatures and key handling is done.
+Custom SignProviderIs also possible to implement your own **ISignProvider** to customize how the signatures and key handling is done.
 
 Example:
 
@@ -395,7 +391,7 @@ Eos eos = new Eos(new EosConfigurator()
 ```
 
 ### CombinedSignersProvider
-CombinedSignersProvider Is also possible to combine multiple signature providers to complete all the signatures for a transaction
+CombinedSignersProviderIs also possible to combine multiple signature providers to complete all the signatures for a transaction
 
 Example:
 
