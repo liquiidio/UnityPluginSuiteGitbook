@@ -14,7 +14,7 @@
               data = new Dictionary<string, object>
               {
                       { "payer", "............1" },
-                      { "quant", amountToBuyTex },
+                      { "quant", amountToBuy},
                       { "receiver", receiverAccount }
               }
           };
