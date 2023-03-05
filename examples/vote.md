@@ -4,8 +4,9 @@
 
 ```csharp
    // vote using a session
-      private async Task Vote(List<string> producers)
+      async Task Vote(List<string> producers)
       {
+          //Create an action object
           var action = new EosSharp.Core.Api.v1.Action()
           {
               account = "eosio",
@@ -19,7 +20,7 @@
               }
           };
 		
-	  // Sign 
+	  // Sign with the created action
 	 _waxCloudWalletPlugin.Sign(new[] { action });
 	}
 ```
