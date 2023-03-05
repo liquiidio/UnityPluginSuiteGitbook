@@ -20,6 +20,6 @@
           };
 		
 	  // Sign 
-	 _waxCloudWalletPlugin.Sign(new[] { action });
+	 var transactResult = await LinkSession.Transact(new TransactArgs() { Action = action });
 	}
 ```
