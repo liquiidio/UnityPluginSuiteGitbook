@@ -18,7 +18,7 @@
               }
           };
 		
-	  // Sign 
-	 _waxCloudWalletPlugin.Sign(new[] { action });
+	  // Sign
+	  var transactResult = await LinkSession.Transact(new TransactArgs() { Action = action });
 	}
 ```
