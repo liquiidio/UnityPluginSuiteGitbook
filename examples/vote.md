@@ -3,9 +3,9 @@
 1. The following example shows how a vote Action can be created and passed to the vote-Method using a session.
 
 ```csharp
-   // vote using a session
-      private async Task Vote(List<string> producers)
+      async Task Vote(List<string> producers)
       {
+          //Create an action object
           var action = new EosSharp.Core.Api.v1.Action()
           {
               account = "eosio",
@@ -19,10 +19,10 @@
               }
           };
 		
-	  // Sign 
-	     _anchorLink.Transact(new TransactArgs() { Action = action }).ContinueWith(transactTask =>
-            {
+	  // Sign with an action created.
+	   _anchorLink.Transact(new TransactArgs() { Action = action }).ContinueWith(transactTask =>
+          {
                 Debug.Log($"Thank you {transactTask.Result.Signer.actor}");
-            });
+          });
 	}
 ```
