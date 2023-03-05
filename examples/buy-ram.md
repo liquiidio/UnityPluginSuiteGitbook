@@ -4,8 +4,9 @@
 
 ```csharp
    // buy ram using a session
-      private async Task BuyRam(string amountToBuy, string receiverAccount  )
+      async Task BuyRam(string amountToBuy, string receiverAccount  )
       {
+          //Create an action object
           var action = new EosSharp.Core.Api.v1.Action()
           {
               account = "eosio",
@@ -19,7 +20,7 @@
               }
           };
 		
-	  // Sign 
+	  // Sign with the action created
 	 _waxCloudWalletPlugin.Sign(new[] { action });
 	}
 ```
