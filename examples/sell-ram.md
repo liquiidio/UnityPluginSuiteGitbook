@@ -4,7 +4,7 @@
 
 ```csharp
    // sell ram using a session
-      private async Task SellRam(string _sellRamAmount )
+      private async Task SellRam(string sellRamAmount )
       {
           var action = new EosSharp.Core.Api.v1.Action()
           {
@@ -14,7 +14,7 @@
               data = new Dictionary<string, object>
               {
                   { "account", "............1" },
-                  { "bytes", _sellRamAmount }
+                  { "bytes", sellRamAmount }
               }
           };
 		
