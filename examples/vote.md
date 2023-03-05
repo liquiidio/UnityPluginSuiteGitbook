@@ -1,4 +1,4 @@
-# vote 
+# Vote 
 
 1. The following example shows how a Vote Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example_a) initialized WaxCloudWalletPlugin-Object.
 
