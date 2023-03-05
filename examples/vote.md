@@ -1,4 +1,4 @@
-# vote 
+# Vote 
 
 1. The following example shows how a vote Action can be created and passed to the vote-Method using a session.
 
