@@ -1,4 +1,4 @@
-# bid name
+# Bid name
 
 1. The following example shows how a bid name Action can be created and passed to the Sign-Method.
 
