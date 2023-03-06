@@ -4,19 +4,20 @@
 
 ```csharp
    // Stake CPU/NET using a session
-      async Task Stake(string amountToBuy, string receiverAccount  )
+      async Task Stake(string amountToStakeCPU, string amountToStakeNET  )
       {
           //Create an action object
           var action = new EosSharp.Core.Api.v1.Action()
           {
               account = "eosio",
-              name = "buyram",
+              name = "delegatebw",
               authorization = new List<PermissionLevel>() { _session.Auth },
               data = new Dictionary<string, object>
               {
-                      { "payer", "............1" },
-                      { "quant", amountToBuyTex },
-                      { "receiver", receiverAccount }
+                      { "from", "............1" },
+                      { "receiver", "............1" },
+		      { "stake_cpu_quantity", amountToStakeCPU },
+		      { "stake_net_quantity", amountToStakeNET },
               }
           };
 		
