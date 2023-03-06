@@ -1,6 +1,6 @@
 # Stake CPU/NET
 
-1. The following example shows how to stake CPU/NET Action is created and passed to the Sign-Method.
+1. The following example shows how to stake CPU/NET and pass the action created to the Sign-Method.
 
 ```csharp
    // Stake CPU/NET using a session
