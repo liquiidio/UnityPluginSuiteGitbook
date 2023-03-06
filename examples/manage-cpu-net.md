@@ -11,7 +11,7 @@
           {
               account = "eosio",
               name = "delegatebw",
-              authorization = new List<PermissionLevel>() { _session.Auth },
+              authorization = new List<PermissionLevel>() { UiToolkitExample.LinkSession.Auth  },
               data = new Dictionary<string, object>
               {
                       { "from", "............1" },
