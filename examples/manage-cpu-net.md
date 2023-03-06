@@ -1,6 +1,6 @@
-# Stake CPU/RAM
+# Stake CPU/NET
 
-1. The following example shows how a stake CPU/NET Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example_a) initialized WaxCloudWalletPlugin-Object.
+1. The following example shows how to stake CPU/NET Action is created and passed to the Sign-Method.
 
 ```csharp
    // Stake CPU/NET using a session
