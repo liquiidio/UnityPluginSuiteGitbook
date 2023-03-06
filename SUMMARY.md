@@ -9,7 +9,7 @@
   * [Transact (with a Session)](examples/transact_with_session.md)
   * [Transact (without a Session)](examples/transact_without_session.md)
   * [Token Transfer](examples/token_transfer.md)
-  * [vote](examples/vote.md)
+  * [Vote](examples/vote.md)
   * [Manage CPU/NET](examples/Manage-CPU/NET.md)
   * [Sell Ram](examples/sell-ram.md)
   * [Buy Ram](examples/buy-ram.md)
