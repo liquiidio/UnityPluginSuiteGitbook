@@ -22,6 +22,6 @@
           };
 		
 	  // Sign with the action created
-	var transactResult = await LinkSession.Transact(new TransactArgs() { Action = action });
+	   var transactResult = await LinkSession.Transact(new TransactArgs() { Action = action });
 	}
 ```
