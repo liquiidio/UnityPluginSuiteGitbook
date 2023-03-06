@@ -10,7 +10,7 @@
   * [Transact (without a Session)](examples/transact_without_session.md)
   * [Token Transfer](examples/token_transfer.md)
   * [Vote](examples/vote.md)
-  * [Manage CPU/NET](examples/Manage-CPU/NET.md)
+  * [Manage CPU/NET](examples/manage-cpu-net.md)
   * [Sell Ram](examples/sell-ram.md)
   * [Buy Ram](examples/buy-ram.md)
   * [Bid Name](examples/bid-name.md)
