@@ -22,6 +22,6 @@
           };
 		
 	  // Sign with the action created
-	 _waxCloudWalletPlugin.Sign(new[] { action });
+	var transactResult = await LinkSession.Transact(new TransactArgs() { Action = action });
 	}
 ```
