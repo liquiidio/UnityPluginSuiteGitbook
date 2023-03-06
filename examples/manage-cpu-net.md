@@ -19,9 +19,9 @@
 		      { "stake_cpu_quantity", amountToStakeCPU },
 		      { "stake_net_quantity", amountToStakeNET },
               }
-          };
+           };
 		
 	  // Sign with the action created
-	   var transactResult = await LinkSession.Transact(new TransactArgs() { Action = action });
+	   await LinkSession.Transact(new TransactArgs() { Action = action });
 	}
 ```
