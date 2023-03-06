@@ -10,7 +10,7 @@
   * [Transact](examples/transact.md)
   * [Token Transfer](examples/token-transfer.md)
   * [Vote](examples/vote.md)
-  * [Manage CPU/NET](examples/Manage-CPU-NET.md)
+  * [Manage CPU/NET](examples/Manage-cpu-net.md)
   * [Sell Ram](examples/sell-ram.md)
   * [Buy Ram](examples/buy-ram.md)
   * [Bid Name](examples/bid-name.md)
