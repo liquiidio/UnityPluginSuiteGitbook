@@ -9,7 +9,7 @@
   * [Login](custom/examples/example\_b.md)
   * [Transact](examples/transact.md)
   * [Token Transfer](examples/token-transfer.md)
-  * [vote](examples/vote.md)
+  * [Vote](examples/vote.md)
   * [Manage CPU/NET](examples/Manage-CPU/NET.md)
   * [Sell Ram](examples/sell-ram.md)
   * [Buy Ram](examples/buy-ram.md)
