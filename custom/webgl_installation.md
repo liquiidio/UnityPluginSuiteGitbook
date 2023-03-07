@@ -45,9 +45,14 @@ Read more here: (https://webassembly.org/docs/security/)
 Unity WebGL requires an event listener to paste from the OS clipboard. Use the following structure in `script.onload`.
 
 ``` js
-window.addEventListener('paste', function (e) {
-      const str = e.clipboardData.getData('text');
-      window.unityInstance.SendMessage('CanvasExample', 'OnBrowserClipboardPaste', str);
+	// !!!
+	// !!! adding this Listener allows to copy-paste date from outside the WebGL-Build into the WebGL-Build
+        window.addEventListener('paste', function (e) {
+		const str = e.clipboardData.getData('text');
+		// Calls Method OnBrowserClipboardPaste in class WaxCloudWalletMainPanel while passing str as argument
+           	window.unityInstance.SendMessage('WaxCloudWalletMainPanel', 'OnBrowserClipboardPaste', str);
+        });
+	// !!!
      });
 ```
 
