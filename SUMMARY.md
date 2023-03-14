@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Packages](sources.md)
-  * [Wax Cloud Wallet](sources/wax\_cloud\_wallet.md)
+  * [Cloud Wallet](sources/wax\_cloud\_wallet.md)
   * [AnchorLink](sources/anchor\_link.md)
   * [AtomicAssets](sources/atomic\_assets.md)
   * [AtomicMarket](sources/atomic\_market.md)
