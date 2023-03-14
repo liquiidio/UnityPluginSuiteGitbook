@@ -8,7 +8,7 @@
 The Cloud Wallet has been designed to allow the mainstream audience the access to Web3 functions by combining the ease of use of social signups and a unique auto-signing technology. It is your all-inclusive gateway access to multiple blockchains, over 30,000 dApps, premier NFT collections, video games and much more. Gamers can easily create an account and join millions of active Cloud Wallet users to instantly buy, sell, trade, play and explore in a secure, decentralized and fee-less environment!
 
 \
-**Unlocking the Power**
+**Unleashing the Power**
 
 The Cloud Wallet and Unity3D SDK unlocks the power of the WAX Blockchain ecosystem by allowing game developers to build high fidelity game experiences while giving gamers easy ways to manage and control their digital assets and Web3 game interactions.\
 

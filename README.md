@@ -5,7 +5,7 @@
 The Unity3D game engine is used by millions of developers to create games that run across 20+ different platforms while the WAX Blockchain was built specifically to handle the demands of blockchain gamers and NFT collectors. The WAX team has spent years developing the technology and ecosystem powering digital asset ownership resulting in the most utilized blockchain platform in the world.
 
 \
-**Unleashing the power**
+**Limitless Possibilities**
 
 The Unity3D SDK for the WAX Blockchain allows the power of the WAX platform to be accessible by developers and game studios integrating web3 technology into their games. It opens limitless possibilities for gamers to create, play, buy, sell and trade with ease on wax ultra-fast, secure, fee-less and carbon neutral platform.\
 
