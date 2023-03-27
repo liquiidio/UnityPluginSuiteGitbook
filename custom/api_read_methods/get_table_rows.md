@@ -1,14 +1,21 @@
-**GetTableRows** call
+# GetTableRows
+
+**GetTableRows**
+
+Returns an object containing rows from the specified table.
+
+
+
 * Json
 * Code - accountName of the contract to search for table rows
 * Scope - scope text segmenting the table set
-* Table - table name 
+* Table - table name
 * TableKey - unused so far?
 * LowerBound - lower bound for the selected index value
 * UpperBound - upper bound for the selected index value
 * KeyType - Type of the index choosen, ex: i64
 * Limit
-* IndexPosition - 1 - primary (first), 2 - secondary index (in order defined by multi_index), 3 - third index, etc
+* IndexPosition - 1 - primary (first), 2 - secondary index (in order defined by multi\_index), 3 - third index, etc
 * EncodeType - dec, hex
 * Reverse - reverse result order
 * ShowPayer - show ram payer
