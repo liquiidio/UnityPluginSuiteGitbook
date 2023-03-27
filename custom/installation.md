@@ -32,7 +32,7 @@ In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/liquiidio/EosSharp-Private.git#upm`
+3. Enter URL: `https://github.com/liquiidio/EosSharp.git#upm`
 
 </details>
 
@@ -54,7 +54,7 @@ In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/liquiidio/AnchorLinkSharp-Private.git#upm`
+3. Enter URL: `https://github.com/liquiidio/AnchorLinkSharp.git#upm`
 
 </details>
 
