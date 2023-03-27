@@ -1,12 +1,12 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Getting Started](README.md)
 * [Installation](custom/installation.md)
-  * [WebGL Insatallation](custom/webgl_installation.md)
+  * [WebGL Insatallation](custom/webgl\_installation.md)
 * [Examples](custom/examples/README.md)
-  * [Getting Started](custom/examples/examples_getting_started.md)
-    * [Canvas Example](custom/examples/canvas_example.md)
-    * [UIToolkit Example](custom/examples/uitoolkit_example.md)
+  * [Getting Started](custom/examples/examples\_getting\_started.md)
+    * [Canvas Example](custom/examples/canvas\_example.md)
+    * [UIToolkit Example](custom/examples/uitoolkit\_example.md)
   * [User Data](custom/examples/example\_b.md)
   * [Token Transfer](custom/examples/example\_c.md)
   * [Transact](custom/examples/transaction.md)
