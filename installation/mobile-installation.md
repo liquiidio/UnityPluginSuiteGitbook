@@ -26,6 +26,6 @@ Apart from above mentioned benefits, the use of these native features allows the
 ### Installation
 
 * Download and install the UniversalSDK ([https://assetstore.unity.com/packages/tools/integration/universal-sdk-204843](https://assetstore.unity.com/packages/tools/integration/universal-sdk-204843)) from the AssetStore&#x20;
-* Follow the Installation-instructions provided in the UniversalSDK- Repository/Package _(The Setup is unfortunately not that easy but it's possible and works if it's done right)_
+* **Follow the Installation-instructions provided in the UniversalSDK- Repository/Package **_**(The Setup is unfortunately not that easy but it's possible and works if it's done right)** We could try to explain the configuration here with our own words but we would never do as well as the author of the package_
 
 _**NOTE!** Builds for other Targets (WebGL, Desktop etc.) will fail if the UniversalSDK is installed, therefore, it is recomended to create_ separate branches for your Mobile-Targets.
