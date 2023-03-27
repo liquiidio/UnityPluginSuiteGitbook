@@ -3,6 +3,7 @@
 * [Introduction](README.md)
   * [Wallet Support](readme/wallet-support.md)
   * [NFTs](readme/nfts.md)
+  * [Historical and State Data Acces](readme/historical-and-state-data-acces.md)
 * [Packages](sources.md)
   * [Cloud Wallet](sources/wax\_cloud\_wallet.md)
   * [AnchorLink](sources/anchor\_link.md)
