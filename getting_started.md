@@ -12,7 +12,7 @@ There you will find
 * Complete documentation of each package, its classes, methods, members and so on (_"API Docs"_-Subsection).
 * If you are looking for a specific information, use the searchbar in the upper right corner and if you don't find what you are searching for, feel free to contact us on Telegram or file an issue in the corresponding repository (our prefered way).
 
-****
+***
 
 ## **Still unsure where to start?**
 
@@ -28,16 +28,14 @@ Feel free to download and experiment with our Plugin-Suite-Example-Project conta
     git submodule update --init --recursive
 ```
 
-
-
 ## Demo Application
 
 We also deployed a WebGL-build to the Plugin-Suite-Example-Project, open the Link below to give it a try.
 
 {% embed url="https://api.wax-test.liquidstudios.io/webgl/MultiExample2021.x/" %}
-Plugin Suite Demo v2021
+Plugin Suite Demo v2023
 {% endembed %}
 
 {% embed url="https://api.wax-test.liquidstudios.io/webgl/MultiExample2022.x/" %}
-Plugin Suite Demo v2022
+Plugin Suite Demo v2023
 {% endembed %}
