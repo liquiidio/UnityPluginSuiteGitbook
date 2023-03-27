@@ -13,7 +13,6 @@
   * [GetBlock](custom/api\_read\_methods/get\_block.md)
   * [GetTableRows](custom/api\_read\_methods/get\_table\_rows.md)
   * [GetTableByScope](custom/api\_read\_methods/get\_table\_by\_scope.md)
-  * [GetActions](custom/api\_read\_methods/get\_actions.md)
 * [API Docs](api-docs/README.md)
   * [Eos](docs/EosSharp--Eos.md)
   * [HttpHandler](docs/EosSharp--HttpHandler.md)

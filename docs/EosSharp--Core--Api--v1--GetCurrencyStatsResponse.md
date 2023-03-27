@@ -1,12 +1,11 @@
-# class `EosSharp::Core::Api::v1::GetCurrencyStatsResponse` 
+# GetCurrencyStatsResponse
 
 ## Summary
 
- Members                                | Descriptions                                
-----------------------------------------|---------------------------------------------
-`public Dictionary< string, ` [`CurrencyStat`](EosSharp--Core--Api--v1--CurrencyStat.md)` > ` [`stats`](#class_eos_sharp_1_1_core_1_1_api_1_1v1_1_1_get_currency_stats_response_1a92b2545d01fc1dd93938ffb5cb9f4375) | 
+| Members                                                                                                                                                                                                                                                                               | Descriptions |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| `public Dictionary< string,` [`CurrencyStat`](EosSharp--Core--Api--v1--CurrencyStat.md)`>` [`stats`](EosSharp--Core--Api--v1--GetCurrencyStatsResponse.md#class\_eos\_sharp\_1\_1\_core\_1\_1\_api\_1\_1v1\_1\_1\_get\_currency\_stats\_response\_1a92b2545d01fc1dd93938ffb5cb9f4375) |              |
 
 ## Members
 
-##### `public Dictionary< string, ` [`CurrencyStat`](EosSharp--Core--Api--v1--CurrencyStat.md)` > ` [`stats`](#class_eos_sharp_1_1_core_1_1_api_1_1v1_1_1_get_currency_stats_response_1a92b2545d01fc1dd93938ffb5cb9f4375) 
-
+**`public Dictionary< string,`** [**`CurrencyStat`**](EosSharp--Core--Api--v1--CurrencyStat.md)**`>` ** [**`stats`**](EosSharp--Core--Api--v1--GetCurrencyStatsResponse.md#class\_eos\_sharp\_1\_1\_core\_1\_1\_api\_1\_1v1\_1\_1\_get\_currency\_stats\_response\_1a92b2545d01fc1dd93938ffb5cb9f4375)

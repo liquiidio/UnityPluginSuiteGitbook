@@ -1,4 +1,4 @@
-# class `EosSharp::Eos` 
+# Eos
 
 ```
 class EosSharp::Eos
@@ -9,16 +9,16 @@ EOSIO client wrapper using general purpose HttpHandler.
 
 ## Summary
 
- Members                                | Descriptions                                
-----------------------------------------|---------------------------------------------
-`public ` [`Eos`](#class_eos_sharp_1_1_eos_1ac4c972e81bb383d701b65d708a46f3d3)`(` [`EosConfigurator`](EosSharp--Core--EosConfigurator.md)` config)` | EOSIO Client wrapper constructor.
+| Members                                                                                                                                                                  | Descriptions                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------- |
+| `public` [`Eos`](EosSharp--Eos.md#class\_eos\_sharp\_1\_1\_eos\_1ac4c972e81bb383d701b65d708a46f3d3)`(` [`EosConfigurator`](EosSharp--Core--EosConfigurator.md) `config)` | EOSIO Client wrapper constructor. |
 
 ## Members
 
-##### `public ` [`Eos`](#class_eos_sharp_1_1_eos_1ac4c972e81bb383d701b65d708a46f3d3)`(` [`EosConfigurator`](EosSharp--Core--EosConfigurator.md)` config)` 
+**`public`** [**`Eos`**](EosSharp--Eos.md#class\_eos\_sharp\_1\_1\_eos\_1ac4c972e81bb383d701b65d708a46f3d3)**`(` ** [**`EosConfigurator`**](EosSharp--Core--EosConfigurator.md) **`config)`**
 
 EOSIO Client wrapper constructor.
 
 #### Parameters
-* `config` Configures client parameters
 
+* `config` Configures client parameters
