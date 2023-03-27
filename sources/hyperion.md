@@ -46,7 +46,7 @@ Rio Blocks is an active participant in the community for years and and apart fro
 
 The Package Provided by Liquiid.io is a .NET and Unity3D-compatible (Desktop, Mobile, WebGL) Client-Library for the Hyperion History API. \
 \
-If this introduction has piqued your interest and you think the Hyperion History Api could be a useful tool in developing your next-level dApp, either jump directly into the **** [**Hyperion Space**](https://app.gitbook.com/o/Sd7hm2B4HSaYXGsBxj86/s/4FHhtnO6QhgR0r2ZTKQP/)****[ **** ](https://app.gitbook.com/o/Sd7hm2B4HSaYXGsBxj86/s/4FHhtnO6QhgR0r2ZTKQP/)of this GitBook or take a look at the provided links to learn more aboute the Solution and the Team behind.\
+If this introduction has piqued your interest and you think the Hyperion History Api could be a useful tool in developing your next-level dApp, either jump directly into the **** [**Hyperion Space**](http://localhost:5000/o/Sd7hm2B4HSaYXGsBxj86/s/4FHhtnO6QhgR0r2ZTKQP/)****[ **** ](http://localhost:5000/o/Sd7hm2B4HSaYXGsBxj86/s/4FHhtnO6QhgR0r2ZTKQP/)of this GitBook or take a look at the provided links to learn more aboute the Solution and the Team behind.\
 
 
 {% embed url="https://github.com/liquiidio/HyperionApiClient-Private" %}
