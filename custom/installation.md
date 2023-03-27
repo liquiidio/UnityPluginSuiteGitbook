@@ -46,8 +46,8 @@ Then in your Unity project, copy the sources from `AtomicMarketApiClient` into y
 
 #### .NET CLI
 
-`> dotnet add package Liquiid.io.AtomicMarket --version 1.0.6`
+`> dotnet add package Liquiid.io.AtomicMarket`
 
 #### Package Manager
 
-`PM> Install-Package Liquiid.io.AtomicMarket -Version 1.0.6`
+`PM> Install-Package Liquiid.io.AtomicMarket`
