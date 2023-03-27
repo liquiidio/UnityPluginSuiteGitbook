@@ -1,8 +1,16 @@
-**GetAccount** call
+# GetAccount
+
+**GetAccount**\
+****Returns an object containing various details about a specific account on the blockchain.
+
+
+
 ```csharp
 var result = await eos.GetAccount("myaccountname");
 ```
+
 Returns:
+
 ```csharp
 class GetAccountResponse
 {
