@@ -1,8 +1,17 @@
-**GetBlock** call
+# GetBlock
+
+**GetBlock**
+
+Returns an object containing various details about a specific block on the blockchain.
+
+
+
 ```csharp
 var result = await eos.GetBlock("blockIdOrNumber");
 ```
+
 Returns:
+
 ```csharp
 class GetBlockResponse
 {
