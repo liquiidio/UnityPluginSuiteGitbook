@@ -5,7 +5,7 @@
 3. Create a new script inheriting from MonoBehaviour, add a public member of type `UnityUiToolkitUAL` and assign it in the editor.
 4. In the Start-method, instantiate/initialize the respective handler prefab added above and add an action when the user login is successful.
 
-**N.B. Ensure that there is an assign event handler/callback for the login to get the `User` object. Click** [**here**](https://liquiidio.gitbook.io/unity-plugin-suite/v/universalauthenticatorlibrary/examples/example\_b) **for more information.**
+**N.B. Ensure that you assign an event handler/callback for the login (** `UnityUiToolkitUAL.OnUserLogin += MyLoginCallback;`**) to get the `User` object. Click** [**here**](https://liquiidio.gitbook.io/unity-plugin-suite/v/universalauthenticatorlibrary/examples/example\_b) **for more information.**
 
 #### UiToolkit
 
