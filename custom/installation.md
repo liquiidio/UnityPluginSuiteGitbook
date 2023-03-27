@@ -21,13 +21,11 @@ _**EosSharp**_
 <details>
 
 <summary>EosSharp package installation</summary>
- 
- 
- 
-Follow the Instructions in [ ](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)[*EosSharp*](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)\
- \
-__Or install the Package directly via UPM__
-  
+
+Follow the Instructions in[_EosSharp_](https://liquiidio.gitbook.io/unity-plugin-suite/v/eossharp/installation)\
+\
+**Or install the Package directly via UPM**
+
 Installing via Unity Package Manager (UPM).
 
 In your Unity project:
@@ -45,13 +43,11 @@ Allows users and developers to connect and communicate with Anchor Wallet and ES
 <details>
 
 <summary>AnchorLinkSharp package installation</summary>
- 
- 
- 
-Follow the Instructions in [ ](https://liquiidio.gitbook.io/unity-plugin-suite/v/anchorlink/installation)[*AnchorLinkSharp*](https://liquiidio.gitbook.io/unity-plugin-suite/v/anchorlink/installation)\
- \
-__Or install the Package directly via UPM__
-  
+
+Follow the Instructions in[_AnchorLinkSharp_](https://liquiidio.gitbook.io/unity-plugin-suite/v/anchorlink/installation)\
+\
+**Or install the Package directly via UPM**
+
 Installing via Unity Package Manager (UPM).
 
 In your Unity project:
@@ -64,13 +60,13 @@ In your Unity project:
 
 ***
 
-#### 1. Installing via Unity Package Manager (UPM).
+#### 1. Recommended - Installing via Unity Package Manager (UPM).
 
 In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/liquiidio/WcwUnityWebGl.git#upm`
+3. Enter URL: `https://github.com/liquiidio/WcwUnity.git#upm`
 
 ***
 
@@ -90,7 +86,7 @@ Then in your Unity project:
 
 Download this [project here](https://github.com/liquiidio/WcwUnityWebGl/releases/latest).
 
-  * [zip](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.10.zip)
-  * [tar.gz](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.10.tar.gz)
+* [zip](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.10.zip)
+* [tar.gz](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.10.tar.gz)
 
 Then in your Unity project, copy the sources from `WCWUnity` into your Unity `Assets` directory.
