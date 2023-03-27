@@ -3,7 +3,7 @@
 * [Getting Started](README.md)
 * [Installation](custom/installation.md)
 * [Examples](custom/examples/README.md)
-  * [Configuration](examples/getting\_started.md)
+  * [Configuration](custom/getting\_started.md)
   * [Create Transaction](custom/examples/example\_a.md)
   * [CustomSignProvider](custom/examples/example\_b.md)
   * [CombinedSignersProvider](custom/examples/example\_c.md)
