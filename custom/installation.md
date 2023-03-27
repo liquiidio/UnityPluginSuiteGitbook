@@ -30,7 +30,7 @@ In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/liquiidio/AnchorLinkSharp-Private.git#upm`
+3. Enter URL: `https://github.com/liquiidio/AnchorLinkSharp.git#upm`
 
 #### 2. Importing the Unity Package.
 
@@ -59,8 +59,8 @@ Then in your Unity project, copy the sources from `AnchorLinkSharp` into your Un
 
 #### .NET CLI
 
-`>dotnet add package Liquiid.io.AnchorLinkSharp --version 1.0.3`
+`>dotnet add package Liquiid.io.AnchorLinkSharp`
 
 #### Package Manager
 
-`PM> Install-Package Liquiid.io.AnchorLinkSharp -Version 1.0.3`
+`PM> Install-Package Liquiid.io.AnchorLinkSharp`
