@@ -1,8 +1,16 @@
-**GetInfo** call
+# GetInfo
+
+**GetInfo**\
+****Returns an object containing various details about the blockchain.
+
+
+
 ```csharp
 var result = await eos.GetInfo();
 ```
+
 Returns:
+
 ```csharp
 class GetInfoResponse 
 { 
