@@ -9,7 +9,7 @@ This package can be included into your project by either:
 3. Manually add the files from the repo.
 4. Installing it via NuGet. (for Standard .NET users)
 
-#### 1. Installing via Unity Package Manager (UPM).
+#### 1. Recommended - Installing via Unity Package Manager (UPM).
 
 In your Unity project:
 
