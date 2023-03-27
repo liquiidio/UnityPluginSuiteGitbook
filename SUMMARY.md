@@ -1,8 +1,8 @@
 # Table of contents
 
 * [README](README.md)
-* [Getting Started](custom/getting\_started.md)
 * [Installation](custom/installation.md)
+* [Getting Started](custom/getting\_started.md)
 * [Examples](custom/examples/README.md)
   * [Create Transaction](custom/examples/example\_a.md)
   * [CustomSignProvider](custom/examples/example\_b.md)
