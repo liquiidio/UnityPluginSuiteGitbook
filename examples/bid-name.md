@@ -1,26 +1,25 @@
-# Bid name
+# Bid Name
 
-1. The following example shows how a bid name Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example_a) initialized WaxCloudWalletPlugin-Object.
+1. The following example shows how a bid name Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized WaxCloudWalletPlugin-Object.
 
-```csharp
-   // bid name using a session
-      async Task BidName(string nameToBid , string bidAmount )
+<pre class="language-csharp"><code class="lang-csharp">// bid name using a session
+async Task BidName(string nameToBid , string bidAmount )
+{
+<strong>    //Create an action object
+</strong>    var action = new EosSharp.Core.Api.v1.Action()
+    {
+      account = "eosio",
+      name = "bidname",
+      authorization = new List&#x3C;PermissionLevel>() { _session.Auth },
+      data = new Dictionary&#x3C;string, object>
       {
-          //Create an action object
-          var action = new EosSharp.Core.Api.v1.Action()
-          {
-              account = "eosio",
-              name = "bidname",
-              authorization = new List<PermissionLevel>() { _session.Auth },
-              data = new Dictionary<string, object>
-              {
-                 { "newname", nameToBid },
-                 { "bidder", UiToolkitExample.Account },
-                 { "bid", bidAmount }
-              }
-          };
+         { "newname", nameToBid },
+         { "bidder", UiToolkitExample.Account },
+         { "bid", bidAmount }
+      }
+    };
 		
-	  // Sign with the action created
-	 _waxCloudWalletPlugin.Sign(new[] { action });
-	}
-```
+<strong>    // Sign with the action created
+</strong><strong>    _waxCloudWalletPlugin.Sign(new[] { action });
+</strong>}
+</code></pre>
