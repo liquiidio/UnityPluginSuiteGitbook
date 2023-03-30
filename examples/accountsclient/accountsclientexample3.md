@@ -1,3 +1,7 @@
+---
+description: Example showing how to use the AccountsClient
+---
+
 # AccountsClientExample3
 
 ```csharp

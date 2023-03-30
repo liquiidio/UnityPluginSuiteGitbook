@@ -1,3 +1,7 @@
+---
+description: Example showing how to use the SystemClient
+---
+
 # SystemClientExample
 
 ```csharp
