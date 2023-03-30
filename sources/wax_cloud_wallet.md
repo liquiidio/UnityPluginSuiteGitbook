@@ -15,11 +15,7 @@ The Cloud Wallet and Unity3D SDK unlocks the power of the WAX Blockchain ecosyst
 
 **Unique, Secure, Frictionless, High Performance**
 
-The Cloud Wallet was specifically designed to provide frictionless blockchain interactions experience via a unique auto-signing technology providing a secure, high performance and easy to use wallet platform. It allows developers an easy integration of diverse functionality through market standard SDKs opening the gateway to the WAX Bblockchain ecosystem and tapping its no gas fee and lightning speed transactions.
-
-\
+The Cloud Wallet was specifically designed to provide frictionless blockchain interactions experience via a unique auto-signing technology providing a secure, high performance and easy to use wallet platform. It allows developers an easy integration of diverse functionality through market standard SDKs opening the gateway to the WAX Bblockchain ecosystem and tapping its no gas fee and lightning speed transactions.\
 
 
-{% embed url="https://github.com/liquiidio/WcwUnityWebGl" %}
-Wax Cloud Wallet Plugin
-{% endembed %}
+{% embed url="https://github.com/liquiidio/WcwUnity" %}

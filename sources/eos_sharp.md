@@ -5,8 +5,8 @@ C# client library for EOSIO blockchains. The library is based on https://github.
 \
 EosSharp provides the necessary functionallity to serialize and deserialize data (C# Objects or Dictionaries) into a format that which Leap-Nodes (previously EOSIO, Nodeos is the Blockchain-Node-Software) understand. \
 \
-It also allows to communicate with Nodeos RPC-Service to send and receive data like Table-Rows, Transactions, Actions, ABIs etc
+It also allows to communicate with Nodeos RPC-Service to send and receive data like Table-Rows, Transactions, Actions, ABIs etc.
 
-{% embed url="https://github.com/liquiidio/EosSharp-Private" %}
-EosSharp Unity Plugin
-{% endembed %}
+
+
+{% embed url="https://github.com/liquiidio/EosSharp" %}
