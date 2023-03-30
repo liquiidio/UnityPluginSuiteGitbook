@@ -1,4 +1,10 @@
+---
+description: Example showing how to query the Asset Endpoint
+---
+
 # AssetExample
+
+
 
 ```csharp
 public async Task AssetExample()

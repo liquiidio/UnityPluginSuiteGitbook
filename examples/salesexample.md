@@ -1,3 +1,7 @@
+---
+description: Example showing how to query the Sales Endpoint
+---
+
 # SalesExample
 
 ```csharp

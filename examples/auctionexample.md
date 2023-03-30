@@ -1,3 +1,7 @@
+---
+description: Example showing how to query the Auction Endpoint
+---
+
 # AuctionExample
 
 ```csharp
