@@ -9,6 +9,8 @@
   * [Filtered assets lists available for trading](custom/examples/example\_5.md)
   * [AssetExample](examples/assetexample.md)
   * [AuctionExample](examples/auctionexample.md)
+  * [BuyOfferExample](examples/buyofferexample.md)
+  * [SalesExample](examples/salesexample.md)
 * [API Docs](api-docs/README.md)
   * [AtomicMarketApiFactory](docs/AtomicMarketApiClient--AtomicMarketApiFactory.md)
   * [Assets](docs/AtomicMarketApiClient--Assets.md)
