@@ -11,6 +11,7 @@
   * [Filtered assets avilable for trading](custom/examples/filtered\_assets.md)
   * [Getting offer](custom/examples/offer.md)
   * [AccountExample](examples/accountexample.md)
+  * [BurnsExample](examples/burnsexample.md)
 * [API Docs](api-docs/README.md)
   * [AtomicAssetsApiFactory](docs/AtomicAssetsApiClient--AtomicAssetsApiFactory.md)
   * [Accounts](docs/AtomicAssetsApiClient--Accounts.md)
