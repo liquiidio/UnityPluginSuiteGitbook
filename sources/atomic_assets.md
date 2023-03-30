@@ -1,7 +1,10 @@
-#### Atomic Assets
+# AtomicAssets
 
 .NET and Unity3D-compatible (Desktop, Mobile, WebGL) ApiClient for AtomicAssets
 
-{% embed url="https://github.com/liquiidio/AtomicAssetsApiClient-Private" %}
-Atomic Assets Unity Plugin
-{% endembed %}
+
+
+Unfortunately [Pink.gg](https://pink.gg/) has not yet provided a description of the products and services they offer.\
+\
+[https://github.com/liquiidio/AtomicAssetsApiClient](https://github.com/liquiidio/AtomicAssetsApiClient)
+
