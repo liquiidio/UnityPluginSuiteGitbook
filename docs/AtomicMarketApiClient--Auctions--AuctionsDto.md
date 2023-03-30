@@ -1,27 +1,26 @@
-# class `AtomicMarketApiClient::Auctions::AuctionsDto` 
+# AuctionsDto
 
 ## Summary
 
- Members                                | Descriptions                                
-----------------------------------------|---------------------------------------------
-`class ` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionsDto--DataDto.md)        | 
-`public bool ` [`Success`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) | Whether the Request was Successfull or not.
-`public ` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionsDto--DataDto.md)` ` [`Data`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_dto_1a6ed89521b3da4f30d2ab82c36d0afd13) | The Data returned from the API.
-`public long ` [`QueryTime`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_dto_1a6cc7a06930fbe1e28eb7eed2599015c9) | The time this Query took.
+| Members                                                                                                                                                                                                                                                 | Descriptions                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| `class` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionsDto--DataDto.md)                                                                                                                                                                           |                                             |
+| `public bool` [`Success`](AtomicMarketApiClient--Auctions--AuctionsDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auctions\_dto\_1a506fb037fbb6bfe8f254c021a2c3cfac)                                                                  | Whether the Request was Successfull or not. |
+| `public` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionsDto--DataDto.md) `` [`Data`](AtomicMarketApiClient--Auctions--AuctionsDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auctions\_dto\_1a6ed89521b3da4f30d2ab82c36d0afd13) | The Data returned from the API.             |
+| `public long` [`QueryTime`](AtomicMarketApiClient--Auctions--AuctionsDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auctions\_dto\_1a6cc7a06930fbe1e28eb7eed2599015c9)                                                                | The time this Query took.                   |
 
 ## Members
 
-##### `class ` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionsDto--DataDto.md) 
+**`class`** [**`DataDto`**](AtomicMarketApiClient--Auctions--AuctionsDto--DataDto.md)
 
-##### `public bool ` [`Success`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) 
+**`public bool`** [**`Success`**](AtomicMarketApiClient--Auctions--AuctionsDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auctions\_dto\_1a506fb037fbb6bfe8f254c021a2c3cfac)
 
 Whether the Request was Successfull or not.
 
-##### `public ` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionsDto--DataDto.md)` ` [`Data`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_dto_1a6ed89521b3da4f30d2ab82c36d0afd13) 
+**`public`** [**`DataDto`**](AtomicMarketApiClient--Auctions--AuctionsDto--DataDto.md) **``** [**`Data`**](AtomicMarketApiClient--Auctions--AuctionsDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auctions\_dto\_1a6ed89521b3da4f30d2ab82c36d0afd13)
 
 The Data returned from the API.
 
-##### `public long ` [`QueryTime`](#class_atomic_market_api_client_1_1_auctions_1_1_auctions_dto_1a6cc7a06930fbe1e28eb7eed2599015c9) 
+**`public long`** [**`QueryTime`**](AtomicMarketApiClient--Auctions--AuctionsDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auctions\_dto\_1a6cc7a06930fbe1e28eb7eed2599015c9)
 
 The time this Query took.
-

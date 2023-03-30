@@ -1,27 +1,26 @@
-# class `AtomicMarketApiClient::Auctions::AuctionDto` 
+# AuctionDto
 
 ## Summary
 
- Members                                | Descriptions                                
-----------------------------------------|---------------------------------------------
-`class ` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionDto--DataDto.md)        | 
-`public bool ` [`Success`](#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) | Whether the Request was Successfull or not.
-`public ` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionDto--DataDto.md)` ` [`Data`](#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1a65c0779654774581967081cf3136bd84) | The Data returned from the Api.
-`public long ` [`QueryTime`](#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1a6cc7a06930fbe1e28eb7eed2599015c9) | The time this Query took.
+| Members                                                                                                                                                                                                                                              | Descriptions                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| `class` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionDto--DataDto.md)                                                                                                                                                                         |                                             |
+| `public bool` [`Success`](AtomicMarketApiClient--Auctions--AuctionDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auction\_dto\_1a506fb037fbb6bfe8f254c021a2c3cfac)                                                                 | Whether the Request was Successfull or not. |
+| `public` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionDto--DataDto.md) `` [`Data`](AtomicMarketApiClient--Auctions--AuctionDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auction\_dto\_1a65c0779654774581967081cf3136bd84) | The Data returned from the Api.             |
+| `public long` [`QueryTime`](AtomicMarketApiClient--Auctions--AuctionDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auction\_dto\_1a6cc7a06930fbe1e28eb7eed2599015c9)                                                               | The time this Query took.                   |
 
 ## Members
 
-##### `class ` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionDto--DataDto.md) 
+**`class`** [**`DataDto`**](AtomicMarketApiClient--Auctions--AuctionDto--DataDto.md)
 
-##### `public bool ` [`Success`](#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1a506fb037fbb6bfe8f254c021a2c3cfac) 
+**`public bool`** [**`Success`**](AtomicMarketApiClient--Auctions--AuctionDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auction\_dto\_1a506fb037fbb6bfe8f254c021a2c3cfac)
 
 Whether the Request was Successfull or not.
 
-##### `public ` [`DataDto`](AtomicMarketApiClient--Auctions--AuctionDto--DataDto.md)` ` [`Data`](#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1a65c0779654774581967081cf3136bd84) 
+**`public`** [**`DataDto`**](AtomicMarketApiClient--Auctions--AuctionDto--DataDto.md) **``** [**`Data`**](AtomicMarketApiClient--Auctions--AuctionDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auction\_dto\_1a65c0779654774581967081cf3136bd84)
 
 The Data returned from the Api.
 
-##### `public long ` [`QueryTime`](#class_atomic_market_api_client_1_1_auctions_1_1_auction_dto_1a6cc7a06930fbe1e28eb7eed2599015c9) 
+**`public long`** [**`QueryTime`**](AtomicMarketApiClient--Auctions--AuctionDto.md#class\_atomic\_market\_api\_client\_1\_1\_auctions\_1\_1\_auction\_dto\_1a6cc7a06930fbe1e28eb7eed2599015c9)
 
 The time this Query took.
-
