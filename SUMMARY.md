@@ -2,7 +2,7 @@
 
 * [Getting Started](README.md)
 * [Installation](custom/installation.md)
-  * [WebGL Installation](custom/webgl_installation.md)
+  * [WebGL Installation](custom/webgl\_installation.md)
 * [Examples](custom/examples/README.md)
   * [Calling the /v1/assets endpoint](custom/examples/example\_a.md)
   * [Calling the /v1/assets endpoint with parameter](custom/examples/example\_b.md)
@@ -10,6 +10,7 @@
   * [Available assets for trading](custom/examples/available\_assets.md)
   * [Filtered assets avilable for trading](custom/examples/filtered\_assets.md)
   * [Getting offer](custom/examples/offer.md)
+  * [AccountExample](examples/accountexample.md)
 * [API Docs](api-docs/README.md)
   * [AtomicAssetsApiFactory](docs/AtomicAssetsApiClient--AtomicAssetsApiFactory.md)
   * [Accounts](docs/AtomicAssetsApiClient--Accounts.md)
