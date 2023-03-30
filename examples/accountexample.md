@@ -1,10 +1,8 @@
 ---
-description: Example querying the Account Endpoint
+description: Example showing how to query the Account Endpoint
 ---
 
 # AccountExample
-
-
 
 ```csharp
 public async Task AccountExample()

@@ -1,5 +1,5 @@
 ---
-description: Example querying the Burns Endpoint
+description: Example showing how to query the Burns Endpoint
 ---
 
 # BurnsExample
