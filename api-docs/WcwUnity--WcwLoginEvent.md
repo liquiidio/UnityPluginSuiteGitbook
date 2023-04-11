@@ -10,10 +10,10 @@ Returned when OnLogin-Event is invoked, contains AccountName of the newly logged
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public string `Account` | String containing AccountName of the User
+`public string` `Account` | String containing AccountName of the User
 
 ## Members
 
-##### `public string Account 
+##### `public string Account `
 
 String containing AccountName of the User
