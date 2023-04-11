@@ -1,4 +1,4 @@
-# class `AnchorLinkSharp::AnchorLink` 
+# class `WcwErrorEvent` 
 
 ```
 class WcwErrorEvent
