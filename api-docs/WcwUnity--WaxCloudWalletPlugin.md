@@ -127,6 +127,14 @@ Has no Effect on other Build-Targets.
 
 RECOMMENDED Way to use this Plugin
 
+Example:
+
+```cpp
+#if UNITY_WEBGL
+   _waxCloudWalletPlugin.InitializeWebGl("https://wax.greymass.com");
+#endif
+```
+
 #### Parameters
 * `rpcAddress` The WAX public node API endpoint URL you wish to connect to. Required
  
@@ -150,7 +158,6 @@ RECOMMENDED Way to use this Plugin
  
 * `returnTempAccounts` using this flag will return temporary accounts or accounts that have signed up for a cloud wallet but not paid the introduction fee to get a blockchain account created. When this is set to true, using the doLogin function will return blockchain account name that may not exist in the blockchain but it will also return an extra boolean flag called isTemp. If this flag is true it is a temporary account, it does not exist in the blockchain yet. If this constructor option is false then only accounts which have been activated and have a blockchain account will be returned.
 
-## Initialization Methods for different Targets
 
 ##### `public void InitializeDesktop(uint localPort, string wcwSigningWebsiteUrl, bool hostLocalWebsite = true, string indexHtmlDataPath = null, string waxJsDataPath = null) 
 
@@ -159,6 +166,14 @@ Initialize the Cloud Wallet Plugin for use on Desktops (Windows, MAC, Linux)
 Has no Effect on other Build-Targets. Useful for local debugging.
 
 **USAGE NOT RECOMMENDED** in Production as it uses a local HttpListener and works with Localhost instead of a real domain while usage of a real domain is supported but comes with security risks
+
+Example:
+
+```cpp
+#if UNTIY_ANDROID || UNITY_IOS
+   _waxCloudWalletPlugin.InitializeDesktop(1234, "http://127.0.0.1:1234/index.html");
+#endif
+```
 
 #### Parameters
 * `localPort` The Port to be used in the HttpListener
@@ -184,6 +199,14 @@ Has no Effect on other Build-Targets. Useful for local debugging and as temporar
 Uses *Android Chrome Custom Tabs* and *iOS SFSafariViewController* to visualize the Interaction with the WAX Cloud Wallet.
 
 UniversalSDK ([`Github-Link`](https://github.com/coolishbee/universal-sdk-unity) [`Github-AssetStore-Link`](https://assetstore.unity.com/packages/tools/integration/universal-sdk-204843)) needs to be installed for Mobile support
+
+Example:
+
+```cpp
+#if UNTIY_ANDROID || UNITY_IOS
+    _waxCloudWalletPlugin.InitializeMobile(1234, "http://127.0.0.1:1234/index.html", true, indexHtmlString, waxJsString);
+#endif
+```
 
 #### Parameters
 * `localPort` The Port to be used in the HttpListener
