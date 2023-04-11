@@ -10,10 +10,10 @@ Returned when OnTransactionSigned-Event is invoked, contains signed Transaction.
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public PushTransactionResponse `Result` | PushTransactionResponse-Object containing Info about the signed Transaction
+`public PushTransactionResponse` `Result` | PushTransactionResponse-Object containing Info about the signed Transaction
 
 ## Members
 
-##### `public PushTransactionResponse Result 
+##### `public PushTransactionResponse Result `
 
 PushTransactionResponse-Object containing Info about the signed Transaction
