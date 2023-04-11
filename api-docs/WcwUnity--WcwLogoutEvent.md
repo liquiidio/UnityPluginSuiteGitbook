@@ -10,10 +10,10 @@ Returned when OnLogout-Event is invoked, contains a simple string that User logg
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public string `LogoutResult` | String containing a simple message that the User logged out
+`public string` `LogoutResult` | String containing a simple message that the User logged out
 
 ## Members
 
-##### `public string LogoutResult 
+##### `public string LogoutResult `
 
 String containing a simple message that the User logged out.
