@@ -119,7 +119,7 @@ _waxCloudWalletPlugin.OnInfoCreated += (infoCreatedEvent) =>
 
 ## Methods
 
-##### `public void InitializeWebGl(string rpcAddress, bool tryAutoLogin = true, string userAccount = null, string pubKeys = null, string apiSigner = null, string eosApiArgs = null, bool freeBandwidth = true, bool feeFallback = true, string verifyTx = null, string metricsUrl = null, bool returnTempAccounts = false)
+##### `public void InitializeWebGl(string rpcAddress, bool tryAutoLogin = true, string userAccount = null, string pubKeys = null, string apiSigner = null, string eosApiArgs = null, bool freeBandwidth = true, bool feeFallback = true, string verifyTx = null, string metricsUrl = null, bool returnTempAccounts = false)`
             
 Initialize the Cloud Wallet Plugin for WebGL, see [`WaxJs on Github`]([AnchorLinkSharp--IdentifyResult.md](https://github.com/worldwide-asset-exchange/waxjs)) for more information
 
@@ -159,7 +159,7 @@ Example:
 * `returnTempAccounts` using this flag will return temporary accounts or accounts that have signed up for a cloud wallet but not paid the introduction fee to get a blockchain account created. When this is set to true, using the doLogin function will return blockchain account name that may not exist in the blockchain but it will also return an extra boolean flag called isTemp. If this flag is true it is a temporary account, it does not exist in the blockchain yet. If this constructor option is false then only accounts which have been activated and have a blockchain account will be returned.
 
 
-##### `public void InitializeDesktop(uint localPort, string wcwSigningWebsiteUrl, bool hostLocalWebsite = true, string indexHtmlDataPath = null, string waxJsDataPath = null) 
+##### `public void InitializeDesktop(uint localPort, string wcwSigningWebsiteUrl, bool hostLocalWebsite = true, string indexHtmlDataPath = null, string waxJsDataPath = null) `
 
 Initialize the Cloud Wallet Plugin for use on Desktops (Windows, MAC, Linux)
 
