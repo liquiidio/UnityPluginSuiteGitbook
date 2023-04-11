@@ -178,7 +178,7 @@ Example:
 #### Parameters
 * `localPort` The Port to be used in the HttpListener
 
-* `wcwSigningWebsiteUrl` NOT RECOMMENDED. Allows the Usage of a website/domain instead of localhost, website needs to contain the custom methods from the custom index.html to make Callbacks to the UnityClient. Choosing this options comes with great security risks. Optional.
+* `wcwSigningWebsiteUrl` **NOT RECOMMENDED**. Allows the Usage of a website/domain instead of localhost, website needs to contain the custom methods from the custom index.html to make Callbacks to the UnityClient. Choosing this options comes with great security risks. Optional.
 
 * `hostLocalWebsite` Default true - set to false if a website/domain should be used instead. Optional.
 
