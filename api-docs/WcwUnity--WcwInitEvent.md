@@ -10,10 +10,10 @@ Returned when OnInit-Event is invoked, contains information about the Error.
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public string `InitResult` | String containing a simple message that WaxJs was successfully initialized
+`public string` `InitResult` | String containing a simple message that WaxJs was successfully initialized
 
 ## Members
 
-##### `public string InitResult 
+##### `public string InitResult `
 
 String containing a simple message that WaxJs was successfully initialized
