@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
 # Manage CPU/NET
 
 1. The following example shows how to stake CPU/NET Action and pass the created action to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized WaxCloudWalletPlugin-Object.

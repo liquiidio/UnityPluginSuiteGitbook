@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
 # Transact
 
 1. Transacting/Signing Transactions with the Wax Cloud Wallet Plugin is as simple as calling the Sign-Method on [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized WaxCloudWalletPlugin-instance while passing a EosSharp Action Object.

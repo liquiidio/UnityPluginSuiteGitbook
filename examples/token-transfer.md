@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
 # Token Transfer
 
 1. The following example shows how a Token Transfer Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized WaxCloudWalletPlugin-Object.
