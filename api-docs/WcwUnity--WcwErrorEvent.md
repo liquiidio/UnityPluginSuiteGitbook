@@ -10,10 +10,10 @@ Returned when OnError-Event is invoked, contains information about the Error.
 
  Members                                | Descriptions                                
 ----------------------------------------|---------------------------------------------
-`public string `Message` | String containing Info about the Error
+`public string` `Message` | String containing Info about the Error
 
 ## Members
 
-##### `public string Message 
+##### `public string Message `
 
 String containing Info about the Error
