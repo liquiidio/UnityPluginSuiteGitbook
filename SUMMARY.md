@@ -14,7 +14,7 @@
   * [Sell Ram](examples/sell-ram.md)
   * [Buy Ram](examples/buy-ram.md)
   * [Bid Name](examples/bid-name.md)
-* [API Docs](api-docs/README.md)
+* [API Docs](api-docs.md)
   * [WaxCloudWalletPlugin](api-docs/WcwUnity--WaxCloudWalletPlugin.md)
   * [WcwErrorEvent](api-docs/WcwUnity--WcwErrorEvent.md)
   * [WcwLoginEvent](api-docs/WcwUnity--WcwLoginEvent.md)

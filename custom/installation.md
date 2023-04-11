@@ -1,3 +1,8 @@
+---
+cover: broken-reference
+coverY: 0
+---
+
 # Installation
 
 _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_
@@ -33,28 +38,6 @@ In your Unity project:
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
 3. Enter URL: `https://github.com/liquiidio/EosSharp.git#upm`
-
-</details>
-
-_**AnchorLinkSharp**_
-
-Allows users and developers to connect and communicate with Anchor Wallet and ESR-based applications. The Anchor & ESR Integration consists of multiple libraries for the ESR-Protocol, the Anchor-integration, Transports among others.
-
-<details>
-
-<summary>AnchorLinkSharp package installation</summary>
-
-Follow the Instructions in[_AnchorLinkSharp_](https://liquiidio.gitbook.io/unity-plugin-suite/v/anchorlink/installation)\
-\
-**Or install the Package directly via UPM**
-
-Installing via Unity Package Manager (UPM).
-
-In your Unity project:
-
-1. Open the Package Manager Window/Tab
-2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/liquiidio/AnchorLinkSharp.git#upm`
 
 </details>
 
