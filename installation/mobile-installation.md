@@ -5,6 +5,8 @@ coverY: 0
 
 # Mobile Installation
 
+Please note that the **USAGE OF THIS PLUGIN ON MOBILE DEVICES IS NOT RECOMMENDED** as it uses a local HttpListener and works with localhost instead of a real domain while usage of a real domain is supported. Both comes with security risks.
+
 ### **UniversalSDK**
 
 The Mobile Installation and Configuration requires an additional third-party Package to be installed\
