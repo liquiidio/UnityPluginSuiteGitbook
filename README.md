@@ -5,7 +5,7 @@ coverY: 0
 
 # Getting Started
 
-A combination of local HttpListeners receiving OAuth-Callbacks from WCW-related web-adresses opened through the WebView-Plugin, gathering necessary initial information like OAuth-Tokens, followed by regular non-browser-based (non-WebView required) communication with the WCW-API/Server.
+A native integration of the Wax Cloud Wallet compatible with all major Build Targets (WebGL, Windows, Mac, Linux, Android, iOS) without relying on WebViews.
 
 #### Demo Application
 
