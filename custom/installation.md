@@ -10,7 +10,7 @@ _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_
 This package can be included into your project by either:
 
 1. Installing the package via Unity's Package Manager (UPM) in the editor (recommended).
-2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/WcwUnityWebGl/releases/latest/download/wcwunity.unitypackage).
+2. Importing the .unitypackage which you can download [here](https://github.com/liquiidio/cloudwalletunity/releases).
 3. Manually add the files from the repo.
 
 **Dependencies**
@@ -49,13 +49,13 @@ In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/liquiidio/WcwUnity.git#upm`
+3. Enter URL: `https://github.com/liquiidio/cloudwallet.git#upm`
 
 ***
 
 #### 2. Importing the Unity Package.
 
-Download the [UnityPackage here](https://github.com/liquiidio/WcwUnityWebGl/releases/latest/download/wcwunity.unitypackage).
+Download the [UnityPackage here](https://github.com/liquiidio/cloudwalletunity/releases).
 
 Then in your Unity project:
 
@@ -67,9 +67,6 @@ Then in your Unity project:
 
 #### 3. Install manually.
 
-Download this [project here](https://github.com/liquiidio/WcwUnityWebGl/releases/latest).
-
-* [zip](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.10.zip)
-* [tar.gz](https://github.com/liquiidio/WcwUnityWebGl/archive/refs/tags/1.0.10.tar.gz)
+Download the [project here](https://github.com/liquiidio/cloudwalletunity/releases).
 
 Then in your Unity project, copy the sources from `WCWUnity` into your Unity `Assets` directory.
