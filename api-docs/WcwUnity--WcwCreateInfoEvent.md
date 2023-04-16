@@ -1,19 +1,19 @@
-# class `WcwCreateInfoEvent` 
+# CloudWalletCreateInfoEvent
 
 ```
-class WcwCreateInfoEvent
+class CloudWalletCreateInfoEvent
 ```
 
 Returned when OnInfoCreated-Event is invoked, contains information about the Error.
 
 ## Summary
 
- Members                                | Descriptions                                
-----------------------------------------|---------------------------------------------
-`public WcwCreateInfoResult` `Result` | WcwCreateInfoResult containing WcwCreateInfoResult-Object with information about the Account-Creation-Process
+| Members                                       | Descriptions                                                                                                                  |
+| --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `public CloudWalletCreateInfoResult` `Result` | CloudWalletCreateInfoResult containing CloudWalletCreateInfoResult-Object with information about the Account-Creation-Process |
 
 ## Members
 
-##### `public WcwCreateInfoResult Result `
+**`public CloudWalletCreateInfoResult Result`**
 
-WcwCreateInfoResult containing WcwCreateInfoResult-Object with information about the Account-Creation-Process
+CloudWalletCreateInfoResult containing CloudWalletCreateInfoResult-Object with information about the Account-Creation-Process
