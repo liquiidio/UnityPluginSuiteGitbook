@@ -5,7 +5,7 @@ coverY: 0
 
 # Manage CPU/NET
 
-1. The following example shows how to stake CPU/NET Action and pass the created action to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized WaxCloudWalletPlugin-Object.
+1. The following example shows how to stake CPU/NET Action and pass the created action to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized CloudWalletPlugin-Object.
 
 <pre class="language-csharp"><code class="lang-csharp">// Stake CPU/NET using a session
 async Task Stake(string amountToStakeCPU, string amountToStakeNET  )
@@ -26,6 +26,6 @@ async Task Stake(string amountToStakeCPU, string amountToStakeNET  )
     };
 		
     // Sign with the action created
-<strong>    _waxCloudWalletPlugin.Sign(new[] { action });
+<strong>    _cloudWalletPlugin.Sign(new[] { action });
 </strong>}
 </code></pre>

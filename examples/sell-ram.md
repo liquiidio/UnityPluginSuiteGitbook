@@ -5,7 +5,7 @@ coverY: 0
 
 # Sell Ram
 
-1. The following example shows how a Sell Ram Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized WaxCloudWalletPlugin-Object.
+1. The following example shows how a Sell Ram Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized CloudWalletPlugin-Object.
 
 ```csharp
 // sell ram using a session
@@ -25,6 +25,6 @@ async Task SellRam(string sellRamAmount )
     };
 		
     // Sign with the action created
-    _waxCloudWalletPlugin.Sign(new[] { action });
+    _cloudWalletPlugin.Sign(new[] { action });
 }
 ```

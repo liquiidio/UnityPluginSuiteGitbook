@@ -5,7 +5,7 @@ coverY: 0
 
 # Bid Name
 
-1. The following example shows how a bid name Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized WaxCloudWalletPlugin-Object.
+1. The following example shows how a bid name Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized CloudWalletPlugin-Object.
 
 <pre class="language-csharp"><code class="lang-csharp">// bid name using a session
 async Task BidName(string nameToBid , string bidAmount )
@@ -25,6 +25,6 @@ async Task BidName(string nameToBid , string bidAmount )
     };
 		
 <strong>    // Sign with the action created
-</strong><strong>    _waxCloudWalletPlugin.Sign(new[] { action });
+</strong><strong>    _cloudWalletPlugin.Sign(new[] { action });
 </strong>}
 </code></pre>

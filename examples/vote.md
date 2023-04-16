@@ -5,7 +5,7 @@ coverY: 0
 
 # Vote
 
-1. The following example shows how a Vote Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized WaxCloudWalletPlugin-Object.
+1. The following example shows how a Vote Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized CloudWalletPlugin-Object.
 
 ```csharp
 // vote using a session
@@ -26,6 +26,6 @@ async Task Vote(List<string> producers)
       };
 		
       // Sign with the created action
-      _waxCloudWalletPlugin.Sign(new[] { action });
+      _cloudWalletPlugin.Sign(new[] { action });
 }
 ```

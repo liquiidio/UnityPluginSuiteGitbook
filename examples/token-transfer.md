@@ -5,7 +5,7 @@ coverY: 0
 
 # Token Transfer
 
-1. The following example shows how a Token Transfer Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized WaxCloudWalletPlugin-Object.
+1. The following example shows how a Token Transfer Action can be created and passed to the Sign-Method of [the previously](https://liquiidio.gitbook.io/unity-plugin-suite/v/wcwunity/examples/example\_a) initialized CloudWalletPlugin-Object.
 
 <pre class="language-csharp"><code class="lang-csharp">// transfer tokens using a session
 private async Task Transfer(string frmAcc, string toAcc, string qnty, string memo)
@@ -25,6 +25,6 @@ private async Task Transfer(string frmAcc, string toAcc, string qnty, string mem
     };
 		
     // Sign 
-<strong>    _waxCloudWalletPlugin.Sign(new[] { action });
+<strong>    _cloudWalletPlugin.Sign(new[] { action });
 </strong>}
 </code></pre>
