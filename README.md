@@ -1,3 +1,8 @@
+---
+cover: .gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: -10
+---
+
 # Introduction
 
 **Built for Game Developers, Gamers and NFT Collectors**

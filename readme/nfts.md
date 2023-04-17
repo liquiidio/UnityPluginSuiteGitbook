@@ -1,5 +1,7 @@
 ---
 description: Supporting the most common NFT-Standards and APIs.
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
 ---
 
 # NFTs

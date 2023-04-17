@@ -1,3 +1,8 @@
+---
+cover: .gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
 # Getting Started
 
 ## **Ready to start your Developer-C**areer **on WAX?!**
@@ -30,12 +35,11 @@ Feel free to download and experiment with our Plugin-Suite-Example-Project conta
 
 ## Demo Application
 
-We also deployed a WebGL-build to the Plugin-Suite-Example-Project, open the Link below to give it a try.
+We also deployed a WebGL-build to the Plugin-Suite-Example-Project, open the Link below to give it a try.\
+\
 
-{% embed url="https://api.wax-test.liquidstudios.io/webgl/MultiExample2021.x/" %}
-Plugin Suite Demo v2021
+
+{% embed url="https://api.wax-test.liquidstudios.io/webgl/MultiExample/" %}
+Multi Example Scene
 {% endembed %}
 
-{% embed url="https://api.wax-test.liquidstudios.io/webgl/MultiExample2022.x/" %}
-Plugin Suite Demo v2022
-{% endembed %}

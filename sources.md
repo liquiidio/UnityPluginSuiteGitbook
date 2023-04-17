@@ -1,3 +1,8 @@
+---
+cover: .gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
 # Packages
 
 The following Section provides basic Information about the Services and Packages available on WAX and within this Plugin Suite, \

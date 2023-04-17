@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
 # AtomicAssets
 
 .NET and Unity3D-compatible (Desktop, Mobile, WebGL) ApiClient for AtomicAssets

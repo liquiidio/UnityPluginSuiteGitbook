@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
 # EosSharp
 
 C# client library for EOSIO blockchains. The library is based on https://github.com/EOSIO/eosjs, initially developed by [Scatter](https://github.com/GetScatter) and [Mário Silva](https://github.com/mmcs85), it's MIT licensed and in the meantime maintained by liquiid.io.
