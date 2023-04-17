@@ -9,9 +9,17 @@ A native integration compatible with Unity3D and C# allowing users and developer
 
 #### Demo Application
 
-Open each of the links to test one of the AnchorLink demo applications below:\
+Open one of the links below to test one of the AnchorLink demo applications:\
 \
 
 
+{% embed url="https://api.wax-test.liquidstudios.io/webgl/AnchorUnityCanvas/" %}
+AnchorLink Canvas Demo
+{% endembed %}
 
+
+
+{% embed url="https://api.wax-test.liquidstudios.io/webgl/AnchorUnityUiToolkit/" %}
+AnchorLink UiToolkit Demo
+{% endembed %}
 
