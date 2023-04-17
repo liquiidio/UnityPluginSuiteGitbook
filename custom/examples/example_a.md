@@ -1,7 +1,11 @@
+---
+cover: ../../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
 # Quick Start
 
 1. Add one of the Transport-Prefabs ([UiToolkitTransport](https://github.com/liquiidio/AnchorLinkTransportSharp/blob/unity/Src/Transports/UiToolkit/Prefabs/UiToolkitTransport.prefab) or [CanvasTransport](https://github.com/liquiidio/AnchorLinkTransportSharp/blob/unity/Src/Transports/Canvas/Prefabs/CanvasTransport.prefab)) to your scene.
-
 2. Instantiate a new AnchorLink-object in one of your scripts, assign the Transport and configure your AnchorLink for the usage with WAX and the endpoints of your choice.
 
 ```csharp

@@ -1,4 +1,9 @@
-# Sell ram
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
+# Sell Ram
 
 1. The following example shows how a Sell Ram Action can be created and passed to the Sign-Method.
 

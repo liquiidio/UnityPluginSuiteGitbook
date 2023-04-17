@@ -1,4 +1,9 @@
-# Stake CPU/NET
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
+# Manage CPU/NET
 
 1. The following example shows how to stake CPU/NET and pass the action created to the Sign-Method.
 

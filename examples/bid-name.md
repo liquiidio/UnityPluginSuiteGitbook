@@ -1,4 +1,9 @@
-# Bid name
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
+# Bid Name
 
 1. The following example shows how a bid name Action can be created and passed to the Sign-Method.
 

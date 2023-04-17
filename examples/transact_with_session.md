@@ -1,4 +1,9 @@
-# Transact (with a session)
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
+# Transact (with a Session)
 
 1. To transact with a session, create a method and pass an EosSharp Action-Object to it.
 2. Call the method `await LinkSession.Transact(new TransactArgs(){Action = action)` to attempt the transaction.

@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
 # Installation
 
 _**Requires Unity 2019.1+ with .NET 4.x+ Runtime**_

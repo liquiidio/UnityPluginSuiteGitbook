@@ -1,4 +1,9 @@
-# Transact (without a session)
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
+# Transact (without a Session)
 
 1. To make a transaction without a session, create a method and pass an EosSharp Action-Object to it.
 2. Call `await AnchorLink.Transact(new TransactArgs(){Action = action)` to attempt the transaction.

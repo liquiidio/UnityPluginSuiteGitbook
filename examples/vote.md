@@ -1,4 +1,9 @@
-# Vote 
+---
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+coverY: 0
+---
+
+# Vote
 
 1. The following example shows how a vote Action can be created and passed to the vote-Method using a session.
 
