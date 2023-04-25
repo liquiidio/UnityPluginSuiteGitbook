@@ -9,7 +9,7 @@ WebGL builds will require the index.html file to be customised.
 
 Download the full customised file [here](downloads/index.html).
 
-An additional .js file to be included next to the customised html file. Download the .js file [here](downloads/waxjs.js)
+**Important!** waxjs.js needs to be included in your build, next to the customised html file and needs to be loaded by your html file. Download waxjs.js [here](https://github.com/worldwide-asset-exchange/waxjs/tree/develop/dist-web)
 
 > **Ensure that this line is added to make websockets work.**
 
