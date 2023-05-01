@@ -49,7 +49,7 @@ In your Unity project:
 
 1. Open the Package Manager Window/Tab
 2. Click Add Package From Git URL
-3. Enter URL: `https://github.com/liquiidio/cloudwallet.git#upm`
+3. Enter URL: `https://github.com/liquiidio/cloudwalletunity.git#upm`
 
 ***
 
