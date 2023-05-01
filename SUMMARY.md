@@ -4,6 +4,7 @@
 * [Installation](custom/installation.md)
   * [WebGL Installation](custom/webgl\_installation.md)
   * [Mobile Installation](installation/mobile-installation.md)
+  * [Desktop Installation](installation/desktop-installation.md)
 * [Examples](custom/examples/README.md)
   * [Quick Start](custom/examples/example\_a.md)
   * [Login](custom/examples/example\_b.md)
