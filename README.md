@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/UNITY3DxWAX-1920x360_Devs_03_new.png
+cover: .gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
 coverY: -10
 ---
 
@@ -7,7 +7,7 @@ coverY: -10
 
 **Built for Game Developers, Gamers and NFT Collectors**
 
-The Unity3D game engine is used by millions of developers to create games that run across 20+ different platforms while the WAX Blockchain was built specifically to handle the demands of blockchain gamers and NFT collectors. The WAX team has spent years developing the technology and ecosystem powering digital asset ownership resulting in the most utilized blockchain platform in the world.
+The WAX Blockchain was built specifically to handle the demands of blockchain gamers and NFT collectors. The WAX team has spent years developing the technology and ecosystem powering digital asset ownership resulting in the most utilized blockchain platform in the world.
 
 \
 **Limitless Possibilities**

@@ -1,6 +1,6 @@
 ---
 description: Allowing the Access to Historical and State Data
-cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03_new.png
+cover: ../.gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
 coverY: 0
 ---
 
