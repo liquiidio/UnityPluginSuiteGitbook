@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/UNITY3DxWAX-1920x360_Devs_03.png
+cover: .gitbook/assets/UNITY3DxWAX-1920x360_Devs_03_new.png
 coverY: -10
 ---
 
