@@ -28,7 +28,7 @@ Feel free to download and experiment with our Plugin-Suite-Example-Project conta
 ```bash
     git clone https://github.com/liquiidio/UnityPluginSuite.git
     cd UnityPluginSuite
-    git checkout unity_base
+    git checkout unity_develop
     git pull
     git submodule update --init --recursive
 ```
